@@ -45,7 +45,7 @@ See the [open issues](https://github.com/jacob-wigent/stepping-stone/issues) for
 ## Tools
 - **Hardware Design:** KiCad 10.0 for schematic capture and PCB layout
 - **Firmware:** STM32CubeIDE or PlatformIO (planned)
-- **Software:** JavaFX for desktop interface (planned)
+- **Software:** JavaFX for desktop control interface and [rerun](https://github.com/rerun-io/rerun) bridge for visualization (planned)
 
 ## License
 

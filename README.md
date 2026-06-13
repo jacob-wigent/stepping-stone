@@ -1,45 +1,49 @@
-# Project Title (remove once image added)
 ![Project-Name](./assets/title-logo-dark.png#gh-dark-mode-only)
 ![Project-Name](./assets/title-logo-light.png#gh-light-mode-only)
 ---
 
-This is where you describe the project. What does it do? Why does it matter? Who knows...
+> 🚧 Under development
+
+Stepping Stone is a 4-axis stepper motor control platform designed for robotics and CNC development. Built around an STM32 MCU and TMC2209 drivers, it supports coordinated multi-axis motion, encoder feedback, stall-sense homing, and CAN/USB connectivity for flexible development and testing.
+
+Designed as a “stepping stone” in motion-control prototyping, it bridges the gap between simple stepper driver breakouts and full CNC or robotics systems, providing a reusable platform for early development.
 
 ## Block Diagram
 
-> CREATE DRAW.IO DOCUMENT AND SAVE TO THIS REPOSITORY AS `diagram.drawio`
-
-![Layout](./diagram.png)
+![Block Diagram](./diagram.png)
 
 ### Navigate
 
 | |  |  |
 |-----------|---------|---------|
-| **[Hardware](./hardware/README.md)** | Contents | File types or technologies |
-| **[Firmware](./firmware/README.md)** | Contents | File types or technologies |
-| **[Software](./software/README.md)** | Contents | File types or technologies |
+| **[Hardware](./hardware/README.md)** | Circuit design and PCB layout | KiCad design files, simulations |
+| **[Firmware](./firmware/README.md)** | Microcontroller implementation | STM32 code, CubeMX configuration |
+| **[Software](./software/README.md)** | Desktop control interface | JavaFX GUI application code |
 
 ## Target Capabilities
 
-- **Top Speed:** 88mph
-- **Maximum Power:** 1.21 jW
+- **Power Input**: USB-C PD and external motor power support.
+- **Motors**: 4 independent stepper motor channels.
+- **Encoders**: 4 quadrature encoder channels.
+- **Limits**: 8 limit switch channels and stall-detection support.
+- **Safety**: E-Stop support and motor-disable capability.
+- **Connectivity**: USB 2.0, CAN, I2C, SPI, UART, and GPIO interfaces.
+- **Storage**: microSD support for G-code storage and system logging.
+- **User Interface**: Status LEDs, reset button, and user-programmable buttons.
 
 ## Roadmap
 
-- [ ] System architecture defined  
+- [ ] System architecture defined
 - [ ] Component selection finalized
 - [ ] Schematic capture
 - [ ] PCB layout
-- [ ] Total project redesign
+- [ ] Firmware development
+- [ ] Software development
 
-> UPDATE URL
-
-See the [open issues](https://github.com/jacob-wigent/embedded-systems-tempalte/issues) for a full list of proposed features (and known issues).
+See the [open issues](https://github.com/jacob-wigent/stepping-stone/issues) for a full list of proposed features (and known issues).
 
 ## Tools
-> EXAMPLES
 - **Hardware Design:** KiCad 10.0 for schematic capture and PCB layout
-- **Simulation:** LTSpice / MATLAB for analog characterization
 - **Firmware:** STM32CubeIDE or PlatformIO (planned)
 - **Software:** JavaFX for desktop interface (planned)
 

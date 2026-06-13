@@ -8,7 +8,7 @@ Description
 
 Description
 
-**MCU:** TMS1000
+**MCU:** STM32
 - What does it do?
 
 ## Preliminary Layout

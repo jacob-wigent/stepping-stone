@@ -21,8 +21,42 @@ This is where you describe the project. What does it do? Why does it matter? Who
 
 ## Target Capabilities
 
-- **Top Speed:** 88mph
-- **Maximum Power:** 1.21 jW
+### Motion Control
+
+- Four-axis stepper motor control
+- Coordinated multi-axis motion
+- StallGuard-based sensorless homing
+- Hardware limit switch support
+- Emergency stop support
+- Optional closed-loop motion experiments via encoder feedback
+
+### Connectivity
+
+- USB programming and communication
+- CAN bus networking for distributed robotics systems
+- Expansion interfaces for sensors and peripherals
+
+### Development & Debugging
+
+- Native debugging and firmware development support
+- Driver diagnostics and telemetry
+- Motion data logging
+- Accessible test points and expansion headers
+- Standalone operation capability
+
+### Position Feedback
+
+- Incremental encoder support
+- Absolute encoder support
+- General-purpose analog and digital position sensing
+
+### Power & Protection
+
+- Flexible power input options
+- Motor and system power monitoring
+- Hardware safety interlocks
+- Fault detection and reporting
+- Reverse polarity and overcurrent protection
 
 ## Roadmap
 

@@ -33,7 +33,7 @@ Designed as a “stepping stone” in motion-control prototyping, it bridges the
 
 ## Roadmap
 
-- [ ] System architecture defined
+- [x] System architecture defined
 - [ ] Component selection finalized
 - [ ] Schematic capture
 - [ ] PCB layout

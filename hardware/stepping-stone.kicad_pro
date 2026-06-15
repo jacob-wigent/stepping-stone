@@ -469,7 +469,9 @@
   },
   "libraries": {
     "pinned_footprint_libs": [],
-    "pinned_symbol_libs": []
+    "pinned_symbol_libs": [
+      "stepping-stone"
+    ]
   },
   "meta": {
     "filename": "stepping-stone.kicad_pro",
@@ -632,7 +634,7 @@
         "uuid": "793a882e-3f7b-468b-a863-41a1f527e1bf"
       }
     ],
-    "used_designators": "D401,#PWR1-2,#PWR401-415,C401-404,FB401,R401-406,J1,J401,U1-2,U401",
+    "used_designators": "Q1,#PWR12-19",
     "variants": []
   },
   "sheets": [
@@ -646,7 +648,7 @@
     ],
     [
       "73c4e66b-e11c-48b6-b2c8-fbbf612d64c5",
-      "USB-C Interface"
+      "Power Input"
     ]
   ],
   "text_variables": {},

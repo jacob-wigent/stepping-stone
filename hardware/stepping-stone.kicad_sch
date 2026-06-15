@@ -21,7 +21,7 @@
 			(color 255 229 191 1)
 		)
 		(uuid "73c4e66b-e11c-48b6-b2c8-fbbf612d64c5")
-		(property "Sheetname" "USB-C Interface"
+		(property "Sheetname" "Power Input"
 			(at 76.2 88.1122 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -32,7 +32,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "usb-interface.kicad_sch"
+		(property "Sheetfile" "power-input.kicad_sch"
 			(at 76.2 114.9608 0)
 			(show_name no)
 			(do_not_autoplace no)

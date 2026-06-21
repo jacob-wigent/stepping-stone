@@ -3,7 +3,7 @@
 	(generator "eeschema")
 	(generator_version "10.0")
 	(uuid "f68ceac2-569e-47ad-97fc-64d85b6ea80f")
-	(paper "A4")
+	(paper "A")
 	(lib_symbols
 		(symbol "MCU_ST_STM32G4:STM32G474QBTx"
 			(exclude_from_sim no)
@@ -3385,7 +3385,7 @@
 	)
 	(symbol
 		(lib_id "MCU_ST_STM32G4:STM32G474QBTx")
-		(at 144.78 105.41 0)
+		(at 83.82 109.22 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3393,32 +3393,29 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "82e9ca8e-ff3c-43ea-ad6d-642238d1cfd2")
 		(property "Reference" "U1"
-			(at 149.4633 194.31 0)
+			(at 83.82 100.33 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Value" "STM32G474QBTx"
-			(at 149.4633 196.85 0)
+			(at 83.82 102.87 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" "Package_QFP:LQFP-128_14x14mm_P0.4mm"
-			(at 121.92 191.77 0)
+			(at 60.96 195.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3430,7 +3427,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.st.com/resource/en/datasheet/stm32g474qb.pdf"
-			(at 144.78 105.41 0)
+			(at 83.82 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3441,7 +3438,7 @@
 			)
 		)
 		(property "Description" "STMicroelectronics Arm Cortex-M4 MCU, 128KB flash, 128KB RAM, 170 MHz, 1.71-3.6V, 107 GPIO, LQFP128"
-			(at 144.78 105.41 0)
+			(at 83.82 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

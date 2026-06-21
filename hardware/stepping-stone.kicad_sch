@@ -4,10 +4,15 @@
 	(generator_version "10.0")
 	(uuid "793a882e-3f7b-468b-a863-41a1f527e1bf")
 	(paper "A")
+	(title_block
+		(title "Stepping-Stone - Stepper Motor Platform")
+		(rev "A")
+		(company "Jacob Wigent")
+	)
 	(lib_symbols)
 	(sheet
-		(at 31.75 34.29)
-		(size 25.4 25.4)
+		(at 41.91 25.4)
+		(size 26.67 33.02)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -22,7 +27,7 @@
 		)
 		(uuid "73c4e66b-e11c-48b6-b2c8-fbbf612d64c5")
 		(property "Sheetname" "Power Input"
-			(at 31.75 33.5022 0)
+			(at 41.91 24.6122 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -33,7 +38,7 @@
 			)
 		)
 		(property "Sheetfile" "power-input.kicad_sch"
-			(at 31.75 60.3508 0)
+			(at 41.91 59.0808 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -41,6 +46,76 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "CC1" output
+			(at 68.58 50.8 0)
+			(uuid "33e8abae-984b-4499-ae71-afe567b8d109")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "CC2" output
+			(at 68.58 53.34 0)
+			(uuid "ce4dbda0-3313-4dd0-929b-ab899f9814d5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "D+" output
+			(at 68.58 43.18 0)
+			(uuid "e00e40a2-be43-4390-b389-01be02831dc2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "D-" output
+			(at 68.58 45.72 0)
+			(uuid "78ecb6e9-7c5d-4b91-b545-d8e3f7f37c91")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "VCC" output
+			(at 68.58 30.48 0)
+			(uuid "1808157c-146c-4db0-9b7d-76b6357162b3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "~{DB}" output
+			(at 68.58 38.1 0)
+			(uuid "d6d4d312-6bd7-42ce-9ace-4ebd68af7b84")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "~{FLT}" output
+			(at 68.58 35.56 0)
+			(uuid "f7d667ca-078d-4037-a88f-6b7623479788")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances
@@ -52,8 +127,8 @@
 		)
 	)
 	(sheet
-		(at 127 88.9)
-		(size 25.4 25.4)
+		(at 114.3 25.4)
+		(size 43.18 137.16)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -68,7 +143,7 @@
 		)
 		(uuid "d2f9d032-a5e5-45d0-b37f-4be86e3babb1")
 		(property "Sheetname" "Microcontroller"
-			(at 127 88.1122 0)
+			(at 114.3 24.6122 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -79,7 +154,7 @@
 			)
 		)
 		(property "Sheetfile" "microcontroller.kicad_sch"
-			(at 127 114.9608 0)
+			(at 114.3 163.2208 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -98,8 +173,8 @@
 		)
 	)
 	(sheet
-		(at 31.75 68.58)
-		(size 25.4 16.51)
+		(at 41.91 68.58)
+		(size 26.67 10.16)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -114,7 +189,7 @@
 		)
 		(uuid "f256c00d-2170-4eef-a13f-c3325a813e7e")
 		(property "Sheetname" "3.3V Buck Converter"
-			(at 31.75 67.7922 0)
+			(at 41.91 67.7922 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -125,7 +200,7 @@
 			)
 		)
 		(property "Sheetfile" "buck-converter.kicad_sch"
-			(at 31.75 85.7508 0)
+			(at 41.91 79.4008 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -133,6 +208,16 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "PG" output
+			(at 68.58 73.66 0)
+			(uuid "e1b54ce0-4c97-42e9-9f27-561c5b928733")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances

@@ -856,7 +856,7 @@
 				)
 			)
 			(pin input line
-				(at -12.7 -5.08 0)
+				(at -12.7 -8.89 0)
 				(length 2.54)
 				(name "MODE/SYNC"
 					(effects

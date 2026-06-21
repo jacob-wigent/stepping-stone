@@ -468,7 +468,9 @@
     }
   },
   "libraries": {
-    "pinned_footprint_libs": [],
+    "pinned_footprint_libs": [
+      "stepping-stone"
+    ],
     "pinned_symbol_libs": [
       "stepping-stone"
     ]
@@ -584,12 +586,48 @@
           "label": "Datasheet",
           "name": "Datasheet",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Device",
+          "name": "Sim.Device",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Pins",
+          "name": "Sim.Pins",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Vendor URL",
+          "name": "Vendor URL",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Part Number",
+          "name": "Part Number",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Description",
+          "name": "Description",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "#",
+          "name": "${ITEM_NUMBER}",
+          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
       "include_excluded_from_bom": true,
-      "name": "Default Editing",
+      "name": "",
       "sort_asc": true,
       "sort_field": "Reference"
     },
@@ -634,7 +672,7 @@
         "uuid": "793a882e-3f7b-468b-a863-41a1f527e1bf"
       }
     ],
-    "used_designators": "Q1,#PWR12-19",
+    "used_designators": "#PWR20-22",
     "variants": []
   },
   "sheets": [
@@ -649,6 +687,10 @@
     [
       "73c4e66b-e11c-48b6-b2c8-fbbf612d64c5",
       "Power Input"
+    ],
+    [
+      "f256c00d-2170-4eef-a13f-c3325a813e7e",
+      "3.3V Buck Converter"
     ]
   ],
   "text_variables": {},

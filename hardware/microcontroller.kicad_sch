@@ -5199,6 +5199,16 @@
 		)
 		(uuid "3f3423cf-b84f-4a49-b802-1263ccfed65f")
 	)
+	(label "VUSB_SENSE"
+		(at 147.32 45.72 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "47fbd70b-11bc-4998-984c-d609ffc1e4a6")
+	)
 	(label "NRST"
 		(at 38.1 60.96 0)
 		(effects
@@ -5229,16 +5239,6 @@
 		)
 		(uuid "5cbc9a77-7e7a-4335-ac64-d023f5204ff6")
 	)
-	(label "VUSB SENSE"
-		(at 147.32 45.72 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "6bd9795d-644a-4d71-9f72-eb06244be167")
-	)
 	(label "SWDIO"
 		(at 129.54 60.96 180)
 		(effects
@@ -5249,7 +5249,7 @@
 		)
 		(uuid "73348812-b3da-4a37-874b-43f421ae6ff8")
 	)
-	(label "VUSB SENSE"
+	(label "VUSB_SENSE"
 		(at 129.54 48.26 180)
 		(effects
 			(font

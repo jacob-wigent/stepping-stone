@@ -13195,7 +13195,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TCP01-M12"
+		(property "Value" "TCPP01-M12"
 			(at 139.3033 113.03 0)
 			(show_name no)
 			(do_not_autoplace no)

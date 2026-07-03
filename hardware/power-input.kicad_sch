@@ -5,7 +5,7 @@
 	(uuid "5b9cfea0-886f-4848-8a7b-fb1d86f699af")
 	(paper "A")
 	(title_block
-		(title "Power Input & Source Select")
+		(title "Power Input")
 		(date "2026-06-21")
 		(rev "A")
 		(company "Jacob Wigent")
@@ -1096,6 +1096,134 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "stepping-stone:0891005.NXS"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board no)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "F?"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "5A"
+				(at 0 3.175 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://www.littelfuse.com/assetdocs/littelfuse-datasheet-891-lp-mini?assetguid=748f2a1b-6fd1-43cb-b900-7178f45585a0"
+				(at 0 7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "5 A 58 V Fuse Automotive Requires Holder Blade, Miniature (Low Profile)"
+				(at 0 7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Part Number" "0891005.NXS"
+				(at 0 7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Vendor URL" "https://www.digikey.com/en/products/detail/littelfuse-inc/0891005-NXS/2046666?s=N4IgTCBcDaIAwA4CcBGOcCsA6AcgDQGUQBdAXyA"
+				(at 0 7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "0891005.NXS_0_1"
+				(rectangle
+					(start -2.54 1.905)
+					(end 2.54 0)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -2.54 1.905)
+					(end 2.54 -1.905)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 0)
+					(end 1.27 -1.905)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "0891005.NXS_1_1"
+				(text "5"
+					(at -0.0226 0.8617 0)
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "stepping-stone:18AWG Stranded Black Wire"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -1613,6 +1741,225 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "stepping-stone:3557-2"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "F?"
+				(at 0 5.715 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "30A 500V"
+				(at 0 3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://www.keyelco.com/userAssets/file/K75p47.pdf"
+				(at -1.905 17.145 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Fuse Block 30 A 500V 1 Circuit Blade Through Hole"
+				(at -1.905 17.145 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Part Number" "3557-2"
+				(at -0.635 17.145 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Vendor URL" "https://www.digikey.com/en/products/detail/keystone-electronics/3557-2/2137305"
+				(at -1.905 17.145 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "3557-2_0_0"
+				(pin power_in line
+					(at -7.62 0 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -7.62 0 0)
+					(length 2.54)
+					(hide yes)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 7.62 0 180)
+					(length 2.54)
+					(hide yes)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "3557-2_0_1"
+				(rectangle
+					(start -5.08 1.905)
+					(end 5.08 -1.905)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type color)
+						(color 255 255 194 1)
+					)
+				)
+				(rectangle
+					(start -4.445 1.27)
+					(end -2.54 -1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(bezier
+					(pts
+						(xy -2.54 0) (xy -1.27 1.905) (xy 0 0) (xy 0 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(bezier
+					(pts
+						(xy 0 0) (xy 1.27 -1.905) (xy 2.54 0) (xy 2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 2.54 1.27)
+					(end 4.445 -1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "stepping-stone:LRS-100-24"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -1844,8 +2191,7 @@
 						(type default)
 					)
 					(fill
-						(type color)
-						(color 255 255 194 1)
+						(type none)
 					)
 				)
 				(polyline
@@ -2522,7 +2868,7 @@
 		(symbol "stepping-stone:Micro-Fit 3.0 1x2 Jack"
 			(exclude_from_sim no)
 			(in_bom yes)
-			(on_board no)
+			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "J?"
@@ -2645,11 +2991,12 @@
 					(start 2.54 3.81)
 					(end 5.08 -1.27)
 					(stroke
-						(width 0)
+						(width 0.254)
 						(type default)
 					)
 					(fill
-						(type none)
+						(type color)
+						(color 255 255 194 1)
 					)
 				)
 				(polyline
@@ -2694,7 +3041,8 @@
 						(type default)
 					)
 					(fill
-						(type none)
+						(type color)
+						(color 255 255 194 1)
 					)
 				)
 			)
@@ -2993,8 +3341,7 @@
 						(type default)
 					)
 					(fill
-						(type color)
-						(color 255 255 194 1)
+						(type none)
 					)
 				)
 			)
@@ -3007,7 +3354,7 @@
 						(type default)
 					)
 					(fill
-						(type background)
+						(type none)
 					)
 				)
 				(polyline
@@ -3020,7 +3367,7 @@
 						(type default)
 					)
 					(fill
-						(type background)
+						(type none)
 					)
 				)
 				(rectangle
@@ -3114,17 +3461,6 @@
 		)
 		(uuid "35be89e6-017b-40a1-9d12-027b16ad7482")
 	)
-	(text "Fuse holder: 3557-2\nFuse: 0891005.NXS"
-		(exclude_from_sim no)
-		(at 134.62 105.41 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left top)
-		)
-		(uuid "7011386a-0de4-4a7d-b46f-3c312627bb8f")
-	)
 	(text "-------------------------------------\nDESIGN NOTE: EXTERNAL POWER SUPPLY\n- Recommended PSU: Mean Well LRS-100-24\n- Specifications: 24VDC / 4.5A / 108W (Fanless)\n- Input Interface: 24V DC Harness to J1\n- Mounting: PCB stacks via M3 standoffs on PSU chassis\n-------------------------------------"
 		(exclude_from_sim no)
 		(at 13.97 60.96 0)
@@ -3140,19 +3476,19 @@
 		(at 153.67 114.3)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "0d95f30e-3fbf-4e44-9c2f-12210d6bcb0f")
-	)
-	(junction
-		(at 140.97 114.3)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4f0a52f0-33c1-4ebb-a822-5c8854e1d09c")
+		(uuid "5386cdfb-d2ca-4a4b-bbf7-1cdff8d66b1b")
 	)
 	(junction
 		(at 161.29 114.3)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "a2e0d571-67e7-42df-9737-946825cef852")
+		(uuid "944cbf7d-0db1-46f7-9922-8e88c15ffc8b")
+	)
+	(junction
+		(at 140.97 114.3)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "983954e6-f8a4-4ca5-9793-df6775e7af6b")
 	)
 	(junction
 		(at 149.86 53.34)
@@ -3211,16 +3547,6 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 114.3) (xy 170.18 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1eb3430b-4b1b-4a63-a7d9-831fdf377aa2")
-	)
-	(wire
-		(pts
 			(xy 127 116.84) (xy 125.73 116.84)
 		)
 		(stroke
@@ -3258,6 +3584,16 @@
 			(type default)
 		)
 		(uuid "36816f77-9322-4b2a-999c-6c1d64937a07")
+	)
+	(wire
+		(pts
+			(xy 140.97 114.3) (xy 153.67 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "39f2f223-a6af-435b-a037-05b5539ba059")
 	)
 	(wire
 		(pts
@@ -3303,6 +3639,16 @@
 	)
 	(wire
 		(pts
+			(xy 153.67 114.3) (xy 161.29 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "65314c2a-683b-4463-b864-6d44c074e409")
+	)
+	(wire
+		(pts
 			(xy 140.97 114.3) (xy 140.97 116.84)
 		)
 		(stroke
@@ -3310,6 +3656,16 @@
 			(type default)
 		)
 		(uuid "6a45c2c3-f3ca-4f93-9a82-740159d727f2")
+	)
+	(wire
+		(pts
+			(xy 161.29 114.3) (xy 175.26 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7e8a699b-c817-4cc3-942d-98c678faeddc")
 	)
 	(wire
 		(pts
@@ -3396,6 +3752,16 @@
 			(color 132 0 0 1)
 		)
 		(uuid "e576e954-6363-46d7-b56a-bdff59e565d3")
+	)
+	(wire
+		(pts
+			(xy 190.5 114.3) (xy 196.85 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fb1b5444-2f0d-4145-9858-5a97dd3e46df")
 	)
 	(wire
 		(pts
@@ -3520,7 +3886,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0e50ee41-731a-40fa-823b-d8188729cf1e")
-		(property "Reference" "P?"
+		(property "Reference" "P7"
 			(at 205.74 57.15 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3595,7 +3961,7 @@
 		(instances
 			(project "stepping-stone"
 				(path "/793a882e-3f7b-468b-a863-41a1f527e1bf/73c4e66b-e11c-48b6-b2c8-fbbf612d64c5"
-					(reference "P?")
+					(reference "P7")
 					(unit 1)
 				)
 			)
@@ -3613,7 +3979,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1700a762-e1de-4d06-8666-12f2ce9efbaa")
-		(property "Reference" "P?"
+		(property "Reference" "P4"
 			(at 205.74 43.18 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3694,7 +4060,7 @@
 		(instances
 			(project "stepping-stone"
 				(path "/793a882e-3f7b-468b-a863-41a1f527e1bf/73c4e66b-e11c-48b6-b2c8-fbbf612d64c5"
-					(reference "P?")
+					(reference "P4")
 					(unit 1)
 				)
 			)
@@ -3905,7 +4271,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "21e4b75d-950e-4d97-a734-40ce13d8228b")
-		(property "Reference" "P?"
+		(property "Reference" "P2"
 			(at 162.56 53.34 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3986,7 +4352,7 @@
 		(instances
 			(project "stepping-stone"
 				(path "/793a882e-3f7b-468b-a863-41a1f527e1bf/73c4e66b-e11c-48b6-b2c8-fbbf612d64c5"
-					(reference "P?")
+					(reference "P2")
 					(unit 1)
 				)
 			)
@@ -4343,6 +4709,113 @@
 		)
 	)
 	(symbol
+		(lib_id "stepping-stone:3557-2")
+		(at 182.88 114.3 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "3cde6afd-5b7c-4252-8349-10d3b08c76ea")
+		(property "Reference" "F1"
+			(at 182.88 118.11 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "30A 500V"
+			(at 182.88 120.65 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 182.88 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.keyelco.com/userAssets/file/K75p47.pdf"
+			(at 180.975 97.155 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Fuse Block 30 A 500V 1 Circuit Blade Through Hole"
+			(at 180.975 97.155 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "3557-2"
+			(at 182.245 97.155 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vendor URL" "https://www.digikey.com/en/products/detail/keystone-electronics/3557-2/2137305"
+			(at 180.975 97.155 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "9a863ed4-08eb-4756-a2f5-4942609bf4d3")
+		)
+		(pin "4"
+			(uuid "3a796a2b-56e1-46ed-8451-68e5fc9f6ca2")
+		)
+		(pin "1"
+			(uuid "cbe323b9-2621-4402-a628-ab40a0c75a2a")
+		)
+		(pin "3"
+			(uuid "ef8416cc-9aa6-4e9c-8d3b-2b674b267b06")
+		)
+		(instances
+			(project "stepping-stone"
+				(path "/793a882e-3f7b-468b-a863-41a1f527e1bf/73c4e66b-e11c-48b6-b2c8-fbbf612d64c5"
+					(reference "F1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 161.29 124.46 0)
 		(unit 1)
@@ -4557,7 +5030,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "457b5572-30f4-4222-bbfa-f00c043ed68c")
-		(property "Reference" "P?"
+		(property "Reference" "P5"
 			(at 205.74 50.8 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4638,7 +5111,7 @@
 		(instances
 			(project "stepping-stone"
 				(path "/793a882e-3f7b-468b-a863-41a1f527e1bf/73c4e66b-e11c-48b6-b2c8-fbbf612d64c5"
-					(reference "P?")
+					(reference "P5")
 					(unit 1)
 				)
 			)
@@ -4890,7 +5363,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7e0b086d-271a-4fe2-8d68-3d9e5ce8176a")
-		(property "Reference" "PSU?"
+		(property "Reference" "PSU1"
 			(at 124.46 19.05 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5013,7 +5486,7 @@
 		(instances
 			(project "stepping-stone"
 				(path "/793a882e-3f7b-468b-a863-41a1f527e1bf/73c4e66b-e11c-48b6-b2c8-fbbf612d64c5"
-					(reference "PSU?")
+					(reference "PSU1")
 					(unit 1)
 				)
 			)
@@ -5030,7 +5503,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "919d74b6-7076-4298-b7de-a9ef3c24d6e1")
-		(property "Reference" "P?"
+		(property "Reference" "P1"
 			(at 123.19 41.91 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5141,7 +5614,7 @@
 		(instances
 			(project "stepping-stone"
 				(path "/793a882e-3f7b-468b-a863-41a1f527e1bf/73c4e66b-e11c-48b6-b2c8-fbbf612d64c5"
-					(reference "P?")
+					(reference "P1")
 					(unit 1)
 				)
 			)
@@ -5357,7 +5830,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a8167dfe-392f-4b45-a341-01cd69112fb4")
-		(property "Reference" "J?"
+		(property "Reference" "J1"
 			(at 119.38 114.3 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5443,7 +5916,7 @@
 		(instances
 			(project "stepping-stone"
 				(path "/793a882e-3f7b-468b-a863-41a1f527e1bf/73c4e66b-e11c-48b6-b2c8-fbbf612d64c5"
-					(reference "J?")
+					(reference "J1")
 					(unit 1)
 				)
 			)
@@ -5461,7 +5934,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ac480ab0-5442-4183-a9ed-518e87e32a66")
-		(property "Reference" "P?"
+		(property "Reference" "P8"
 			(at 245.11 57.1499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5547,7 +6020,7 @@
 		(instances
 			(project "stepping-stone"
 				(path "/793a882e-3f7b-468b-a863-41a1f527e1bf/73c4e66b-e11c-48b6-b2c8-fbbf612d64c5"
-					(reference "P?")
+					(reference "P8")
 					(unit 1)
 				)
 			)
@@ -5679,8 +6152,103 @@
 		)
 	)
 	(symbol
+		(lib_id "stepping-stone:0891005.NXS")
+		(at 182.88 97.79 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "b910e6cf-67e0-4cd0-9cff-389f5615093e")
+		(property "Reference" "F2"
+			(at 186.69 96.52 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "5A"
+			(at 186.69 99.06 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 182.88 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.littelfuse.com/assetdocs/littelfuse-datasheet-891-lp-mini?assetguid=748f2a1b-6fd1-43cb-b900-7178f45585a0"
+			(at 182.88 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "5 A 58 V Fuse Automotive Requires Holder Blade, Miniature (Low Profile)"
+			(at 182.88 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "0891005.NXS"
+			(at 182.88 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vendor URL" "https://www.digikey.com/en/products/detail/littelfuse-inc/0891005-NXS/2046666?s=N4IgTCBcDaIAwA4CcBGOcCsA6AcgDQGUQBdAXyA"
+			(at 182.88 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "stepping-stone"
+				(path "/793a882e-3f7b-468b-a863-41a1f527e1bf/73c4e66b-e11c-48b6-b2c8-fbbf612d64c5"
+					(reference "F2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:VBUS")
-		(at 170.18 114.3 0)
+		(at 196.85 114.3 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5690,7 +6258,7 @@
 		(dnp no)
 		(uuid "d2ad6be5-4878-4963-bf94-1da162ee8aa3")
 		(property "Reference" "#PWR03"
-			(at 170.18 118.11 0)
+			(at 196.85 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5701,7 +6269,7 @@
 			)
 		)
 		(property "Value" "VIN"
-			(at 170.18 109.22 0)
+			(at 196.85 109.22 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5711,7 +6279,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 170.18 114.3 0)
+			(at 196.85 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5722,7 +6290,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 170.18 114.3 0)
+			(at 196.85 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5733,7 +6301,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VBUS\""
-			(at 170.18 114.3 0)
+			(at 196.85 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5766,7 +6334,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d4a20073-184e-43bb-be40-0e6ba4032bcd")
-		(property "Reference" "P?"
+		(property "Reference" "P1"
 			(at 162.56 50.8 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5847,7 +6415,7 @@
 		(instances
 			(project "stepping-stone"
 				(path "/793a882e-3f7b-468b-a863-41a1f527e1bf/73c4e66b-e11c-48b6-b2c8-fbbf612d64c5"
-					(reference "P?")
+					(reference "P1")
 					(unit 1)
 				)
 			)
@@ -6047,6 +6615,101 @@
 		)
 	)
 	(symbol
+		(lib_id "stepping-stone:0891005.NXS")
+		(at 182.88 107.95 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "db93ea89-6b81-403f-a043-9ee0c334433d")
+		(property "Reference" "F4"
+			(at 186.69 106.68 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "5A"
+			(at 186.69 109.22 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 182.88 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.littelfuse.com/assetdocs/littelfuse-datasheet-891-lp-mini?assetguid=748f2a1b-6fd1-43cb-b900-7178f45585a0"
+			(at 182.88 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "5 A 58 V Fuse Automotive Requires Holder Blade, Miniature (Low Profile)"
+			(at 182.88 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "0891005.NXS"
+			(at 182.88 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vendor URL" "https://www.digikey.com/en/products/detail/littelfuse-inc/0891005-NXS/2046666?s=N4IgTCBcDaIAwA4CcBGOcCsA6AcgDQGUQBdAXyA"
+			(at 182.88 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "stepping-stone"
+				(path "/793a882e-3f7b-468b-a863-41a1f527e1bf/73c4e66b-e11c-48b6-b2c8-fbbf612d64c5"
+					(reference "F4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "stepping-stone:18AWG Stranded Black Wire")
 		(at 226.06 60.96 0)
 		(mirror x)
@@ -6156,7 +6819,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e1a38d45-aefc-4be1-8e35-8f895573dbee")
-		(property "Reference" "P?"
+		(property "Reference" "P6"
 			(at 245.11 45.7199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6242,7 +6905,102 @@
 		(instances
 			(project "stepping-stone"
 				(path "/793a882e-3f7b-468b-a863-41a1f527e1bf/73c4e66b-e11c-48b6-b2c8-fbbf612d64c5"
-					(reference "P?")
+					(reference "P6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "stepping-stone:0891005.NXS")
+		(at 182.88 102.87 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "ee0c8162-d6c4-4d56-88b5-9335edd25dd5")
+		(property "Reference" "F3"
+			(at 186.69 101.6 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "5A"
+			(at 186.69 104.14 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 182.88 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.littelfuse.com/assetdocs/littelfuse-datasheet-891-lp-mini?assetguid=748f2a1b-6fd1-43cb-b900-7178f45585a0"
+			(at 182.88 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "5 A 58 V Fuse Automotive Requires Holder Blade, Miniature (Low Profile)"
+			(at 182.88 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "0891005.NXS"
+			(at 182.88 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vendor URL" "https://www.digikey.com/en/products/detail/littelfuse-inc/0891005-NXS/2046666?s=N4IgTCBcDaIAwA4CcBGOcCsA6AcgDQGUQBdAXyA"
+			(at 182.88 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "stepping-stone"
+				(path "/793a882e-3f7b-468b-a863-41a1f527e1bf/73c4e66b-e11c-48b6-b2c8-fbbf612d64c5"
+					(reference "F3")
 					(unit 1)
 				)
 			)
@@ -6259,7 +7017,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "fcb55121-7ef3-40da-afcc-8f9d74eaaa96")
-		(property "Reference" "P?"
+		(property "Reference" "P3"
 			(at 162.56 55.88 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6340,7 +7098,7 @@
 		(instances
 			(project "stepping-stone"
 				(path "/793a882e-3f7b-468b-a863-41a1f527e1bf/73c4e66b-e11c-48b6-b2c8-fbbf612d64c5"
-					(reference "P?")
+					(reference "P3")
 					(unit 1)
 				)
 			)

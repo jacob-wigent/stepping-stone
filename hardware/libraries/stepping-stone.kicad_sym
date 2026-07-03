@@ -305,6 +305,138 @@
 				(stroke
 					(width 0)
 					(type default)
+					(color 132 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -2.54 1.905)
+				(end 2.54 -1.905)
+				(stroke
+					(width 0.254)
+					(type default)
+					(color 132 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -1.27 0)
+				(end 1.27 -1.905)
+				(stroke
+					(width 0)
+					(type default)
+					(color 132 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "0891005.NXS_1_1"
+			(text "5"
+				(at -0.0226 0.8617 0)
+				(effects
+					(font
+						(size 1.016 1.016)
+						(color 132 0 0 1)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "0891010.NXS"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "F?"
+			(at 0 5.08 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10A"
+			(at 0 3.175 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.littelfuse.com/assetdocs/littelfuse-datasheet-891-lp-mini?assetguid=748f2a1b-6fd1-43cb-b900-7178f45585a0"
+			(at 0 7.62 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "10 A 58 V Fuse Automotive Requires Holder Blade, Miniature (Low Profile)"
+			(at 0 7.62 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "0891010.NXS"
+			(at 0 7.62 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vendor URL" "https://www.digikey.com/en/products/detail/littelfuse-inc/0891010-NXS/2046667"
+			(at 0 7.62 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "0891010.NXS_0_1"
+			(rectangle
+				(start -2.54 1.905)
+				(end 2.54 0)
+				(stroke
+					(width 0)
+					(type default)
 				)
 				(fill
 					(type none)
@@ -333,8 +465,8 @@
 				)
 			)
 		)
-		(symbol "0891005.NXS_1_1"
-			(text "5"
+		(symbol "0891010.NXS_1_1"
+			(text "10"
 				(at -0.0226 0.8617 0)
 				(effects
 					(font
@@ -1744,6 +1876,332 @@
 		)
 		(embedded_fonts no)
 	)
+	(symbol "DMP4010SK3Q-13"
+		(pin_numbers
+			(hide yes)
+		)
+		(pin_names
+			(offset 0)
+			(hide yes)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "Q"
+			(at 5.08 1.27 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "DMP4010SK3Q"
+			(at 5.08 -1.27 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:TO-252-2"
+			(at 5.08 2.54 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.diodes.com/datasheet/download/DMP4010SK3Q.pdf"
+			(at 0.254 9.144 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "P-Channel 40 V 15A (Ta), 50A (Tc) 1.7W (Ta) Surface Mount TO-252-3"
+			(at 0.254 9.144 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "DMP4010SK3Q-13"
+			(at 0.762 9.398 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vendor URL" "https://www.digikey.com/en/products/detail/diodes-incorporated/DMP4010SK3Q-13/6012762?_gl=1*1oi92cd*_up*MQ..*_gs*MQ..&gclid=CjwKCAjwu53SBhAhEiwAJzSLNg0bMLesOylLRDKmxR4kK9b9I1ZTscMeozZaiYvTz1NVhaLA4YW0dBoCxVkQAvD_BwE&gclsrc=aw.ds&gbraid=0AAAAADrbLlju7jX-G5NzCsgLi5ZPNvLAN"
+			(at 0.254 9.144 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_keywords" "PMOS P-MOS"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "DMP4010SK3Q-13_0_1"
+			(polyline
+				(pts
+					(xy 0.254 1.905) (xy 0.254 -1.905)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0.254 0) (xy -2.54 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0.762 2.286) (xy 0.762 1.27)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0.762 1.778) (xy 3.302 1.778) (xy 3.302 -1.778) (xy 0.762 -1.778)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0.762 0.508) (xy 0.762 -0.508)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0.762 -1.27) (xy 0.762 -2.286)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 1.651 0)
+				(radius 2.794)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2.286 0) (xy 1.27 0.381) (xy 1.27 -0.381) (xy 2.286 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2.54 2.54) (xy 2.54 1.778)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 2.54 1.778)
+				(radius 0.254)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(circle
+				(center 2.54 -1.778)
+				(radius 0.254)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2.921 -0.381) (xy 3.683 -0.381)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 3.302 -0.381) (xy 2.921 0.254) (xy 3.683 0.254) (xy 3.302 -0.381)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "DMP4010SK3Q-13_1_1"
+			(pin input line
+				(at -5.08 0 0)
+				(length 2.54)
+				(name "G"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 2.54 5.08 270)
+				(length 2.54)
+				(name "D"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 2.54 -5.08 90)
+				(length 2.54)
+				(name "S"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
 	(symbol "LMR604203SBRAKRQ1"
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3133,7 +3591,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.molex.com/content/dam/molex/molex-dot-com/products/automated/en-us/salesdrawingpdf/436/43645/436450200_sd.pdf?inline"
-			(at 0 0 0)
+			(at 0.254 9.906 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -3144,7 +3602,7 @@
 			)
 		)
 		(property "Description" "2 Position Rectangular Housing Connector Receptacle Black 0.118\" (3.00mm)"
-			(at 0 0 0)
+			(at 0.254 9.906 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -3155,7 +3613,7 @@
 			)
 		)
 		(property "Part Number" "0436450200"
-			(at 0 0 0)
+			(at -1.27 10.414 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -3166,7 +3624,7 @@
 			)
 		)
 		(property "Vendor URL" "https://www.digikey.com/en/products/detail/molex/0436450200/268974"
-			(at 0 0 0)
+			(at 0.254 9.906 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -3437,7 +3895,7 @@
 					(type outline)
 				)
 			)
-			(pin power_in line
+			(pin power_out line
 				(at 12.7 -2.54 180)
 				(length 2.54)
 				(name "L"
@@ -3455,7 +3913,7 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin power_out line
 				(at 12.7 2.54 180)
 				(length 2.54)
 				(name "N"
@@ -3473,7 +3931,7 @@
 					)
 				)
 			)
-			(pin bidirectional line
+			(pin power_out line
 				(at 12.7 0 180)
 				(length 2.54)
 				(name "PE"

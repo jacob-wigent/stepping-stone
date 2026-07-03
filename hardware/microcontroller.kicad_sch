@@ -5067,7 +5067,7 @@
 		)
 		(uuid "1182d773-271f-40f9-b6f1-f3b73817ee3e")
 	)
-	(label "VIN_SENSE"
+	(label "VMOTOR_SENSE"
 		(at 176.53 45.72 0)
 		(effects
 			(font
@@ -5117,6 +5117,16 @@
 		)
 		(uuid "51e89dcb-3160-4d37-ab35-c6a658d34741")
 	)
+	(label "VMOTOR_SENSE"
+		(at 142.24 46.99 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "59056f74-7e86-4bb6-a56b-62bbb180b9ac")
+	)
 	(label "HSE_OSC_IN"
 		(at 38.1 66.04 0)
 		(effects
@@ -5136,16 +5146,6 @@
 			(justify right bottom)
 		)
 		(uuid "73348812-b3da-4a37-874b-43f421ae6ff8")
-	)
-	(label "VIN_SENSE"
-		(at 142.24 46.99 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "75cef3c2-5ebc-4a4e-ad7b-457ff17379e2")
 	)
 	(label "SWCLK"
 		(at 215.9 36.83 0)
@@ -5476,6 +5476,84 @@
 			(project "stepping-stone"
 				(path "/793a882e-3f7b-468b-a863-41a1f527e1bf/d2f9d032-a5e5-45d0-b37f-4be86e3babb1"
 					(reference "SW?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VBUS")
+		(at 196.85 34.29 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "230ca427-a24b-4a22-a2a7-b095d45833ae")
+		(property "Reference" "#PWR05"
+			(at 196.85 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VMOTOR"
+			(at 196.85 29.21 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 196.85 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 196.85 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VBUS\""
+			(at 196.85 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0582f942-3a1d-4925-a0d9-5418ddaf245e")
+		)
+		(instances
+			(project "stepping-stone"
+				(path "/793a882e-3f7b-468b-a863-41a1f527e1bf/d2f9d032-a5e5-45d0-b37f-4be86e3babb1"
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -5840,83 +5918,6 @@
 			(project "stepping-stone"
 				(path "/793a882e-3f7b-468b-a863-41a1f527e1bf/d2f9d032-a5e5-45d0-b37f-4be86e3babb1"
 					(reference "R?")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VBUS")
-		(at 196.85 34.29 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "5ef6a08b-b1eb-4066-8aad-5b50386a5d31")
-		(property "Reference" "#PWR035"
-			(at 196.85 38.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "VIN"
-			(at 196.85 29.21 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 196.85 34.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 196.85 34.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VBUS\""
-			(at 196.85 34.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "22b026c8-9778-4358-82c3-2d3a6d60c706")
-		)
-		(instances
-			(project "stepping-stone"
-				(path "/793a882e-3f7b-468b-a863-41a1f527e1bf/d2f9d032-a5e5-45d0-b37f-4be86e3babb1"
-					(reference "#PWR035")
 					(unit 1)
 				)
 			)
@@ -7276,7 +7277,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 175.006 104.394 90)
 			(hide yes)
 			(show_name no)
@@ -7287,7 +7288,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
 			(at 173.99 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -7321,6 +7322,28 @@
 			)
 		)
 		(property "Sim.Pins" ""
+			(at 173.99 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "RC0603FR-0710KL"
+			(at 173.99 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vendor URL" "https://www.digikey.com/en/products/detail/yageo/RC0603FR-0710KL/726880"
 			(at 173.99 104.14 0)
 			(hide yes)
 			(show_name no)

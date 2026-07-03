@@ -11,510 +11,6 @@
 		(company "Jacob Wigent")
 	)
 	(lib_symbols
-		(symbol "Connector:Conn_01x01_Pin"
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "J"
-				(at 0 2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Conn_01x01_Pin"
-				(at 0 -2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Generic connector, single row, 01x01, script generated"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "connector"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "Connector*:*_1x??_*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "Conn_01x01_Pin_1_1"
-				(rectangle
-					(start 0.8636 0.127)
-					(end 0 -0.127)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy 0.8636 0)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 3.81)
-					(name "Pin_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Connector:Conn_01x02_Pin"
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "J"
-				(at 0 2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Conn_01x02_Pin"
-				(at 0 -5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Generic connector, single row, 01x02, script generated"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "connector"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "Connector*:*_1x??_*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "Conn_01x02_Pin_1_1"
-				(rectangle
-					(start 0.8636 0.127)
-					(end 0 -0.127)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start 0.8636 -2.413)
-					(end 0 -2.667)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy 0.8636 0)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -2.54) (xy 0.8636 -2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 3.81)
-					(name "Pin_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 -2.54 180)
-					(length 3.81)
-					(name "Pin_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Connector:Conn_01x02_Socket"
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "J"
-				(at 0 2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Conn_01x02_Socket"
-				(at 0 -5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Generic connector, single row, 01x02, script generated"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "connector"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "Connector*:*_1x??_*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "Conn_01x02_Socket_1_1"
-				(polyline
-					(pts
-						(xy -1.27 0) (xy -0.508 0)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 -2.54) (xy -0.508 -2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 -0.508)
-					(mid -0.5058 0)
-					(end 0 0.508)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 -3.048)
-					(mid -0.5058 -2.54)
-					(end 0 -2.032)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 3.81)
-					(name "Pin_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -2.54 0)
-					(length 3.81)
-					(name "Pin_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:C"
 			(pin_numbers
 				(hide yes)
@@ -1385,6 +881,738 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "stepping-stone:#6 Fork Spade"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board no)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "P?"
+				(at 6.35 1.27 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "#6 Fork Spade"
+				(at 6.35 -1.27 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://www.molex.com/en-us/products/part-detail/191980013?display=pdf"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "CONN SPADE TERM 14-16AWG #6 BLU"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Part Number" "0191980013"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Vendor URL" "https://www.digikey.com/en/products/detail/molex/0191980013/3186421"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "#6 Fork Spade_0_0"
+				(pin unspecified line
+					(at 0 0 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "#6 Fork Spade_0_1"
+				(bezier
+					(pts
+						(xy 2.54 0) (xy 2.54 1.27) (xy 3.81 1.27) (xy 3.81 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(bezier
+					(pts
+						(xy 2.54 0) (xy 2.54 -1.27) (xy 3.81 -1.27) (xy 3.81 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(bezier
+					(pts
+						(xy 3.81 1.27) (xy 5.715 1.27) (xy 5.08 1.27) (xy 5.715 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(bezier
+					(pts
+						(xy 3.81 0.635) (xy 2.54 0) (xy 3.81 -0.635) (xy 3.81 -0.635)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(bezier
+					(pts
+						(xy 3.81 -0.635) (xy 5.715 -0.635) (xy 5.715 -0.635) (xy 5.715 -0.635)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(bezier
+					(pts
+						(xy 5.715 1.27) (xy 5.715 0.635) (xy 5.715 0.635) (xy 5.715 0.635)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(bezier
+					(pts
+						(xy 5.715 0.635) (xy 6.35 0.635) (xy 3.81 0.635) (xy 3.81 0.635)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(bezier
+					(pts
+						(xy 5.715 -0.635) (xy 5.715 -1.27) (xy 5.715 -1.27) (xy 5.715 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(bezier
+					(pts
+						(xy 5.715 -1.27) (xy 5.715 -1.27) (xy 3.81 -1.27) (xy 3.81 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "stepping-stone:18AWG Stranded Black Wire"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board no)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "W?"
+				(at -2.54 0.635 0)
+				(show_name no)
+				(do_not_autoplace yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "1M"
+				(at 2.54 0.635 0)
+				(show_name no)
+				(do_not_autoplace yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://tensility.s3.us-west-2.amazonaws.com/uploads/pdffiles/30-03711.pdf"
+				(at 0 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Enter Number of Meters in Order Quantity - 18 AWG Hook-Up Wire 34/0.0071\" Black 300V"
+				(at 0 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Part Number" "30-03711"
+				(at 0 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Vendor URL" "https://www.digikey.com/en/products/detail/tensility-international-corp/30-03711/28872108?s=N4IgTCBcDaIAQGYAMBaJCDsBGLIC6AvkA"
+				(at 0 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "18AWG Stranded Black Wire_0_1"
+				(polyline
+					(pts
+						(xy -5.08 -0.635) (xy 5.08 -0.635)
+					)
+					(stroke
+						(width 0)
+						(type default)
+						(color 0 0 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "18AWG Stranded Black Wire_1_1"
+				(text "A"
+					(at 0 0 0)
+					(effects
+						(font
+							(size 0.635 0.635)
+							(thickness 0.0794)
+							(color 0 0 0 1)
+						)
+					)
+				)
+			)
+			(symbol "18AWG Stranded Black Wire_2_1"
+				(text "B"
+					(at 0 0 0)
+					(effects
+						(font
+							(size 0.635 0.635)
+							(thickness 0.0794)
+							(color 0 0 0 1)
+						)
+					)
+				)
+			)
+			(symbol "18AWG Stranded Black Wire_3_1"
+				(text "C"
+					(at 0 0 0)
+					(effects
+						(font
+							(size 0.635 0.635)
+							(thickness 0.0794)
+							(color 0 0 0 1)
+						)
+					)
+				)
+			)
+			(symbol "18AWG Stranded Black Wire_4_1"
+				(text "D"
+					(at 0 0 0)
+					(effects
+						(font
+							(size 0.635 0.635)
+							(thickness 0.0794)
+							(color 0 0 0 1)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "stepping-stone:18AWG Stranded Red Wire"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board no)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "W?"
+				(at -2.54 0.635 0)
+				(show_name no)
+				(do_not_autoplace yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "1M"
+				(at 2.54 0.635 0)
+				(show_name no)
+				(do_not_autoplace yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://tensility.s3.us-west-2.amazonaws.com/uploads/pdffiles/30-03710.pdf"
+				(at 0 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Enter Number of Meters in Order Quantity - 18 AWG Hook-Up Wire 34/0.0071\" Red 300V"
+				(at 0 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Part Number" "30-03710"
+				(at 0 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Vendor URL" "https://www.digikey.com/en/products/detail/tensility-international-corp/30-03710/28872096"
+				(at 0 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "18AWG Stranded Red Wire_0_1"
+				(polyline
+					(pts
+						(xy -5.08 -0.635) (xy 5.08 -0.635)
+					)
+					(stroke
+						(width 0)
+						(type default)
+						(color 132 0 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "18AWG Stranded Red Wire_1_1"
+				(text "A"
+					(at 0 0 0)
+					(effects
+						(font
+							(size 0.635 0.635)
+							(thickness 0.0794)
+							(color 132 0 0 1)
+						)
+					)
+				)
+			)
+			(symbol "18AWG Stranded Red Wire_2_1"
+				(text "B"
+					(at 0 0 0)
+					(effects
+						(font
+							(size 0.635 0.635)
+							(thickness 0.0794)
+							(color 132 0 0 1)
+						)
+					)
+				)
+			)
+			(symbol "18AWG Stranded Red Wire_3_1"
+				(text "C"
+					(at 0 0 0)
+					(effects
+						(font
+							(size 0.635 0.635)
+							(thickness 0.0794)
+							(color 132 0 0 1)
+						)
+					)
+				)
+			)
+			(symbol "18AWG Stranded Red Wire_4_1"
+				(text "D"
+					(at 0 0 0)
+					(effects
+						(font
+							(size 0.635 0.635)
+							(thickness 0.0794)
+							(color 132 0 0 1)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "stepping-stone:2-Pin Banana Plug"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board no)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "P?"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right)
+				)
+			)
+			(property "Value" "Banana 1x2"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://www.pomonaelectronics.com/files/datasheets/d_MDP-4892-4898_102_10.pdf"
+				(at 0 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Banana Plug, Double, Stackable Connector Standard Banana Solderless Black"
+				(at 0.254 -2.794 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Part Number" "MDP-0"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "2-Pin Banana Plug_0_0"
+				(pin unspecified line
+					(at 0 2.54 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 0 0 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "2-Pin Banana Plug_1_1"
+				(rectangle
+					(start 2.54 3.302)
+					(end 4.572 -0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 4.572 3.175)
+					(end 5.334 1.905)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 4.572 0.635)
+					(end 5.334 -0.635)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(bezier
+					(pts
+						(xy 5.334 2.794) (xy 5.842 3.048) (xy 7.366 3.048) (xy 7.366 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(bezier
+					(pts
+						(xy 5.334 2.286) (xy 5.842 2.032) (xy 7.366 2.032) (xy 7.366 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(bezier
+					(pts
+						(xy 5.334 0.254) (xy 5.842 0.508) (xy 7.366 0.508) (xy 7.366 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(bezier
+					(pts
+						(xy 5.334 -0.254) (xy 5.842 -0.508) (xy 7.366 -0.508) (xy 7.366 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "stepping-stone:LRS-100-24"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -1599,6 +1827,17 @@
 			(symbol "LRS-100-24_0_1"
 				(rectangle
 					(start -15.24 10.16)
+					(end 0 4.445)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -15.24 10.16)
 					(end 15.24 -10.16)
 					(stroke
 						(width 0.254)
@@ -1611,10 +1850,1016 @@
 				)
 				(polyline
 					(pts
+						(xy -14.605 3.175) (xy -13.97 3.81) (xy -13.335 3.81) (xy -12.7 3.175) (xy -12.7 2.54) (xy -13.335 1.905)
+						(xy -13.97 1.905) (xy -14.605 2.54) (xy -14.605 3.175) (xy -14.605 3.175) (xy -14.605 3.175)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -14.605 -0.635) (xy -13.97 0) (xy -13.335 0) (xy -12.7 -0.635) (xy -12.7 -1.27) (xy -13.335 -1.905)
+						(xy -13.97 -1.905) (xy -14.605 -1.27) (xy -14.605 -0.635) (xy -14.605 -0.635) (xy -14.605 -0.635)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -14.605 -4.445) (xy -13.97 -3.81) (xy -13.335 -3.81) (xy -12.7 -4.445) (xy -12.7 -5.08) (xy -13.335 -5.715)
+						(xy -13.97 -5.715) (xy -14.605 -5.08) (xy -14.605 -4.445) (xy -14.605 -4.445) (xy -14.605 -4.445)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -14.605 -8.255) (xy -13.97 -7.62) (xy -13.335 -7.62) (xy -12.7 -8.255) (xy -12.7 -8.89) (xy -13.335 -9.525)
+						(xy -13.97 -9.525) (xy -14.605 -8.89) (xy -14.605 -8.255) (xy -14.605 -8.255) (xy -14.605 -8.255)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -12.7 1.27) (xy -12.065 1.905) (xy -11.43 1.905) (xy -10.795 1.27) (xy -10.795 0.635) (xy -11.43 0)
+						(xy -12.065 0) (xy -12.7 0.635) (xy -12.7 1.27) (xy -12.7 1.27) (xy -12.7 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -12.7 -2.54) (xy -12.065 -1.905) (xy -11.43 -1.905) (xy -10.795 -2.54) (xy -10.795 -3.175)
+						(xy -11.43 -3.81) (xy -12.065 -3.81) (xy -12.7 -3.175) (xy -12.7 -2.54) (xy -12.7 -2.54) (xy -12.7 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -12.7 -6.35) (xy -12.065 -5.715) (xy -11.43 -5.715) (xy -10.795 -6.35) (xy -10.795 -6.985)
+						(xy -11.43 -7.62) (xy -12.065 -7.62) (xy -12.7 -6.985) (xy -12.7 -6.35) (xy -12.7 -6.35) (xy -12.7 -6.35)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -10.795 3.175) (xy -10.16 3.81) (xy -9.525 3.81) (xy -8.89 3.175) (xy -8.89 2.54) (xy -9.525 1.905)
+						(xy -10.16 1.905) (xy -10.795 2.54) (xy -10.795 3.175) (xy -10.795 3.175) (xy -10.795 3.175)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -10.795 -0.635) (xy -10.16 0) (xy -9.525 0) (xy -8.89 -0.635) (xy -8.89 -1.27) (xy -9.525 -1.905)
+						(xy -10.16 -1.905) (xy -10.795 -1.27) (xy -10.795 -0.635) (xy -10.795 -0.635) (xy -10.795 -0.635)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -10.795 -4.445) (xy -10.16 -3.81) (xy -9.525 -3.81) (xy -8.89 -4.445) (xy -8.89 -5.08) (xy -9.525 -5.715)
+						(xy -10.16 -5.715) (xy -10.795 -5.08) (xy -10.795 -4.445) (xy -10.795 -4.445) (xy -10.795 -4.445)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -10.795 -8.255) (xy -10.16 -7.62) (xy -9.525 -7.62) (xy -8.89 -8.255) (xy -8.89 -8.89) (xy -9.525 -9.525)
+						(xy -10.16 -9.525) (xy -10.795 -8.89) (xy -10.795 -8.255) (xy -10.795 -8.255) (xy -10.795 -8.255)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -8.89 1.27) (xy -8.255 1.905) (xy -7.62 1.905) (xy -6.985 1.27) (xy -6.985 0.635) (xy -7.62 0)
+						(xy -8.255 0) (xy -8.89 0.635) (xy -8.89 1.27) (xy -8.89 1.27) (xy -8.89 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -8.89 -2.54) (xy -8.255 -1.905) (xy -7.62 -1.905) (xy -6.985 -2.54) (xy -6.985 -3.175) (xy -7.62 -3.81)
+						(xy -8.255 -3.81) (xy -8.89 -3.175) (xy -8.89 -2.54) (xy -8.89 -2.54) (xy -8.89 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -8.89 -6.35) (xy -8.255 -5.715) (xy -7.62 -5.715) (xy -6.985 -6.35) (xy -6.985 -6.985) (xy -7.62 -7.62)
+						(xy -8.255 -7.62) (xy -8.89 -6.985) (xy -8.89 -6.35) (xy -8.89 -6.35) (xy -8.89 -6.35)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -6.985 3.175) (xy -6.35 3.81) (xy -5.715 3.81) (xy -5.08 3.175) (xy -5.08 2.54) (xy -5.715 1.905)
+						(xy -6.35 1.905) (xy -6.985 2.54) (xy -6.985 3.175) (xy -6.985 3.175) (xy -6.985 3.175)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -6.985 -0.635) (xy -6.35 0) (xy -5.715 0) (xy -5.08 -0.635) (xy -5.08 -1.27) (xy -5.715 -1.905)
+						(xy -6.35 -1.905) (xy -6.985 -1.27) (xy -6.985 -0.635) (xy -6.985 -0.635) (xy -6.985 -0.635)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -6.985 -4.445) (xy -6.35 -3.81) (xy -5.715 -3.81) (xy -5.08 -4.445) (xy -5.08 -5.08) (xy -5.715 -5.715)
+						(xy -6.35 -5.715) (xy -6.985 -5.08) (xy -6.985 -4.445) (xy -6.985 -4.445) (xy -6.985 -4.445)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -6.985 -8.255) (xy -6.35 -7.62) (xy -5.715 -7.62) (xy -5.08 -8.255) (xy -5.08 -8.89) (xy -5.715 -9.525)
+						(xy -6.35 -9.525) (xy -6.985 -8.89) (xy -6.985 -8.255) (xy -6.985 -8.255) (xy -6.985 -8.255)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 1.27) (xy -4.445 1.905) (xy -3.81 1.905) (xy -3.175 1.27) (xy -3.175 0.635) (xy -3.81 0)
+						(xy -4.445 0) (xy -5.08 0.635) (xy -5.08 1.27) (xy -5.08 1.27) (xy -5.08 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 -2.54) (xy -4.445 -1.905) (xy -3.81 -1.905) (xy -3.175 -2.54) (xy -3.175 -3.175) (xy -3.81 -3.81)
+						(xy -4.445 -3.81) (xy -5.08 -3.175) (xy -5.08 -2.54) (xy -5.08 -2.54) (xy -5.08 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 -6.35) (xy -4.445 -5.715) (xy -3.81 -5.715) (xy -3.175 -6.35) (xy -3.175 -6.985) (xy -3.81 -7.62)
+						(xy -4.445 -7.62) (xy -5.08 -6.985) (xy -5.08 -6.35) (xy -5.08 -6.35) (xy -5.08 -6.35)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.175 3.175) (xy -2.54 3.81) (xy -1.905 3.81) (xy -1.27 3.175) (xy -1.27 2.54) (xy -1.905 1.905)
+						(xy -2.54 1.905) (xy -3.175 2.54) (xy -3.175 3.175) (xy -3.175 3.175) (xy -3.175 3.175)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.175 -0.635) (xy -2.54 0) (xy -1.905 0) (xy -1.27 -0.635) (xy -1.27 -1.27) (xy -1.905 -1.905)
+						(xy -2.54 -1.905) (xy -3.175 -1.27) (xy -3.175 -0.635) (xy -3.175 -0.635) (xy -3.175 -0.635)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.175 -4.445) (xy -2.54 -3.81) (xy -1.905 -3.81) (xy -1.27 -4.445) (xy -1.27 -5.08) (xy -1.905 -5.715)
+						(xy -2.54 -5.715) (xy -3.175 -5.08) (xy -3.175 -4.445) (xy -3.175 -4.445) (xy -3.175 -4.445)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.175 -8.255) (xy -2.54 -7.62) (xy -1.905 -7.62) (xy -1.27 -8.255) (xy -1.27 -8.89) (xy -1.905 -9.525)
+						(xy -2.54 -9.525) (xy -3.175 -8.89) (xy -3.175 -8.255) (xy -3.175 -8.255) (xy -3.175 -8.255)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 1.27) (xy -0.635 1.905) (xy 0 1.905) (xy 0.635 1.27) (xy 0.635 0.635) (xy 0 0) (xy -0.635 0)
+						(xy -1.27 0.635) (xy -1.27 1.27) (xy -1.27 1.27) (xy -1.27 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -2.54) (xy -0.635 -1.905) (xy 0 -1.905) (xy 0.635 -2.54) (xy 0.635 -3.175) (xy 0 -3.81)
+						(xy -0.635 -3.81) (xy -1.27 -3.175) (xy -1.27 -2.54) (xy -1.27 -2.54) (xy -1.27 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -6.35) (xy -0.635 -5.715) (xy 0 -5.715) (xy 0.635 -6.35) (xy 0.635 -6.985) (xy 0 -7.62)
+						(xy -0.635 -7.62) (xy -1.27 -6.985) (xy -1.27 -6.35) (xy -1.27 -6.35) (xy -1.27 -6.35)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 6.985) (xy 1.27 7.62) (xy 1.905 7.62) (xy 2.54 6.985) (xy 2.54 6.35) (xy 1.905 5.715)
+						(xy 1.27 5.715) (xy 0.635 6.35) (xy 0.635 6.985) (xy 0.635 6.985) (xy 0.635 6.985)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 3.175) (xy 1.27 3.81) (xy 1.905 3.81) (xy 2.54 3.175) (xy 2.54 2.54) (xy 1.905 1.905)
+						(xy 1.27 1.905) (xy 0.635 2.54) (xy 0.635 3.175) (xy 0.635 3.175) (xy 0.635 3.175)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 -0.635) (xy 1.27 0) (xy 1.905 0) (xy 2.54 -0.635) (xy 2.54 -1.27) (xy 1.905 -1.905)
+						(xy 1.27 -1.905) (xy 0.635 -1.27) (xy 0.635 -0.635) (xy 0.635 -0.635) (xy 0.635 -0.635)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 -4.445) (xy 1.27 -3.81) (xy 1.905 -3.81) (xy 2.54 -4.445) (xy 2.54 -5.08) (xy 1.905 -5.715)
+						(xy 1.27 -5.715) (xy 0.635 -5.08) (xy 0.635 -4.445) (xy 0.635 -4.445) (xy 0.635 -4.445)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 -8.255) (xy 1.27 -7.62) (xy 1.905 -7.62) (xy 2.54 -8.255) (xy 2.54 -8.89) (xy 1.905 -9.525)
+						(xy 1.27 -9.525) (xy 0.635 -8.89) (xy 0.635 -8.255) (xy 0.635 -8.255) (xy 0.635 -8.255)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 8.89) (xy 3.175 9.525) (xy 3.81 9.525) (xy 4.445 8.89) (xy 4.445 8.255) (xy 3.81 7.62)
+						(xy 3.175 7.62) (xy 2.54 8.255) (xy 2.54 8.89) (xy 2.54 8.89) (xy 2.54 8.89)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 5.08) (xy 3.175 5.715) (xy 3.81 5.715) (xy 4.445 5.08) (xy 4.445 4.445) (xy 3.81 3.81)
+						(xy 3.175 3.81) (xy 2.54 4.445) (xy 2.54 5.08) (xy 2.54 5.08) (xy 2.54 5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 1.27) (xy 3.175 1.905) (xy 3.81 1.905) (xy 4.445 1.27) (xy 4.445 0.635) (xy 3.81 0) (xy 3.175 0)
+						(xy 2.54 0.635) (xy 2.54 1.27) (xy 2.54 1.27) (xy 2.54 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -2.54) (xy 3.175 -1.905) (xy 3.81 -1.905) (xy 4.445 -2.54) (xy 4.445 -3.175) (xy 3.81 -3.81)
+						(xy 3.175 -3.81) (xy 2.54 -3.175) (xy 2.54 -2.54) (xy 2.54 -2.54) (xy 2.54 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -6.35) (xy 3.175 -5.715) (xy 3.81 -5.715) (xy 4.445 -6.35) (xy 4.445 -6.985) (xy 3.81 -7.62)
+						(xy 3.175 -7.62) (xy 2.54 -6.985) (xy 2.54 -6.35) (xy 2.54 -6.35) (xy 2.54 -6.35)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.445 6.985) (xy 5.08 7.62) (xy 5.715 7.62) (xy 6.35 6.985) (xy 6.35 6.35) (xy 5.715 5.715)
+						(xy 5.08 5.715) (xy 4.445 6.35) (xy 4.445 6.985) (xy 4.445 6.985) (xy 4.445 6.985)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.445 3.175) (xy 5.08 3.81) (xy 5.715 3.81) (xy 6.35 3.175) (xy 6.35 2.54) (xy 5.715 1.905)
+						(xy 5.08 1.905) (xy 4.445 2.54) (xy 4.445 3.175) (xy 4.445 3.175) (xy 4.445 3.175)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.445 -0.635) (xy 5.08 0) (xy 5.715 0) (xy 6.35 -0.635) (xy 6.35 -1.27) (xy 5.715 -1.905)
+						(xy 5.08 -1.905) (xy 4.445 -1.27) (xy 4.445 -0.635) (xy 4.445 -0.635) (xy 4.445 -0.635)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.445 -4.445) (xy 5.08 -3.81) (xy 5.715 -3.81) (xy 6.35 -4.445) (xy 6.35 -5.08) (xy 5.715 -5.715)
+						(xy 5.08 -5.715) (xy 4.445 -5.08) (xy 4.445 -4.445) (xy 4.445 -4.445) (xy 4.445 -4.445)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.445 -8.255) (xy 5.08 -7.62) (xy 5.715 -7.62) (xy 6.35 -8.255) (xy 6.35 -8.89) (xy 5.715 -9.525)
+						(xy 5.08 -9.525) (xy 4.445 -8.89) (xy 4.445 -8.255) (xy 4.445 -8.255) (xy 4.445 -8.255)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
 						(xy 7.62 10.16) (xy 7.62 -10.16)
 					)
 					(stroke
 						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "stepping-stone:Micro-Fit 3.0 18AWG Crimp"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board no)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "W?"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace yes)
+				(effects
+					(font
+						(size 0.254 0.254)
+					)
+				)
+			)
+			(property "Value" "18 AWG Crimp"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://www.molex.com/en-us/products/part-detail/430300038?display=pdf"
+				(at 0 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Socket Contact Tin 18 AWG Crimp Stamped"
+				(at 0 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Part Number" "0430300038"
+				(at 0 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Vendor URL" "https://www.digikey.com/en/products/detail/molex/0430300038/6098601"
+				(at 0 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Micro-Fit 3.0 18AWG Crimp_1_1"
+				(rectangle
+					(start -0.254 0.254)
+					(end 0.254 -0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "stepping-stone:Micro-Fit 3.0 1x2 Jack"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board no)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "J?"
+				(at 6.35 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "Micro-Fit 1x2"
+				(at 6.35 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://www.molex.com/content/dam/molex/molex-dot-com/products/automated/en-us/salesdrawingpdf/436/43650/436500203_sd.pdf?inline"
+				(at 0 -1.905 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x02, script generated"
+				(at 0 -1.905 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Part Number" "0436500203"
+				(at 0.635 -1.905 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Vendor URL" "https://www.digikey.com/en/products/detail/molex/0436500203/268999"
+				(at 0 -1.905 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Micro-Fit 3.0 1x2 Jack_0_0"
+				(pin unspecified line
+					(at 0 2.54 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 0 0 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "Micro-Fit 3.0 1x2 Jack_0_1"
+				(rectangle
+					(start 2.54 3.81)
+					(end 5.08 -1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 1.27) (xy 5.08 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 2.794 3.556)
+					(end 4.826 1.524)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 2.794 1.016)
+					(end 4.826 -1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 5.08 1.778)
+					(end 5.588 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "stepping-stone:Micro-Fit_3.0_1x2 Plug"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board no)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "P?"
+				(at 6.35 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "Micro-Fit 3.0 1x2"
+				(at 6.35 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://www.molex.com/content/dam/molex/molex-dot-com/products/automated/en-us/salesdrawingpdf/436/43645/436450200_sd.pdf?inline"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "2 Position Rectangular Housing Connector Receptacle Black 0.118\" (3.00mm)"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Part Number" "0436450200"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Vendor URL" "https://www.digikey.com/en/products/detail/molex/0436450200/268974"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Micro-Fit_3.0_1x2 Plug_0_0"
+				(pin unspecified line
+					(at 0 2.54 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 0 0 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "Micro-Fit_3.0_1x2 Plug_0_1"
+				(rectangle
+					(start 2.54 3.81)
+					(end 5.08 -1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 3.175 3.175)
+					(end 4.445 1.905)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 3.175 0.635)
+					(end 4.445 -0.635)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 5.08 2.54)
+					(end 5.715 0)
+					(stroke
+						(width 0)
 						(type default)
 					)
 					(fill
@@ -1869,17 +3114,6 @@
 		)
 		(uuid "35be89e6-017b-40a1-9d12-027b16ad7482")
 	)
-	(text "Red: 30-03710\nBlack: 30-03711"
-		(exclude_from_sim no)
-		(at 208.28 16.51 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left top)
-		)
-		(uuid "6b8ac596-e65d-47da-b395-bbbdee92c0f5")
-	)
 	(text "Fuse holder: 3557-2\nFuse: 0891005.NXS"
 		(exclude_from_sim no)
 		(at 134.62 105.41 0)
@@ -1902,17 +3136,6 @@
 		)
 		(uuid "74e08352-a121-40a8-b91b-b73bca084930")
 	)
-	(text "Add crimp:\n0430300038"
-		(exclude_from_sim no)
-		(at 237.49 21.59 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left top)
-		)
-		(uuid "e528c739-ff91-4737-9e99-a8d2d760e463")
-	)
 	(junction
 		(at 153.67 114.3)
 		(diameter 0)
@@ -1932,17 +3155,17 @@
 		(uuid "a2e0d571-67e7-42df-9737-946825cef852")
 	)
 	(junction
-		(at 135.89 58.42)
+		(at 149.86 53.34)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "be50129f-d5e9-424a-b5a2-eb53abd30e0f")
 	)
 	(no_connect
-		(at 142.24 27.94)
+		(at 156.21 22.86)
 		(uuid "58c0f683-c461-49d3-ae10-05e74bd1af0f")
 	)
 	(no_connect
-		(at 142.24 33.02)
+		(at 156.21 27.94)
 		(uuid "c6afc00a-62ce-4b46-9c9e-afe9c6d9b2a2")
 	)
 	(wire
@@ -1957,7 +3180,7 @@
 	)
 	(wire
 		(pts
-			(xy 201.93 27.94) (xy 227.33 27.94)
+			(xy 213.36 48.26) (xy 238.76 48.26)
 		)
 		(stroke
 			(width 0.4572)
@@ -1978,7 +3201,7 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 58.42) (xy 135.89 63.5)
+			(xy 149.86 53.34) (xy 149.86 58.42)
 		)
 		(stroke
 			(width 0.4572)
@@ -2038,7 +3261,7 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 25.4) (xy 149.86 25.4)
+			(xy 156.21 20.32) (xy 163.83 20.32)
 		)
 		(stroke
 			(width 0.4572)
@@ -2049,7 +3272,7 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 35.56) (xy 154.94 36.83)
+			(xy 168.91 30.48) (xy 168.91 31.75)
 		)
 		(stroke
 			(width 0.4572)
@@ -2059,7 +3282,7 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 58.42) (xy 135.89 58.42)
+			(xy 154.94 53.34) (xy 149.86 53.34)
 		)
 		(stroke
 			(width 0.4572)
@@ -2069,7 +3292,7 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 55.88) (xy 130.81 55.88)
+			(xy 154.94 50.8) (xy 144.78 50.8)
 		)
 		(stroke
 			(width 0.4572)
@@ -2090,7 +3313,7 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 58.42) (xy 130.81 58.42)
+			(xy 149.86 53.34) (xy 144.78 53.34)
 		)
 		(stroke
 			(width 0.4572)
@@ -2100,7 +3323,7 @@
 	)
 	(wire
 		(pts
-			(xy 201.93 39.37) (xy 227.33 39.37)
+			(xy 213.36 59.69) (xy 238.76 59.69)
 		)
 		(stroke
 			(width 0.4572)
@@ -2111,7 +3334,7 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 35.56) (xy 154.94 35.56)
+			(xy 156.21 30.48) (xy 168.91 30.48)
 		)
 		(stroke
 			(width 0.4572)
@@ -2121,7 +3344,7 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 30.48) (xy 149.86 30.48)
+			(xy 156.21 25.4) (xy 163.83 25.4)
 		)
 		(stroke
 			(width 0.4572)
@@ -2132,7 +3355,7 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 60.96) (xy 130.81 60.96)
+			(xy 154.94 55.88) (xy 144.78 55.88)
 		)
 		(stroke
 			(width 0.4572)
@@ -2143,7 +3366,7 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 38.1) (xy 149.86 38.1)
+			(xy 156.21 33.02) (xy 163.83 33.02)
 		)
 		(stroke
 			(width 0.4572)
@@ -2154,7 +3377,7 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 40.64) (xy 149.86 40.64)
+			(xy 156.21 35.56) (xy 163.83 35.56)
 		)
 		(stroke
 			(width 0.4572)
@@ -2165,7 +3388,7 @@
 	)
 	(wire
 		(pts
-			(xy 201.93 36.83) (xy 227.33 36.83)
+			(xy 213.36 57.15) (xy 238.76 57.15)
 		)
 		(stroke
 			(width 0.4572)
@@ -2176,7 +3399,7 @@
 	)
 	(wire
 		(pts
-			(xy 201.93 25.4) (xy 227.33 25.4)
+			(xy 213.36 45.72) (xy 238.76 45.72)
 		)
 		(stroke
 			(width 0.4572)
@@ -2186,7 +3409,7 @@
 		(uuid "fbda61fb-af1b-4918-84d4-5be988ba4883")
 	)
 	(label "L"
-		(at 149.86 40.64 180)
+		(at 163.83 35.56 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2196,7 +3419,7 @@
 		(uuid "00cc71f2-3bcd-453a-908e-e448e6372529")
 	)
 	(label "PSU+"
-		(at 149.86 25.4 180)
+		(at 163.83 20.32 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2206,7 +3429,7 @@
 		(uuid "38b5bbc8-0d34-4ce8-8ac4-1c5ae52ca777")
 	)
 	(label "PSU+"
-		(at 201.93 25.4 0)
+		(at 213.36 45.72 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2216,7 +3439,7 @@
 		(uuid "48e4ac8a-a339-4a7a-a4e0-0cc6d98c2012")
 	)
 	(label "PSU-"
-		(at 201.93 27.94 0)
+		(at 213.36 48.26 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2226,7 +3449,7 @@
 		(uuid "4ab4562b-fad6-47f0-aefb-50b7cf947b52")
 	)
 	(label "L"
-		(at 140.97 60.96 180)
+		(at 154.94 55.88 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2236,7 +3459,7 @@
 		(uuid "65cd5d9a-bd57-4929-9f39-f07447b3b790")
 	)
 	(label "N"
-		(at 140.97 55.88 180)
+		(at 154.94 50.8 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2246,7 +3469,7 @@
 		(uuid "9179fd86-f5c1-4780-bed5-adaa74247da9")
 	)
 	(label "N"
-		(at 149.86 38.1 180)
+		(at 163.83 33.02 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2256,7 +3479,7 @@
 		(uuid "a4aa1c26-2dbc-427d-b00b-e1003d3bd512")
 	)
 	(label "BENCH+"
-		(at 201.93 36.83 0)
+		(at 213.36 57.15 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2266,7 +3489,7 @@
 		(uuid "ae74bb40-4fc5-4253-88f9-14e1ceebe93d")
 	)
 	(label "PSU-"
-		(at 149.86 30.48 180)
+		(at 163.83 25.4 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2276,7 +3499,7 @@
 		(uuid "b5d0aafa-b0c0-461e-a5d1-03eb044d1bf8")
 	)
 	(label "BENCH-"
-		(at 201.93 39.37 0)
+		(at 213.36 59.69 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2286,8 +3509,8 @@
 		(uuid "cf7b8f6b-b076-45fc-9b45-0c4b0ba42fa5")
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x02_Pin")
-		(at 232.41 36.83 0)
+		(lib_id "stepping-stone:2-Pin Banana Plug")
+		(at 213.36 59.69 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -2296,31 +3519,31 @@
 		(on_board no)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "1d3a0633-f90c-4503-90c7-2d18fff1ca1b")
+		(uuid "0e50ee41-731a-40fa-823b-d8188729cf1e")
 		(property "Reference" "P?"
-			(at 233.68 36.83 0)
+			(at 205.74 57.15 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Value" "Micro-Fit 3.0 1x2"
-			(at 233.68 39.37 0)
+		(property "Value" "Banana 1x2"
+			(at 205.74 59.69 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 232.41 36.83 0)
+			(at 213.36 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2330,8 +3553,8 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.molex.com/content/dam/molex/molex-dot-com/products/automated/en-us/salesdrawingpdf/436/43645/436450200_sd.pdf?inline"
-			(at 232.41 36.83 0)
+		(property "Datasheet" "https://www.pomonaelectronics.com/files/datasheets/d_MDP-4892-4898_102_10.pdf"
+			(at 213.36 62.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2341,8 +3564,8 @@
 				)
 			)
 		)
-		(property "Description" "2 Position Rectangular Housing Connector Receptacle Black 0.118\" (3.00mm)"
-			(at 232.41 36.83 0)
+		(property "Description" "Banana Plug, Double, Stackable Connector Standard Banana Solderless Black"
+			(at 213.106 62.484 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2352,41 +3575,8 @@
 				)
 			)
 		)
-		(property "Part Number" "0436450200"
-			(at 232.41 36.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Vendor URL" "https://www.digikey.com/en/products/detail/molex/0436450200/268974"
-			(at 232.41 36.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 232.41 36.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 232.41 36.83 0)
+		(property "Part Number" "MDP-0"
+			(at 213.36 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2397,10 +3587,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "ee2add2e-7d04-4faf-9a8a-a1303119b4d2")
+			(uuid "bfe9c622-6575-4668-9f12-408d6fc2e36e")
 		)
 		(pin "2"
-			(uuid "0567e8a9-6dd9-417a-9ecc-d845620996bd")
+			(uuid "f8402af4-e108-491e-9486-5f01381f0a86")
 		)
 		(instances
 			(project "stepping-stone"
@@ -2412,8 +3602,496 @@
 		)
 	)
 	(symbol
+		(lib_id "stepping-stone:#6 Fork Spade")
+		(at 213.36 45.72 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "1700a762-e1de-4d06-8666-12f2ce9efbaa")
+		(property "Reference" "P?"
+			(at 205.74 43.18 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "#6 Fork Spade"
+			(at 199.39 45.72 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 213.36 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.molex.com/en-us/products/part-detail/191980013?display=pdf"
+			(at 213.36 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "CONN SPADE TERM 14-16AWG #6 BLU"
+			(at 213.36 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "0191980013"
+			(at 213.36 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vendor URL" "https://www.digikey.com/en/products/detail/molex/0191980013/3186421"
+			(at 213.36 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b20a6a0b-163b-45df-afd9-0a110ff1d446")
+		)
+		(instances
+			(project "stepping-stone"
+				(path "/793a882e-3f7b-468b-a863-41a1f527e1bf/73c4e66b-e11c-48b6-b2c8-fbbf612d64c5"
+					(reference "P?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "stepping-stone:Micro-Fit 3.0 18AWG Crimp")
+		(at 242.57 57.15 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "19c25b14-305b-4128-b8fd-381912f8b58a")
+		(property "Reference" "W3"
+			(at 242.57 57.15 0)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.254 0.254)
+				)
+			)
+		)
+		(property "Value" "18 AWG Crimp"
+			(at 242.57 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 242.57 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.molex.com/en-us/products/part-detail/430300038?display=pdf"
+			(at 242.57 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Socket Contact Tin 18 AWG Crimp Stamped"
+			(at 242.57 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "0430300038"
+			(at 242.57 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vendor URL" "https://www.digikey.com/en/products/detail/molex/0430300038/6098601"
+			(at 242.57 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "stepping-stone"
+				(path "/793a882e-3f7b-468b-a863-41a1f527e1bf/73c4e66b-e11c-48b6-b2c8-fbbf612d64c5"
+					(reference "W3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "stepping-stone:Micro-Fit 3.0 18AWG Crimp")
+		(at 242.57 59.69 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1aa24c71-1491-4a09-8699-095f026dac10")
+		(property "Reference" "W4"
+			(at 242.57 59.69 0)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.254 0.254)
+				)
+			)
+		)
+		(property "Value" "18 AWG Crimp"
+			(at 242.57 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 242.57 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.molex.com/en-us/products/part-detail/430300038?display=pdf"
+			(at 242.57 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Socket Contact Tin 18 AWG Crimp Stamped"
+			(at 242.57 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "0430300038"
+			(at 242.57 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vendor URL" "https://www.digikey.com/en/products/detail/molex/0430300038/6098601"
+			(at 242.57 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "stepping-stone"
+				(path "/793a882e-3f7b-468b-a863-41a1f527e1bf/73c4e66b-e11c-48b6-b2c8-fbbf612d64c5"
+					(reference "W4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "stepping-stone:#6 Fork Spade")
+		(at 154.94 53.34 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "21e4b75d-950e-4d97-a734-40ce13d8228b")
+		(property "Reference" "P?"
+			(at 162.56 53.34 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "#6 Fork Spade"
+			(at 172.72 53.34 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 154.94 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.molex.com/en-us/products/part-detail/191980013?display=pdf"
+			(at 154.94 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "CONN SPADE TERM 14-16AWG #6 BLU"
+			(at 154.94 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "0191980013"
+			(at 154.94 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vendor URL" "https://www.digikey.com/en/products/detail/molex/0191980013/3186421"
+			(at 154.94 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c4b5716d-716c-4af7-b89f-b06e1185c479")
+		)
+		(instances
+			(project "stepping-stone"
+				(path "/793a882e-3f7b-468b-a863-41a1f527e1bf/73c4e66b-e11c-48b6-b2c8-fbbf612d64c5"
+					(reference "P?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "stepping-stone:Micro-Fit 3.0 18AWG Crimp")
+		(at 242.57 45.72 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2463758b-5729-4b88-8dbe-036636dbc418")
+		(property "Reference" "W1"
+			(at 242.57 45.72 0)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.254 0.254)
+				)
+			)
+		)
+		(property "Value" "18 AWG Crimp"
+			(at 242.57 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 242.57 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.molex.com/en-us/products/part-detail/430300038?display=pdf"
+			(at 242.57 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Socket Contact Tin 18 AWG Crimp Stamped"
+			(at 242.57 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "0430300038"
+			(at 242.57 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vendor URL" "https://www.digikey.com/en/products/detail/molex/0430300038/6098601"
+			(at 242.57 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "stepping-stone"
+				(path "/793a882e-3f7b-468b-a863-41a1f527e1bf/73c4e66b-e11c-48b6-b2c8-fbbf612d64c5"
+					(reference "W1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:Earth")
-		(at 135.89 63.5 0)
+		(at 149.86 58.42 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2423,7 +4101,7 @@
 		(dnp no)
 		(uuid "2bf61db5-19ee-4078-8235-e1cce9d3a0fb")
 		(property "Reference" "#PWR01"
-			(at 135.89 69.85 0)
+			(at 149.86 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2434,7 +4112,7 @@
 			)
 		)
 		(property "Value" "Earth"
-			(at 135.89 67.31 0)
+			(at 149.86 62.23 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2444,7 +4122,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 135.89 63.5 0)
+			(at 149.86 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2455,7 +4133,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 135.89 63.5 0)
+			(at 149.86 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2466,7 +4144,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"Earth\""
-			(at 135.89 63.5 0)
+			(at 149.86 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2562,6 +4240,103 @@
 			(project "stepping-stone"
 				(path "/793a882e-3f7b-468b-a863-41a1f527e1bf/73c4e66b-e11c-48b6-b2c8-fbbf612d64c5"
 					(reference "#PWR018")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "stepping-stone:18AWG Stranded Black Wire")
+		(at 226.06 49.53 0)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3c7e2da1-ca44-44b8-a4e7-285986ae21aa")
+		(property "Reference" "W2"
+			(at 223.52 50.165 0)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1M"
+			(at 228.6 50.165 0)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 226.06 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://tensility.s3.us-west-2.amazonaws.com/uploads/pdffiles/30-03711.pdf"
+			(at 226.06 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Enter Number of Meters in Order Quantity - 18 AWG Hook-Up Wire 34/0.0071\" Black 300V"
+			(at 226.06 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "30-03711"
+			(at 226.06 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vendor URL" "https://www.digikey.com/en/products/detail/tensility-international-corp/30-03711/28872108?s=N4IgTCBcDaIAQGYAMBaJCDsBGLIC6AvkA"
+			(at 226.06 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "stepping-stone"
+				(path "/793a882e-3f7b-468b-a863-41a1f527e1bf/73c4e66b-e11c-48b6-b2c8-fbbf612d64c5"
+					(reference "W2")
 					(unit 1)
 				)
 			)
@@ -2772,8 +4547,106 @@
 		)
 	)
 	(symbol
+		(lib_id "stepping-stone:#6 Fork Spade")
+		(at 213.36 48.26 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "457b5572-30f4-4222-bbfa-f00c043ed68c")
+		(property "Reference" "P?"
+			(at 205.74 50.8 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "#6 Fork Spade"
+			(at 199.39 48.26 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 213.36 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.molex.com/en-us/products/part-detail/191980013?display=pdf"
+			(at 213.36 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "CONN SPADE TERM 14-16AWG #6 BLU"
+			(at 213.36 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "0191980013"
+			(at 213.36 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vendor URL" "https://www.digikey.com/en/products/detail/molex/0191980013/3186421"
+			(at 213.36 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0ad754d4-1882-4cda-afe9-725ccdb1f1a7")
+		)
+		(instances
+			(project "stepping-stone"
+				(path "/793a882e-3f7b-468b-a863-41a1f527e1bf/73c4e66b-e11c-48b6-b2c8-fbbf612d64c5"
+					(reference "P?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:Earth")
-		(at 154.94 36.83 0)
+		(at 168.91 31.75 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2783,7 +4656,7 @@
 		(dnp no)
 		(uuid "52cb8685-e649-481e-8bce-8dc3c9b9d091")
 		(property "Reference" "#PWR02"
-			(at 154.94 43.18 0)
+			(at 168.91 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2794,7 +4667,7 @@
 			)
 		)
 		(property "Value" "Earth"
-			(at 154.94 40.64 0)
+			(at 168.91 35.56 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2804,7 +4677,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 154.94 36.83 0)
+			(at 168.91 31.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2815,7 +4688,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 154.94 36.83 0)
+			(at 168.91 31.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2826,7 +4699,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"Earth\""
-			(at 154.94 36.83 0)
+			(at 168.91 31.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2843,252 +4716,6 @@
 			(project "stepping-stone"
 				(path "/793a882e-3f7b-468b-a863-41a1f527e1bf/73c4e66b-e11c-48b6-b2c8-fbbf612d64c5"
 					(reference "#PWR02")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x01_Pin")
-		(at 146.05 55.88 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board no)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "53e6faef-ac00-468f-9715-d791874c0992")
-		(property "Reference" "P?"
-			(at 147.32 55.88 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "6 Stud Fork Blade"
-			(at 152.4 55.88 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 146.05 55.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.molex.com/en-us/products/part-detail/191980013?display=pdf"
-			(at 146.05 55.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "CONN SPADE TERM 14-16AWG #6 BLU"
-			(at 146.05 55.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Part Number" "0191980013"
-			(at 146.05 55.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Vendor URL" "https://www.digikey.com/en/products/detail/molex/0191980013/3186421"
-			(at 146.05 55.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 146.05 55.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 146.05 55.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "4087159c-99f1-4f1d-8a2a-14f6651d38be")
-		)
-		(instances
-			(project "stepping-stone"
-				(path "/793a882e-3f7b-468b-a863-41a1f527e1bf/73c4e66b-e11c-48b6-b2c8-fbbf612d64c5"
-					(reference "P?")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x01_Pin")
-		(at 196.85 27.94 0)
-		(mirror x)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board no)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "58099d96-73f7-4c5f-8c96-85bbac747fa3")
-		(property "Reference" "P?"
-			(at 195.58 30.48 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "6 Stud Fork Blade"
-			(at 195.58 27.94 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 196.85 27.94 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.molex.com/en-us/products/part-detail/191980013?display=pdf"
-			(at 196.85 27.94 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "CONN SPADE TERM 14-16AWG #6 BLU"
-			(at 196.85 27.94 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Part Number" "0191980013"
-			(at 196.85 27.94 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Vendor URL" "https://www.digikey.com/en/products/detail/molex/0191980013/3186421"
-			(at 196.85 27.94 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 196.85 27.94 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 196.85 27.94 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "d3a8c94b-2f3d-4946-999e-beae92af425a")
-		)
-		(instances
-			(project "stepping-stone"
-				(path "/793a882e-3f7b-468b-a863-41a1f527e1bf/73c4e66b-e11c-48b6-b2c8-fbbf612d64c5"
-					(reference "P?")
 					(unit 1)
 				)
 			)
@@ -3254,7 +4881,7 @@
 	)
 	(symbol
 		(lib_id "stepping-stone:LRS-100-24")
-		(at 124.46 33.02 0)
+		(at 138.43 27.94 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3264,7 +4891,7 @@
 		(dnp no)
 		(uuid "7e0b086d-271a-4fe2-8d68-3d9e5ce8176a")
 		(property "Reference" "PSU?"
-			(at 110.49 24.13 0)
+			(at 124.46 19.05 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3275,7 +4902,7 @@
 			)
 		)
 		(property "Value" "LRS-100-24"
-			(at 110.49 26.67 0)
+			(at 124.46 21.59 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3286,7 +4913,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 124.46 33.02 0)
+			(at 138.43 27.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3297,7 +4924,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.meanwellusa.com/upload/pdf/LRS-100/LRS-100-spec.pdf"
-			(at 124.46 14.732 0)
+			(at 138.43 9.652 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3308,7 +4935,7 @@
 			)
 		)
 		(property "Description" "Enclosed AC DC Converters 1 Output 24V 85 ~ 264 VAC, 120 ~ 373 VDC Input"
-			(at 124.46 14.732 0)
+			(at 138.43 9.652 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3319,7 +4946,7 @@
 			)
 		)
 		(property "Part Number" "LRS-100-24"
-			(at 124.46 11.684 0)
+			(at 138.43 6.604 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3330,7 +4957,7 @@
 			)
 		)
 		(property "Vendor URL" "https://www.digikey.com/en/products/detail/mean-well-usa-inc/LRS-100-24/7705008"
-			(at 124.46 14.732 0)
+			(at 138.43 9.652 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3341,7 +4968,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 124.46 33.02 0)
+			(at 138.43 27.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3352,7 +4979,7 @@
 			)
 		)
 		(property "Sim.Pins" ""
-			(at 124.46 33.02 0)
+			(at 138.43 27.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3393,379 +5020,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x01_Pin")
-		(at 146.05 58.42 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board no)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "805b84c5-5aa3-4a28-9841-12b4be4f1de4")
-		(property "Reference" "P?"
-			(at 147.32 58.42 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "6 Stud Fork Blade"
-			(at 152.4 58.42 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 146.05 58.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.molex.com/en-us/products/part-detail/191980013?display=pdf"
-			(at 146.05 58.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "CONN SPADE TERM 14-16AWG #6 BLU"
-			(at 146.05 58.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Part Number" "0191980013"
-			(at 146.05 58.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Vendor URL" "https://www.digikey.com/en/products/detail/molex/0191980013/3186421"
-			(at 146.05 58.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 146.05 58.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 146.05 58.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "ac58f5f1-bd16-4e68-8482-d42a875447ac")
-		)
-		(instances
-			(project "stepping-stone"
-				(path "/793a882e-3f7b-468b-a863-41a1f527e1bf/73c4e66b-e11c-48b6-b2c8-fbbf612d64c5"
-					(reference "P?")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x01_Pin")
-		(at 146.05 60.96 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board no)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "831a89d3-eb26-443c-a256-0a6c0e19d4ad")
-		(property "Reference" "P?"
-			(at 147.32 60.96 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "6 Stud Fork Blade"
-			(at 152.4 60.96 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 146.05 60.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.molex.com/en-us/products/part-detail/191980013?display=pdf"
-			(at 146.05 60.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "CONN SPADE TERM 14-16AWG #6 BLU"
-			(at 146.05 60.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Part Number" "0191980013"
-			(at 146.05 60.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Vendor URL" "https://www.digikey.com/en/products/detail/molex/0191980013/3186421"
-			(at 146.05 60.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 146.05 60.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 146.05 60.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "76810fb7-c854-4ad3-ace3-7086d244111e")
-		)
-		(instances
-			(project "stepping-stone"
-				(path "/793a882e-3f7b-468b-a863-41a1f527e1bf/73c4e66b-e11c-48b6-b2c8-fbbf612d64c5"
-					(reference "P?")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x02_Pin")
-		(at 196.85 36.83 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "8f41dbb5-1663-4add-9b27-527b3d8a4895")
-		(property "Reference" "P?"
-			(at 195.58 36.83 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "Banana 1x2"
-			(at 195.58 39.37 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 196.85 36.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.pomonaelectronics.com/files/datasheets/d_MDP-4892-4898_102_10.pdf"
-			(at 196.85 36.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Banana Plug, Double, Stackable Connector Standard Banana Solderless Black"
-			(at 196.85 36.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Part Number" "MDP-0"
-			(at 196.85 36.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Vendor URL" "https://www.digikey.com/en/products/detail/pomona-electronics/MDP-0/603378?_gl=1*pwwy3l*_up*MQ..*_gs*MQ..&gclid=CjwKCAjwmJjSBhB-EiwAkZgxi_yJIyK7FIX_xGS7pI_q4SmYYQyTk7L_bTgHgsgnAndsLCUwuMcUnBoCe2QQAvD_BwE&gclsrc=aw.ds&gbraid=0AAAAADrbLlidOHR64v37x3bqtLdHeLz7w"
-			(at 196.85 36.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 196.85 36.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 196.85 36.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "2d802de1-6925-46ba-85a7-dd19df88074e")
-		)
-		(pin "1"
-			(uuid "ed3553fc-5e5e-42ff-92a0-a5d06e1910e7")
-		)
-		(instances
-			(project "stepping-stone"
-				(path "/793a882e-3f7b-468b-a863-41a1f527e1bf/73c4e66b-e11c-48b6-b2c8-fbbf612d64c5"
-					(reference "P?")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "stepping-stone:NEMA5-15P Cord")
-		(at 118.11 58.42 0)
+		(at 132.08 53.34 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3775,7 +5031,7 @@
 		(dnp no)
 		(uuid "919d74b6-7076-4298-b7de-a9ef3c24d6e1")
 		(property "Reference" "P?"
-			(at 109.22 46.99 0)
+			(at 123.19 41.91 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3786,7 +5042,7 @@
 			)
 		)
 		(property "Value" "NEMA5-15P Cord"
-			(at 109.22 49.53 0)
+			(at 123.19 44.45 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3797,7 +5053,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 115.824 58.42 0)
+			(at 129.794 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3808,7 +5064,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.qualtekusa.com/images/Power%20Cords/PDF%20Files/POWER_CORD_BROCHURE_PC-0200.pdf"
-			(at 115.57 45.72 0)
+			(at 129.54 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3819,7 +5075,7 @@
 			)
 		)
 		(property "Description" "6.56' (2.00m) Power Cord Black NEMA 5-15P To Cable SVT"
-			(at 117.221 45.72 0)
+			(at 131.191 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3830,7 +5086,7 @@
 			)
 		)
 		(property "Part Number" "311007-01"
-			(at 118.11 45.72 0)
+			(at 132.08 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3841,7 +5097,7 @@
 			)
 		)
 		(property "Vendor URL" "https://www.digikey.com/en/products/detail/qualtek/311007-01/183390?_gl=1*189hg7w*_up*MQ..*_gs*MQ..&gclid=CjwKCAjwmJjSBhB-EiwAkZgxi-A74Z8ECZLYQL8lUWo-y8S0NEdCVBMzv8F_AkoF8uxZspcYc4snXxoCdMoQAvD_BwE&gclsrc=aw.ds&gbraid=0AAAAADrbLlhUlQkW6SOWxsOt6_uJ96MmM"
-			(at 117.856 45.72 0)
+			(at 131.826 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3852,7 +5108,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 118.11 58.42 0)
+			(at 132.08 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3863,7 +5119,7 @@
 			)
 		)
 		(property "Sim.Pins" ""
-			(at 118.11 58.42 0)
+			(at 132.08 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3977,28 +5233,6 @@
 				)
 			)
 		)
-		(property "Sim.Device" ""
-			(at 140.97 120.65 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 140.97 120.65 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "4668be30-fab0-4f64-876b-6058615d7cc0")
 		)
@@ -4009,6 +5243,311 @@
 			(project "stepping-stone"
 				(path "/793a882e-3f7b-468b-a863-41a1f527e1bf/73c4e66b-e11c-48b6-b2c8-fbbf612d64c5"
 					(reference "D?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "stepping-stone:18AWG Stranded Red Wire")
+		(at 226.06 55.88 0)
+		(unit 2)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9c91379f-8474-4480-8d43-49870643524e")
+		(property "Reference" "W1"
+			(at 223.52 55.245 0)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1M"
+			(at 228.6 55.245 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 226.06 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://tensility.s3.us-west-2.amazonaws.com/uploads/pdffiles/30-03710.pdf"
+			(at 226.06 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Enter Number of Meters in Order Quantity - 18 AWG Hook-Up Wire 34/0.0071\" Red 300V"
+			(at 226.06 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "30-03710"
+			(at 226.06 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vendor URL" "https://www.digikey.com/en/products/detail/tensility-international-corp/30-03710/28872096"
+			(at 226.06 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "stepping-stone"
+				(path "/793a882e-3f7b-468b-a863-41a1f527e1bf/73c4e66b-e11c-48b6-b2c8-fbbf612d64c5"
+					(reference "W1")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "stepping-stone:Micro-Fit 3.0 1x2 Jack")
+		(at 125.73 116.84 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "a8167dfe-392f-4b45-a341-01cd69112fb4")
+		(property "Reference" "J?"
+			(at 119.38 114.3 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Micro-Fit 1x2"
+			(at 119.38 116.84 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 125.73 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.molex.com/content/dam/molex/molex-dot-com/products/automated/en-us/salesdrawingpdf/436/43650/436500203_sd.pdf?inline"
+			(at 125.73 118.745 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 125.73 118.745 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "0436500203"
+			(at 125.095 118.745 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vendor URL" "https://www.digikey.com/en/products/detail/molex/0436500203/268999"
+			(at 125.73 118.745 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "1dc6e50c-f1b6-4af6-9ae9-4c8a668a1063")
+		)
+		(pin "1"
+			(uuid "78f83343-260a-4600-ae66-a3c4feb02a83")
+		)
+		(instances
+			(project "stepping-stone"
+				(path "/793a882e-3f7b-468b-a863-41a1f527e1bf/73c4e66b-e11c-48b6-b2c8-fbbf612d64c5"
+					(reference "J?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "stepping-stone:Micro-Fit_3.0_1x2 Plug")
+		(at 238.76 59.69 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ac480ab0-5442-4183-a9ed-518e87e32a66")
+		(property "Reference" "P?"
+			(at 245.11 57.1499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Micro-Fit 3.0 1x2"
+			(at 245.11 59.6899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 238.76 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.molex.com/content/dam/molex/molex-dot-com/products/automated/en-us/salesdrawingpdf/436/43645/436450200_sd.pdf?inline"
+			(at 238.76 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "2 Position Rectangular Housing Connector Receptacle Black 0.118\" (3.00mm)"
+			(at 238.76 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "0436450200"
+			(at 238.76 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vendor URL" "https://www.digikey.com/en/products/detail/molex/0436450200/268974"
+			(at 238.76 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "dc973591-3e39-4fc8-aec7-cf96ea5b0086")
+		)
+		(pin "2"
+			(uuid "4f70b3bb-4eda-4eea-8c73-c3fc083ec54d")
+		)
+		(instances
+			(project "stepping-stone"
+				(path "/793a882e-3f7b-468b-a863-41a1f527e1bf/73c4e66b-e11c-48b6-b2c8-fbbf612d64c5"
+					(reference "P?")
 					(unit 1)
 				)
 			)
@@ -4036,7 +5575,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10uF"
+		(property "Value" "10uF, 50V"
 			(at 163.83 121.92 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4140,128 +5679,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x01_Pin")
-		(at 196.85 25.4 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board no)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "d18ee37c-e7f2-45a7-a714-7375b84f8566")
-		(property "Reference" "P?"
-			(at 195.58 22.86 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "6 Stud Fork Blade"
-			(at 195.58 25.4 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 196.85 25.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.molex.com/en-us/products/part-detail/191980013?display=pdf"
-			(at 196.85 25.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "CONN SPADE TERM 14-16AWG #6 BLU"
-			(at 196.85 25.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Part Number" "0191980013"
-			(at 196.85 25.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Vendor URL" "https://www.digikey.com/en/products/detail/molex/0191980013/3186421"
-			(at 196.85 25.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 196.85 25.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 196.85 25.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "292d3b0c-a7a1-44e7-a2f0-d4bad974da2b")
-		)
-		(instances
-			(project "stepping-stone"
-				(path "/793a882e-3f7b-468b-a863-41a1f527e1bf/73c4e66b-e11c-48b6-b2c8-fbbf612d64c5"
-					(reference "P?")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:VBUS")
 		(at 170.18 114.3 0)
 		(unit 1)
@@ -4339,9 +5756,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x02_Pin")
-		(at 232.41 25.4 0)
-		(mirror y)
+		(lib_id "stepping-stone:#6 Fork Spade")
+		(at 154.94 50.8 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4349,31 +5765,29 @@
 		(on_board no)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "eb8e77b9-d2e7-4cfb-89e0-9a67b1c11a30")
+		(uuid "d4a20073-184e-43bb-be40-0e6ba4032bcd")
 		(property "Reference" "P?"
-			(at 233.68 25.4 0)
+			(at 162.56 50.8 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
-		(property "Value" "Micro-Fit 3.0 1x2"
-			(at 233.68 27.94 0)
+		(property "Value" "#6 Fork Spade"
+			(at 172.72 50.8 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Footprint" ""
-			(at 232.41 25.4 0)
+			(at 154.94 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4383,8 +5797,8 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.molex.com/content/dam/molex/molex-dot-com/products/automated/en-us/salesdrawingpdf/436/43645/436450200_sd.pdf?inline"
-			(at 232.41 25.4 0)
+		(property "Datasheet" "https://www.molex.com/en-us/products/part-detail/191980013?display=pdf"
+			(at 154.94 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4394,8 +5808,8 @@
 				)
 			)
 		)
-		(property "Description" "2 Position Rectangular Housing Connector Receptacle Black 0.118\" (3.00mm)"
-			(at 232.41 25.4 0)
+		(property "Description" "CONN SPADE TERM 14-16AWG #6 BLU"
+			(at 154.94 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4405,8 +5819,8 @@
 				)
 			)
 		)
-		(property "Part Number" "0436450200"
-			(at 232.41 25.4 0)
+		(property "Part Number" "0191980013"
+			(at 154.94 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4416,30 +5830,8 @@
 				)
 			)
 		)
-		(property "Vendor URL" "https://www.digikey.com/en/products/detail/molex/0436450200/268974"
-			(at 232.41 25.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 232.41 25.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 232.41 25.4 0)
+		(property "Vendor URL" "https://www.digikey.com/en/products/detail/molex/0191980013/3186421"
+			(at 154.94 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4450,10 +5842,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "b887cd9d-347f-4f50-9805-09c3353deb76")
-		)
-		(pin "2"
-			(uuid "3f075431-45f2-4864-b525-c067cd8da878")
+			(uuid "ce356db0-3f04-40f0-bae3-d6a3498651d3")
 		)
 		(instances
 			(project "stepping-stone"
@@ -4465,19 +5854,310 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x02_Socket")
-		(at 120.65 114.3 0)
-		(mirror y)
+		(lib_id "stepping-stone:18AWG Stranded Red Wire")
+		(at 226.06 44.45 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "f2d71290-451d-45f3-b89b-f041bd1c8481")
-		(property "Reference" "J?"
-			(at 119.38 114.3 0)
+		(fields_autoplaced yes)
+		(uuid "d4a8e010-d78b-4cb9-99eb-d073135f3ca4")
+		(property "Reference" "W1"
+			(at 223.52 43.815 0)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1M"
+			(at 228.6 43.815 0)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 226.06 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://tensility.s3.us-west-2.amazonaws.com/uploads/pdffiles/30-03710.pdf"
+			(at 226.06 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Enter Number of Meters in Order Quantity - 18 AWG Hook-Up Wire 34/0.0071\" Red 300V"
+			(at 226.06 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "30-03710"
+			(at 226.06 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vendor URL" "https://www.digikey.com/en/products/detail/tensility-international-corp/30-03710/28872096"
+			(at 226.06 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "stepping-stone"
+				(path "/793a882e-3f7b-468b-a863-41a1f527e1bf/73c4e66b-e11c-48b6-b2c8-fbbf612d64c5"
+					(reference "W1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "stepping-stone:Micro-Fit 3.0 18AWG Crimp")
+		(at 242.57 48.26 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d98ce24c-dd90-4a27-a7c6-ced8cbac716b")
+		(property "Reference" "W2"
+			(at 242.57 48.26 0)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.254 0.254)
+				)
+			)
+		)
+		(property "Value" "18 AWG Crimp"
+			(at 242.57 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 242.57 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.molex.com/en-us/products/part-detail/430300038?display=pdf"
+			(at 242.57 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Socket Contact Tin 18 AWG Crimp Stamped"
+			(at 242.57 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "0430300038"
+			(at 242.57 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vendor URL" "https://www.digikey.com/en/products/detail/molex/0430300038/6098601"
+			(at 242.57 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "stepping-stone"
+				(path "/793a882e-3f7b-468b-a863-41a1f527e1bf/73c4e66b-e11c-48b6-b2c8-fbbf612d64c5"
+					(reference "W2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "stepping-stone:18AWG Stranded Black Wire")
+		(at 226.06 60.96 0)
+		(mirror x)
+		(unit 2)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dfd6abb8-3081-4159-b78c-168004b103a9")
+		(property "Reference" "W2"
+			(at 223.52 61.595 0)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1M"
+			(at 228.6 61.595 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 226.06 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://tensility.s3.us-west-2.amazonaws.com/uploads/pdffiles/30-03711.pdf"
+			(at 226.06 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Enter Number of Meters in Order Quantity - 18 AWG Hook-Up Wire 34/0.0071\" Black 300V"
+			(at 226.06 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "30-03711"
+			(at 226.06 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vendor URL" "https://www.digikey.com/en/products/detail/tensility-international-corp/30-03711/28872108?s=N4IgTCBcDaIAQGYAMBaJCDsBGLIC6AvkA"
+			(at 226.06 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "stepping-stone"
+				(path "/793a882e-3f7b-468b-a863-41a1f527e1bf/73c4e66b-e11c-48b6-b2c8-fbbf612d64c5"
+					(reference "W2")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "stepping-stone:Micro-Fit_3.0_1x2 Plug")
+		(at 238.76 48.26 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e1a38d45-aefc-4be1-8e35-8f895573dbee")
+		(property "Reference" "P?"
+			(at 245.11 45.7199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4487,8 +6167,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Micro-Fit 1x2"
-			(at 119.38 116.84 0)
+		(property "Value" "Micro-Fit 3.0 1x2"
+			(at 245.11 48.2599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4499,7 +6179,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 120.65 114.3 0)
+			(at 238.76 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4509,8 +6189,8 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.molex.com/content/dam/molex/molex-dot-com/products/automated/en-us/salesdrawingpdf/436/43650/436500203_sd.pdf?inline"
-			(at 120.65 114.3 0)
+		(property "Datasheet" "https://www.molex.com/content/dam/molex/molex-dot-com/products/automated/en-us/salesdrawingpdf/436/43645/436450200_sd.pdf?inline"
+			(at 238.76 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4520,8 +6200,8 @@
 				)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 120.65 114.3 0)
+		(property "Description" "2 Position Rectangular Housing Connector Receptacle Black 0.118\" (3.00mm)"
+			(at 238.76 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4531,8 +6211,8 @@
 				)
 			)
 		)
-		(property "Part Number" "0436500203"
-			(at 120.65 114.3 0)
+		(property "Part Number" "0436450200"
+			(at 238.76 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4542,30 +6222,8 @@
 				)
 			)
 		)
-		(property "Vendor URL" "https://www.digikey.com/en/products/detail/molex/0436500203/268999"
-			(at 120.65 114.3 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 120.65 114.3 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 120.65 114.3 0)
+		(property "Vendor URL" "https://www.digikey.com/en/products/detail/molex/0436450200/268974"
+			(at 238.76 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4576,15 +6234,113 @@
 			)
 		)
 		(pin "1"
-			(uuid "86f86416-2a7c-451c-8dfd-f3a6c7881d7e")
+			(uuid "3edb64b8-a4d6-4829-a60f-7a91f2ba20b5")
 		)
 		(pin "2"
-			(uuid "fc653f25-18fe-46c4-8f12-61a7726b3db2")
+			(uuid "7108485a-499a-4318-aaac-2a2f6209f873")
 		)
 		(instances
 			(project "stepping-stone"
 				(path "/793a882e-3f7b-468b-a863-41a1f527e1bf/73c4e66b-e11c-48b6-b2c8-fbbf612d64c5"
-					(reference "J?")
+					(reference "P?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "stepping-stone:#6 Fork Spade")
+		(at 154.94 55.88 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "fcb55121-7ef3-40da-afcc-8f9d74eaaa96")
+		(property "Reference" "P?"
+			(at 162.56 55.88 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "#6 Fork Spade"
+			(at 172.72 55.88 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 154.94 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.molex.com/en-us/products/part-detail/191980013?display=pdf"
+			(at 154.94 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "CONN SPADE TERM 14-16AWG #6 BLU"
+			(at 154.94 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "0191980013"
+			(at 154.94 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vendor URL" "https://www.digikey.com/en/products/detail/molex/0191980013/3186421"
+			(at 154.94 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "501fddc1-5be4-4fef-a578-5c0e19ca0f17")
+		)
+		(instances
+			(project "stepping-stone"
+				(path "/793a882e-3f7b-468b-a863-41a1f527e1bf/73c4e66b-e11c-48b6-b2c8-fbbf612d64c5"
+					(reference "P?")
 					(unit 1)
 				)
 			)

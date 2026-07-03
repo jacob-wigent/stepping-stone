@@ -22,7 +22,7 @@ Designed as a “stepping stone” in motion-control prototyping, it bridges the
 
 ## Target Capabilities
 
-- **Power Input**: USB-C PD and external motor power support.
+- **Power Input**: 5-24V input from bench supply or dedicated PSU.
 - **Motors**: 4 independent stepper motor channels.
 - **Encoders**: 4 quadrature encoder channels.
 - **Limits**: 8 limit switch channels and stall-detection support.

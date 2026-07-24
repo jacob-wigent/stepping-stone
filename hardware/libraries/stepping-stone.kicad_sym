@@ -2,221 +2,6 @@
 	(version 20251024)
 	(generator "kicad_symbol_editor")
 	(generator_version "10.0")
-	(symbol "#6 Fork Spade"
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board no)
-		(in_pos_files yes)
-		(duplicate_pin_numbers_are_jumpers no)
-		(property "Reference" "P?"
-			(at 6.35 1.27 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "#6 Fork Spade"
-			(at 6.35 -1.27 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 0 0 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.molex.com/en-us/products/part-detail/191150009?display=pdf"
-			(at 0 0 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "CONN SPADE TERM 18-22AWG #6 RED"
-			(at 0 0 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Part Number" "0191150009"
-			(at 0 0 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Vendor URL" "https://www.digikey.com/en/products/detail/molex/0191150009/279125"
-			(at 0 0 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(symbol "#6 Fork Spade_0_0"
-			(pin unspecified line
-				(at 0 0 0)
-				(length 2.54)
-				(name ""
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-		)
-		(symbol "#6 Fork Spade_0_1"
-			(bezier
-				(pts
-					(xy 2.54 0) (xy 2.54 1.27) (xy 3.81 1.27) (xy 3.81 1.27)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(bezier
-				(pts
-					(xy 2.54 0) (xy 2.54 -1.27) (xy 3.81 -1.27) (xy 3.81 -1.27)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(bezier
-				(pts
-					(xy 3.81 1.27) (xy 5.715 1.27) (xy 5.08 1.27) (xy 5.715 1.27)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(bezier
-				(pts
-					(xy 3.81 0.635) (xy 2.54 0) (xy 3.81 -0.635) (xy 3.81 -0.635)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(bezier
-				(pts
-					(xy 3.81 -0.635) (xy 5.715 -0.635) (xy 5.715 -0.635) (xy 5.715 -0.635)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(bezier
-				(pts
-					(xy 5.715 1.27) (xy 5.715 0.635) (xy 5.715 0.635) (xy 5.715 0.635)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(bezier
-				(pts
-					(xy 5.715 0.635) (xy 6.35 0.635) (xy 3.81 0.635) (xy 3.81 0.635)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(bezier
-				(pts
-					(xy 5.715 -0.635) (xy 5.715 -1.27) (xy 5.715 -1.27) (xy 5.715 -1.27)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(bezier
-				(pts
-					(xy 5.715 -1.27) (xy 5.715 -1.27) (xy 3.81 -1.27) (xy 3.81 -1.27)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-		)
-		(embedded_fonts no)
-	)
 	(symbol "0891005.NXS"
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -477,7 +262,222 @@
 		)
 		(embedded_fonts no)
 	)
-	(symbol "18AWG Stranded Black Wire"
+	(symbol "14-16AWG #6 Fork Spade"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "P?"
+			(at 6.35 1.27 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "#6 Fork Spade"
+			(at 6.35 -1.27 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.molex.com/en-us/products/part-detail/191980013?display=pdf"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "CONN SPADE TERM 14-16AWG #6 BLU"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "0191980013"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vendor URL" "https://www.digikey.com/en/products/detail/molex/0191980013/3186421?s=N4IgTCBcDaIAwEYCcyAcdEGYQF0C%2BQA"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "14-16AWG #6 Fork Spade_0_0"
+			(pin unspecified line
+				(at 0 0 0)
+				(length 2.54)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(symbol "14-16AWG #6 Fork Spade_0_1"
+			(bezier
+				(pts
+					(xy 2.54 0) (xy 2.54 1.27) (xy 3.81 1.27) (xy 3.81 1.27)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(bezier
+				(pts
+					(xy 2.54 0) (xy 2.54 -1.27) (xy 3.81 -1.27) (xy 3.81 -1.27)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(bezier
+				(pts
+					(xy 3.81 1.27) (xy 5.715 1.27) (xy 5.08 1.27) (xy 5.715 1.27)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(bezier
+				(pts
+					(xy 3.81 0.635) (xy 2.54 0) (xy 3.81 -0.635) (xy 3.81 -0.635)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(bezier
+				(pts
+					(xy 3.81 -0.635) (xy 5.715 -0.635) (xy 5.715 -0.635) (xy 5.715 -0.635)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(bezier
+				(pts
+					(xy 5.715 1.27) (xy 5.715 0.635) (xy 5.715 0.635) (xy 5.715 0.635)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(bezier
+				(pts
+					(xy 5.715 0.635) (xy 6.35 0.635) (xy 3.81 0.635) (xy 3.81 0.635)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(bezier
+				(pts
+					(xy 5.715 -0.635) (xy 5.715 -1.27) (xy 5.715 -1.27) (xy 5.715 -1.27)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(bezier
+				(pts
+					(xy 5.715 -1.27) (xy 5.715 -1.27) (xy 3.81 -1.27) (xy 3.81 -1.27)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "16AWG Stranded Black Wire"
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board no)
@@ -493,7 +493,7 @@
 				)
 			)
 		)
-		(property "Value" "1M"
+		(property "Value" "1ft"
 			(at 2.54 0.635 0)
 			(show_name no)
 			(do_not_autoplace yes)
@@ -514,7 +514,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://tensility.s3.us-west-2.amazonaws.com/uploads/pdffiles/30-03711.pdf"
+		(property "Datasheet" "https://www.alphawire.com/products/wire/hook-up-wire/premium/1858_19"
 			(at 0 -2.54 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -525,7 +525,7 @@
 				)
 			)
 		)
-		(property "Description" "Enter Number of Meters in Order Quantity - 18 AWG Hook-Up Wire 34/0.0071\" Black 300V"
+		(property "Description" "16 AWG Hook-Up Wire 19/29 Black 600V 1000.0' (304.8m)"
 			(at 0 -2.54 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -536,7 +536,7 @@
 				)
 			)
 		)
-		(property "Part Number" "30-03711"
+		(property "Part Number" "1858/19 BK001"
 			(at 0 -2.54 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -547,7 +547,7 @@
 				)
 			)
 		)
-		(property "Vendor URL" "https://www.digikey.com/en/products/detail/tensility-international-corp/30-03711/28872108?s=N4IgTCBcDaIAQGYAMBaJCDsBGLIC6AvkA"
+		(property "Vendor URL" "https://www.digikey.com/en/products/detail/alpha-wire/1858-19-BK001/416347"
 			(at 0 -2.54 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -568,7 +568,7 @@
 				)
 			)
 		)
-		(symbol "18AWG Stranded Black Wire_0_1"
+		(symbol "16AWG Stranded Black Wire_0_1"
 			(polyline
 				(pts
 					(xy -5.08 -0.635) (xy 5.08 -0.635)
@@ -583,7 +583,7 @@
 				)
 			)
 		)
-		(symbol "18AWG Stranded Black Wire_1_1"
+		(symbol "16AWG Stranded Black Wire_1_1"
 			(text "A"
 				(at 0 0 0)
 				(effects
@@ -595,7 +595,7 @@
 				)
 			)
 		)
-		(symbol "18AWG Stranded Black Wire_2_1"
+		(symbol "16AWG Stranded Black Wire_2_1"
 			(text "B"
 				(at 0 0 0)
 				(effects
@@ -607,7 +607,7 @@
 				)
 			)
 		)
-		(symbol "18AWG Stranded Black Wire_3_1"
+		(symbol "16AWG Stranded Black Wire_3_1"
 			(text "C"
 				(at 0 0 0)
 				(effects
@@ -619,7 +619,7 @@
 				)
 			)
 		)
-		(symbol "18AWG Stranded Black Wire_4_1"
+		(symbol "16AWG Stranded Black Wire_4_1"
 			(text "D"
 				(at 0 0 0)
 				(effects
@@ -633,7 +633,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(symbol "18AWG Stranded Red Wire"
+	(symbol "16AWG Stranded Red Wire"
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board no)
@@ -649,7 +649,7 @@
 				)
 			)
 		)
-		(property "Value" "1M"
+		(property "Value" "1ft"
 			(at 2.54 0.635 0)
 			(show_name no)
 			(do_not_autoplace yes)
@@ -670,7 +670,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://tensility.s3.us-west-2.amazonaws.com/uploads/pdffiles/30-03710.pdf"
+		(property "Datasheet" "https://www.alphawire.com/products/wire/hook-up-wire/premium/1858_19"
 			(at 0 -2.54 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -681,7 +681,7 @@
 				)
 			)
 		)
-		(property "Description" "Enter Number of Meters in Order Quantity - 18 AWG Hook-Up Wire 34/0.0071\" Red 300V"
+		(property "Description" "16 AWG Hook-Up Wire 19/29 Red 600V 1000.0' (304.8m)"
 			(at 0 -2.54 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -692,7 +692,7 @@
 				)
 			)
 		)
-		(property "Part Number" "30-03710"
+		(property "Part Number" "1858/19 RD001"
 			(at 0 -2.54 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -703,7 +703,7 @@
 				)
 			)
 		)
-		(property "Vendor URL" "https://www.digikey.com/en/products/detail/tensility-international-corp/30-03710/28872096"
+		(property "Vendor URL" "https://www.digikey.com/en/products/detail/alpha-wire/1858-19-RD001/3703162"
 			(at 0 -2.54 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -724,7 +724,7 @@
 				)
 			)
 		)
-		(symbol "18AWG Stranded Red Wire_0_1"
+		(symbol "16AWG Stranded Red Wire_0_1"
 			(polyline
 				(pts
 					(xy -5.08 -0.635) (xy 5.08 -0.635)
@@ -739,7 +739,7 @@
 				)
 			)
 		)
-		(symbol "18AWG Stranded Red Wire_1_1"
+		(symbol "16AWG Stranded Red Wire_1_1"
 			(text "A"
 				(at 0 0 0)
 				(effects
@@ -751,7 +751,7 @@
 				)
 			)
 		)
-		(symbol "18AWG Stranded Red Wire_2_1"
+		(symbol "16AWG Stranded Red Wire_2_1"
 			(text "B"
 				(at 0 0 0)
 				(effects
@@ -763,7 +763,7 @@
 				)
 			)
 		)
-		(symbol "18AWG Stranded Red Wire_3_1"
+		(symbol "16AWG Stranded Red Wire_3_1"
 			(text "C"
 				(at 0 0 0)
 				(effects
@@ -775,7 +775,7 @@
 				)
 			)
 		)
-		(symbol "18AWG Stranded Red Wire_4_1"
+		(symbol "16AWG Stranded Red Wire_4_1"
 			(text "D"
 				(at 0 0 0)
 				(effects
@@ -784,6 +784,221 @@
 						(thickness 0.0794)
 						(color 132 0 0 1)
 					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "18-22AWG #6 Fork Spade"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "P?"
+			(at 6.35 1.27 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "#6 Fork Spade"
+			(at 6.35 -1.27 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.molex.com/en-us/products/part-detail/191150009?display=pdf"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Red 6 Stud Spade Terminal Connector Crimp 18-22 AWG"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "0191150009"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vendor URL" "https://www.digikey.com/en/products/detail/molex/0191150009/279125"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "18-22AWG #6 Fork Spade_0_0"
+			(pin unspecified line
+				(at 0 0 0)
+				(length 2.54)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(symbol "18-22AWG #6 Fork Spade_0_1"
+			(bezier
+				(pts
+					(xy 2.54 0) (xy 2.54 1.27) (xy 3.81 1.27) (xy 3.81 1.27)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(bezier
+				(pts
+					(xy 2.54 0) (xy 2.54 -1.27) (xy 3.81 -1.27) (xy 3.81 -1.27)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(bezier
+				(pts
+					(xy 3.81 1.27) (xy 5.715 1.27) (xy 5.08 1.27) (xy 5.715 1.27)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(bezier
+				(pts
+					(xy 3.81 0.635) (xy 2.54 0) (xy 3.81 -0.635) (xy 3.81 -0.635)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(bezier
+				(pts
+					(xy 3.81 -0.635) (xy 5.715 -0.635) (xy 5.715 -0.635) (xy 5.715 -0.635)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(bezier
+				(pts
+					(xy 5.715 1.27) (xy 5.715 0.635) (xy 5.715 0.635) (xy 5.715 0.635)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(bezier
+				(pts
+					(xy 5.715 0.635) (xy 6.35 0.635) (xy 3.81 0.635) (xy 3.81 0.635)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(bezier
+				(pts
+					(xy 5.715 -0.635) (xy 5.715 -1.27) (xy 5.715 -1.27) (xy 5.715 -1.27)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(bezier
+				(pts
+					(xy 5.715 -1.27) (xy 5.715 -1.27) (xy 3.81 -1.27) (xy 3.81 -1.27)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
 				)
 			)
 		)

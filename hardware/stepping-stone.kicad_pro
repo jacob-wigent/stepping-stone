@@ -672,7 +672,7 @@
         "uuid": "793a882e-3f7b-468b-a863-41a1f527e1bf"
       }
     ],
-    "used_designators": "#PWR6-11",
+    "used_designators": "#PWR28",
     "variants": []
   },
   "sheets": [
@@ -691,6 +691,14 @@
     [
       "f256c00d-2170-4eef-a13f-c3325a813e7e",
       "3.3V Buck Converter"
+    ],
+    [
+      "57b4c7a6-0892-4cab-a0ed-f935f784d7ce",
+      "USB C"
+    ],
+    [
+      "ca68e3e0-6620-4c6d-b672-8e352c5602f5",
+      "ESTOP"
     ]
   ],
   "text_variables": {},

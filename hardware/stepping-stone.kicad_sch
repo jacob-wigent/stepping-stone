@@ -22,8 +22,54 @@
 		(uuid "260334aa-d7a7-4c94-9a1c-f9548f185e4f")
 	)
 	(sheet
-		(at 41.91 25.4)
-		(size 26.67 33.02)
+		(at 50.8 50.8)
+		(size 25.4 15.24)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.3048)
+			(type solid)
+		)
+		(fill
+			(color 255 229 191 1)
+		)
+		(uuid "57b4c7a6-0892-4cab-a0ed-f935f784d7ce")
+		(property "Sheetname" "USB C"
+			(at 50.8 50.0122 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "usb.kicad_sch"
+			(at 50.8 66.7008 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "stepping-stone"
+				(path "/793a882e-3f7b-468b-a863-41a1f527e1bf"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 50.8 25.4)
+		(size 25.4 15.24)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -38,7 +84,7 @@
 		)
 		(uuid "73c4e66b-e11c-48b6-b2c8-fbbf612d64c5")
 		(property "Sheetname" "Power Input"
-			(at 41.91 24.6122 0)
+			(at 50.8 24.6122 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -49,7 +95,7 @@
 			)
 		)
 		(property "Sheetfile" "power-input.kicad_sch"
-			(at 41.91 59.0808 0)
+			(at 50.8 41.3008 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -63,6 +109,51 @@
 			(project "stepping-stone"
 				(path "/793a882e-3f7b-468b-a863-41a1f527e1bf"
 					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 190.5 25.4)
+		(size 25.4 15.24)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.3048)
+			(type solid)
+		)
+		(fill
+			(color 255 229 191 1)
+		)
+		(uuid "ca68e3e0-6620-4c6d-b672-8e352c5602f5")
+		(property "Sheetname" "ESTOP"
+			(at 215.9 24.765 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "Sheetfile" "estop.kicad_sch"
+			(at 215.9 41.275 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right top)
+			)
+		)
+		(instances
+			(project "stepping-stone"
+				(path "/793a882e-3f7b-468b-a863-41a1f527e1bf"
+					(page "6")
 				)
 			)
 		)
@@ -114,8 +205,8 @@
 		)
 	)
 	(sheet
-		(at 41.91 68.58)
-		(size 26.67 10.16)
+		(at 50.8 76.2)
+		(size 25.4 15.24)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -130,7 +221,7 @@
 		)
 		(uuid "f256c00d-2170-4eef-a13f-c3325a813e7e")
 		(property "Sheetname" "3.3V Buck Converter"
-			(at 41.91 67.7922 0)
+			(at 50.8 75.4122 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -141,7 +232,7 @@
 			)
 		)
 		(property "Sheetfile" "buck-converter.kicad_sch"
-			(at 41.91 79.4008 0)
+			(at 50.8 92.1008 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -152,7 +243,7 @@
 			)
 		)
 		(pin "PG" output
-			(at 68.58 73.66 0)
+			(at 76.2 83.82 0)
 			(uuid "e1b54ce0-4c97-42e9-9f27-561c5b928733")
 			(effects
 				(font

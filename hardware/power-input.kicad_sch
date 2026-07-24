@@ -322,6 +322,207 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:LED"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "LED"
+				(at 0 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Light emitting diode"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Sim.Pins" "1=K 2=A"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "LED diode"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "LED_0_1"
+				(polyline
+					(pts
+						(xy -3.048 -0.762) (xy -4.572 -2.286) (xy -3.81 -2.286) (xy -4.572 -2.286) (xy -4.572 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 -0.762) (xy -3.302 -2.286) (xy -2.54 -2.286) (xy -3.302 -2.286) (xy -3.302 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy -1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "LED_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:R_US"
 			(pin_numbers
 				(hide yes)
@@ -1567,221 +1768,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "stepping-stone:#6 Fork Spade"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board no)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "P?"
-				(at 6.35 1.27 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "#6 Fork Spade"
-				(at 6.35 -1.27 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" "https://www.molex.com/en-us/products/part-detail/191150009?display=pdf"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "CONN SPADE TERM 18-22AWG #6 RED"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Part Number" "0191150009"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Vendor URL" "https://www.digikey.com/en/products/detail/molex/0191150009/279125"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "#6 Fork Spade_0_0"
-				(pin unspecified line
-					(at 0 0 0)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "#6 Fork Spade_0_1"
-				(bezier
-					(pts
-						(xy 2.54 0) (xy 2.54 1.27) (xy 3.81 1.27) (xy 3.81 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(bezier
-					(pts
-						(xy 2.54 0) (xy 2.54 -1.27) (xy 3.81 -1.27) (xy 3.81 -1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(bezier
-					(pts
-						(xy 3.81 1.27) (xy 5.715 1.27) (xy 5.08 1.27) (xy 5.715 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(bezier
-					(pts
-						(xy 3.81 0.635) (xy 2.54 0) (xy 3.81 -0.635) (xy 3.81 -0.635)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(bezier
-					(pts
-						(xy 3.81 -0.635) (xy 5.715 -0.635) (xy 5.715 -0.635) (xy 5.715 -0.635)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(bezier
-					(pts
-						(xy 5.715 1.27) (xy 5.715 0.635) (xy 5.715 0.635) (xy 5.715 0.635)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(bezier
-					(pts
-						(xy 5.715 0.635) (xy 6.35 0.635) (xy 3.81 0.635) (xy 3.81 0.635)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(bezier
-					(pts
-						(xy 5.715 -0.635) (xy 5.715 -1.27) (xy 5.715 -1.27) (xy 5.715 -1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(bezier
-					(pts
-						(xy 5.715 -1.27) (xy 5.715 -1.27) (xy 3.81 -1.27) (xy 3.81 -1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "stepping-stone:0891005.NXS"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -2042,7 +2028,222 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "stepping-stone:18AWG Stranded Black Wire"
+		(symbol "stepping-stone:14-16AWG #6 Fork Spade"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board no)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "P?"
+				(at 6.35 1.27 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "#6 Fork Spade"
+				(at 6.35 -1.27 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://www.molex.com/en-us/products/part-detail/191980013?display=pdf"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "CONN SPADE TERM 14-16AWG #6 BLU"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Part Number" "0191980013"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Vendor URL" "https://www.digikey.com/en/products/detail/molex/0191980013/3186421?s=N4IgTCBcDaIAwEYCcyAcdEGYQF0C%2BQA"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "14-16AWG #6 Fork Spade_0_0"
+				(pin unspecified line
+					(at 0 0 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "14-16AWG #6 Fork Spade_0_1"
+				(bezier
+					(pts
+						(xy 2.54 0) (xy 2.54 1.27) (xy 3.81 1.27) (xy 3.81 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(bezier
+					(pts
+						(xy 2.54 0) (xy 2.54 -1.27) (xy 3.81 -1.27) (xy 3.81 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(bezier
+					(pts
+						(xy 3.81 1.27) (xy 5.715 1.27) (xy 5.08 1.27) (xy 5.715 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(bezier
+					(pts
+						(xy 3.81 0.635) (xy 2.54 0) (xy 3.81 -0.635) (xy 3.81 -0.635)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(bezier
+					(pts
+						(xy 3.81 -0.635) (xy 5.715 -0.635) (xy 5.715 -0.635) (xy 5.715 -0.635)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(bezier
+					(pts
+						(xy 5.715 1.27) (xy 5.715 0.635) (xy 5.715 0.635) (xy 5.715 0.635)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(bezier
+					(pts
+						(xy 5.715 0.635) (xy 6.35 0.635) (xy 3.81 0.635) (xy 3.81 0.635)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(bezier
+					(pts
+						(xy 5.715 -0.635) (xy 5.715 -1.27) (xy 5.715 -1.27) (xy 5.715 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(bezier
+					(pts
+						(xy 5.715 -1.27) (xy 5.715 -1.27) (xy 3.81 -1.27) (xy 3.81 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "stepping-stone:16AWG Stranded Black Wire"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board no)
@@ -2058,7 +2259,7 @@
 					)
 				)
 			)
-			(property "Value" "1M"
+			(property "Value" "1ft"
 				(at 2.54 0.635 0)
 				(show_name no)
 				(do_not_autoplace yes)
@@ -2079,7 +2280,7 @@
 					)
 				)
 			)
-			(property "Datasheet" "https://tensility.s3.us-west-2.amazonaws.com/uploads/pdffiles/30-03711.pdf"
+			(property "Datasheet" "https://www.alphawire.com/products/wire/hook-up-wire/premium/1858_19"
 				(at 0 -2.54 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2090,7 +2291,7 @@
 					)
 				)
 			)
-			(property "Description" "Enter Number of Meters in Order Quantity - 18 AWG Hook-Up Wire 34/0.0071\" Black 300V"
+			(property "Description" "16 AWG Hook-Up Wire 19/29 Black 600V 1000.0' (304.8m)"
 				(at 0 -2.54 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2101,7 +2302,7 @@
 					)
 				)
 			)
-			(property "Part Number" "30-03711"
+			(property "Part Number" "1858/19 BK001"
 				(at 0 -2.54 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2112,7 +2313,7 @@
 					)
 				)
 			)
-			(property "Vendor URL" "https://www.digikey.com/en/products/detail/tensility-international-corp/30-03711/28872108?s=N4IgTCBcDaIAQGYAMBaJCDsBGLIC6AvkA"
+			(property "Vendor URL" "https://www.digikey.com/en/products/detail/alpha-wire/1858-19-BK001/416347"
 				(at 0 -2.54 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2133,7 +2334,7 @@
 					)
 				)
 			)
-			(symbol "18AWG Stranded Black Wire_0_1"
+			(symbol "16AWG Stranded Black Wire_0_1"
 				(polyline
 					(pts
 						(xy -5.08 -0.635) (xy 5.08 -0.635)
@@ -2148,7 +2349,7 @@
 					)
 				)
 			)
-			(symbol "18AWG Stranded Black Wire_1_1"
+			(symbol "16AWG Stranded Black Wire_1_1"
 				(text "A"
 					(at 0 0 0)
 					(effects
@@ -2160,7 +2361,7 @@
 					)
 				)
 			)
-			(symbol "18AWG Stranded Black Wire_2_1"
+			(symbol "16AWG Stranded Black Wire_2_1"
 				(text "B"
 					(at 0 0 0)
 					(effects
@@ -2172,7 +2373,7 @@
 					)
 				)
 			)
-			(symbol "18AWG Stranded Black Wire_3_1"
+			(symbol "16AWG Stranded Black Wire_3_1"
 				(text "C"
 					(at 0 0 0)
 					(effects
@@ -2184,7 +2385,7 @@
 					)
 				)
 			)
-			(symbol "18AWG Stranded Black Wire_4_1"
+			(symbol "16AWG Stranded Black Wire_4_1"
 				(text "D"
 					(at 0 0 0)
 					(effects
@@ -2198,7 +2399,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "stepping-stone:18AWG Stranded Red Wire"
+		(symbol "stepping-stone:16AWG Stranded Red Wire"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board no)
@@ -2214,7 +2415,7 @@
 					)
 				)
 			)
-			(property "Value" "1M"
+			(property "Value" "1ft"
 				(at 2.54 0.635 0)
 				(show_name no)
 				(do_not_autoplace yes)
@@ -2235,7 +2436,7 @@
 					)
 				)
 			)
-			(property "Datasheet" "https://tensility.s3.us-west-2.amazonaws.com/uploads/pdffiles/30-03710.pdf"
+			(property "Datasheet" "https://www.alphawire.com/products/wire/hook-up-wire/premium/1858_19"
 				(at 0 -2.54 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2246,7 +2447,7 @@
 					)
 				)
 			)
-			(property "Description" "Enter Number of Meters in Order Quantity - 18 AWG Hook-Up Wire 34/0.0071\" Red 300V"
+			(property "Description" "16 AWG Hook-Up Wire 19/29 Red 600V 1000.0' (304.8m)"
 				(at 0 -2.54 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2257,7 +2458,7 @@
 					)
 				)
 			)
-			(property "Part Number" "30-03710"
+			(property "Part Number" "1858/19 RD001"
 				(at 0 -2.54 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2268,7 +2469,7 @@
 					)
 				)
 			)
-			(property "Vendor URL" "https://www.digikey.com/en/products/detail/tensility-international-corp/30-03710/28872096"
+			(property "Vendor URL" "https://www.digikey.com/en/products/detail/alpha-wire/1858-19-RD001/3703162"
 				(at 0 -2.54 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2289,7 +2490,7 @@
 					)
 				)
 			)
-			(symbol "18AWG Stranded Red Wire_0_1"
+			(symbol "16AWG Stranded Red Wire_0_1"
 				(polyline
 					(pts
 						(xy -5.08 -0.635) (xy 5.08 -0.635)
@@ -2304,7 +2505,7 @@
 					)
 				)
 			)
-			(symbol "18AWG Stranded Red Wire_1_1"
+			(symbol "16AWG Stranded Red Wire_1_1"
 				(text "A"
 					(at 0 0 0)
 					(effects
@@ -2316,7 +2517,7 @@
 					)
 				)
 			)
-			(symbol "18AWG Stranded Red Wire_2_1"
+			(symbol "16AWG Stranded Red Wire_2_1"
 				(text "B"
 					(at 0 0 0)
 					(effects
@@ -2328,7 +2529,7 @@
 					)
 				)
 			)
-			(symbol "18AWG Stranded Red Wire_3_1"
+			(symbol "16AWG Stranded Red Wire_3_1"
 				(text "C"
 					(at 0 0 0)
 					(effects
@@ -2340,7 +2541,7 @@
 					)
 				)
 			)
-			(symbol "18AWG Stranded Red Wire_4_1"
+			(symbol "16AWG Stranded Red Wire_4_1"
 				(text "D"
 					(at 0 0 0)
 					(effects
@@ -2349,6 +2550,221 @@
 							(thickness 0.0794)
 							(color 132 0 0 1)
 						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "stepping-stone:18-22AWG #6 Fork Spade"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board no)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "P?"
+				(at 6.35 1.27 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "#6 Fork Spade"
+				(at 6.35 -1.27 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://www.molex.com/en-us/products/part-detail/191150009?display=pdf"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Red 6 Stud Spade Terminal Connector Crimp 18-22 AWG"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Part Number" "0191150009"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Vendor URL" "https://www.digikey.com/en/products/detail/molex/0191150009/279125"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "18-22AWG #6 Fork Spade_0_0"
+				(pin unspecified line
+					(at 0 0 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "18-22AWG #6 Fork Spade_0_1"
+				(bezier
+					(pts
+						(xy 2.54 0) (xy 2.54 1.27) (xy 3.81 1.27) (xy 3.81 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(bezier
+					(pts
+						(xy 2.54 0) (xy 2.54 -1.27) (xy 3.81 -1.27) (xy 3.81 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(bezier
+					(pts
+						(xy 3.81 1.27) (xy 5.715 1.27) (xy 5.08 1.27) (xy 5.715 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(bezier
+					(pts
+						(xy 3.81 0.635) (xy 2.54 0) (xy 3.81 -0.635) (xy 3.81 -0.635)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(bezier
+					(pts
+						(xy 3.81 -0.635) (xy 5.715 -0.635) (xy 5.715 -0.635) (xy 5.715 -0.635)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(bezier
+					(pts
+						(xy 5.715 1.27) (xy 5.715 0.635) (xy 5.715 0.635) (xy 5.715 0.635)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(bezier
+					(pts
+						(xy 5.715 0.635) (xy 6.35 0.635) (xy 3.81 0.635) (xy 3.81 0.635)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(bezier
+					(pts
+						(xy 5.715 -0.635) (xy 5.715 -1.27) (xy 5.715 -1.27) (xy 5.715 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(bezier
+					(pts
+						(xy 5.715 -1.27) (xy 5.715 -1.27) (xy 3.81 -1.27) (xy 3.81 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
 					)
 				)
 			)
@@ -4709,37 +5125,31 @@
 		(uuid "e1031460-6fd6-4be2-9afa-3d7ad3bd83ce")
 	)
 	(junction
-		(at 153.67 113.03)
+		(at 163.83 114.3)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "0bcbf583-54e5-4c5f-9100-5e6c5b772d53")
+		(uuid "3ccd2a8f-9737-4558-851f-29b702eacd04")
 	)
 	(junction
-		(at 157.48 113.03)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2da5f9db-f566-4c35-98ae-c203f5a797a1")
-	)
-	(junction
-		(at 175.26 113.03)
+		(at 177.8 114.3)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4b42b05e-5cef-43e4-88d1-135d48b1b5c1")
 	)
 	(junction
-		(at 186.69 113.03)
+		(at 189.23 114.3)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6648d2d2-7ee2-4890-b5b5-ce330268d073")
 	)
 	(junction
-		(at 138.43 120.65)
+		(at 129.54 121.92)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a6b5c2ca-e708-4740-a2ca-7f7f46aa64c2")
 	)
 	(junction
-		(at 138.43 113.03)
+		(at 129.54 114.3)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b1554dc2-bd3a-4b7e-bd28-c832c9f7dcc2")
@@ -4749,6 +5159,18 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "be50129f-d5e9-424a-b5a2-eb53abd30e0f")
+	)
+	(junction
+		(at 146.05 114.3)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f0d78b5b-85db-4425-94da-93c5c4c3e8f6")
+	)
+	(junction
+		(at 148.59 114.3)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fd85a75f-d610-4a21-b7cf-68964d1335d9")
 	)
 	(no_connect
 		(at 228.6 22.86)
@@ -4760,7 +5182,7 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 113.03) (xy 175.26 119.38)
+			(xy 177.8 114.3) (xy 177.8 120.65)
 		)
 		(stroke
 			(width 0)
@@ -4773,7 +5195,7 @@
 			(xy 171.45 48.26) (xy 146.05 48.26)
 		)
 		(stroke
-			(width 0.4572)
+			(width 0.4064)
 			(type default)
 			(color 0 0 0 1)
 		)
@@ -4781,17 +5203,7 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 113.03) (xy 157.48 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0c912ccf-1dca-493d-aeff-d678b4a49153")
-	)
-	(wire
-		(pts
-			(xy 175.26 124.46) (xy 175.26 128.27)
+			(xy 177.8 125.73) (xy 177.8 129.54)
 		)
 		(stroke
 			(width 0)
@@ -4811,7 +5223,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 128.27) (xy 157.48 125.73)
+			(xy 148.59 129.54) (xy 148.59 127)
 		)
 		(stroke
 			(width 0)
@@ -4821,7 +5233,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 113.03) (xy 175.26 113.03)
+			(xy 148.59 114.3) (xy 163.83 114.3)
 		)
 		(stroke
 			(width 0)
@@ -4831,7 +5243,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 115.57) (xy 105.41 115.57)
+			(xy 97.79 116.84) (xy 96.52 116.84)
 		)
 		(stroke
 			(width 0)
@@ -4841,7 +5253,7 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 120.65) (xy 146.05 120.65)
+			(xy 129.54 121.92) (xy 137.16 121.92)
 		)
 		(stroke
 			(width 0)
@@ -4851,7 +5263,7 @@
 	)
 	(wire
 		(pts
-			(xy 186.69 113.03) (xy 186.69 118.11)
+			(xy 189.23 114.3) (xy 189.23 119.38)
 		)
 		(stroke
 			(width 0)
@@ -4861,7 +5273,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 115.57) (xy 106.68 128.27)
+			(xy 97.79 116.84) (xy 97.79 129.54)
 		)
 		(stroke
 			(width 0)
@@ -4871,10 +5283,20 @@
 	)
 	(wire
 		(pts
+			(xy 146.05 114.3) (xy 148.59 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "41f0089a-b44c-4da9-a7ad-ae1c6a6e6ac3")
+	)
+	(wire
+		(pts
 			(xy 228.6 20.32) (xy 220.98 20.32)
 		)
 		(stroke
-			(width 0.4572)
+			(width 0.4064)
 			(type default)
 			(color 132 0 0 1)
 		)
@@ -4902,7 +5324,7 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 113.03) (xy 140.97 113.03)
+			(xy 129.54 114.3) (xy 132.08 114.3)
 		)
 		(stroke
 			(width 0)
@@ -4923,7 +5345,7 @@
 	)
 	(wire
 		(pts
-			(xy 186.69 128.27) (xy 186.69 125.73)
+			(xy 189.23 129.54) (xy 189.23 127)
 		)
 		(stroke
 			(width 0)
@@ -4933,7 +5355,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 113.03) (xy 157.48 118.11)
+			(xy 148.59 114.3) (xy 148.59 119.38)
 		)
 		(stroke
 			(width 0)
@@ -4943,7 +5365,7 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 113.03) (xy 111.76 113.03)
+			(xy 96.52 114.3) (xy 102.87 114.3)
 		)
 		(stroke
 			(width 0)
@@ -4953,7 +5375,7 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 113.03) (xy 153.67 113.03)
+			(xy 142.24 114.3) (xy 146.05 114.3)
 		)
 		(stroke
 			(width 0)
@@ -4963,7 +5385,7 @@
 	)
 	(wire
 		(pts
-			(xy 186.69 110.49) (xy 186.69 113.03)
+			(xy 189.23 111.76) (xy 189.23 114.3)
 		)
 		(stroke
 			(width 0)
@@ -4973,7 +5395,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 113.03) (xy 138.43 113.03)
+			(xy 118.11 114.3) (xy 129.54 114.3)
 		)
 		(stroke
 			(width 0)
@@ -4996,11 +5418,21 @@
 			(xy 171.45 59.69) (xy 146.05 59.69)
 		)
 		(stroke
-			(width 0.4572)
+			(width 0.4064)
 			(type default)
 			(color 0 0 0 1)
 		)
 		(uuid "c4e36c85-569c-436c-9d86-742c98bf4c81")
+	)
+	(wire
+		(pts
+			(xy 163.83 114.3) (xy 177.8 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cb8028ba-1511-4f8e-a59c-3068370ed98d")
 	)
 	(wire
 		(pts
@@ -5017,7 +5449,7 @@
 			(xy 228.6 25.4) (xy 220.98 25.4)
 		)
 		(stroke
-			(width 0.4572)
+			(width 0.4064)
 			(type default)
 			(color 0 0 0 1)
 		)
@@ -5036,7 +5468,7 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 113.03) (xy 186.69 113.03)
+			(xy 177.8 114.3) (xy 189.23 114.3)
 		)
 		(stroke
 			(width 0)
@@ -5071,7 +5503,7 @@
 			(xy 171.45 57.15) (xy 146.05 57.15)
 		)
 		(stroke
-			(width 0.4572)
+			(width 0.4064)
 			(type default)
 			(color 132 0 0 1)
 		)
@@ -5082,7 +5514,7 @@
 			(xy 171.45 45.72) (xy 146.05 45.72)
 		)
 		(stroke
-			(width 0.4572)
+			(width 0.4064)
 			(type default)
 			(color 132 0 0 1)
 		)
@@ -5845,6 +6277,17 @@
 				)
 			)
 		)
+		(property "Vendor URL" "https://www.digikey.com/en/products/detail/pomona-electronics/MDP-0/603378"
+			(at 171.45 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "bfe9c622-6575-4668-9f12-408d6fc2e36e")
 		)
@@ -5972,106 +6415,8 @@
 		)
 	)
 	(symbol
-		(lib_id "stepping-stone:#6 Fork Spade")
-		(at 171.45 45.72 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board no)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "1700a762-e1de-4d06-8666-12f2ce9efbaa")
-		(property "Reference" "P5"
-			(at 179.07 43.18 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "#6 Fork Spade"
-			(at 185.42 45.72 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 171.45 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.molex.com/en-us/products/part-detail/191150009?display=pdf"
-			(at 171.45 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "CONN SPADE TERM 18-22AWG #6 RED"
-			(at 171.45 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Part Number" "0191980013"
-			(at 171.45 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Vendor URL" "https://www.digikey.com/en/products/detail/molex/0191980013/3186421"
-			(at 171.45 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "b20a6a0b-163b-45df-afd9-0a110ff1d446")
-		)
-		(instances
-			(project "stepping-stone"
-				(path "/793a882e-3f7b-468b-a863-41a1f527e1bf/73c4e66b-e11c-48b6-b2c8-fbbf612d64c5"
-					(reference "P5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "stepping-stone:XT30PW-M")
-		(at 105.41 115.57 0)
+		(at 96.52 116.84 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -6083,7 +6428,7 @@
 		(fields_autoplaced yes)
 		(uuid "1901c54e-21fe-404c-b8b9-9f699010b904")
 		(property "Reference" "J1"
-			(at 100.33 113.03 0)
+			(at 91.44 114.3 0)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects
@@ -6094,7 +6439,7 @@
 			)
 		)
 		(property "Value" "XT30PW-M"
-			(at 100.33 115.57 0)
+			(at 91.44 116.84 0)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects
@@ -6105,7 +6450,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 105.41 115.57 0)
+			(at 96.52 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6116,7 +6461,7 @@
 			)
 		)
 		(property "Datasheet" "https://octopart.com/datasheet/amass/XT30PW-M"
-			(at 105.41 120.65 0)
+			(at 96.52 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6127,7 +6472,7 @@
 			)
 		)
 		(property "Description" "XT30 right angle through-hole with mechanical pins"
-			(at 105.41 120.65 0)
+			(at 96.52 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6138,7 +6483,7 @@
 			)
 		)
 		(property "Part Number" "XT30PW-M"
-			(at 105.41 120.65 0)
+			(at 96.52 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6148,8 +6493,8 @@
 				)
 			)
 		)
-		(property "Vendor URL" "amazon.com/Amass-XT30PW-Upgrade-Connectors-Battery/dp/B099F2PXYN/ref=sr_1_1?crid=3RMZ478RHZ3GW&dib=eyJ2IjoiMSJ9.o55izO0HNyuMXl3MOsLKPPI1bCwRzRZVKEm1VdBx4s9x5L_bV0diyeXnezLoRofhQuFlVVLxe7RKXZSqIGfjEK2YRKJOqQBKAY41z4FBqEzRtP1_9TBEKmiyeL-jTcKrGeqhlPlMJNh2DuRL5vCFzd4Jh3NBYKV-Cb3cdHsagxs.JGj7mdouyQMfBo8tdv5l-B-je1006K0LSDUjSCxg0-o&dib_tag=se&keywords=XT30PW-M&qid=1784866394&s=toys-and-games&sprefix=xt30pw-m%2Ctoys-and-games%2C140&sr=1-1"
-			(at 105.41 120.65 0)
+		(property "Vendor URL" "https://octopart.com/part/amass/XT30PW-M"
+			(at 96.52 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6181,9 +6526,8 @@
 		)
 	)
 	(symbol
-		(lib_id "stepping-stone:#6 Fork Spade")
-		(at 229.87 53.34 0)
-		(mirror y)
+		(lib_id "stepping-stone:16AWG Stranded Red Wire")
+		(at 157.48 44.45 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6191,21 +6535,22 @@
 		(on_board no)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "21e4b75d-950e-4d97-a734-40ce13d8228b")
-		(property "Reference" "P3"
-			(at 222.25 53.34 0)
+		(fields_autoplaced yes)
+		(uuid "1916d0bf-7a04-4064-bb47-3a995f96c4bd")
+		(property "Reference" "W1"
+			(at 154.94 43.815 0)
 			(show_name no)
-			(do_not_autoplace no)
+			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "#6 Fork Spade"
-			(at 212.09 53.34 0)
+		(property "Value" "1ft"
+			(at 160.02 43.815 0)
 			(show_name no)
-			(do_not_autoplace no)
+			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6213,7 +6558,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 229.87 53.34 0)
+			(at 157.48 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6223,8 +6568,8 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.molex.com/en-us/products/part-detail/191150009?display=pdf"
-			(at 229.87 53.34 0)
+		(property "Datasheet" "https://www.alphawire.com/products/wire/hook-up-wire/premium/1858_19"
+			(at 157.48 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6234,8 +6579,8 @@
 				)
 			)
 		)
-		(property "Description" "CONN SPADE TERM 18-22AWG #6 RED"
-			(at 229.87 53.34 0)
+		(property "Description" "16 AWG Hook-Up Wire 19/29 Red 600V 1000.0' (304.8m)"
+			(at 157.48 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6245,8 +6590,8 @@
 				)
 			)
 		)
-		(property "Part Number" "0191980013"
-			(at 229.87 53.34 0)
+		(property "Part Number" "1858/19 RD001"
+			(at 157.48 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6256,8 +6601,8 @@
 				)
 			)
 		)
-		(property "Vendor URL" "https://www.digikey.com/en/products/detail/molex/0191980013/3186421"
-			(at 229.87 53.34 0)
+		(property "Vendor URL" "https://www.digikey.com/en/products/detail/alpha-wire/1858-19-RD001/3703162"
+			(at 157.48 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6266,15 +6611,205 @@
 					(size 1.27 1.27)
 				)
 			)
-		)
-		(pin "1"
-			(uuid "c4b5716d-716c-4af7-b89f-b06e1185c479")
 		)
 		(instances
 			(project "stepping-stone"
 				(path "/793a882e-3f7b-468b-a863-41a1f527e1bf/73c4e66b-e11c-48b6-b2c8-fbbf612d64c5"
-					(reference "P3")
+					(reference "W1")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "stepping-stone:16AWG Stranded Black Wire")
+		(at 157.48 60.96 0)
+		(mirror x)
+		(unit 2)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2893df35-8265-491d-882f-b893b8b2ea52")
+		(property "Reference" "W2"
+			(at 154.94 61.595 0)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1ft"
+			(at 160.02 61.595 0)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 157.48 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.alphawire.com/products/wire/hook-up-wire/premium/1858_19"
+			(at 157.48 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "16 AWG Hook-Up Wire 19/29 Black 600V 1000.0' (304.8m)"
+			(at 157.48 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "1858/19 BK001"
+			(at 157.48 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vendor URL" "https://www.digikey.com/en/products/detail/alpha-wire/1858-19-BK001/416347"
+			(at 157.48 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "stepping-stone"
+				(path "/793a882e-3f7b-468b-a863-41a1f527e1bf/73c4e66b-e11c-48b6-b2c8-fbbf612d64c5"
+					(reference "W2")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "stepping-stone:16AWG Stranded Red Wire")
+		(at 157.48 55.88 0)
+		(unit 2)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "299edf93-d958-408b-829d-99489f1cc2d4")
+		(property "Reference" "W1"
+			(at 154.94 55.245 0)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1ft"
+			(at 160.02 55.245 0)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 157.48 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.alphawire.com/products/wire/hook-up-wire/premium/1858_19"
+			(at 157.48 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "16 AWG Hook-Up Wire 19/29 Red 600V 1000.0' (304.8m)"
+			(at 157.48 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "1858/19 RD001"
+			(at 157.48 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vendor URL" "https://www.digikey.com/en/products/detail/alpha-wire/1858-19-RD001/3703162"
+			(at 157.48 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "stepping-stone"
+				(path "/793a882e-3f7b-468b-a863-41a1f527e1bf/73c4e66b-e11c-48b6-b2c8-fbbf612d64c5"
+					(reference "W1")
+					(unit 2)
 				)
 			)
 		)
@@ -6359,7 +6894,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 157.48 128.27 0)
+		(at 148.59 129.54 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6370,7 +6905,7 @@
 		(fields_autoplaced yes)
 		(uuid "2c6e5686-8f6a-4c14-b647-73a91e5830b4")
 		(property "Reference" "#PWR018"
-			(at 157.48 134.62 0)
+			(at 148.59 135.89 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6381,7 +6916,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 157.48 133.35 0)
+			(at 148.59 134.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6392,7 +6927,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 157.48 128.27 0)
+			(at 148.59 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6403,7 +6938,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 157.48 128.27 0)
+			(at 148.59 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6414,7 +6949,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 157.48 128.27 0)
+			(at 148.59 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6438,7 +6973,7 @@
 	)
 	(symbol
 		(lib_id "stepping-stone:0891010.NXS")
-		(at 124.46 106.68 0)
+		(at 115.57 107.95 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6448,7 +6983,7 @@
 		(dnp no)
 		(uuid "3a8dee0c-08af-424a-9fe4-97ef1a1c3b66")
 		(property "Reference" "F7"
-			(at 127 105.41 0)
+			(at 118.11 106.68 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6459,7 +6994,7 @@
 			)
 		)
 		(property "Value" "10A"
-			(at 127 107.95 0)
+			(at 118.11 109.22 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6470,7 +7005,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 124.46 106.68 0)
+			(at 115.57 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6481,7 +7016,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.littelfuse.com/assetdocs/littelfuse-datasheet-891-lp-mini?assetguid=748f2a1b-6fd1-43cb-b900-7178f45585a0"
-			(at 124.46 99.06 0)
+			(at 115.57 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6492,7 +7027,7 @@
 			)
 		)
 		(property "Description" "10 A 58 V Fuse Automotive Requires Holder Blade, Miniature (Low Profile)"
-			(at 124.46 99.06 0)
+			(at 115.57 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6503,7 +7038,7 @@
 			)
 		)
 		(property "Part Number" "0891010.NXS"
-			(at 124.46 99.06 0)
+			(at 115.57 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6514,7 +7049,7 @@
 			)
 		)
 		(property "Vendor URL" "https://www.digikey.com/en/products/detail/littelfuse-inc/0891010-NXS/2046667"
-			(at 124.46 99.06 0)
+			(at 115.57 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6534,104 +7069,8 @@
 		)
 	)
 	(symbol
-		(lib_id "stepping-stone:18AWG Stranded Black Wire")
-		(at 158.75 49.53 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board no)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3c7e2da1-ca44-44b8-a4e7-285986ae21aa")
-		(property "Reference" "W2"
-			(at 161.29 50.165 0)
-			(show_name no)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1M"
-			(at 156.21 50.165 0)
-			(show_name no)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 158.75 49.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://tensility.s3.us-west-2.amazonaws.com/uploads/pdffiles/30-03711.pdf"
-			(at 158.75 46.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Enter Number of Meters in Order Quantity - 18 AWG Hook-Up Wire 34/0.0071\" Black 300V"
-			(at 158.75 46.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Part Number" "30-03711"
-			(at 158.75 46.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Vendor URL" "https://www.digikey.com/en/products/detail/tensility-international-corp/30-03711/28872108?s=N4IgTCBcDaIAQGYAMBaJCDsBGLIC6AvkA"
-			(at 158.75 46.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(instances
-			(project "stepping-stone"
-				(path "/793a882e-3f7b-468b-a863-41a1f527e1bf/73c4e66b-e11c-48b6-b2c8-fbbf612d64c5"
-					(reference "W2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "stepping-stone:3557-2")
-		(at 119.38 113.03 0)
+		(at 110.49 114.3 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6641,7 +7080,7 @@
 		(dnp no)
 		(uuid "3cde6afd-5b7c-4252-8349-10d3b08c76ea")
 		(property "Reference" "F1"
-			(at 119.38 116.84 0)
+			(at 110.49 118.11 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6651,7 +7090,7 @@
 			)
 		)
 		(property "Value" "30A 500V"
-			(at 119.38 119.38 0)
+			(at 110.49 120.65 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6661,7 +7100,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 119.38 113.03 0)
+			(at 110.49 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6672,7 +7111,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.keyelco.com/userAssets/file/K75p47.pdf"
-			(at 117.475 95.885 0)
+			(at 108.585 97.155 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6683,7 +7122,7 @@
 			)
 		)
 		(property "Description" "Fuse Block 30 A 500V 1 Circuit Blade Through Hole"
-			(at 117.475 95.885 0)
+			(at 108.585 97.155 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6694,7 +7133,7 @@
 			)
 		)
 		(property "Part Number" "3557-2"
-			(at 118.745 95.885 0)
+			(at 109.855 97.155 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6705,7 +7144,7 @@
 			)
 		)
 		(property "Vendor URL" "https://www.digikey.com/en/products/detail/keystone-electronics/3557-2/2137305"
-			(at 117.475 95.885 0)
+			(at 108.585 97.155 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6737,8 +7176,107 @@
 		)
 	)
 	(symbol
+		(lib_id "stepping-stone:18-22AWG #6 Fork Spade")
+		(at 229.87 50.8 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "3d1e8ec0-79f4-42ae-a1e0-5e9b0e6f5536")
+		(property "Reference" "P2"
+			(at 222.25 50.8 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "#6 Fork Spade"
+			(at 212.09 50.8 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 229.87 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.molex.com/en-us/products/part-detail/191150009?display=pdf"
+			(at 229.87 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Red 6 Stud Spade Terminal Connector Crimp 18-22 AWG"
+			(at 229.87 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "0191150009"
+			(at 229.87 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vendor URL" "https://www.digikey.com/en/products/detail/molex/0191150009/279125"
+			(at 229.87 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d4106816-4b96-4eb0-8f08-3ee659c5e6a0")
+		)
+		(instances
+			(project "stepping-stone"
+				(path "/793a882e-3f7b-468b-a863-41a1f527e1bf/73c4e66b-e11c-48b6-b2c8-fbbf612d64c5"
+					(reference "P2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
-		(at 186.69 128.27 0)
+		(at 189.23 129.54 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6749,7 +7287,7 @@
 		(fields_autoplaced yes)
 		(uuid "407cc7d0-f2b6-453f-8b97-de01facc5f5e")
 		(property "Reference" "#PWR017"
-			(at 186.69 134.62 0)
+			(at 189.23 135.89 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6760,7 +7298,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 186.69 133.35 0)
+			(at 189.23 134.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6771,7 +7309,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 186.69 128.27 0)
+			(at 189.23 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6782,7 +7320,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 186.69 128.27 0)
+			(at 189.23 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6793,7 +7331,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 186.69 128.27 0)
+			(at 189.23 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6817,7 +7355,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 175.26 121.92 0)
+		(at 177.8 123.19 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -6828,7 +7366,7 @@
 		(dnp no)
 		(uuid "40beb982-f861-43cf-a16c-6d3056323b2b")
 		(property "Reference" "C1"
-			(at 177.8 120.65 0)
+			(at 180.34 121.92 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6839,7 +7377,7 @@
 			)
 		)
 		(property "Value" "0.1uF"
-			(at 177.8 123.19 0)
+			(at 180.34 124.46 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6850,7 +7388,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 175.26 121.92 0)
+			(at 177.8 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6861,7 +7399,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 175.26 121.92 0)
+			(at 177.8 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6872,7 +7410,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 175.26 121.92 0)
+			(at 177.8 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6883,7 +7421,7 @@
 			)
 		)
 		(property "Part Number" "CC0603KRX7R9BB104"
-			(at 175.26 121.92 0)
+			(at 177.8 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6894,7 +7432,7 @@
 			)
 		)
 		(property "Vendor URL" "https://www.digikey.com/en/products/detail/yageo/CC0603KRX7R9BB104/2103082"
-			(at 175.26 121.92 0)
+			(at 177.8 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6905,7 +7443,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 175.26 121.92 0)
+			(at 177.8 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6916,7 +7454,7 @@
 			)
 		)
 		(property "Sim.Pins" ""
-			(at 175.26 121.92 0)
+			(at 177.8 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6942,9 +7480,9 @@
 		)
 	)
 	(symbol
-		(lib_id "stepping-stone:#6 Fork Spade")
-		(at 171.45 48.26 0)
-		(mirror x)
+		(lib_id "stepping-stone:18-22AWG #6 Fork Spade")
+		(at 229.87 53.34 0)
+		(mirror y)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6952,9 +7490,9 @@
 		(on_board no)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "457b5572-30f4-4222-bbfa-f00c043ed68c")
-		(property "Reference" "P6"
-			(at 179.07 50.8 0)
+		(uuid "46c368be-3548-4804-9cc2-4a76438ca122")
+		(property "Reference" "P3"
+			(at 222.25 53.34 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6964,7 +7502,7 @@
 			)
 		)
 		(property "Value" "#6 Fork Spade"
-			(at 185.42 48.26 0)
+			(at 212.09 53.34 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6974,7 +7512,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 171.45 48.26 0)
+			(at 229.87 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6985,7 +7523,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.molex.com/en-us/products/part-detail/191150009?display=pdf"
-			(at 171.45 48.26 0)
+			(at 229.87 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6995,8 +7533,8 @@
 				)
 			)
 		)
-		(property "Description" "CONN SPADE TERM 18-22AWG #6 RED"
-			(at 171.45 48.26 0)
+		(property "Description" "Red 6 Stud Spade Terminal Connector Crimp 18-22 AWG"
+			(at 229.87 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7006,8 +7544,8 @@
 				)
 			)
 		)
-		(property "Part Number" "0191980013"
-			(at 171.45 48.26 0)
+		(property "Part Number" "0191150009"
+			(at 229.87 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7017,8 +7555,8 @@
 				)
 			)
 		)
-		(property "Vendor URL" "https://www.digikey.com/en/products/detail/molex/0191980013/3186421"
-			(at 171.45 48.26 0)
+		(property "Vendor URL" "https://www.digikey.com/en/products/detail/molex/0191150009/279125"
+			(at 229.87 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7029,12 +7567,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "0ad754d4-1882-4cda-afe9-725ccdb1f1a7")
+			(uuid "a0e4e0ba-9592-447b-bc7e-bf4090800c0e")
 		)
 		(instances
 			(project "stepping-stone"
 				(path "/793a882e-3f7b-468b-a863-41a1f527e1bf/73c4e66b-e11c-48b6-b2c8-fbbf612d64c5"
-					(reference "P6")
+					(reference "P3")
 					(unit 1)
 				)
 			)
@@ -7042,7 +7580,7 @@
 	)
 	(symbol
 		(lib_id "stepping-stone:DMP4010SK3Q-13")
-		(at 146.05 115.57 270)
+		(at 137.16 116.84 270)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -7054,7 +7592,7 @@
 		(fields_autoplaced yes)
 		(uuid "4d6e3dff-f9ab-4360-a918-6a817725e6e6")
 		(property "Reference" "Q1"
-			(at 146.05 106.68 90)
+			(at 137.16 107.95 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7064,7 +7602,7 @@
 			)
 		)
 		(property "Value" "DMP4010SK3Q"
-			(at 146.05 109.22 90)
+			(at 137.16 110.49 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7074,7 +7612,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:TO-252-2"
-			(at 148.59 110.49 0)
+			(at 139.7 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7085,7 +7623,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.diodes.com/datasheet/download/DMP4010SK3Q.pdf"
-			(at 155.194 115.316 0)
+			(at 146.304 116.586 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7096,7 +7634,7 @@
 			)
 		)
 		(property "Description" "P-Channel 40 V 15A (Ta), 50A (Tc) 1.7W (Ta) Surface Mount TO-252-3"
-			(at 155.194 115.316 0)
+			(at 146.304 116.586 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7107,7 +7645,7 @@
 			)
 		)
 		(property "Part Number" "DMP4010SK3Q-13"
-			(at 155.448 114.808 0)
+			(at 146.558 116.078 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7118,7 +7656,7 @@
 			)
 		)
 		(property "Vendor URL" "https://www.digikey.com/en/products/detail/diodes-incorporated/DMP4010SK3Q-13/6012762?_gl=1*1oi92cd*_up*MQ..*_gs*MQ..&gclid=CjwKCAjwu53SBhAhEiwAJzSLNg0bMLesOylLRDKmxR4kK9b9I1ZTscMeozZaiYvTz1NVhaLA4YW0dBoCxVkQAvD_BwE&gclsrc=aw.ds&gbraid=0AAAAADrbLlju7jX-G5NzCsgLi5ZPNvLAN"
-			(at 155.194 115.316 0)
+			(at 146.304 116.586 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7226,7 +7764,7 @@
 	)
 	(symbol
 		(lib_id "stepping-stone:0891010.NXS")
-		(at 124.46 96.52 0)
+		(at 115.57 97.79 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7236,7 +7774,7 @@
 		(dnp no)
 		(uuid "57e11943-a9f7-41c0-a889-8d5b34718343")
 		(property "Reference" "F5"
-			(at 127 95.25 0)
+			(at 118.11 96.52 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7247,7 +7785,7 @@
 			)
 		)
 		(property "Value" "10A"
-			(at 127 97.79 0)
+			(at 118.11 99.06 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7258,7 +7796,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 124.46 96.52 0)
+			(at 115.57 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7269,7 +7807,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.littelfuse.com/assetdocs/littelfuse-datasheet-891-lp-mini?assetguid=748f2a1b-6fd1-43cb-b900-7178f45585a0"
-			(at 124.46 88.9 0)
+			(at 115.57 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7280,7 +7818,7 @@
 			)
 		)
 		(property "Description" "10 A 58 V Fuse Automotive Requires Holder Blade, Miniature (Low Profile)"
-			(at 124.46 88.9 0)
+			(at 115.57 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7291,7 +7829,7 @@
 			)
 		)
 		(property "Part Number" "0891010.NXS"
-			(at 124.46 88.9 0)
+			(at 115.57 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7302,7 +7840,7 @@
 			)
 		)
 		(property "Vendor URL" "https://www.digikey.com/en/products/detail/littelfuse-inc/0891010-NXS/2046667"
-			(at 124.46 88.9 0)
+			(at 115.57 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7323,7 +7861,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 175.26 128.27 0)
+		(at 177.8 129.54 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -7335,7 +7873,7 @@
 		(fields_autoplaced yes)
 		(uuid "6b9923c9-3728-44c4-8554-82cdcd2920b7")
 		(property "Reference" "#PWR016"
-			(at 175.26 134.62 0)
+			(at 177.8 135.89 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7346,7 +7884,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 175.26 133.35 0)
+			(at 177.8 134.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7357,7 +7895,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 175.26 128.27 0)
+			(at 177.8 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7368,7 +7906,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 175.26 128.27 0)
+			(at 177.8 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7379,7 +7917,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 175.26 128.27 0)
+			(at 177.8 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7403,7 +7941,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 106.68 128.27 0)
+		(at 97.79 129.54 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7414,7 +7952,7 @@
 		(fields_autoplaced yes)
 		(uuid "6da3c7c7-e6fe-4e33-bb76-77e6d38e49c9")
 		(property "Reference" "#PWR015"
-			(at 106.68 134.62 0)
+			(at 97.79 135.89 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7425,7 +7963,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 106.68 133.35 0)
+			(at 97.79 134.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7436,7 +7974,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 106.68 128.27 0)
+			(at 97.79 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7447,7 +7985,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 106.68 128.27 0)
+			(at 97.79 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7458,7 +7996,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 106.68 128.27 0)
+			(at 97.79 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7482,7 +8020,7 @@
 	)
 	(symbol
 		(lib_id "Diode:BZX84Cxx")
-		(at 138.43 116.84 90)
+		(at 129.54 118.11 90)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -7494,7 +8032,7 @@
 		(fields_autoplaced yes)
 		(uuid "723e89ea-41e1-4a57-9f44-782f210daa86")
 		(property "Reference" "D1"
-			(at 135.89 115.5699 90)
+			(at 127 116.8399 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7505,7 +8043,7 @@
 			)
 		)
 		(property "Value" "12V"
-			(at 135.89 118.1099 90)
+			(at 127 119.3799 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7516,7 +8054,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 138.43 116.84 0)
+			(at 129.54 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7527,7 +8065,7 @@
 			)
 		)
 		(property "Datasheet" "https://diotec.com/tl_files/diotec/files/pdf/datasheets/bzx84c2v4.pdf"
-			(at 138.43 116.84 0)
+			(at 129.54 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7538,7 +8076,7 @@
 			)
 		)
 		(property "Description" "300mW Zener Diode, SOT-23"
-			(at 138.43 116.84 0)
+			(at 129.54 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7549,7 +8087,7 @@
 			)
 		)
 		(property "Part Number" "BZX84C12LT1G"
-			(at 138.43 116.84 0)
+			(at 129.54 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7560,7 +8098,7 @@
 			)
 		)
 		(property "Vendor URL" "https://www.digikey.com/en/products/detail/onsemi/BZX84C12LT1G/918388"
-			(at 138.43 116.84 0)
+			(at 129.54 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7589,8 +8127,108 @@
 		)
 	)
 	(symbol
+		(lib_id "stepping-stone:14-16AWG #6 Fork Spade")
+		(at 171.45 48.26 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "73b2dc56-7ff7-448d-bab3-b265a923b11b")
+		(property "Reference" "P6"
+			(at 177.8 48.26 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "#6 Fork Spade"
+			(at 181.61 48.26 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 171.45 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.molex.com/en-us/products/part-detail/191980013?display=pdf"
+			(at 171.45 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "CONN SPADE TERM 14-16AWG #6 BLU"
+			(at 171.45 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "0191980013"
+			(at 171.45 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vendor URL" "https://www.digikey.com/en/products/detail/molex/0191980013/3186421?s=N4IgTCBcDaIAwEYCcyAcdEGYQF0C%2BQA"
+			(at 171.45 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "57c7e9ed-5173-447e-8560-bdb1343c1ad4")
+		)
+		(instances
+			(project "stepping-stone"
+				(path "/793a882e-3f7b-468b-a863-41a1f527e1bf/73c4e66b-e11c-48b6-b2c8-fbbf612d64c5"
+					(reference "P6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:VBUS")
-		(at 186.69 110.49 0)
+		(at 189.23 111.76 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7601,7 +8239,7 @@
 		(fields_autoplaced yes)
 		(uuid "78dc60ce-dae3-4807-8b1f-32eafbff406f")
 		(property "Reference" "#PWR03"
-			(at 186.69 114.3 0)
+			(at 189.23 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7612,7 +8250,7 @@
 			)
 		)
 		(property "Value" "VMOTOR"
-			(at 186.69 105.41 0)
+			(at 189.23 106.68 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7622,7 +8260,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 186.69 110.49 0)
+			(at 189.23 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7633,7 +8271,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 186.69 110.49 0)
+			(at 189.23 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7644,7 +8282,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VBUS\""
-			(at 186.69 110.49 0)
+			(at 189.23 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7808,6 +8446,186 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 163.83 129.54 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8cd0eedc-7aaa-4df8-a38c-022e21d28bfa")
+		(property "Reference" "#PWR028"
+			(at 163.83 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 163.83 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 163.83 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 163.83 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 163.83 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0fec1e56-3f6a-4517-8716-4f2ff82463a9")
+		)
+		(instances
+			(project "stepping-stone"
+				(path "/793a882e-3f7b-468b-a863-41a1f527e1bf/73c4e66b-e11c-48b6-b2c8-fbbf612d64c5"
+					(reference "#PWR028")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "stepping-stone:14-16AWG #6 Fork Spade")
+		(at 171.45 45.72 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "9006cd93-f4ae-42f8-972f-8274476c84cf")
+		(property "Reference" "P5"
+			(at 177.8 45.72 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "#6 Fork Spade"
+			(at 181.61 45.72 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 171.45 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.molex.com/en-us/products/part-detail/191980013?display=pdf"
+			(at 171.45 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "CONN SPADE TERM 14-16AWG #6 BLU"
+			(at 171.45 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "0191980013"
+			(at 171.45 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vendor URL" "https://www.digikey.com/en/products/detail/molex/0191980013/3186421?s=N4IgTCBcDaIAwEYCcyAcdEGYQF0C%2BQA"
+			(at 171.45 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "40c452e0-3fd6-4ada-9bf7-01cddaee517e")
+		)
+		(instances
+			(project "stepping-stone"
+				(path "/793a882e-3f7b-468b-a863-41a1f527e1bf/73c4e66b-e11c-48b6-b2c8-fbbf612d64c5"
+					(reference "P5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "stepping-stone:NEMA5-15P Cord")
 		(at 252.73 53.34 0)
 		(mirror y)
@@ -7937,8 +8755,107 @@
 		)
 	)
 	(symbol
+		(lib_id "stepping-stone:18-22AWG #6 Fork Spade")
+		(at 229.87 55.88 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "925da8c8-bcf4-485f-aaaa-b63d0b23a653")
+		(property "Reference" "P4"
+			(at 222.25 55.88 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "#6 Fork Spade"
+			(at 212.09 55.88 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 229.87 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.molex.com/en-us/products/part-detail/191150009?display=pdf"
+			(at 229.87 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Red 6 Stud Spade Terminal Connector Crimp 18-22 AWG"
+			(at 229.87 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "0191150009"
+			(at 229.87 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vendor URL" "https://www.digikey.com/en/products/detail/molex/0191150009/279125"
+			(at 229.87 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f58613a3-792d-46bc-9127-757dcfd2802b")
+		)
+		(instances
+			(project "stepping-stone"
+				(path "/793a882e-3f7b-468b-a863-41a1f527e1bf/73c4e66b-e11c-48b6-b2c8-fbbf612d64c5"
+					(reference "P4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Diode:SMAJ28A")
-		(at 157.48 121.92 90)
+		(at 148.59 123.19 90)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -7949,7 +8866,7 @@
 		(dnp no)
 		(uuid "93b437cd-0c4e-44f7-82ed-44558e1fdda9")
 		(property "Reference" "D2"
-			(at 160.02 120.65 90)
+			(at 151.13 121.92 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7960,7 +8877,7 @@
 			)
 		)
 		(property "Value" "SMAJ28A"
-			(at 160.02 123.19 90)
+			(at 151.13 124.46 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7971,7 +8888,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SMA"
-			(at 162.56 121.92 0)
+			(at 153.67 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7982,7 +8899,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.littelfuse.com/media?resourcetype=datasheets&itemid=75e32973-b177-4ee3-a0ff-cedaf1abdb93&filename=smaj-datasheet"
-			(at 157.48 120.65 0)
+			(at 148.59 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7993,7 +8910,7 @@
 			)
 		)
 		(property "Description" "400W unidirectional Transient Voltage Suppressor, 28.0Vr, SMA(DO-214AC)"
-			(at 157.48 121.92 0)
+			(at 148.59 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8004,7 +8921,7 @@
 			)
 		)
 		(property "Part Number" "SMAJ28A-13-F"
-			(at 157.48 121.92 0)
+			(at 148.59 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8015,7 +8932,7 @@
 			)
 		)
 		(property "Vendor URL" "https://www.digikey.com/en/products/detail/diodes-incorporated/SMAJ28A-13-F/775749"
-			(at 157.48 121.92 0)
+			(at 148.59 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8041,10 +8958,10 @@
 		)
 	)
 	(symbol
-		(lib_id "stepping-stone:18AWG Stranded Red Wire")
-		(at 158.75 55.88 0)
-		(mirror y)
-		(unit 2)
+		(lib_id "stepping-stone:16AWG Stranded Black Wire")
+		(at 157.48 49.53 0)
+		(mirror x)
+		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8052,9 +8969,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "9c91379f-8474-4480-8d43-49870643524e")
-		(property "Reference" "W1"
-			(at 161.29 55.245 0)
+		(uuid "96de25f5-0199-49d1-88f8-eae3349efcd2")
+		(property "Reference" "W2"
+			(at 154.94 50.165 0)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects
@@ -8063,9 +8980,8 @@
 				)
 			)
 		)
-		(property "Value" "1M"
-			(at 156.21 55.245 0)
-			(hide yes)
+		(property "Value" "1ft"
+			(at 160.02 50.165 0)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects
@@ -8075,7 +8991,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 158.75 55.88 0)
+			(at 157.48 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8085,8 +9001,8 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://tensility.s3.us-west-2.amazonaws.com/uploads/pdffiles/30-03710.pdf"
-			(at 158.75 58.42 0)
+		(property "Datasheet" "https://www.alphawire.com/products/wire/hook-up-wire/premium/1858_19"
+			(at 157.48 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8096,8 +9012,8 @@
 				)
 			)
 		)
-		(property "Description" "Enter Number of Meters in Order Quantity - 18 AWG Hook-Up Wire 34/0.0071\" Red 300V"
-			(at 158.75 58.42 0)
+		(property "Description" "16 AWG Hook-Up Wire 19/29 Black 600V 1000.0' (304.8m)"
+			(at 157.48 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8107,8 +9023,8 @@
 				)
 			)
 		)
-		(property "Part Number" "30-03710"
-			(at 158.75 58.42 0)
+		(property "Part Number" "1858/19 BK001"
+			(at 157.48 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8118,8 +9034,8 @@
 				)
 			)
 		)
-		(property "Vendor URL" "https://www.digikey.com/en/products/detail/tensility-international-corp/30-03710/28872096"
-			(at 158.75 58.42 0)
+		(property "Vendor URL" "https://www.digikey.com/en/products/detail/alpha-wire/1858-19-BK001/416347"
+			(at 157.48 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8132,15 +9048,15 @@
 		(instances
 			(project "stepping-stone"
 				(path "/793a882e-3f7b-468b-a863-41a1f527e1bf/73c4e66b-e11c-48b6-b2c8-fbbf612d64c5"
-					(reference "W1")
-					(unit 2)
+					(reference "W2")
+					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 138.43 128.27 0)
+		(at 129.54 129.54 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -8152,7 +9068,7 @@
 		(fields_autoplaced yes)
 		(uuid "a318bbac-4182-4801-a510-6ea0ef84407d")
 		(property "Reference" "#PWR04"
-			(at 138.43 134.62 0)
+			(at 129.54 135.89 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8163,7 +9079,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 138.43 133.35 0)
+			(at 129.54 134.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8174,7 +9090,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 138.43 128.27 0)
+			(at 129.54 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8185,7 +9101,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 138.43 128.27 0)
+			(at 129.54 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8196,7 +9112,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 138.43 128.27 0)
+			(at 129.54 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8220,7 +9136,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 186.69 121.92 0)
+		(at 189.23 123.19 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8230,7 +9146,7 @@
 		(dnp no)
 		(uuid "b2c7af90-2cfe-4f22-8eee-3dddca60b070")
 		(property "Reference" "C2"
-			(at 190.5 120.65 0)
+			(at 193.04 121.92 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8241,7 +9157,7 @@
 			)
 		)
 		(property "Value" "10uF, 50V"
-			(at 190.5 123.19 0)
+			(at 193.04 124.46 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8252,7 +9168,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
-			(at 187.6552 125.73 0)
+			(at 190.1952 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8263,7 +9179,7 @@
 			)
 		)
 		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/41/CL32B106KBJNNNE_Spec.pdf"
-			(at 186.69 121.92 0)
+			(at 189.23 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8274,7 +9190,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 186.69 121.92 0)
+			(at 189.23 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8285,7 +9201,7 @@
 			)
 		)
 		(property "Part Number" "CL32B106KBJNNNE"
-			(at 186.69 121.92 0)
+			(at 189.23 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8296,7 +9212,7 @@
 			)
 		)
 		(property "Vendor URL" "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL32B106KBJNNNE/3889045"
-			(at 186.69 121.92 0)
+			(at 189.23 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8307,7 +9223,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 186.69 121.92 0)
+			(at 189.23 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8318,7 +9234,7 @@
 			)
 		)
 		(property "Sim.Pins" ""
-			(at 186.69 121.92 0)
+			(at 189.23 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8345,7 +9261,7 @@
 	)
 	(symbol
 		(lib_id "stepping-stone:0891005.NXS")
-		(at 114.3 96.52 0)
+		(at 105.41 97.79 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8355,7 +9271,7 @@
 		(dnp no)
 		(uuid "b910e6cf-67e0-4cd0-9cff-389f5615093e")
 		(property "Reference" "F2"
-			(at 118.11 95.25 0)
+			(at 109.22 96.52 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8365,7 +9281,7 @@
 			)
 		)
 		(property "Value" "5A"
-			(at 118.11 97.79 0)
+			(at 109.22 99.06 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8375,7 +9291,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 114.3 96.52 0)
+			(at 105.41 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8386,7 +9302,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.littelfuse.com/assetdocs/littelfuse-datasheet-891-lp-mini?assetguid=748f2a1b-6fd1-43cb-b900-7178f45585a0"
-			(at 114.3 88.9 0)
+			(at 105.41 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8397,7 +9313,7 @@
 			)
 		)
 		(property "Description" "5 A 58 V Fuse Automotive Requires Holder Blade, Miniature (Low Profile)"
-			(at 114.3 88.9 0)
+			(at 105.41 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8408,7 +9324,7 @@
 			)
 		)
 		(property "Part Number" "0891005.NXS"
-			(at 114.3 88.9 0)
+			(at 105.41 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8419,7 +9335,7 @@
 			)
 		)
 		(property "Vendor URL" "https://www.digikey.com/en/products/detail/littelfuse-inc/0891005-NXS/2046666?s=N4IgTCBcDaIAwA4CcBGOcCsA6AcgDQGUQBdAXyA"
-			(at 114.3 88.9 0)
+			(at 105.41 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8551,8 +9467,133 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_US")
+		(at 163.83 118.11 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "c3ebfb6f-75ad-4583-aa52-f16dd0cd7b82")
+		(property "Reference" "R?"
+			(at 166.37 116.8399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 166.37 119.3799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 164.846 118.364 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
+			(at 163.83 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 163.83 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 163.83 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 163.83 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "RC0603FR-0710KL"
+			(at 163.83 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vendor URL" "https://www.digikey.com/en/products/detail/yageo/RC0603FR-0710KL/726880"
+			(at 163.83 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0d53fc23-dc50-440b-8a2d-080ce49ce27c")
+		)
+		(pin "2"
+			(uuid "6d738b34-2d5e-42d8-b298-c042a6c48a17")
+		)
+		(instances
+			(project "stepping-stone"
+				(path "/793a882e-3f7b-468b-a863-41a1f527e1bf/73c4e66b-e11c-48b6-b2c8-fbbf612d64c5"
+					(reference "R?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 153.67 113.03 0)
+		(at 146.05 114.3 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8563,7 +9604,7 @@
 		(fields_autoplaced yes)
 		(uuid "cdd7face-c164-4e51-9e11-6790c47dd284")
 		(property "Reference" "#FLG02"
-			(at 153.67 111.125 0)
+			(at 146.05 112.395 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8574,7 +9615,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 153.67 107.95 0)
+			(at 146.05 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8585,7 +9626,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 153.67 113.03 0)
+			(at 146.05 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8596,7 +9637,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 153.67 113.03 0)
+			(at 146.05 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8607,7 +9648,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 153.67 113.03 0)
+			(at 146.05 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8630,204 +9671,8 @@
 		)
 	)
 	(symbol
-		(lib_id "stepping-stone:#6 Fork Spade")
-		(at 229.87 50.8 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board no)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "d4a20073-184e-43bb-be40-0e6ba4032bcd")
-		(property "Reference" "P2"
-			(at 222.25 50.8 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "#6 Fork Spade"
-			(at 212.09 50.8 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 229.87 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.molex.com/en-us/products/part-detail/191150009?display=pdf"
-			(at 229.87 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "CONN SPADE TERM 18-22AWG #6 RED"
-			(at 229.87 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Part Number" "0191980013"
-			(at 229.87 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Vendor URL" "https://www.digikey.com/en/products/detail/molex/0191980013/3186421"
-			(at 229.87 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "ce356db0-3f04-40f0-bae3-d6a3498651d3")
-		)
-		(instances
-			(project "stepping-stone"
-				(path "/793a882e-3f7b-468b-a863-41a1f527e1bf/73c4e66b-e11c-48b6-b2c8-fbbf612d64c5"
-					(reference "P2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "stepping-stone:18AWG Stranded Red Wire")
-		(at 158.75 44.45 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board no)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d4a8e010-d78b-4cb9-99eb-d073135f3ca4")
-		(property "Reference" "W1"
-			(at 161.29 43.815 0)
-			(show_name no)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1M"
-			(at 156.21 43.815 0)
-			(show_name no)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 158.75 44.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://tensility.s3.us-west-2.amazonaws.com/uploads/pdffiles/30-03710.pdf"
-			(at 158.75 46.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Enter Number of Meters in Order Quantity - 18 AWG Hook-Up Wire 34/0.0071\" Red 300V"
-			(at 158.75 46.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Part Number" "30-03710"
-			(at 158.75 46.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Vendor URL" "https://www.digikey.com/en/products/detail/tensility-international-corp/30-03710/28872096"
-			(at 158.75 46.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(instances
-			(project "stepping-stone"
-				(path "/793a882e-3f7b-468b-a863-41a1f527e1bf/73c4e66b-e11c-48b6-b2c8-fbbf612d64c5"
-					(reference "W1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "stepping-stone:0891010.NXS")
-		(at 124.46 101.6 0)
+		(at 115.57 102.87 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8837,7 +9682,7 @@
 		(dnp no)
 		(uuid "d9a330b4-e6e3-419e-a1ec-139083bbd3f6")
 		(property "Reference" "F6"
-			(at 127 100.33 0)
+			(at 118.11 101.6 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8848,7 +9693,7 @@
 			)
 		)
 		(property "Value" "10A"
-			(at 127 102.87 0)
+			(at 118.11 104.14 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8859,7 +9704,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 124.46 101.6 0)
+			(at 115.57 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8870,7 +9715,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.littelfuse.com/assetdocs/littelfuse-datasheet-891-lp-mini?assetguid=748f2a1b-6fd1-43cb-b900-7178f45585a0"
-			(at 124.46 93.98 0)
+			(at 115.57 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8881,7 +9726,7 @@
 			)
 		)
 		(property "Description" "10 A 58 V Fuse Automotive Requires Holder Blade, Miniature (Low Profile)"
-			(at 124.46 93.98 0)
+			(at 115.57 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8892,7 +9737,7 @@
 			)
 		)
 		(property "Part Number" "0891010.NXS"
-			(at 124.46 93.98 0)
+			(at 115.57 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8903,7 +9748,7 @@
 			)
 		)
 		(property "Vendor URL" "https://www.digikey.com/en/products/detail/littelfuse-inc/0891010-NXS/2046667"
-			(at 124.46 93.98 0)
+			(at 115.57 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8924,7 +9769,7 @@
 	)
 	(symbol
 		(lib_id "stepping-stone:0891005.NXS")
-		(at 114.3 106.68 0)
+		(at 105.41 107.95 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8934,7 +9779,7 @@
 		(dnp no)
 		(uuid "db93ea89-6b81-403f-a043-9ee0c334433d")
 		(property "Reference" "F4"
-			(at 118.11 105.41 0)
+			(at 109.22 106.68 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8944,7 +9789,7 @@
 			)
 		)
 		(property "Value" "5A"
-			(at 118.11 107.95 0)
+			(at 109.22 109.22 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8954,7 +9799,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 114.3 106.68 0)
+			(at 105.41 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8965,7 +9810,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.littelfuse.com/assetdocs/littelfuse-datasheet-891-lp-mini?assetguid=748f2a1b-6fd1-43cb-b900-7178f45585a0"
-			(at 114.3 99.06 0)
+			(at 105.41 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8976,7 +9821,7 @@
 			)
 		)
 		(property "Description" "5 A 58 V Fuse Automotive Requires Holder Blade, Miniature (Low Profile)"
-			(at 114.3 99.06 0)
+			(at 105.41 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8987,7 +9832,7 @@
 			)
 		)
 		(property "Part Number" "0891005.NXS"
-			(at 114.3 99.06 0)
+			(at 105.41 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8998,7 +9843,7 @@
 			)
 		)
 		(property "Vendor URL" "https://www.digikey.com/en/products/detail/littelfuse-inc/0891005-NXS/2046666?s=N4IgTCBcDaIAwA4CcBGOcCsA6AcgDQGUQBdAXyA"
-			(at 114.3 99.06 0)
+			(at 105.41 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9018,40 +9863,41 @@
 		)
 	)
 	(symbol
-		(lib_id "stepping-stone:18AWG Stranded Black Wire")
-		(at 158.75 60.96 180)
-		(unit 2)
+		(lib_id "Device:LED")
+		(at 163.83 125.73 90)
+		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board no)
+		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "dfd6abb8-3081-4159-b78c-168004b103a9")
-		(property "Reference" "W2"
-			(at 161.29 61.595 0)
+		(uuid "e73867c7-5af7-4256-a2a6-e48bd028db4f")
+		(property "Reference" "D?"
+			(at 167.64 126.0474 90)
 			(show_name no)
-			(do_not_autoplace yes)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Value" "1M"
-			(at 156.21 61.595 0)
-			(hide yes)
+		(property "Value" "BLUE"
+			(at 167.64 128.5874 90)
 			(show_name no)
-			(do_not_autoplace yes)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Footprint" ""
-			(at 158.75 60.96 0)
+		(property "Footprint" "Diode_SMD:D_0805_2012Metric"
+			(at 163.83 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9061,8 +9907,8 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://tensility.s3.us-west-2.amazonaws.com/uploads/pdffiles/30-03711.pdf"
-			(at 158.75 58.42 0)
+		(property "Datasheet" ""
+			(at 163.83 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9072,8 +9918,8 @@
 				)
 			)
 		)
-		(property "Description" "Enter Number of Meters in Order Quantity - 18 AWG Hook-Up Wire 34/0.0071\" Black 300V"
-			(at 158.75 58.42 0)
+		(property "Description" "Light emitting diode"
+			(at 163.83 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9083,8 +9929,8 @@
 				)
 			)
 		)
-		(property "Part Number" "30-03711"
-			(at 158.75 58.42 0)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 163.83 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9094,8 +9940,8 @@
 				)
 			)
 		)
-		(property "Vendor URL" "https://www.digikey.com/en/products/detail/tensility-international-corp/30-03711/28872108?s=N4IgTCBcDaIAQGYAMBaJCDsBGLIC6AvkA"
-			(at 158.75 58.42 0)
+		(property "Part Number" "LTST-C171TBKT"
+			(at 163.83 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9104,19 +9950,36 @@
 					(size 1.27 1.27)
 				)
 			)
+		)
+		(property "Vendor URL" "https://www.digikey.com/en/products/detail/liteon/LTST-C171TBKT/388528"
+			(at 163.83 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "34a638d0-7d8f-4c56-9d71-26c69bfa87c7")
+		)
+		(pin "2"
+			(uuid "42c5fc7e-e5e6-4b62-915b-a3c7cc314bdd")
 		)
 		(instances
 			(project "stepping-stone"
 				(path "/793a882e-3f7b-468b-a863-41a1f527e1bf/73c4e66b-e11c-48b6-b2c8-fbbf612d64c5"
-					(reference "W2")
-					(unit 2)
+					(reference "D?")
+					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
 		(lib_id "stepping-stone:0891005.NXS")
-		(at 114.3 101.6 0)
+		(at 105.41 102.87 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9126,7 +9989,7 @@
 		(dnp no)
 		(uuid "ee0c8162-d6c4-4d56-88b5-9335edd25dd5")
 		(property "Reference" "F3"
-			(at 118.11 100.33 0)
+			(at 109.22 101.6 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9136,7 +9999,7 @@
 			)
 		)
 		(property "Value" "5A"
-			(at 118.11 102.87 0)
+			(at 109.22 104.14 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9146,7 +10009,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 114.3 101.6 0)
+			(at 105.41 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9157,7 +10020,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.littelfuse.com/assetdocs/littelfuse-datasheet-891-lp-mini?assetguid=748f2a1b-6fd1-43cb-b900-7178f45585a0"
-			(at 114.3 93.98 0)
+			(at 105.41 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9168,7 +10031,7 @@
 			)
 		)
 		(property "Description" "5 A 58 V Fuse Automotive Requires Holder Blade, Miniature (Low Profile)"
-			(at 114.3 93.98 0)
+			(at 105.41 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9179,7 +10042,7 @@
 			)
 		)
 		(property "Part Number" "0891005.NXS"
-			(at 114.3 93.98 0)
+			(at 105.41 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9190,7 +10053,7 @@
 			)
 		)
 		(property "Vendor URL" "https://www.digikey.com/en/products/detail/littelfuse-inc/0891005-NXS/2046666?s=N4IgTCBcDaIAwA4CcBGOcCsA6AcgDQGUQBdAXyA"
-			(at 114.3 93.98 0)
+			(at 105.41 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9211,7 +10074,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 138.43 124.46 0)
+		(at 129.54 125.73 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -9223,7 +10086,7 @@
 		(fields_autoplaced yes)
 		(uuid "f4001ba4-64df-4257-8d4d-31d31d18bcbf")
 		(property "Reference" "R1"
-			(at 135.89 123.1899 0)
+			(at 127 124.4599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9234,7 +10097,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 135.89 125.7299 0)
+			(at 127 126.9999 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9245,7 +10108,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 137.414 124.714 90)
+			(at 128.524 125.984 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9256,7 +10119,7 @@
 			)
 		)
 		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
-			(at 138.43 124.46 0)
+			(at 129.54 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9267,7 +10130,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 138.43 124.46 0)
+			(at 129.54 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9278,7 +10141,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 138.43 124.46 0)
+			(at 129.54 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9289,7 +10152,7 @@
 			)
 		)
 		(property "Sim.Pins" ""
-			(at 138.43 124.46 0)
+			(at 129.54 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9300,7 +10163,7 @@
 			)
 		)
 		(property "Part Number" "RC0603FR-0710KL"
-			(at 138.43 124.46 0)
+			(at 129.54 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9311,7 +10174,7 @@
 			)
 		)
 		(property "Vendor URL" "https://www.digikey.com/en/products/detail/yageo/RC0603FR-0710KL/726880"
-			(at 138.43 124.46 0)
+			(at 129.54 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9331,105 +10194,6 @@
 			(project "stepping-stone"
 				(path "/793a882e-3f7b-468b-a863-41a1f527e1bf/73c4e66b-e11c-48b6-b2c8-fbbf612d64c5"
 					(reference "R1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "stepping-stone:#6 Fork Spade")
-		(at 229.87 55.88 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board no)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "fcb55121-7ef3-40da-afcc-8f9d74eaaa96")
-		(property "Reference" "P4"
-			(at 222.25 55.88 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "#6 Fork Spade"
-			(at 212.09 55.88 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 229.87 55.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.molex.com/en-us/products/part-detail/191150009?display=pdf"
-			(at 229.87 55.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "CONN SPADE TERM 18-22AWG #6 RED"
-			(at 229.87 55.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Part Number" "0191980013"
-			(at 229.87 55.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Vendor URL" "https://www.digikey.com/en/products/detail/molex/0191980013/3186421"
-			(at 229.87 55.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "501fddc1-5be4-4fef-a578-5c0e19ca0f17")
-		)
-		(instances
-			(project "stepping-stone"
-				(path "/793a882e-3f7b-468b-a863-41a1f527e1bf/73c4e66b-e11c-48b6-b2c8-fbbf612d64c5"
-					(reference "P4")
 					(unit 1)
 				)
 			)

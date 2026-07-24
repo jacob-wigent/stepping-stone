@@ -6,7 +6,7 @@
 	(paper "A")
 	(title_block
 		(title "Power Input")
-		(date "2026-06-21")
+		(date "2026-07-24")
 		(rev "A")
 		(company "Jacob Wigent")
 	)
@@ -849,16 +849,16 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Micro-Fit 3.0 1x2 Plug_1"
+		(symbol "XT30U-F_1"
 			(exclude_from_sim no)
 			(in_bom yes)
-			(on_board no)
+			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "P?"
-				(at 6.35 2.54 0)
+				(at 5.08 2.54 0)
 				(show_name no)
-				(do_not_autoplace no)
+				(do_not_autoplace yes)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -866,10 +866,10 @@
 					(justify left)
 				)
 			)
-			(property "Value" "Micro-Fit 3.0 1x2"
-				(at 6.35 0 0)
+			(property "Value" "XT30U-F"
+				(at 5.08 0 0)
 				(show_name no)
-				(do_not_autoplace no)
+				(do_not_autoplace yes)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -888,8 +888,8 @@
 					)
 				)
 			)
-			(property "Datasheet" "https://www.molex.com/content/dam/molex/molex-dot-com/products/automated/en-us/salesdrawingpdf/436/43645/436450200_sd.pdf?inline"
-				(at 0.254 9.906 0)
+			(property "Datasheet" "https://octopart.com/datasheet/amass/XT30U-F"
+				(at 0 -5.08 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -899,8 +899,8 @@
 					)
 				)
 			)
-			(property "Description" "2 Position Rectangular Housing Connector Receptacle Black 0.118\" (3.00mm)"
-				(at 0.254 9.906 0)
+			(property "Description" "XT30 cable connector"
+				(at 0 -5.08 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -910,8 +910,8 @@
 					)
 				)
 			)
-			(property "Part Number" "0436450200"
-				(at -1.27 10.414 0)
+			(property "Part Number" "XT30U-F"
+				(at 0 -5.08 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -921,8 +921,8 @@
 					)
 				)
 			)
-			(property "Vendor URL" "https://www.digikey.com/en/products/detail/molex/0436450200/268974"
-				(at 0.254 9.906 0)
+			(property "Vendor URL" "https://octopart.com/part/amass/XT30U-F"
+				(at 0 -5.08 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -932,8 +932,45 @@
 					)
 				)
 			)
-			(symbol "Micro-Fit 3.0 1x2 Plug_1_0_0"
-				(pin unspecified line
+			(symbol "XT30U-F_1_0_1"
+				(polyline
+					(pts
+						(xy 2.54 3.556) (xy 4.572 3.556) (xy 4.572 -0.635) (xy 4.064 -1.27) (xy 3.048 -1.27) (xy 2.54 -0.635)
+						(xy 2.54 3.556)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 3.556 2.54)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 3.556 0)
+					(radius 0.568)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "XT30U-F_1_1_0"
+				(pin power_in line
 					(at 0 2.54 0)
 					(length 2.54)
 					(name ""
@@ -943,7 +980,7 @@
 							)
 						)
 					)
-					(number "1"
+					(number "+"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -951,7 +988,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin power_in line
 					(at 0 0 0)
 					(length 2.54)
 					(name ""
@@ -961,7 +998,7 @@
 							)
 						)
 					)
-					(number "2"
+					(number "-"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -969,50 +1006,42 @@
 						)
 					)
 				)
-			)
-			(symbol "Micro-Fit 3.0 1x2 Plug_1_0_1"
-				(rectangle
-					(start 2.54 3.81)
-					(end 5.08 -1.27)
-					(stroke
-						(width 0)
-						(type default)
+				(pin no_connect line
+					(at 3.556 4.064 270)
+					(length 0.508)
+					(hide yes)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
 					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 3.175 3.175)
-					(end 4.445 1.905)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
+					(number "MP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
 					)
 				)
-				(rectangle
-					(start 3.175 0.635)
-					(end 4.445 -0.635)
-					(stroke
-						(width 0)
-						(type default)
+				(pin no_connect line
+					(at 3.556 -1.778 90)
+					(length 0.508)
+					(hide yes)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
 					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 5.08 2.54)
-					(end 5.715 0)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
+					(number "MP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
 					)
 				)
 			)
@@ -1577,7 +1606,7 @@
 					)
 				)
 			)
-			(property "Datasheet" "https://www.molex.com/en-us/products/part-detail/191980013?display=pdf"
+			(property "Datasheet" "https://www.molex.com/en-us/products/part-detail/191150009?display=pdf"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1588,7 +1617,7 @@
 					)
 				)
 			)
-			(property "Description" "CONN SPADE TERM 14-16AWG #6 BLU"
+			(property "Description" "CONN SPADE TERM 18-22AWG #6 RED"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1599,7 +1628,7 @@
 					)
 				)
 			)
-			(property "Part Number" "0191980013"
+			(property "Part Number" "0191150009"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1610,7 +1639,7 @@
 					)
 				)
 			)
-			(property "Vendor URL" "https://www.digikey.com/en/products/detail/molex/0191980013/3186421"
+			(property "Vendor URL" "https://www.digikey.com/en/products/detail/molex/0191150009/279125"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -3883,455 +3912,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "stepping-stone:Micro-Fit 3.0 18AWG Crimp"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board no)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "W?"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace yes)
-				(effects
-					(font
-						(size 0.254 0.254)
-					)
-				)
-			)
-			(property "Value" "18 AWG Crimp"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" "https://www.molex.com/en-us/products/part-detail/430300038?display=pdf"
-				(at 0 -2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Socket Contact Tin 18 AWG Crimp Stamped"
-				(at 0 -2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Part Number" "0430300038"
-				(at 0 -5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Vendor URL" "https://www.digikey.com/en/products/detail/molex/0430300038/6098601"
-				(at 0 -2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "Micro-Fit 3.0 18AWG Crimp_1_1"
-				(rectangle
-					(start -0.254 0.254)
-					(end 0.254 -0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "stepping-stone:Micro-Fit 3.0 1x2 Jack"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "J?"
-				(at 6.35 2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "Micro-Fit 1x2"
-				(at 6.35 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" "https://www.molex.com/content/dam/molex/molex-dot-com/products/automated/en-us/salesdrawingpdf/436/43650/436500203_sd.pdf?inline"
-				(at 0 -1.905 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Generic connector, single row, 01x02, script generated"
-				(at 0 -1.905 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Part Number" "0436500203"
-				(at 0.635 -1.905 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Vendor URL" "https://www.digikey.com/en/products/detail/molex/0436500203/268999"
-				(at 0 -1.905 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "Micro-Fit 3.0 1x2 Jack_0_0"
-				(pin unspecified line
-					(at 0 2.54 0)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 0 0 0)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "Micro-Fit 3.0 1x2 Jack_0_1"
-				(rectangle
-					(start 2.54 3.81)
-					(end 5.08 -1.27)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type color)
-						(color 255 255 194 1)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 1.27) (xy 5.08 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 2.794 3.556)
-					(end 4.826 1.524)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 2.794 1.016)
-					(end 4.826 -1.016)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 5.08 1.778)
-					(end 5.588 0.762)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type color)
-						(color 255 255 194 1)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "stepping-stone:Micro-Fit 3.0 1x2 Plug"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board no)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "P?"
-				(at 6.35 2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "Micro-Fit 3.0 1x2"
-				(at 6.35 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" "https://www.molex.com/content/dam/molex/molex-dot-com/products/automated/en-us/salesdrawingpdf/436/43645/436450200_sd.pdf?inline"
-				(at 0.254 9.906 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "2 Position Rectangular Housing Connector Receptacle Black 0.118\" (3.00mm)"
-				(at 0.254 9.906 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Part Number" "0436450200"
-				(at -1.27 10.414 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Vendor URL" "https://www.digikey.com/en/products/detail/molex/0436450200/268974"
-				(at 0.254 9.906 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "Micro-Fit 3.0 1x2 Plug_0_0"
-				(pin unspecified line
-					(at 0 2.54 0)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 0 0 0)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "Micro-Fit 3.0 1x2 Plug_0_1"
-				(rectangle
-					(start 2.54 3.81)
-					(end 5.08 -1.27)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 3.175 3.175)
-					(end 4.445 1.905)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 3.175 0.635)
-					(end 4.445 -0.635)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 5.08 2.54)
-					(end 5.715 0)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "stepping-stone:NEMA5-15P Cord"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -4564,6 +4144,403 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "stepping-stone:XT30PW-M"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "J?"
+				(at 5.08 2.54 0)
+				(show_name no)
+				(do_not_autoplace yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "XT30PW-M"
+				(at 5.08 0 0)
+				(show_name no)
+				(do_not_autoplace yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://octopart.com/datasheet/amass/XT30PW-M"
+				(at 0 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "XT30 right angle through-hole with mechanical pins"
+				(at 0 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Part Number" "XT30PW-M"
+				(at 0 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Vendor URL" "https://octopart.com/part/amass/XT30PW-M"
+				(at 0 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "XT30PW-M_0_1"
+				(polyline
+					(pts
+						(xy 2.54 3.556) (xy 4.572 3.556) (xy 4.572 -0.635) (xy 4.064 -1.27) (xy 3.048 -1.27) (xy 2.54 -0.635)
+						(xy 2.54 3.556)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type color)
+						(color 255 255 194 1)
+					)
+				)
+				(circle
+					(center 3.556 2.54)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 3.556 0)
+					(radius 0.568)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "XT30PW-M_1_0"
+				(pin power_in line
+					(at 0 2.54 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 0 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 3.556 4.064 270)
+					(length 0.508)
+					(hide yes)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "MP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 3.556 -1.778 90)
+					(length 0.508)
+					(hide yes)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "MP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "stepping-stone:XT30U-F"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "P?"
+				(at 5.08 2.54 0)
+				(show_name no)
+				(do_not_autoplace yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "XT30U-F"
+				(at 5.08 0 0)
+				(show_name no)
+				(do_not_autoplace yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://octopart.com/datasheet/amass/XT30U-F"
+				(at 0 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "XT30 cable connector"
+				(at 0 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Part Number" "XT30U-F"
+				(at 0 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Vendor URL" "https://octopart.com/part/amass/XT30U-F"
+				(at 0 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "XT30U-F_0_1"
+				(polyline
+					(pts
+						(xy 2.54 3.556) (xy 4.572 3.556) (xy 4.572 -0.635) (xy 4.064 -1.27) (xy 3.048 -1.27) (xy 2.54 -0.635)
+						(xy 2.54 3.556)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 3.556 2.54)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 3.556 0)
+					(radius 0.568)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "XT30U-F_1_0"
+				(pin power_in line
+					(at 0 2.54 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 0 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 3.556 4.064 270)
+					(length 0.508)
+					(hide yes)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "MP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 3.556 -1.778 90)
+					(length 0.508)
+					(hide yes)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "MP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 	)
 	(rectangle
 		(start 13.97 13.97)
@@ -4659,7 +4636,7 @@
 		)
 		(uuid "74e08352-a121-40a8-b91b-b73bca084930")
 	)
-	(text "Wiring:\n- PSU IN Cable: NEMA5-15P <-> Fork Spades\n- PSU OUT Cable: Fork Spades <-> Micro-Fit\n- Bench Supply OUT Cable: Dual Banana <-> Micro-Fit"
+	(text "Wiring:\n- PSU IN Cable: NEMA5-15P <-> Fork Spades\n- PSU OUT Cable: Fork Spades <-> XT30\n- Bench Supply OUT Cable: Dual Banana <-> XT30"
 		(exclude_from_sim no)
 		(at 120.65 36.83 0)
 		(effects
@@ -4736,12 +4713,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0bcbf583-54e5-4c5f-9100-5e6c5b772d53")
-	)
-	(junction
-		(at 107.95 113.03)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "21e097bf-556a-4780-b948-0d71f2805d6f")
 	)
 	(junction
 		(at 157.48 113.03)
@@ -4972,7 +4943,7 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 113.03) (xy 107.95 113.03)
+			(xy 105.41 113.03) (xy 111.76 113.03)
 		)
 		(stroke
 			(width 0)
@@ -5116,16 +5087,6 @@
 			(color 132 0 0 1)
 		)
 		(uuid "fbda61fb-af1b-4918-84d4-5be988ba4883")
-	)
-	(wire
-		(pts
-			(xy 107.95 113.03) (xy 111.76 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ff9b5dd0-f6bd-4b40-a163-f78eec9d48e6")
 	)
 	(table
 		(column_count 2)
@@ -5580,7 +5541,7 @@
 				)
 				(uuid "9011d950-97ad-43a1-a83e-d7b76a83e4db")
 			)
-			(table_cell "Molex MicroFit 3.0 1x2"
+			(table_cell "XT30"
 				(exclude_from_sim no)
 				(at 36.83 34.29 0)
 				(size 27.94 2.54)
@@ -5900,6 +5861,117 @@
 		)
 	)
 	(symbol
+		(lib_id "stepping-stone:XT30U-F")
+		(at 146.05 59.69 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "162f8a69-bcfe-4637-b71a-26d1a9d76a4c")
+		(property "Reference" "P9"
+			(at 140.97 57.15 0)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "XT30U-F"
+			(at 140.97 59.69 0)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 146.05 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://octopart.com/datasheet/amass/XT30U-F"
+			(at 146.05 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "XT30 cable connector"
+			(at 146.05 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "XT30U-F"
+			(at 146.05 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vendor URL" "https://octopart.com/part/amass/XT30U-F"
+			(at 146.05 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "MP"
+			(uuid "394c7e49-8e1b-4113-b2a2-21d82c83a8bb")
+		)
+		(pin "+"
+			(uuid "d996a76a-150e-4e82-a94e-50d8cc8a98ff")
+		)
+		(pin "-"
+			(uuid "cf233186-97b5-4e82-84d8-736ef95512ef")
+		)
+		(pin "MP"
+			(uuid "29b04e99-73dd-4751-8326-18dd56f158cc")
+		)
+		(instances
+			(project "stepping-stone"
+				(path "/793a882e-3f7b-468b-a863-41a1f527e1bf/73c4e66b-e11c-48b6-b2c8-fbbf612d64c5"
+					(reference "P9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "stepping-stone:#6 Fork Spade")
 		(at 171.45 45.72 0)
 		(unit 1)
@@ -5941,7 +6013,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.molex.com/en-us/products/part-detail/191980013?display=pdf"
+		(property "Datasheet" "https://www.molex.com/en-us/products/part-detail/191150009?display=pdf"
 			(at 171.45 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -5952,7 +6024,7 @@
 				)
 			)
 		)
-		(property "Description" "CONN SPADE TERM 14-16AWG #6 BLU"
+		(property "Description" "CONN SPADE TERM 18-22AWG #6 RED"
 			(at 171.45 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -5998,139 +6070,42 @@
 		)
 	)
 	(symbol
-		(lib_id "stepping-stone:Micro-Fit 3.0 18AWG Crimp")
-		(at 142.24 57.15 0)
+		(lib_id "stepping-stone:XT30PW-M")
+		(at 105.41 115.57 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board no)
+		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "19c25b14-305b-4128-b8fd-381912f8b58a")
-		(property "Reference" "W5"
-			(at 142.24 57.15 0)
+		(uuid "1901c54e-21fe-404c-b8b9-9f699010b904")
+		(property "Reference" "J1"
+			(at 100.33 113.03 0)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects
 				(font
-					(size 0.254 0.254)
-				)
-			)
-		)
-		(property "Value" "18 AWG Crimp"
-			(at 142.24 57.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 142.24 57.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.molex.com/en-us/products/part-detail/430300038?display=pdf"
-			(at 142.24 59.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Socket Contact Tin 18 AWG Crimp Stamped"
-			(at 142.24 59.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Part Number" "0430300038"
-			(at 142.24 62.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Vendor URL" "https://www.digikey.com/en/products/detail/molex/0430300038/6098601"
-			(at 142.24 59.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(instances
-			(project "stepping-stone"
-				(path "/793a882e-3f7b-468b-a863-41a1f527e1bf/73c4e66b-e11c-48b6-b2c8-fbbf612d64c5"
-					(reference "W5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "stepping-stone:Micro-Fit 3.0 18AWG Crimp")
-		(at 142.24 59.69 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board no)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1aa24c71-1491-4a09-8699-095f026dac10")
-		(property "Reference" "W6"
-			(at 142.24 59.69 0)
+		(property "Value" "XT30PW-M"
+			(at 100.33 115.57 0)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects
 				(font
-					(size 0.254 0.254)
-				)
-			)
-		)
-		(property "Value" "18 AWG Crimp"
-			(at 142.24 59.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 142.24 59.69 0)
+			(at 105.41 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6140,8 +6115,8 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.molex.com/en-us/products/part-detail/430300038?display=pdf"
-			(at 142.24 62.23 0)
+		(property "Datasheet" "https://octopart.com/datasheet/amass/XT30PW-M"
+			(at 105.41 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6151,8 +6126,8 @@
 				)
 			)
 		)
-		(property "Description" "Socket Contact Tin 18 AWG Crimp Stamped"
-			(at 142.24 62.23 0)
+		(property "Description" "XT30 right angle through-hole with mechanical pins"
+			(at 105.41 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6162,8 +6137,8 @@
 				)
 			)
 		)
-		(property "Part Number" "0430300038"
-			(at 142.24 64.77 0)
+		(property "Part Number" "XT30PW-M"
+			(at 105.41 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6173,8 +6148,8 @@
 				)
 			)
 		)
-		(property "Vendor URL" "https://www.digikey.com/en/products/detail/molex/0430300038/6098601"
-			(at 142.24 62.23 0)
+		(property "Vendor URL" "amazon.com/Amass-XT30PW-Upgrade-Connectors-Battery/dp/B099F2PXYN/ref=sr_1_1?crid=3RMZ478RHZ3GW&dib=eyJ2IjoiMSJ9.o55izO0HNyuMXl3MOsLKPPI1bCwRzRZVKEm1VdBx4s9x5L_bV0diyeXnezLoRofhQuFlVVLxe7RKXZSqIGfjEK2YRKJOqQBKAY41z4FBqEzRtP1_9TBEKmiyeL-jTcKrGeqhlPlMJNh2DuRL5vCFzd4Jh3NBYKV-Cb3cdHsagxs.JGj7mdouyQMfBo8tdv5l-B-je1006K0LSDUjSCxg0-o&dib_tag=se&keywords=XT30PW-M&qid=1784866394&s=toys-and-games&sprefix=xt30pw-m%2Ctoys-and-games%2C140&sr=1-1"
+			(at 105.41 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6183,11 +6158,23 @@
 					(size 1.27 1.27)
 				)
 			)
+		)
+		(pin "MP"
+			(uuid "c6beba75-02cb-4885-bb10-d83e255e908e")
+		)
+		(pin "-"
+			(uuid "e35a208b-f1f6-477a-a47f-37837bea425f")
+		)
+		(pin "MP"
+			(uuid "13f2b2ab-b18d-4e4a-a6fc-b871977c6f05")
+		)
+		(pin "+"
+			(uuid "d01bf937-3764-48bb-8308-edc5ddb72eb7")
 		)
 		(instances
 			(project "stepping-stone"
 				(path "/793a882e-3f7b-468b-a863-41a1f527e1bf/73c4e66b-e11c-48b6-b2c8-fbbf612d64c5"
-					(reference "W6")
+					(reference "J1")
 					(unit 1)
 				)
 			)
@@ -6236,7 +6223,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.molex.com/en-us/products/part-detail/191980013?display=pdf"
+		(property "Datasheet" "https://www.molex.com/en-us/products/part-detail/191150009?display=pdf"
 			(at 229.87 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -6247,7 +6234,7 @@
 				)
 			)
 		)
-		(property "Description" "CONN SPADE TERM 14-16AWG #6 BLU"
+		(property "Description" "CONN SPADE TERM 18-22AWG #6 RED"
 			(at 229.87 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -6287,104 +6274,6 @@
 			(project "stepping-stone"
 				(path "/793a882e-3f7b-468b-a863-41a1f527e1bf/73c4e66b-e11c-48b6-b2c8-fbbf612d64c5"
 					(reference "P3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "stepping-stone:Micro-Fit 3.0 18AWG Crimp")
-		(at 142.24 45.72 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board no)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2463758b-5729-4b88-8dbe-036636dbc418")
-		(property "Reference" "W3"
-			(at 142.24 45.72 0)
-			(show_name no)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 0.254 0.254)
-				)
-			)
-		)
-		(property "Value" "18 AWG Crimp"
-			(at 142.24 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 142.24 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.molex.com/en-us/products/part-detail/430300038?display=pdf"
-			(at 142.24 48.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Socket Contact Tin 18 AWG Crimp Stamped"
-			(at 142.24 48.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Part Number" "0430300038"
-			(at 142.24 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Vendor URL" "https://www.digikey.com/en/products/detail/molex/0430300038/6098601"
-			(at 142.24 48.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(instances
-			(project "stepping-stone"
-				(path "/793a882e-3f7b-468b-a863-41a1f527e1bf/73c4e66b-e11c-48b6-b2c8-fbbf612d64c5"
-					(reference "W3")
 					(unit 1)
 				)
 			)
@@ -6542,110 +6431,6 @@
 			(project "stepping-stone"
 				(path "/793a882e-3f7b-468b-a863-41a1f527e1bf/73c4e66b-e11c-48b6-b2c8-fbbf612d64c5"
 					(reference "#PWR018")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "stepping-stone:Micro-Fit 3.0 1x2 Plug")
-		(at 146.05 59.69 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board no)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "2ca40138-e65f-4c13-be70-fd1cca344540")
-		(property "Reference" "P9"
-			(at 139.7 57.15 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Micro-Fit 3.0 1x2"
-			(at 139.7 59.69 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 146.05 59.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.molex.com/content/dam/molex/molex-dot-com/products/automated/en-us/salesdrawingpdf/436/43645/436450200_sd.pdf?inline"
-			(at 146.05 59.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "2 Position Rectangular Housing Connector Receptacle Black 0.118\" (3.00mm)"
-			(at 146.05 59.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Part Number" "0436450200"
-			(at 146.05 59.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Vendor URL" "https://www.digikey.com/en/products/detail/molex/0436450200/268974"
-			(at 146.05 59.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "f61937ff-af32-47b1-a05b-63ac0de760dc")
-		)
-		(pin "1"
-			(uuid "d3312373-7bbc-473c-bb4b-ed4b45f71778")
-		)
-		(instances
-			(project "stepping-stone"
-				(path "/793a882e-3f7b-468b-a863-41a1f527e1bf/73c4e66b-e11c-48b6-b2c8-fbbf612d64c5"
-					(reference "P9")
 					(unit 1)
 				)
 			)
@@ -7199,7 +6984,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.molex.com/en-us/products/part-detail/191980013?display=pdf"
+		(property "Datasheet" "https://www.molex.com/en-us/products/part-detail/191150009?display=pdf"
 			(at 171.45 48.26 0)
 			(hide yes)
 			(show_name no)
@@ -7210,7 +6995,7 @@
 				)
 			)
 		)
-		(property "Description" "CONN SPADE TERM 14-16AWG #6 BLU"
+		(property "Description" "CONN SPADE TERM 18-22AWG #6 RED"
 			(at 171.45 48.26 0)
 			(hide yes)
 			(show_name no)
@@ -8023,111 +7808,6 @@
 		)
 	)
 	(symbol
-		(lib_name "Micro-Fit 3.0 1x2 Plug_1")
-		(lib_id "stepping-stone:Micro-Fit 3.0 1x2 Plug")
-		(at 146.05 48.26 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board no)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "83230e21-be32-4d33-83fa-f920adf18b2c")
-		(property "Reference" "P7"
-			(at 139.7 45.72 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Micro-Fit 3.0 1x2"
-			(at 139.7 48.26 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 146.05 48.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.molex.com/content/dam/molex/molex-dot-com/products/automated/en-us/salesdrawingpdf/436/43645/436450200_sd.pdf?inline"
-			(at 146.05 48.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "2 Position Rectangular Housing Connector Receptacle Black 0.118\" (3.00mm)"
-			(at 146.05 48.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Part Number" "0436450200"
-			(at 146.05 48.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Vendor URL" "https://www.digikey.com/en/products/detail/molex/0436450200/268974"
-			(at 146.05 48.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "91190316-e005-4988-b66e-0d008ea98b35")
-		)
-		(pin "1"
-			(uuid "b7e5accd-89aa-4c83-85da-2dc001719212")
-		)
-		(instances
-			(project "stepping-stone"
-				(path "/793a882e-3f7b-468b-a863-41a1f527e1bf/73c4e66b-e11c-48b6-b2c8-fbbf612d64c5"
-					(reference "P7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "stepping-stone:NEMA5-15P Cord")
 		(at 252.73 53.34 0)
 		(mirror y)
@@ -8361,85 +8041,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 107.95 113.03 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "97aba936-5760-40c0-b7f6-c1d106bcc93f")
-		(property "Reference" "#FLG01"
-			(at 107.95 111.125 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 107.95 107.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 107.95 113.03 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 107.95 113.03 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 107.95 113.03 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "869f9b11-798f-4db9-846b-c3ccce3453a4")
-		)
-		(instances
-			(project "stepping-stone"
-				(path "/793a882e-3f7b-468b-a863-41a1f527e1bf/73c4e66b-e11c-48b6-b2c8-fbbf612d64c5"
-					(reference "#FLG01")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "stepping-stone:18AWG Stranded Red Wire")
 		(at 158.75 55.88 0)
 		(mirror y)
@@ -8612,110 +8213,6 @@
 			(project "stepping-stone"
 				(path "/793a882e-3f7b-468b-a863-41a1f527e1bf/73c4e66b-e11c-48b6-b2c8-fbbf612d64c5"
 					(reference "#PWR04")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "stepping-stone:Micro-Fit 3.0 1x2 Jack")
-		(at 105.41 115.57 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "a8167dfe-392f-4b45-a341-01cd69112fb4")
-		(property "Reference" "J1"
-			(at 99.06 113.03 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Micro-Fit 1x2"
-			(at 99.06 115.57 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 105.41 115.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.molex.com/content/dam/molex/molex-dot-com/products/automated/en-us/salesdrawingpdf/436/43650/436500203_sd.pdf?inline"
-			(at 105.41 117.475 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 105.41 117.475 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Part Number" "0436500203"
-			(at 104.775 117.475 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Vendor URL" "https://www.digikey.com/en/products/detail/molex/0436500203/268999"
-			(at 105.41 117.475 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "1dc6e50c-f1b6-4af6-9ae9-4c8a668a1063")
-		)
-		(pin "1"
-			(uuid "78f83343-260a-4600-ae66-a3c4feb02a83")
-		)
-		(instances
-			(project "stepping-stone"
-				(path "/793a882e-3f7b-468b-a863-41a1f527e1bf/73c4e66b-e11c-48b6-b2c8-fbbf612d64c5"
-					(reference "J1")
 					(unit 1)
 				)
 			)
@@ -8942,6 +8439,118 @@
 		)
 	)
 	(symbol
+		(lib_name "XT30U-F_1")
+		(lib_id "stepping-stone:XT30U-F")
+		(at 146.05 48.26 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bc7d1f80-7323-437c-be6a-e8f79f607726")
+		(property "Reference" "P7"
+			(at 140.97 45.72 0)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "XT30U-F"
+			(at 140.97 48.26 0)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 146.05 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://octopart.com/datasheet/amass/XT30U-F"
+			(at 146.05 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "XT30 cable connector"
+			(at 146.05 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "XT30U-F"
+			(at 146.05 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vendor URL" "https://octopart.com/part/amass/XT30U-F"
+			(at 146.05 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "MP"
+			(uuid "8bf0f6c9-03d1-4fde-a3e2-578ac0feb33b")
+		)
+		(pin "+"
+			(uuid "8a1bd7a6-8f01-4852-9e3c-54571ec69c5c")
+		)
+		(pin "-"
+			(uuid "ddcc85c9-8f2d-40b2-a4c1-404f55eb5312")
+		)
+		(pin "MP"
+			(uuid "99ffc4cc-d389-45bc-a3f4-d5949dd509da")
+		)
+		(instances
+			(project "stepping-stone"
+				(path "/793a882e-3f7b-468b-a863-41a1f527e1bf/73c4e66b-e11c-48b6-b2c8-fbbf612d64c5"
+					(reference "P7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:PWR_FLAG")
 		(at 153.67 113.03 0)
 		(unit 1)
@@ -9063,7 +8672,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.molex.com/en-us/products/part-detail/191980013?display=pdf"
+		(property "Datasheet" "https://www.molex.com/en-us/products/part-detail/191150009?display=pdf"
 			(at 229.87 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -9074,7 +8683,7 @@
 				)
 			)
 		)
-		(property "Description" "CONN SPADE TERM 14-16AWG #6 BLU"
+		(property "Description" "CONN SPADE TERM 18-22AWG #6 RED"
 			(at 229.87 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -9211,104 +8820,6 @@
 			(project "stepping-stone"
 				(path "/793a882e-3f7b-468b-a863-41a1f527e1bf/73c4e66b-e11c-48b6-b2c8-fbbf612d64c5"
 					(reference "W1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "stepping-stone:Micro-Fit 3.0 18AWG Crimp")
-		(at 142.24 48.26 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board no)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d98ce24c-dd90-4a27-a7c6-ced8cbac716b")
-		(property "Reference" "W4"
-			(at 142.24 48.26 0)
-			(show_name no)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 0.254 0.254)
-				)
-			)
-		)
-		(property "Value" "18 AWG Crimp"
-			(at 142.24 48.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 142.24 48.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.molex.com/en-us/products/part-detail/430300038?display=pdf"
-			(at 142.24 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Socket Contact Tin 18 AWG Crimp Stamped"
-			(at 142.24 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Part Number" "0430300038"
-			(at 142.24 53.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Vendor URL" "https://www.digikey.com/en/products/detail/molex/0430300038/6098601"
-			(at 142.24 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(instances
-			(project "stepping-stone"
-				(path "/793a882e-3f7b-468b-a863-41a1f527e1bf/73c4e66b-e11c-48b6-b2c8-fbbf612d64c5"
-					(reference "W4")
 					(unit 1)
 				)
 			)
@@ -9868,7 +9379,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.molex.com/en-us/products/part-detail/191980013?display=pdf"
+		(property "Datasheet" "https://www.molex.com/en-us/products/part-detail/191150009?display=pdf"
 			(at 229.87 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -9879,7 +9390,7 @@
 				)
 			)
 		)
-		(property "Description" "CONN SPADE TERM 14-16AWG #6 BLU"
+		(property "Description" "CONN SPADE TERM 18-22AWG #6 RED"
 			(at 229.87 55.88 0)
 			(hide yes)
 			(show_name no)

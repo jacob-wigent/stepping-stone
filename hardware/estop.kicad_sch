@@ -171,7 +171,7 @@
 		)
 	)
 	(image
-		(at 179.07 44.45)
+		(at 67.31 40.64)
 		(uuid "4969ee83-08da-4116-a2a7-b190426c60f1")
 		(data "iVBORw0KGgoAAAANSUhEUgAABGIAAAIACAYAAADJ38r0AAAABHNCSVQICAgIfAhkiAAAIABJREFU"
 			"eJzs3XlcVPX+P/DXmWFARC3cc0RJyRbLcmuSm4qaZnozoygXFLDCKKX1q92fC2pp2p4KXrPSyq1Q"
@@ -1235,10 +1235,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "99316e80-8565-400e-be81-a966042988bd")
+			(uuid "cd526fed-1fb6-4788-90cd-1adac3fed800")
 		)
 		(pin "2"
-			(uuid "a8d122b6-f3c4-4e2e-ab01-52d1c4f059d8")
+			(uuid "2eee2056-de12-48c1-94e7-a7ad789fedb5")
 		)
 		(instances
 			(project "stepping-stone"
@@ -1361,10 +1361,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "861ba9c4-24b9-4ac5-b0a2-75ef03150682")
+			(uuid "5e859b47-a7b8-4a15-83cd-570c63ab91e2")
 		)
 		(pin "2"
-			(uuid "ef9d295b-ec76-43c3-81d6-33906075d14d")
+			(uuid "fd292668-cfaf-4bf4-a9bd-ee6dc8f78b9c")
 		)
 		(instances
 			(project "stepping-stone"

@@ -672,7 +672,7 @@
         "uuid": "793a882e-3f7b-468b-a863-41a1f527e1bf"
       }
     ],
-    "used_designators": "#PWR28",
+    "used_designators": "#PWR33-35,#PWR37,#PWR39-40,#PWR46-49",
     "variants": []
   },
   "sheets": [
@@ -699,6 +699,10 @@
     [
       "ca68e3e0-6620-4c6d-b672-8e352c5602f5",
       "ESTOP"
+    ],
+    [
+      "ac651d86-039a-41e0-98dc-6df0515c0885",
+      "Stepper Driver 0"
     ]
   ],
   "text_variables": {},

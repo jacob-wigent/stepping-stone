@@ -9885,7 +9885,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "BLUE"
+		(property "Value" "YELLOW"
 			(at 167.64 128.5874 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9940,7 +9940,7 @@
 				)
 			)
 		)
-		(property "Part Number" "LTST-C171TBKT"
+		(property "Part Number" "LTST-C170YKT"
 			(at 163.83 125.73 0)
 			(hide yes)
 			(show_name no)
@@ -9951,7 +9951,7 @@
 				)
 			)
 		)
-		(property "Vendor URL" "https://www.digikey.com/en/products/detail/liteon/LTST-C171TBKT/388528"
+		(property "Vendor URL" "https://www.digikey.com/en/products/detail/liteon/LTST-C170YKT/269222"
 			(at 163.83 125.73 0)
 			(hide yes)
 			(show_name no)

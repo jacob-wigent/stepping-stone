@@ -5230,6 +5230,17 @@
 		)
 		(uuid "5fc33581-82bd-4672-96bd-76e7eb08031f")
 	)
+	(hierarchical_label "USB_STATUS"
+		(shape output)
+		(at 135.89 50.8 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c14fb2ea-034a-4e16-99b0-8ac8b2404756")
+	)
 	(symbol
 		(lib_id "Device:C_Small")
 		(at 191.77 53.34 0)

@@ -4053,6 +4053,28 @@
 				)
 			)
 		)
+		(property "Part Number" "AO3400A"
+			(at 186.69 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vendor URL" "https://www.digikey.com/en/products/detail/alpha-omega-semiconductor-inc/AO3400A/1855772"
+			(at 186.69 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "ec1f5d36-de90-4f1d-bcaf-878e7a502a5a")
 		)
@@ -4309,6 +4331,108 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_US")
+		(at 200.66 116.84 90)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "72e0a0f7-cee5-44f2-a802-8a9d325459d2")
+		(property "Reference" "R?"
+			(at 200.66 111.76 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100R"
+			(at 200.66 114.3 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 200.914 117.856 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 200.66 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 200.66 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "RC0603FR-07100RL"
+			(at 200.66 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vendor URL" "https://www.digikey.com/en/products/detail/yageo/RC0603FR-07100RL/726888"
+			(at 200.66 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3f337813-e027-43dc-aa6b-32e45c0921d0")
+		)
+		(pin "2"
+			(uuid "840d0875-1a42-4426-8e74-75d820d2af22")
+		)
+		(instances
+			(project "stepping-stone"
+				(path "/793a882e-3f7b-468b-a863-41a1f527e1bf/57b4c7a6-0892-4cab-a0ed-f935f784d7ce"
+					(reference "R?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 113.03 125.73 0)
 		(unit 1)
@@ -4388,108 +4512,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_US")
-		(at 200.66 116.84 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7de26592-6c20-4ca5-8134-e0b065f735df")
-		(property "Reference" "R?"
-			(at 200.66 110.49 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "220R"
-			(at 200.66 113.03 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 200.914 115.824 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 200.66 116.84 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 200.66 116.84 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Part Number" "RMCF0603JT220R"
-			(at 200.66 116.84 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Vendor URL" "https://www.digikey.com/en/products/detail/stackpole-electronics-inc/RMCF0603JT220R/1758014"
-			(at 200.66 116.84 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "98609ea1-f209-4449-b15c-2311095308f9")
-		)
-		(pin "2"
-			(uuid "5dbae5d7-cada-4761-bce9-a16a61ee45db")
-		)
-		(instances
-			(project "stepping-stone"
-				(path "/793a882e-3f7b-468b-a863-41a1f527e1bf/57b4c7a6-0892-4cab-a0ed-f935f784d7ce"
-					(reference "R?")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 149.86 91.44 0)
 		(unit 1)
@@ -4511,7 +4533,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "4.7uF, 50V"
+		(property "Value" "4.7uF, 16V"
 			(at 153.035 92.7099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4522,7 +4544,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 150.8252 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -4555,7 +4577,7 @@
 				)
 			)
 		)
-		(property "Part Number" "CL31B475KBHNFNE"
+		(property "Part Number" "GCM21BR71C475KA73L"
 			(at 149.86 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -4566,7 +4588,7 @@
 				)
 			)
 		)
-		(property "Vendor URL" "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL31B475KBHNFNE/3888837"
+		(property "Vendor URL" "https://www.digikey.com/en/products/detail/murata-electronics/GCM21BR71C475KA73L/2075311"
 			(at 149.86 91.44 0)
 			(hide yes)
 			(show_name no)

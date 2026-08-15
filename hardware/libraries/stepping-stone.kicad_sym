@@ -4353,6 +4353,194 @@
 		)
 		(embedded_fonts no)
 	)
+	(symbol "SD_Card_16GB"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "SD"
+			(at 27.94 -3.81 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "16GB"
+			(at 27.94 -6.35 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "SanDisk Ultra SDSQUNS-016G-GN3MN 16GB 80MB/s UHS-I Class 10 microSDHC Card"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "SDSQUNS-016G-GN3MN"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vendor URL" "https://www.amazon.com/SanDisk-Ultra-SDSQUNS-016G-GN3MN-UHS-I-microSDHC/dp/B074B4P7KD/ref=sr_1_1?crid=2HC6NWVIZRIG6&dib=eyJ2IjoiMSJ9.SI8-kG2MRYV8EnrViT8CzprHKTq9WNMqPvoVpCWXa-vSDJo3d97b07fuzEeonn8uIeZ6rV0KaQkt1VdIq3T1aSz5duo3qUvMJ7JzJw0Pn5vCOKBpBSWT-KFH19YyisUkxt_VahNoJWKM8WOxlsPOmXOwLGtX2MO4yMHzBDLy5JrtCG089Ix89Y0wSQ5ZpWlMvzWe_BT6p21BV207Rb23tI621RrzsL_gtzmsNoPDirA.3A25fK5c_nL6MkOMj8L0ZH3bFn0F7Sgq8cS9kwfnbkg&dib_tag=se&keywords=micro%2Bsd%2Bcard%2Bsandisk%2B8gb&qid=1786769171&sprefix=micro%2Bsd%2Bcard%2Bsandisk%2B8gb%2Caps%2C178&sr=8-1"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "SD_Card_16GB_0_1"
+			(polyline
+				(pts
+					(xy 0 -25.4) (xy 0 -5.08) (xy 7.62 -5.08) (xy 11.43 -1.27) (xy 12.7 -1.27) (xy 12.7 -2.54) (xy 15.24 -2.54)
+					(xy 16.51 -1.27) (xy 29.21 -1.27) (xy 29.21 -25.4) (xy 0 -25.4)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start 1.27 -5.715)
+				(end 3.81 -6.985)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(rectangle
+				(start 1.27 -8.255)
+				(end 3.81 -9.525)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(rectangle
+				(start 1.27 -10.795)
+				(end 3.81 -12.065)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(rectangle
+				(start 1.27 -13.335)
+				(end 3.81 -14.605)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(rectangle
+				(start 1.27 -15.875)
+				(end 3.81 -17.145)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(rectangle
+				(start 1.27 -18.415)
+				(end 3.81 -19.685)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(rectangle
+				(start 1.27 -20.955)
+				(end 3.81 -22.225)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(rectangle
+				(start 1.27 -23.495)
+				(end 3.81 -24.765)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
 	(symbol "TCPP01-M12"
 		(exclude_from_sim no)
 		(in_bom yes)

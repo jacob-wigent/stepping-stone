@@ -672,7 +672,7 @@
         "uuid": "793a882e-3f7b-468b-a863-41a1f527e1bf"
       }
     ],
-    "used_designators": "#PWR29-30,#PWR60,#PWR62-75",
+    "used_designators": "",
     "variants": []
   },
   "sheets": [
@@ -703,6 +703,10 @@
     [
       "ac651d86-039a-41e0-98dc-6df0515c0885",
       "Stepper Driver 0"
+    ],
+    [
+      "19dbaeaf-d110-49c5-9d75-50e9003bebb2",
+      "SD Card"
     ]
   ],
   "text_variables": {},

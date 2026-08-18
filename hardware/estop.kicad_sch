@@ -1429,22 +1429,45 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "FIX/VERIFY HARDWARE DEBOUNCE"
-		(exclude_from_sim no)
-		(at 177.8 74.93 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
-				(color 194 0 0 1)
-			)
+	(rectangle
+		(start 43.18 81.28)
+		(end 81.28 127)
+		(stroke
+			(width 0)
+			(type default)
 		)
-		(uuid "3991fb5b-0e17-4d23-9608-cb307b1f4543")
+		(fill
+			(type none)
+		)
+		(uuid "243aa50b-2031-498a-8680-31aed2c69033")
 	)
-	(text "FIX/VERIFY HARDWARE DEBOUNCE"
+	(rectangle
+		(start 82.55 101.6)
+		(end 107.95 127)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "82535281-835c-4213-967d-c28ff192f9ef")
+	)
+	(rectangle
+		(start 109.22 101.6)
+		(end 120.65 127)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "de949221-5199-4bad-8cf9-8513a5ebdaa0")
+	)
+	(text "FIX/VERIFY HARDWARE DEBOUNCE FOR BOTH BUTTONS\n74LVC MAY NEED SCHMITT TRIG INPUTS"
 		(exclude_from_sim no)
-		(at 124.46 134.62 0)
+		(at 114.3 62.23 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1453,71 +1476,134 @@
 				(color 194 0 0 1)
 			)
 		)
-		(uuid "7f2a1ff2-3bc9-4e48-aa1c-e2ff457b5ae5")
+		(uuid "050f54c8-9637-405d-9303-3d5b85c5bc04")
+	)
+	(text "External trigger\nshould be driven\nby OPEN-DRAIN GPIO\nfor safety."
+		(exclude_from_sim no)
+		(at 121.92 123.19 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3f175084-d273-46db-ac92-b913346bb0dc")
+	)
+	(text "ESTOP Button"
+		(exclude_from_sim no)
+		(at 82.55 129.54 0)
+		(effects
+			(font
+				(size 1.905 1.905)
+			)
+			(justify left)
+		)
+		(uuid "4134727a-9654-4316-aea7-b545f2444cef")
+	)
+	(text "Heartbeat Watchdog"
+		(exclude_from_sim no)
+		(at 43.18 129.54 0)
+		(effects
+			(font
+				(size 1.905 1.905)
+			)
+			(justify left)
+		)
+		(uuid "9614047b-42bd-48b5-ae17-f394faa1abdd")
+	)
+	(text "ESTOP Triggers"
+		(exclude_from_sim no)
+		(at 43.18 77.47 0)
+		(effects
+			(font
+				(size 1.905 1.905)
+				(thickness 0.508)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "aa373d4b-8aa4-480e-af4f-1ea0c9ee9541")
+	)
+	(text "External"
+		(exclude_from_sim no)
+		(at 109.22 129.54 0)
+		(effects
+			(font
+				(size 1.905 1.905)
+			)
+			(justify left)
+		)
+		(uuid "bb19ec1b-e460-4de3-8f96-830574e9ecc9")
 	)
 	(junction
-		(at 99.06 106.68)
+		(at 91.44 104.14)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1e7c1f89-6550-410b-ad45-b2600faed81f")
 	)
 	(junction
-		(at 142.24 101.6)
+		(at 115.57 104.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "321b56e3-496e-4872-9be2-1a4d2cd4b30b")
+	)
+	(junction
+		(at 151.13 99.06)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4941a735-65dc-46ba-9dcd-8aacd851fd38")
 	)
 	(junction
-		(at 73.66 92.71)
+		(at 67.31 90.17)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4e3ff2d7-cc77-444e-923f-11b65cf7a2ac")
 	)
 	(junction
-		(at 104.14 106.68)
+		(at 96.52 104.14)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6ac794dc-27dc-4ceb-a289-f9a68fdef9a7")
 	)
 	(junction
-		(at 59.69 111.76)
+		(at 53.34 109.22)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8d913209-1bb2-4d78-831f-fe58bd8c8d33")
 	)
 	(junction
-		(at 85.09 116.84)
+		(at 78.74 114.3)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "90b49e86-919f-46ca-8fd1-9bd21d2d1940")
 	)
 	(junction
-		(at 210.82 96.52)
+		(at 219.71 93.98)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a0af6163-4d25-43fc-a6ba-f12f48da43ab")
 	)
 	(junction
-		(at 147.32 101.6)
+		(at 156.21 99.06)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a43bd507-99c6-454c-bfbe-b1be444887c3")
 	)
 	(junction
-		(at 176.53 85.09)
+		(at 128.27 104.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a77cefcd-53f5-430f-873f-52e62eb128d7")
+	)
+	(junction
+		(at 185.42 82.55)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "dee5a963-77b1-4019-bbaf-463982620d69")
 	)
-	(junction
-		(at 91.44 106.68)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e53e3766-a6a0-4a5e-835b-989a5f9c192c")
-	)
 	(wire
 		(pts
-			(xy 85.09 116.84) (xy 85.09 124.46)
+			(xy 78.74 114.3) (xy 78.74 121.92)
 		)
 		(stroke
 			(width 0)
@@ -1527,7 +1613,7 @@
 	)
 	(wire
 		(pts
-			(xy 210.82 96.52) (xy 223.52 96.52)
+			(xy 219.71 93.98) (xy 232.41 93.98)
 		)
 		(stroke
 			(width 0)
@@ -1537,7 +1623,7 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 124.46) (xy 99.06 123.19)
+			(xy 91.44 121.92) (xy 91.44 120.65)
 		)
 		(stroke
 			(width 0)
@@ -1547,7 +1633,7 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 96.52) (xy 156.21 96.52)
+			(xy 172.72 93.98) (xy 165.1 93.98)
 		)
 		(stroke
 			(width 0)
@@ -1557,7 +1643,7 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 105.41) (xy 91.44 106.68)
+			(xy 128.27 97.79) (xy 128.27 104.14)
 		)
 		(stroke
 			(width 0)
@@ -1567,7 +1653,7 @@
 	)
 	(wire
 		(pts
-			(xy 210.82 93.98) (xy 210.82 96.52)
+			(xy 219.71 91.44) (xy 219.71 93.98)
 		)
 		(stroke
 			(width 0)
@@ -1577,7 +1663,7 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 111.76) (xy 85.09 116.84)
+			(xy 78.74 109.22) (xy 78.74 114.3)
 		)
 		(stroke
 			(width 0)
@@ -1587,7 +1673,7 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 96.52) (xy 210.82 96.52)
+			(xy 198.12 93.98) (xy 219.71 93.98)
 		)
 		(stroke
 			(width 0)
@@ -1597,7 +1683,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 124.46) (xy 147.32 123.19)
+			(xy 156.21 121.92) (xy 156.21 120.65)
 		)
 		(stroke
 			(width 0)
@@ -1607,7 +1693,7 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 92.71) (xy 59.69 111.76)
+			(xy 53.34 90.17) (xy 53.34 109.22)
 		)
 		(stroke
 			(width 0)
@@ -1617,7 +1703,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 124.46) (xy 104.14 120.65)
+			(xy 96.52 121.92) (xy 96.52 118.11)
 		)
 		(stroke
 			(width 0)
@@ -1627,7 +1713,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 101.6) (xy 163.83 101.6)
+			(xy 156.21 99.06) (xy 172.72 99.06)
 		)
 		(stroke
 			(width 0)
@@ -1637,7 +1723,7 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 116.84) (xy 59.69 116.84)
+			(xy 57.15 114.3) (xy 53.34 114.3)
 		)
 		(stroke
 			(width 0)
@@ -1647,7 +1733,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 115.57) (xy 147.32 114.3)
+			(xy 156.21 113.03) (xy 156.21 111.76)
 		)
 		(stroke
 			(width 0)
@@ -1657,17 +1743,17 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 106.68) (xy 163.83 106.68)
+			(xy 115.57 104.14) (xy 115.57 114.3)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "50888308-149b-4dc7-8a98-7cbb7866e8b5")
+		(uuid "4ea8d6f4-f6b7-4142-8708-ef8fd8368efb")
 	)
 	(wire
 		(pts
-			(xy 142.24 110.49) (xy 142.24 101.6)
+			(xy 151.13 107.95) (xy 151.13 99.06)
 		)
 		(stroke
 			(width 0)
@@ -1677,7 +1763,7 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 85.09) (xy 176.53 85.09)
+			(xy 181.61 82.55) (xy 185.42 82.55)
 		)
 		(stroke
 			(width 0)
@@ -1687,7 +1773,7 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 115.57) (xy 99.06 114.3)
+			(xy 91.44 113.03) (xy 91.44 111.76)
 		)
 		(stroke
 			(width 0)
@@ -1697,7 +1783,7 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 109.22) (xy 99.06 106.68)
+			(xy 91.44 106.68) (xy 91.44 104.14)
 		)
 		(stroke
 			(width 0)
@@ -1707,7 +1793,7 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 85.09) (xy 176.53 88.9)
+			(xy 185.42 82.55) (xy 185.42 86.36)
 		)
 		(stroke
 			(width 0)
@@ -1717,17 +1803,17 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 97.79) (xy 91.44 92.71)
+			(xy 128.27 104.14) (xy 172.72 104.14)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "709b42c0-9ec3-47c0-b9c2-c7e124301615")
+		(uuid "84ed6a03-279b-4a55-a70a-5ba1872ec3f1")
 	)
 	(wire
 		(pts
-			(xy 147.32 109.22) (xy 147.32 101.6)
+			(xy 156.21 106.68) (xy 156.21 99.06)
 		)
 		(stroke
 			(width 0)
@@ -1737,7 +1823,7 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 124.46) (xy 142.24 120.65)
+			(xy 151.13 121.92) (xy 151.13 118.11)
 		)
 		(stroke
 			(width 0)
@@ -1747,7 +1833,7 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 111.76) (xy 63.5 111.76)
+			(xy 53.34 109.22) (xy 57.15 109.22)
 		)
 		(stroke
 			(width 0)
@@ -1757,7 +1843,7 @@
 	)
 	(wire
 		(pts
-			(xy 210.82 99.06) (xy 210.82 96.52)
+			(xy 219.71 96.52) (xy 219.71 93.98)
 		)
 		(stroke
 			(width 0)
@@ -1767,7 +1853,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 110.49) (xy 104.14 106.68)
+			(xy 96.52 107.95) (xy 96.52 104.14)
 		)
 		(stroke
 			(width 0)
@@ -1777,7 +1863,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 116.84) (xy 85.09 116.84)
+			(xy 77.47 114.3) (xy 78.74 114.3)
 		)
 		(stroke
 			(width 0)
@@ -1787,7 +1873,7 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 106.68) (xy 63.5 106.68)
+			(xy 49.53 104.14) (xy 57.15 104.14)
 		)
 		(stroke
 			(width 0)
@@ -1797,7 +1883,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 101.6) (xy 142.24 101.6)
+			(xy 156.21 99.06) (xy 151.13 99.06)
 		)
 		(stroke
 			(width 0)
@@ -1807,7 +1893,7 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 92.71) (xy 73.66 99.06)
+			(xy 67.31 90.17) (xy 67.31 96.52)
 		)
 		(stroke
 			(width 0)
@@ -1817,7 +1903,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 111.76) (xy 85.09 111.76)
+			(xy 77.47 109.22) (xy 78.74 109.22)
 		)
 		(stroke
 			(width 0)
@@ -1827,7 +1913,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 106.68) (xy 91.44 106.68)
+			(xy 77.47 104.14) (xy 128.27 104.14)
 		)
 		(stroke
 			(width 0)
@@ -1837,7 +1923,7 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 100.33) (xy 142.24 101.6)
+			(xy 151.13 97.79) (xy 151.13 99.06)
 		)
 		(stroke
 			(width 0)
@@ -1847,7 +1933,7 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 96.52) (xy 156.21 92.71)
+			(xy 165.1 93.98) (xy 165.1 90.17)
 		)
 		(stroke
 			(width 0)
@@ -1857,7 +1943,7 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 92.71) (xy 73.66 92.71)
+			(xy 63.5 90.17) (xy 67.31 90.17)
 		)
 		(stroke
 			(width 0)
@@ -1867,7 +1953,7 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 111.76) (xy 59.69 116.84)
+			(xy 53.34 109.22) (xy 53.34 114.3)
 		)
 		(stroke
 			(width 0)
@@ -3453,7 +3539,7 @@
 		)
 	)
 	(label "~{ESTOP_TRIGGER}"
-		(at 114.3 106.68 0)
+		(at 130.81 104.14 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3463,7 +3549,7 @@
 		(uuid "3070a623-f35b-480c-817c-94779d44fe04")
 	)
 	(label "~{ESTOP_ACTIVE}"
-		(at 205.74 96.52 180)
+		(at 214.63 93.98 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3473,7 +3559,7 @@
 		(uuid "9fe64ba7-566a-4e71-b8b9-801aae52542c")
 	)
 	(label "~{ESTOP_RESET}"
-		(at 151.13 101.6 0)
+		(at 160.02 99.06 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3484,7 +3570,7 @@
 	)
 	(hierarchical_label "WDI"
 		(shape input)
-		(at 55.88 106.68 180)
+		(at 49.53 104.14 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3495,7 +3581,7 @@
 	)
 	(hierarchical_label "~{ESTOP}"
 		(shape input)
-		(at 223.52 96.52 0)
+		(at 232.41 93.98 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3504,9 +3590,20 @@
 		)
 		(uuid "d18dd7d7-90fd-4ad4-b4d5-95bf710cb412")
 	)
+	(hierarchical_label "~{EXT_TRIG}"
+		(shape input)
+		(at 115.57 114.3 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e0ab4a70-4450-4a93-af1b-5c978d556be2")
+	)
 	(symbol
 		(lib_id "power:GND")
-		(at 147.32 124.46 0)
+		(at 156.21 121.92 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3517,7 +3614,7 @@
 		(fields_autoplaced yes)
 		(uuid "04335986-8319-46f7-9ee9-12a9605a4d77")
 		(property "Reference" "#PWR064"
-			(at 147.32 130.81 0)
+			(at 156.21 128.27 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3528,7 +3625,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 147.32 128.905 0)
+			(at 156.21 126.365 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3539,7 +3636,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 147.32 124.46 0)
+			(at 156.21 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3550,7 +3647,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 147.32 124.46 0)
+			(at 156.21 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3561,7 +3658,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 147.32 124.46 0)
+			(at 156.21 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3585,7 +3682,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 91.44 101.6 0)
+		(at 128.27 93.98 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3595,7 +3692,7 @@
 		(dnp no)
 		(uuid "0d64c6ab-7335-4fda-988a-5eb5376acde9")
 		(property "Reference" "R?"
-			(at 93.98 100.3299 0)
+			(at 130.81 92.7099 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3606,7 +3703,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 93.98 102.8699 0)
+			(at 130.81 95.2499 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3617,7 +3714,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 92.456 101.854 90)
+			(at 129.286 94.234 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3628,7 +3725,7 @@
 			)
 		)
 		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
-			(at 91.44 101.6 0)
+			(at 128.27 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3639,7 +3736,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 91.44 101.6 0)
+			(at 128.27 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3650,7 +3747,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 91.44 101.6 0)
+			(at 128.27 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3661,7 +3758,7 @@
 			)
 		)
 		(property "Sim.Pins" ""
-			(at 91.44 101.6 0)
+			(at 128.27 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3672,7 +3769,7 @@
 			)
 		)
 		(property "Part Number" "RC0603FR-0710KL"
-			(at 91.44 101.6 0)
+			(at 128.27 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3683,7 +3780,7 @@
 			)
 		)
 		(property "Vendor URL" "https://www.digikey.com/en/products/detail/yageo/RC0603FR-0710KL/726880"
-			(at 91.44 101.6 0)
+			(at 128.27 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3710,7 +3807,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 85.09 124.46 0)
+		(at 78.74 121.92 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -3722,7 +3819,7 @@
 		(fields_autoplaced yes)
 		(uuid "0fde6fdb-fe9b-4a2f-9e16-fbe572ee226f")
 		(property "Reference" "#PWR071"
-			(at 85.09 130.81 0)
+			(at 78.74 128.27 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3733,7 +3830,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 85.09 128.905 0)
+			(at 78.74 126.365 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3744,7 +3841,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 85.09 124.46 0)
+			(at 78.74 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3755,7 +3852,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 85.09 124.46 0)
+			(at 78.74 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3766,7 +3863,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 85.09 124.46 0)
+			(at 78.74 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3790,7 +3887,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 176.53 114.3 0)
+		(at 185.42 111.76 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -3802,7 +3899,7 @@
 		(fields_autoplaced yes)
 		(uuid "1229c312-d346-466b-867c-f197ba900eba")
 		(property "Reference" "#PWR030"
-			(at 176.53 120.65 0)
+			(at 185.42 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3813,7 +3910,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 176.53 118.745 0)
+			(at 185.42 116.205 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3824,7 +3921,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 176.53 114.3 0)
+			(at 185.42 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3835,7 +3932,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 176.53 114.3 0)
+			(at 185.42 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3846,7 +3943,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 176.53 114.3 0)
+			(at 185.42 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3870,7 +3967,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 156.21 92.71 0)
+		(at 165.1 90.17 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3881,7 +3978,7 @@
 		(fields_autoplaced yes)
 		(uuid "158b59e9-789d-4de7-b63c-04f1206e547f")
 		(property "Reference" "#PWR060"
-			(at 156.21 96.52 0)
+			(at 165.1 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3892,7 +3989,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 156.21 87.63 0)
+			(at 165.1 85.09 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3902,7 +3999,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 156.21 92.71 0)
+			(at 165.1 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3913,7 +4010,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 156.21 92.71 0)
+			(at 165.1 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3924,7 +4021,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 156.21 92.71 0)
+			(at 165.1 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3948,7 +4045,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 69.85 95.25 0)
+		(at 63.5 92.71 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3958,7 +4055,7 @@
 		(dnp no)
 		(uuid "1cf95764-521a-45bf-b5b6-96217175dc48")
 		(property "Reference" "C?"
-			(at 67.31 93.98 0)
+			(at 60.96 91.44 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3969,7 +4066,7 @@
 			)
 		)
 		(property "Value" "0.1uF"
-			(at 67.31 96.52 0)
+			(at 60.96 93.98 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3980,7 +4077,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 69.85 95.25 0)
+			(at 63.5 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3991,7 +4088,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 69.85 95.25 0)
+			(at 63.5 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4002,7 +4099,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 69.85 95.25 0)
+			(at 63.5 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4013,7 +4110,7 @@
 			)
 		)
 		(property "Part Number" "CC0603KRX7R9BB104"
-			(at 69.85 95.25 0)
+			(at 63.5 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4024,7 +4121,7 @@
 			)
 		)
 		(property "Vendor URL" "https://www.digikey.com/en/products/detail/yageo/CC0603KRX7R9BB104/2103082"
-			(at 69.85 95.25 0)
+			(at 63.5 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4035,7 +4132,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 69.85 95.25 0)
+			(at 63.5 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4046,7 +4143,7 @@
 			)
 		)
 		(property "Sim.Pins" ""
-			(at 69.85 95.25 0)
+			(at 63.5 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4073,7 +4170,7 @@
 	)
 	(symbol
 		(lib_id "74xGxx:74LVC1G175")
-		(at 176.53 101.6 0)
+		(at 185.42 99.06 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4083,7 +4180,7 @@
 		(dnp no)
 		(uuid "270b7f8f-1ea0-473d-87d7-fb4597654198")
 		(property "Reference" "U?"
-			(at 179.07 88.9 0)
+			(at 187.96 86.36 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4094,7 +4191,7 @@
 			)
 		)
 		(property "Value" "74LVC1G175"
-			(at 179.07 91.44 0)
+			(at 187.96 88.9 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4105,7 +4202,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
-			(at 176.53 101.6 0)
+			(at 185.42 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4116,7 +4213,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf"
-			(at 176.53 101.6 0)
+			(at 185.42 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4127,7 +4224,29 @@
 			)
 		)
 		(property "Description" "Single D Flip-Flop, Asynchronous Clear, Low-Voltage CMOS"
-			(at 176.53 101.6 0)
+			(at 185.42 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "SN74LVC1G175DBVR"
+			(at 185.42 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vendor URL" "https://www.digikey.com/en/products/detail/texas-instruments/SN74LVC1G175DBVR/706598"
+			(at 185.42 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4166,7 +4285,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 142.24 96.52 0)
+		(at 151.13 93.98 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -4177,7 +4296,7 @@
 		(dnp no)
 		(uuid "3583d698-05d8-4a5c-a491-ebe2b197ec15")
 		(property "Reference" "R?"
-			(at 139.7 95.2499 0)
+			(at 148.59 92.7099 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4188,7 +4307,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 139.7 97.7899 0)
+			(at 148.59 95.2499 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4199,7 +4318,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 141.224 96.774 90)
+			(at 150.114 94.234 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4210,7 +4329,7 @@
 			)
 		)
 		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
-			(at 142.24 96.52 0)
+			(at 151.13 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4221,7 +4340,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 142.24 96.52 0)
+			(at 151.13 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4232,7 +4351,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 142.24 96.52 0)
+			(at 151.13 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4243,7 +4362,7 @@
 			)
 		)
 		(property "Sim.Pins" ""
-			(at 142.24 96.52 0)
+			(at 151.13 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4254,7 +4373,7 @@
 			)
 		)
 		(property "Part Number" "RC0603FR-0710KL"
-			(at 142.24 96.52 0)
+			(at 151.13 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4265,7 +4384,7 @@
 			)
 		)
 		(property "Vendor URL" "https://www.digikey.com/en/products/detail/yageo/RC0603FR-0710KL/726880"
-			(at 142.24 96.52 0)
+			(at 151.13 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4292,7 +4411,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 69.85 97.79 0)
+		(at 63.5 95.25 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -4304,7 +4423,7 @@
 		(fields_autoplaced yes)
 		(uuid "35d6d06a-0d4d-449b-8383-47cb0b06de91")
 		(property "Reference" "#PWR073"
-			(at 69.85 104.14 0)
+			(at 63.5 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4315,7 +4434,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 69.85 102.235 0)
+			(at 63.5 99.695 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4326,7 +4445,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 69.85 97.79 0)
+			(at 63.5 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4337,7 +4456,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 69.85 97.79 0)
+			(at 63.5 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4348,7 +4467,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 69.85 97.79 0)
+			(at 63.5 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4372,7 +4491,7 @@
 	)
 	(symbol
 		(lib_id "stepping-stone:TPS3435CAGBJDDFRQ1")
-		(at 73.66 111.76 0)
+		(at 67.31 109.22 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4383,7 +4502,7 @@
 		(fields_autoplaced yes)
 		(uuid "37ea7845-2527-481d-b473-b71cbb869cb6")
 		(property "Reference" "Q?"
-			(at 75.8033 96.52 0)
+			(at 69.4533 93.98 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4394,7 +4513,7 @@
 			)
 		)
 		(property "Value" "TPS3435"
-			(at 75.8033 99.06 0)
+			(at 69.4533 96.52 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4405,7 +4524,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-8"
-			(at 73.66 86.36 0)
+			(at 67.31 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4416,7 +4535,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tps3435-q1.pdf"
-			(at 73.66 86.36 0)
+			(at 67.31 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4427,7 +4546,7 @@
 			)
 		)
 		(property "Description" "Supervisor Open Drain or Open Collector 1 Channel TSOT-23-8"
-			(at 73.66 86.36 0)
+			(at 67.31 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4438,7 +4557,7 @@
 			)
 		)
 		(property "Part Number" "TPS3435CAGBJDDFRQ1"
-			(at 83.82 83.82 0)
+			(at 77.47 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4449,7 +4568,7 @@
 			)
 		)
 		(property "Vendor URL" "https://www.digikey.com/en/products/detail/texas-instruments/TPS3435CAGBJDDFRQ1/25649544?s=N4IgTCBcDaICoAUDKBmALCgrAYQIIHEAhAKQBFSAxAJQEUBGEAXQF8g"
-			(at 73.66 83.82 0)
+			(at 67.31 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4494,7 +4613,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 142.24 115.57 90)
+		(at 151.13 113.03 90)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -4505,7 +4624,7 @@
 		(dnp no)
 		(uuid "47588cb7-7454-46b0-9a2d-c0a909873a2b")
 		(property "Reference" "SW?"
-			(at 138.43 114.3 90)
+			(at 147.32 111.76 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4516,7 +4635,7 @@
 			)
 		)
 		(property "Value" "RESET"
-			(at 138.43 116.84 90)
+			(at 147.32 114.3 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4527,7 +4646,7 @@
 			)
 		)
 		(property "Footprint" "Button_Switch_SMD:SW_SPST_PTS645Sx43SMTR92"
-			(at 137.16 115.57 0)
+			(at 146.05 113.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4538,7 +4657,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.littelfuse.com/assetdocs/littelfuse-c-k-tactile-pts645-series-datasheet?assetguid=d58fc8a8-f6e1-4527-ab68-27635e632e39"
-			(at 137.16 115.57 0)
+			(at 146.05 113.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4549,7 +4668,7 @@
 			)
 		)
 		(property "Description" "Tactile Switch SPST-NO Top Actuated Surface Mount"
-			(at 142.24 115.57 0)
+			(at 151.13 113.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4560,7 +4679,7 @@
 			)
 		)
 		(property "Part Number" "PTS645SH43SMTR92 LFS"
-			(at 142.24 115.57 0)
+			(at 151.13 113.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4571,7 +4690,7 @@
 			)
 		)
 		(property "Vendor URL" "https://www.digikey.com/en/products/detail/c-k/PTS645SH43SMTR92-LFS/1145472"
-			(at 142.24 115.57 0)
+			(at 151.13 113.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4582,7 +4701,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 142.24 115.57 90)
+			(at 151.13 113.03 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4593,7 +4712,7 @@
 			)
 		)
 		(property "Sim.Pins" ""
-			(at 142.24 115.57 90)
+			(at 151.13 113.03 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4620,7 +4739,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 210.82 102.87 0)
+		(at 219.71 100.33 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4631,7 +4750,7 @@
 		(fields_autoplaced yes)
 		(uuid "55596b96-3598-4afd-b73e-ab8142a873cb")
 		(property "Reference" "R?"
-			(at 213.36 101.5999 0)
+			(at 222.25 99.0599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4642,7 +4761,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 213.36 104.1399 0)
+			(at 222.25 101.5999 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4653,7 +4772,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 211.836 103.124 90)
+			(at 220.726 100.584 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4664,7 +4783,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 210.82 102.87 0)
+			(at 219.71 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4675,7 +4794,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 210.82 102.87 0)
+			(at 219.71 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4686,7 +4805,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 210.82 102.87 0)
+			(at 219.71 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4697,7 +4816,7 @@
 			)
 		)
 		(property "Sim.Pins" ""
-			(at 210.82 102.87 0)
+			(at 219.71 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4708,7 +4827,7 @@
 			)
 		)
 		(property "Part Number" "CRCW06031K00FKEA"
-			(at 210.82 102.87 0)
+			(at 219.71 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4719,7 +4838,7 @@
 			)
 		)
 		(property "Vendor URL" "https://www.digikey.com/en/products/detail/vishay-dale/CRCW06031K00FKEA/1174668"
-			(at 210.82 102.87 0)
+			(at 219.71 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4746,7 +4865,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 73.66 124.46 0)
+		(at 67.31 121.92 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -4758,7 +4877,7 @@
 		(fields_autoplaced yes)
 		(uuid "5c2c1801-86da-4a5b-9009-c1aabb046237")
 		(property "Reference" "#PWR069"
-			(at 73.66 130.81 0)
+			(at 67.31 128.27 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4769,7 +4888,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 73.66 128.905 0)
+			(at 67.31 126.365 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4780,7 +4899,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 73.66 124.46 0)
+			(at 67.31 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4791,7 +4910,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 73.66 124.46 0)
+			(at 67.31 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4802,7 +4921,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 73.66 124.46 0)
+			(at 67.31 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4826,7 +4945,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 210.82 110.49 90)
+		(at 219.71 107.95 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4837,7 +4956,7 @@
 		(fields_autoplaced yes)
 		(uuid "67a87f62-8015-4049-b856-aa46dec697a5")
 		(property "Reference" "D?"
-			(at 214.63 110.8074 90)
+			(at 223.52 108.2674 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4848,7 +4967,7 @@
 			)
 		)
 		(property "Value" "GREEN"
-			(at 214.63 113.3474 90)
+			(at 223.52 110.8074 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4859,7 +4978,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_0805_2012Metric"
-			(at 210.82 110.49 0)
+			(at 219.71 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4870,7 +4989,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 210.82 110.49 0)
+			(at 219.71 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4881,7 +5000,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 210.82 110.49 0)
+			(at 219.71 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4892,7 +5011,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 210.82 110.49 0)
+			(at 219.71 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4903,7 +5022,7 @@
 			)
 		)
 		(property "Part Number" "LTST-C171KGKT"
-			(at 210.82 110.49 0)
+			(at 219.71 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4914,7 +5033,7 @@
 			)
 		)
 		(property "Vendor URL" "https://www.digikey.com/en/products/detail/liteon/LTST-C171KGKT/386799"
-			(at 210.82 110.49 0)
+			(at 219.71 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4941,7 +5060,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 142.24 124.46 0)
+		(at 151.13 121.92 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4952,7 +5071,7 @@
 		(fields_autoplaced yes)
 		(uuid "6fb0d8a8-1bba-4488-88a9-7f1ba1c5c21b")
 		(property "Reference" "#PWR063"
-			(at 142.24 130.81 0)
+			(at 151.13 128.27 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4963,7 +5082,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 142.24 128.905 0)
+			(at 151.13 126.365 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4974,7 +5093,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 142.24 124.46 0)
+			(at 151.13 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4985,7 +5104,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 142.24 124.46 0)
+			(at 151.13 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4996,7 +5115,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 142.24 124.46 0)
+			(at 151.13 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5020,7 +5139,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 142.24 92.71 0)
+		(at 151.13 90.17 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -5032,7 +5151,7 @@
 		(fields_autoplaced yes)
 		(uuid "7022265e-54b8-4e8e-92e6-61d9afe9b348")
 		(property "Reference" "#PWR062"
-			(at 142.24 96.52 0)
+			(at 151.13 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5043,7 +5162,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 142.24 87.63 0)
+			(at 151.13 85.09 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5053,7 +5172,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 142.24 92.71 0)
+			(at 151.13 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5064,7 +5183,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 142.24 92.71 0)
+			(at 151.13 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5075,7 +5194,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 142.24 92.71 0)
+			(at 151.13 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5099,7 +5218,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 210.82 114.3 0)
+		(at 219.71 111.76 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -5111,7 +5230,7 @@
 		(fields_autoplaced yes)
 		(uuid "7d69ae4b-20be-4f3d-8cac-dff7ac4dad0a")
 		(property "Reference" "#PWR074"
-			(at 210.82 120.65 0)
+			(at 219.71 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5122,7 +5241,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 210.82 118.745 0)
+			(at 219.71 116.205 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5133,7 +5252,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 210.82 114.3 0)
+			(at 219.71 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5144,7 +5263,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 210.82 114.3 0)
+			(at 219.71 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5155,7 +5274,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 210.82 114.3 0)
+			(at 219.71 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5179,7 +5298,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 91.44 92.71 0)
+		(at 128.27 90.17 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5190,7 +5309,7 @@
 		(fields_autoplaced yes)
 		(uuid "9c8f395c-213e-4df2-bcb0-140f07a0636f")
 		(property "Reference" "#PWR065"
-			(at 91.44 96.52 0)
+			(at 128.27 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5201,7 +5320,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 91.44 87.63 0)
+			(at 128.27 85.09 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5211,7 +5330,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 91.44 92.71 0)
+			(at 128.27 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5222,7 +5341,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 91.44 92.71 0)
+			(at 128.27 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5233,7 +5352,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 91.44 92.71 0)
+			(at 128.27 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5257,7 +5376,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 99.06 111.76 0)
+		(at 91.44 109.22 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5267,7 +5386,7 @@
 		(dnp no)
 		(uuid "9d8c6b60-7c61-4c2e-808f-d329b3ba5613")
 		(property "Reference" "C?"
-			(at 96.52 110.4962 0)
+			(at 88.9 107.9562 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5278,7 +5397,7 @@
 			)
 		)
 		(property "Value" "0.1uF"
-			(at 96.52 113.0362 0)
+			(at 88.9 110.4962 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5289,7 +5408,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 99.06 111.76 0)
+			(at 91.44 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5300,7 +5419,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 99.06 111.76 0)
+			(at 91.44 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5311,7 +5430,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 99.06 111.76 0)
+			(at 91.44 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5322,7 +5441,7 @@
 			)
 		)
 		(property "Part Number" "CC0603KRX7R9BB104"
-			(at 99.06 111.76 0)
+			(at 91.44 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5333,7 +5452,7 @@
 			)
 		)
 		(property "Vendor URL" "https://www.digikey.com/en/products/detail/yageo/CC0603KRX7R9BB104/2103082"
-			(at 99.06 111.76 0)
+			(at 91.44 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5344,7 +5463,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 99.06 111.76 0)
+			(at 91.44 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5355,7 +5474,7 @@
 			)
 		)
 		(property "Sim.Pins" ""
-			(at 99.06 111.76 0)
+			(at 91.44 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5382,7 +5501,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 99.06 119.38 0)
+		(at 91.44 116.84 0)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -5393,7 +5512,7 @@
 		(dnp no)
 		(uuid "b3484e9e-6a1c-4dd1-ab81-06112dc22de2")
 		(property "Reference" "R?"
-			(at 96.52 118.11 0)
+			(at 88.9 115.57 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5404,7 +5523,7 @@
 			)
 		)
 		(property "Value" "100R"
-			(at 96.52 120.65 0)
+			(at 88.9 118.11 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5415,7 +5534,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 100.076 119.126 90)
+			(at 92.456 116.586 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5426,7 +5545,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 99.06 119.38 0)
+			(at 91.44 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5437,7 +5556,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 99.06 119.38 0)
+			(at 91.44 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5448,7 +5567,7 @@
 			)
 		)
 		(property "Part Number" "RC0603FR-07100RL"
-			(at 99.06 119.38 0)
+			(at 91.44 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5459,7 +5578,7 @@
 			)
 		)
 		(property "Vendor URL" "https://www.digikey.com/en/products/detail/yageo/RC0603FR-07100RL/726888"
-			(at 99.06 119.38 0)
+			(at 91.44 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5486,7 +5605,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 59.69 92.71 0)
+		(at 53.34 90.17 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5497,7 +5616,7 @@
 		(fields_autoplaced yes)
 		(uuid "ba3a0666-20bf-41a6-b5cb-a3249dbd8c06")
 		(property "Reference" "#PWR070"
-			(at 59.69 96.52 0)
+			(at 53.34 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5508,7 +5627,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 59.69 87.63 0)
+			(at 53.34 85.09 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5518,7 +5637,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 59.69 92.71 0)
+			(at 53.34 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5529,7 +5648,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 59.69 92.71 0)
+			(at 53.34 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5540,7 +5659,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 59.69 92.71 0)
+			(at 53.34 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5564,7 +5683,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 104.14 115.57 270)
+		(at 96.52 113.03 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5574,7 +5693,7 @@
 		(dnp no)
 		(uuid "bc364b29-3c5d-4b0a-8872-891e3fde1c84")
 		(property "Reference" "SW?"
-			(at 107.95 114.2999 90)
+			(at 100.33 111.7599 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5585,7 +5704,7 @@
 			)
 		)
 		(property "Value" "ESTOP"
-			(at 107.95 116.8399 90)
+			(at 100.33 114.2999 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5596,7 +5715,7 @@
 			)
 		)
 		(property "Footprint" "Button_Switch_SMD:SW_SPST_PTS645Sx43SMTR92"
-			(at 109.22 115.57 0)
+			(at 101.6 113.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5607,7 +5726,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.littelfuse.com/assetdocs/littelfuse-c-k-tactile-pts645-series-datasheet?assetguid=d58fc8a8-f6e1-4527-ab68-27635e632e39"
-			(at 109.22 115.57 0)
+			(at 101.6 113.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5618,7 +5737,7 @@
 			)
 		)
 		(property "Description" "Tactile Switch SPST-NO Top Actuated Surface Mount, RED"
-			(at 104.14 115.57 0)
+			(at 96.52 113.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5629,7 +5748,7 @@
 			)
 		)
 		(property "Part Number" "PTS645SK50SMTR92 LFS"
-			(at 104.14 115.57 0)
+			(at 96.52 113.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5640,7 +5759,7 @@
 			)
 		)
 		(property "Vendor URL" "https://www.digikey.com/en/products/detail/c-k/PTS645SK50SMTR92-LFS/1162183"
-			(at 104.14 115.57 0)
+			(at 96.52 113.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5651,7 +5770,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 104.14 115.57 90)
+			(at 96.52 113.03 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5662,7 +5781,7 @@
 			)
 		)
 		(property "Sim.Pins" ""
-			(at 104.14 115.57 90)
+			(at 96.52 113.03 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5689,7 +5808,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 73.66 92.71 0)
+		(at 67.31 90.17 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5700,7 +5819,7 @@
 		(fields_autoplaced yes)
 		(uuid "bf9d56b4-7f2b-4f70-ad5a-7ddc98d5108a")
 		(property "Reference" "#PWR068"
-			(at 73.66 96.52 0)
+			(at 67.31 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5711,7 +5830,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 73.66 87.63 0)
+			(at 67.31 85.09 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5721,7 +5840,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 73.66 92.71 0)
+			(at 67.31 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5732,7 +5851,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 73.66 92.71 0)
+			(at 67.31 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5743,7 +5862,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 73.66 92.71 0)
+			(at 67.31 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5767,7 +5886,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 147.32 119.38 180)
+		(at 156.21 116.84 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5777,7 +5896,7 @@
 		(dnp no)
 		(uuid "c2a67657-77f9-46c4-aecf-753af5875f23")
 		(property "Reference" "R?"
-			(at 149.86 118.11 0)
+			(at 158.75 115.57 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5788,7 +5907,7 @@
 			)
 		)
 		(property "Value" "100R"
-			(at 149.86 120.65 0)
+			(at 158.75 118.11 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5799,7 +5918,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 146.304 119.126 90)
+			(at 155.194 116.586 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5810,7 +5929,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 147.32 119.38 0)
+			(at 156.21 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5821,7 +5940,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 147.32 119.38 0)
+			(at 156.21 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5832,7 +5951,7 @@
 			)
 		)
 		(property "Part Number" "RC0603FR-07100RL"
-			(at 147.32 119.38 0)
+			(at 156.21 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5843,7 +5962,7 @@
 			)
 		)
 		(property "Vendor URL" "https://www.digikey.com/en/products/detail/yageo/RC0603FR-07100RL/726888"
-			(at 147.32 119.38 0)
+			(at 156.21 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5870,7 +5989,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 99.06 124.46 0)
+		(at 91.44 121.92 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -5882,7 +6001,7 @@
 		(fields_autoplaced yes)
 		(uuid "d104b237-ef52-4446-b531-9586e8a3bc8c")
 		(property "Reference" "#PWR066"
-			(at 99.06 130.81 0)
+			(at 91.44 128.27 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5893,7 +6012,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 99.06 128.905 0)
+			(at 91.44 126.365 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5904,7 +6023,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 99.06 124.46 0)
+			(at 91.44 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5915,7 +6034,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 99.06 124.46 0)
+			(at 91.44 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5926,7 +6045,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 99.06 124.46 0)
+			(at 91.44 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5950,7 +6069,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 172.72 90.17 0)
+		(at 181.61 87.63 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -5962,7 +6081,7 @@
 		(fields_autoplaced yes)
 		(uuid "dcbd6cb9-2e44-4641-822c-497de378980f")
 		(property "Reference" "#PWR072"
-			(at 172.72 96.52 0)
+			(at 181.61 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5973,7 +6092,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 172.72 94.615 0)
+			(at 181.61 92.075 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5984,7 +6103,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 172.72 90.17 0)
+			(at 181.61 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5995,7 +6114,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 172.72 90.17 0)
+			(at 181.61 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6006,7 +6125,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 172.72 90.17 0)
+			(at 181.61 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6030,7 +6149,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 176.53 85.09 0)
+		(at 185.42 82.55 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6041,7 +6160,7 @@
 		(fields_autoplaced yes)
 		(uuid "de9d37f7-e688-4d2d-b66a-cd8012725220")
 		(property "Reference" "#PWR029"
-			(at 176.53 88.9 0)
+			(at 185.42 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6052,7 +6171,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 176.53 80.01 0)
+			(at 185.42 77.47 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6062,7 +6181,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 176.53 85.09 0)
+			(at 185.42 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6073,7 +6192,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 176.53 85.09 0)
+			(at 185.42 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6084,7 +6203,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 176.53 85.09 0)
+			(at 185.42 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6108,7 +6227,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 147.32 111.76 0)
+		(at 156.21 109.22 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -6119,7 +6238,7 @@
 		(dnp no)
 		(uuid "df38f17d-b08f-46f3-86cb-ee386ea8d708")
 		(property "Reference" "C?"
-			(at 149.86 110.4962 0)
+			(at 158.75 107.9562 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6130,7 +6249,7 @@
 			)
 		)
 		(property "Value" "0.1uF"
-			(at 149.86 113.0362 0)
+			(at 158.75 110.4962 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6141,7 +6260,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 147.32 111.76 0)
+			(at 156.21 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6152,7 +6271,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 147.32 111.76 0)
+			(at 156.21 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6163,7 +6282,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 147.32 111.76 0)
+			(at 156.21 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6174,7 +6293,7 @@
 			)
 		)
 		(property "Part Number" "CC0603KRX7R9BB104"
-			(at 147.32 111.76 0)
+			(at 156.21 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6185,7 +6304,7 @@
 			)
 		)
 		(property "Vendor URL" "https://www.digikey.com/en/products/detail/yageo/CC0603KRX7R9BB104/2103082"
-			(at 147.32 111.76 0)
+			(at 156.21 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6196,7 +6315,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 147.32 111.76 0)
+			(at 156.21 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6207,7 +6326,7 @@
 			)
 		)
 		(property "Sim.Pins" ""
-			(at 147.32 111.76 0)
+			(at 156.21 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6234,7 +6353,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 104.14 124.46 0)
+		(at 96.52 121.92 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -6246,7 +6365,7 @@
 		(fields_autoplaced yes)
 		(uuid "dfcba821-86b0-468e-8b44-bfcc5c1fc9c4")
 		(property "Reference" "#PWR067"
-			(at 104.14 130.81 0)
+			(at 96.52 128.27 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6257,7 +6376,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 104.14 128.905 0)
+			(at 96.52 126.365 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6268,7 +6387,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 104.14 124.46 0)
+			(at 96.52 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6279,7 +6398,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 104.14 124.46 0)
+			(at 96.52 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6290,7 +6409,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 104.14 124.46 0)
+			(at 96.52 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6314,7 +6433,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 210.82 90.17 90)
+		(at 219.71 87.63 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6325,7 +6444,7 @@
 		(fields_autoplaced yes)
 		(uuid "dffe81ce-33ff-42ae-bb44-1e1f6caae422")
 		(property "Reference" "D?"
-			(at 214.63 90.4874 90)
+			(at 223.52 87.9474 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6336,7 +6455,7 @@
 			)
 		)
 		(property "Value" "RED"
-			(at 214.63 93.0274 90)
+			(at 223.52 90.4874 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6347,7 +6466,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_0805_2012Metric"
-			(at 210.82 90.17 0)
+			(at 219.71 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6358,7 +6477,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 210.82 90.17 0)
+			(at 219.71 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6369,7 +6488,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 210.82 90.17 0)
+			(at 219.71 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6380,7 +6499,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 210.82 90.17 0)
+			(at 219.71 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6391,7 +6510,7 @@
 			)
 		)
 		(property "Part Number" "LTST-C170KRKT"
-			(at 210.82 90.17 0)
+			(at 219.71 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6402,7 +6521,7 @@
 			)
 		)
 		(property "Vendor URL" "https://www.digikey.com/en/products/detail/liteon/LTST-C170KRKT/386779"
-			(at 210.82 90.17 0)
+			(at 219.71 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6429,7 +6548,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 172.72 87.63 0)
+		(at 181.61 85.09 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6439,7 +6558,7 @@
 		(dnp no)
 		(uuid "e287b355-fdf2-4887-ae77-cce888dd856f")
 		(property "Reference" "C?"
-			(at 170.18 86.36 0)
+			(at 179.07 83.82 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6450,7 +6569,7 @@
 			)
 		)
 		(property "Value" "0.1uF"
-			(at 170.18 88.9 0)
+			(at 179.07 86.36 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6461,7 +6580,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 172.72 87.63 0)
+			(at 181.61 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6472,7 +6591,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 172.72 87.63 0)
+			(at 181.61 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6483,7 +6602,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 172.72 87.63 0)
+			(at 181.61 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6494,7 +6613,7 @@
 			)
 		)
 		(property "Part Number" "CC0603KRX7R9BB104"
-			(at 172.72 87.63 0)
+			(at 181.61 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6505,7 +6624,7 @@
 			)
 		)
 		(property "Vendor URL" "https://www.digikey.com/en/products/detail/yageo/CC0603KRX7R9BB104/2103082"
-			(at 172.72 87.63 0)
+			(at 181.61 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6516,7 +6635,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 172.72 87.63 0)
+			(at 181.61 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6527,7 +6646,7 @@
 			)
 		)
 		(property "Sim.Pins" ""
-			(at 172.72 87.63 0)
+			(at 181.61 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6554,7 +6673,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 210.82 82.55 0)
+		(at 219.71 80.01 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6565,7 +6684,7 @@
 		(fields_autoplaced yes)
 		(uuid "e56c7695-7f5b-4312-a791-279d4426800f")
 		(property "Reference" "R?"
-			(at 213.36 81.2799 0)
+			(at 222.25 78.7399 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6576,7 +6695,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 213.36 83.8199 0)
+			(at 222.25 81.2799 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6587,7 +6706,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 211.836 82.804 90)
+			(at 220.726 80.264 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6598,7 +6717,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 210.82 82.55 0)
+			(at 219.71 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6609,7 +6728,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 210.82 82.55 0)
+			(at 219.71 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6620,7 +6739,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 210.82 82.55 0)
+			(at 219.71 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6631,7 +6750,7 @@
 			)
 		)
 		(property "Sim.Pins" ""
-			(at 210.82 82.55 0)
+			(at 219.71 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6642,7 +6761,7 @@
 			)
 		)
 		(property "Part Number" "CRCW06031K00FKEA"
-			(at 210.82 82.55 0)
+			(at 219.71 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6653,7 +6772,7 @@
 			)
 		)
 		(property "Vendor URL" "https://www.digikey.com/en/products/detail/vishay-dale/CRCW06031K00FKEA/1174668"
-			(at 210.82 82.55 0)
+			(at 219.71 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6680,7 +6799,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 210.82 78.74 0)
+		(at 219.71 76.2 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6691,7 +6810,7 @@
 		(fields_autoplaced yes)
 		(uuid "f8063184-f553-4197-a212-7c7daec3c61b")
 		(property "Reference" "#PWR075"
-			(at 210.82 82.55 0)
+			(at 219.71 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6702,7 +6821,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 210.82 73.66 0)
+			(at 219.71 71.12 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6712,7 +6831,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 210.82 78.74 0)
+			(at 219.71 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6723,7 +6842,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 210.82 78.74 0)
+			(at 219.71 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6734,7 +6853,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 210.82 78.74 0)
+			(at 219.71 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

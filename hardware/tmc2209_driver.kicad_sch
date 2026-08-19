@@ -3068,7 +3068,7 @@
 	)
 	(text "DETERMINE NEED OF PULL UP/DOWN\nRESISTORS ON DIR AND DIAG"
 		(exclude_from_sim no)
-		(at 199.39 152.4 0)
+		(at 196.85 152.4 0)
 		(effects
 			(font
 				(size 1.27 1.27)

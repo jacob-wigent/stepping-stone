@@ -63460,7 +63460,7 @@
 		)
 	)
 	(sheet
-		(at 190.5 76.2)
+		(at 50.8 101.6)
 		(size 25.4 15.24)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -63475,7 +63475,52 @@
 		)
 		(uuid "19dbaeaf-d110-49c5-9d75-50e9003bebb2")
 		(property "Sheetname" "SD Card"
-			(at 215.9 74.93 0)
+			(at 50.8 100.33 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sd_card.kicad_sch"
+			(at 50.8 118.11 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "stepping-stone"
+				(path "/793a882e-3f7b-468b-a863-41a1f527e1bf"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 228.6 127)
+		(size 25.4 15.24)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.3048)
+			(type solid)
+		)
+		(fill
+			(color 255 229 191 1)
+		)
+		(uuid "3a29de04-fdfa-4d5a-abb9-c9ee2c3b40e7")
+		(property "Sheetname" "Stepper Driver 3"
+			(at 254 126.365 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -63485,8 +63530,8 @@
 				(justify right bottom)
 			)
 		)
-		(property "Sheetfile" "sd_card.kicad_sch"
-			(at 215.9 92.71 0)
+		(property "Sheetfile" "tmc2209_driver.kicad_sch"
+			(at 254 142.875 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -63499,7 +63544,7 @@
 		(instances
 			(project "stepping-stone"
 				(path "/793a882e-3f7b-468b-a863-41a1f527e1bf"
-					(page "8")
+					(page "11")
 				)
 			)
 		)
@@ -63597,7 +63642,7 @@
 		)
 	)
 	(sheet
-		(at 190.5 50.8)
+		(at 228.6 50.8)
 		(size 25.4 15.24)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -63612,7 +63657,7 @@
 		)
 		(uuid "ac651d86-039a-41e0-98dc-6df0515c0885")
 		(property "Sheetname" "Stepper Driver 0"
-			(at 215.9 50.165 0)
+			(at 254 50.165 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -63623,7 +63668,7 @@
 			)
 		)
 		(property "Sheetfile" "tmc2209_driver.kicad_sch"
-			(at 215.9 66.675 0)
+			(at 254 66.675 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -63636,7 +63681,7 @@
 		(instances
 			(project "stepping-stone"
 				(path "/793a882e-3f7b-468b-a863-41a1f527e1bf"
-					(page "7")
+					(page "8")
 				)
 			)
 		)
@@ -63727,6 +63772,96 @@
 			(project "stepping-stone"
 				(path "/793a882e-3f7b-468b-a863-41a1f527e1bf"
 					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 228.6 101.6)
+		(size 25.4 15.24)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.3048)
+			(type solid)
+		)
+		(fill
+			(color 255 229 191 1)
+		)
+		(uuid "d8875dcc-880f-4ab2-99dc-5b365f2843f9")
+		(property "Sheetname" "Stepper Driver 2"
+			(at 254 100.965 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "Sheetfile" "tmc2209_driver.kicad_sch"
+			(at 254 117.475 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right top)
+			)
+		)
+		(instances
+			(project "stepping-stone"
+				(path "/793a882e-3f7b-468b-a863-41a1f527e1bf"
+					(page "10")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 228.6 76.2)
+		(size 25.4 15.24)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.3048)
+			(type solid)
+		)
+		(fill
+			(color 255 229 191 1)
+		)
+		(uuid "e131c06c-af1f-40aa-aaad-aefd9f9dd628")
+		(property "Sheetname" "Stepper Driver 1"
+			(at 254 75.565 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "Sheetfile" "tmc2209_driver.kicad_sch"
+			(at 254 92.075 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right top)
+			)
+		)
+		(instances
+			(project "stepping-stone"
+				(path "/793a882e-3f7b-468b-a863-41a1f527e1bf"
+					(page "9")
 				)
 			)
 		)

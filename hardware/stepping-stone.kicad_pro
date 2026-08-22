@@ -672,7 +672,7 @@
         "uuid": "793a882e-3f7b-468b-a863-41a1f527e1bf"
       }
     ],
-    "used_designators": "#PWR64,#PWR71,#PWR83-85",
+    "used_designators": "#PWR86-142",
     "variants": []
   },
   "sheets": [
@@ -701,12 +701,24 @@
       "ESTOP"
     ],
     [
+      "19dbaeaf-d110-49c5-9d75-50e9003bebb2",
+      "SD Card"
+    ],
+    [
       "ac651d86-039a-41e0-98dc-6df0515c0885",
       "Stepper Driver 0"
     ],
     [
-      "19dbaeaf-d110-49c5-9d75-50e9003bebb2",
-      "SD Card"
+      "e131c06c-af1f-40aa-aaad-aefd9f9dd628",
+      "Stepper Driver 1"
+    ],
+    [
+      "d8875dcc-880f-4ab2-99dc-5b365f2843f9",
+      "Stepper Driver 2"
+    ],
+    [
+      "3a29de04-fdfa-4d5a-abb9-c9ee2c3b40e7",
+      "Stepper Driver 3"
     ]
   ],
   "text_variables": {},

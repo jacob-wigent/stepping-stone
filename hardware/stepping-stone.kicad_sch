@@ -63466,7 +63466,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(stroke
 			(width 0.3048)
 			(type solid)
@@ -63476,25 +63475,25 @@
 		)
 		(uuid "19dbaeaf-d110-49c5-9d75-50e9003bebb2")
 		(property "Sheetname" "SD Card"
-			(at 190.5 75.4122 0)
+			(at 215.9 74.93 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
+				(justify right bottom)
 			)
 		)
 		(property "Sheetfile" "sd_card.kicad_sch"
-			(at 190.5 92.1008 0)
+			(at 215.9 92.71 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left top)
+				(justify right top)
 			)
 		)
 		(instances

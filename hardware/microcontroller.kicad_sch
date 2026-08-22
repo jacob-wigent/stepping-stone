@@ -9608,7 +9608,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_1.27mm:PinHeader_2x07_P1.27mm_Vertical_SMD"
+		(property "Footprint" "Connector_PinHeader_1.27mm:PinHeader_2x07_P1.27mm_Vertical"
 			(at 236.22 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -9619,7 +9619,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.st.com/content/ccc/resource/technical/document/user_manual/group1/99/49/91/b6/b2/3a/46/e5/DM00526767/files/DM00526767.pdf/jcr:content/translations/en.DM00526767.pdf"
+		(property "Datasheet" "https://www.cnctech.us/pdfs/3220-XX-0100-00_.pdf"
 			(at 245.11 76.2 90)
 			(hide yes)
 			(show_name no)
@@ -9630,7 +9630,7 @@
 				)
 			)
 		)
-		(property "Description" "ST Debug Connector, standard ARM Cortex-M SWD and JTAG interface plus UART"
+		(property "Description" "Connector Header Through Hole 14 position 0.050\" (1.27mm)"
 			(at 236.22 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -9653,6 +9653,28 @@
 			)
 		)
 		(property "Sim.Pins" ""
+			(at 236.22 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "3220-14-0100-00"
+			(at 236.22 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vendor URL" "https://www.digikey.com/en/products/detail/cnc-tech/3220-14-0100-00/3883664"
 			(at 236.22 44.45 0)
 			(hide yes)
 			(show_name no)

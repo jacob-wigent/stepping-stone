@@ -9,7 +9,1698 @@
 		(rev "A")
 		(company "Jacob Wigent")
 	)
-	(lib_symbols)
+	(lib_symbols
+		(symbol "stepping-stone:SN74LVC08"
+			(body_styles demorgan)
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "U?"
+				(at 2.54 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "SN74HC132"
+				(at 2.54 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74lvc08a.pdf?HQS=dis-dk-null-digikeymode-dsf-pf-null-wwe&ts=1787430399388&ref_url=https%253A%252F%252Fwww.ti.com%252Fgeneral%252Fdocs%252Fsuppproductinfo.tsp%253FdistId%253D10%2526gotoUrl%253Dhttps%253A%252F%252Fwww.ti.com%252Flit%252Fgpn%252Fsn74lvc08a"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Quad NAND2 Schmitt"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Part Number" "SN74HC132DR"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Vendor URL" "https://www.digikey.com/en/products/detail/texas-instruments/SN74HC132DR/562900"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "TTL and2"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "DIP*W7.62mm*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "SN74LVC08_1_0"
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy 0.635 -1.27) (xy 0.635 1.27) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy 0.635 -1.27) (xy 0.635 1.27) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.635 -1.27) (xy -0.635 1.27) (xy 0.635 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.635 -1.27) (xy -0.635 1.27) (xy 0.635 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SN74LVC08_1_1"
+				(arc
+					(start 0 3.81)
+					(mid 3.7934 0)
+					(end 0 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 3.81) (xy -3.81 3.81) (xy -3.81 -3.81) (xy 0 -3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at -7.62 2.54 0)
+					(length 3.81)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 -2.54 0)
+					(length 3.81)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output inverted
+					(at 7.62 0 180)
+					(length 3.81)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "SN74LVC08_1_2"
+				(arc
+					(start -3.81 3.81)
+					(mid -2.589 0)
+					(end -3.81 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 3.81) (xy -0.635 3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 -3.81) (xy -0.635 -3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(arc
+					(start 3.81 0)
+					(mid 2.1855 -2.584)
+					(end -0.6096 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(arc
+					(start -0.6096 3.81)
+					(mid 2.1928 2.5924)
+					(end 3.81 0)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.635 3.81) (xy -3.81 3.81) (xy -3.81 3.81) (xy -3.556 3.4036) (xy -3.0226 2.2606) (xy -2.6924 1.0414)
+						(xy -2.6162 -0.254) (xy -2.7686 -1.4986) (xy -3.175 -2.7178) (xy -3.81 -3.81) (xy -3.81 -3.81)
+						(xy -0.635 -3.81)
+					)
+					(stroke
+						(width -25.4)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input inverted
+					(at -7.62 2.54 0)
+					(length 4.318)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input inverted
+					(at -7.62 -2.54 0)
+					(length 4.318)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output inverted
+					(at 7.62 0 180)
+					(length 3.81)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "SN74LVC08_2_0"
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy 0.635 -1.27) (xy 0.635 1.27) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy 0.635 -1.27) (xy 0.635 1.27) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.635 -1.27) (xy -0.635 1.27) (xy 0.635 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.635 -1.27) (xy -0.635 1.27) (xy 0.635 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SN74LVC08_2_1"
+				(arc
+					(start 0 3.81)
+					(mid 3.7934 0)
+					(end 0 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 3.81) (xy -3.81 3.81) (xy -3.81 -3.81) (xy 0 -3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at -7.62 2.54 0)
+					(length 3.81)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 -2.54 0)
+					(length 3.81)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output inverted
+					(at 7.62 0 180)
+					(length 3.81)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "SN74LVC08_2_2"
+				(arc
+					(start -3.81 3.81)
+					(mid -2.589 0)
+					(end -3.81 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 3.81) (xy -0.635 3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 -3.81) (xy -0.635 -3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(arc
+					(start 3.81 0)
+					(mid 2.1855 -2.584)
+					(end -0.6096 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(arc
+					(start -0.6096 3.81)
+					(mid 2.1928 2.5924)
+					(end 3.81 0)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.635 3.81) (xy -3.81 3.81) (xy -3.81 3.81) (xy -3.556 3.4036) (xy -3.0226 2.2606) (xy -2.6924 1.0414)
+						(xy -2.6162 -0.254) (xy -2.7686 -1.4986) (xy -3.175 -2.7178) (xy -3.81 -3.81) (xy -3.81 -3.81)
+						(xy -0.635 -3.81)
+					)
+					(stroke
+						(width -25.4)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input inverted
+					(at -7.62 2.54 0)
+					(length 4.318)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input inverted
+					(at -7.62 -2.54 0)
+					(length 4.318)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output inverted
+					(at 7.62 0 180)
+					(length 3.81)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "SN74LVC08_3_0"
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy 0.635 -1.27) (xy 0.635 1.27) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy 0.635 -1.27) (xy 0.635 1.27) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.635 -1.27) (xy -0.635 1.27) (xy 0.635 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.635 -1.27) (xy -0.635 1.27) (xy 0.635 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SN74LVC08_3_1"
+				(arc
+					(start 0 3.81)
+					(mid 3.7934 0)
+					(end 0 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 3.81) (xy -3.81 3.81) (xy -3.81 -3.81) (xy 0 -3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin output inverted
+					(at 7.62 0 180)
+					(length 3.81)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 2.54 0)
+					(length 3.81)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 -2.54 0)
+					(length 3.81)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "SN74LVC08_3_2"
+				(arc
+					(start -3.81 3.81)
+					(mid -2.589 0)
+					(end -3.81 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 3.81) (xy -0.635 3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 -3.81) (xy -0.635 -3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(arc
+					(start 3.81 0)
+					(mid 2.1855 -2.584)
+					(end -0.6096 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(arc
+					(start -0.6096 3.81)
+					(mid 2.1928 2.5924)
+					(end 3.81 0)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.635 3.81) (xy -3.81 3.81) (xy -3.81 3.81) (xy -3.556 3.4036) (xy -3.0226 2.2606) (xy -2.6924 1.0414)
+						(xy -2.6162 -0.254) (xy -2.7686 -1.4986) (xy -3.175 -2.7178) (xy -3.81 -3.81) (xy -3.81 -3.81)
+						(xy -0.635 -3.81)
+					)
+					(stroke
+						(width -25.4)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin output inverted
+					(at 7.62 0 180)
+					(length 3.81)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input inverted
+					(at -7.62 2.54 0)
+					(length 4.318)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input inverted
+					(at -7.62 -2.54 0)
+					(length 4.318)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "SN74LVC08_4_0"
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy 0.635 -1.27) (xy 0.635 1.27) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy 0.635 -1.27) (xy 0.635 1.27) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.635 -1.27) (xy -0.635 1.27) (xy 0.635 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.635 -1.27) (xy -0.635 1.27) (xy 0.635 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SN74LVC08_4_1"
+				(arc
+					(start 0 3.81)
+					(mid 3.7934 0)
+					(end 0 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 3.81) (xy -3.81 3.81) (xy -3.81 -3.81) (xy 0 -3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin output inverted
+					(at 7.62 0 180)
+					(length 3.81)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 2.54 0)
+					(length 3.81)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 -2.54 0)
+					(length 3.81)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "SN74LVC08_4_2"
+				(arc
+					(start -3.81 3.81)
+					(mid -2.589 0)
+					(end -3.81 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 3.81) (xy -0.635 3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 -3.81) (xy -0.635 -3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(arc
+					(start 3.81 0)
+					(mid 2.1855 -2.584)
+					(end -0.6096 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(arc
+					(start -0.6096 3.81)
+					(mid 2.1928 2.5924)
+					(end 3.81 0)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.635 3.81) (xy -3.81 3.81) (xy -3.81 3.81) (xy -3.556 3.4036) (xy -3.0226 2.2606) (xy -2.6924 1.0414)
+						(xy -2.6162 -0.254) (xy -2.7686 -1.4986) (xy -3.175 -2.7178) (xy -3.81 -3.81) (xy -3.81 -3.81)
+						(xy -0.635 -3.81)
+					)
+					(stroke
+						(width -25.4)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin output inverted
+					(at 7.62 0 180)
+					(length 3.81)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input inverted
+					(at -7.62 2.54 0)
+					(length 4.318)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input inverted
+					(at -7.62 -2.54 0)
+					(length 4.318)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "SN74LVC08_5_0"
+				(pin power_in line
+					(at 0 -12.7 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 7.62 270)
+					(length 2.54)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "SN74LVC08_5_1"
+				(rectangle
+					(start -1.905 5.08)
+					(end 1.905 -10.16)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(junction
+		(at 195.58 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "88807f35-a8c4-48af-982d-5c006184941c")
+	)
+	(junction
+		(at 195.58 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a4f3ba3e-1333-4de4-8a92-0d2e65737cc6")
+	)
+	(junction
+		(at 195.58 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "be389585-7028-4266-b2ae-5d2cfdeb539f")
+	)
+	(wire
+		(pts
+			(xy 152.4 116.84) (xy 228.6 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0048ce36-e0a2-47d0-8277-4e7ce4eef687")
+	)
+	(wire
+		(pts
+			(xy 152.4 134.62) (xy 228.6 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "01375fde-0d0a-4256-9be4-1ab55058a06a")
+	)
+	(wire
+		(pts
+			(xy 152.4 63.5) (xy 228.6 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0dfb1d4b-9199-4362-9786-1f49f586f56f")
+	)
+	(wire
+		(pts
+			(xy 152.4 111.76) (xy 228.6 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "146c27bf-de3b-45e1-9281-597b062e5312")
+	)
+	(wire
+		(pts
+			(xy 152.4 139.7) (xy 228.6 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "169616a4-55fc-428c-a01a-32f85ed5f7cc")
+	)
+	(wire
+		(pts
+			(xy 152.4 106.68) (xy 203.2 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1ba0c100-284c-4a4a-9760-a5ad7d3e1b19")
+	)
+	(wire
+		(pts
+			(xy 152.4 142.24) (xy 228.6 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "23daa379-68df-4fb8-9a42-95f586d70016")
+	)
+	(wire
+		(pts
+			(xy 152.4 114.3) (xy 228.6 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "298acb12-7caf-4fd1-8dfe-48847f6a503d")
+	)
+	(wire
+		(pts
+			(xy 88.9 30.48) (xy 114.3 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2c2d87b5-5e0f-45ca-9ef1-250ec316fa49")
+	)
+	(wire
+		(pts
+			(xy 218.44 78.74) (xy 228.6 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2d667dee-d49c-4834-97d0-642103b5c43b")
+	)
+	(wire
+		(pts
+			(xy 88.9 53.34) (xy 114.3 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "38702d7f-3b55-41f1-b3ca-ddcf0d646508")
+	)
+	(wire
+		(pts
+			(xy 218.44 104.14) (xy 228.6 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "39532c84-5f0f-4d82-807c-a11caf139a65")
+	)
+	(wire
+		(pts
+			(xy 152.4 30.48) (xy 177.8 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "39ee969b-99a3-4d25-89c6-953fff7cdfc6")
+	)
+	(wire
+		(pts
+			(xy 152.4 55.88) (xy 203.2 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3b068af5-4058-44dd-b99d-fb415473e359")
+	)
+	(wire
+		(pts
+			(xy 152.4 58.42) (xy 228.6 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "476ac41b-f42c-4e73-a43a-4b0dd7d4e6ef")
+	)
+	(wire
+		(pts
+			(xy 88.9 35.56) (xy 114.3 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f8187ef-494b-433f-bbcf-3429d54a7137")
+	)
+	(wire
+		(pts
+			(xy 152.4 88.9) (xy 228.6 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5242629a-a254-489b-bd33-9aab89a34abd")
+	)
+	(wire
+		(pts
+			(xy 152.4 137.16) (xy 228.6 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5268076e-d884-4d79-aa04-8ec46a77f768")
+	)
+	(wire
+		(pts
+			(xy 152.4 144.78) (xy 228.6 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "59ac69e7-e48c-4549-9a75-9bf15d802b7c")
+	)
+	(wire
+		(pts
+			(xy 152.4 91.44) (xy 228.6 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "619d628b-4837-4b9c-b338-99949ba80252")
+	)
+	(wire
+		(pts
+			(xy 88.9 58.42) (xy 114.3 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "739f6e5b-8ddb-47b7-98f2-a800001a0777")
+	)
+	(wire
+		(pts
+			(xy 152.4 81.28) (xy 203.2 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "753f48f4-5ffc-4d76-b20c-9c5a068a8962")
+	)
+	(wire
+		(pts
+			(xy 88.9 60.96) (xy 114.3 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7654dd94-d79a-4d47-a2a0-ea441a39e325")
+	)
+	(wire
+		(pts
+			(xy 152.4 68.58) (xy 228.6 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7e0b2621-7df0-4fb6-b74a-e4a26e02ab1f")
+	)
+	(wire
+		(pts
+			(xy 195.58 101.6) (xy 203.2 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8477d9a7-1313-4a1b-a32c-44ba3e9f4816")
+	)
+	(wire
+		(pts
+			(xy 152.4 83.82) (xy 228.6 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "86162141-20c5-42b6-9669-509ff70deb5a")
+	)
+	(wire
+		(pts
+			(xy 152.4 119.38) (xy 228.6 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "936b3e7c-8a06-48a2-a2a0-2fea7c1d00b8")
+	)
+	(wire
+		(pts
+			(xy 88.9 55.88) (xy 114.3 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "95f346a0-9135-4aaa-8fae-7b64493fef9b")
+	)
+	(wire
+		(pts
+			(xy 88.9 63.5) (xy 114.3 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9afe741f-5df1-45e3-bfc8-f3c2ae1b08a5")
+	)
+	(wire
+		(pts
+			(xy 195.58 76.2) (xy 203.2 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b37fa9ea-883f-4ed1-b30e-7375a84469ed")
+	)
+	(wire
+		(pts
+			(xy 152.4 60.96) (xy 228.6 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cb512a3c-f009-4af0-b38d-84c8a0195a00")
+	)
+	(wire
+		(pts
+			(xy 152.4 109.22) (xy 228.6 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ce3220d1-4b23-466c-898e-d7934017cbf3")
+	)
+	(wire
+		(pts
+			(xy 88.9 33.02) (xy 114.3 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d27fcaaa-ed9d-41e1-a8d8-02b6e144660a")
+	)
+	(wire
+		(pts
+			(xy 195.58 40.64) (xy 195.58 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d5591422-ee89-446c-9f2e-6b2abca0c1c2")
+	)
+	(wire
+		(pts
+			(xy 152.4 86.36) (xy 228.6 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d63760ad-6aa9-4479-9cc3-8702219cea55")
+	)
+	(wire
+		(pts
+			(xy 218.44 53.34) (xy 228.6 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d63d4361-cb4b-4c02-908c-6769c0edb661")
+	)
+	(wire
+		(pts
+			(xy 195.58 101.6) (xy 195.58 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d9ffc850-1582-40e3-9b1c-26096863547e")
+	)
+	(wire
+		(pts
+			(xy 218.44 129.54) (xy 228.6 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e5ef2962-dbbb-4b80-aea3-849d5e4a3b4f")
+	)
+	(wire
+		(pts
+			(xy 195.58 50.8) (xy 203.2 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e625c949-7ca0-4fa9-a2d2-c68aa26b68f2")
+	)
+	(wire
+		(pts
+			(xy 152.4 35.56) (xy 177.8 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ecf21634-62eb-4bec-8d6e-30702ecffd2b")
+	)
+	(wire
+		(pts
+			(xy 152.4 132.08) (xy 203.2 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f0194c76-e293-4e78-929d-af1e485d00ab")
+	)
+	(wire
+		(pts
+			(xy 152.4 66.04) (xy 228.6 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f1feb1b8-e647-4e04-ab5d-263eac9833d7")
+	)
+	(wire
+		(pts
+			(xy 195.58 127) (xy 203.2 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f2d69fd8-713f-48a0-8bdb-58fe24df1801")
+	)
+	(wire
+		(pts
+			(xy 152.4 93.98) (xy 228.6 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fb774077-f9fc-4de2-b47b-966bd4e7ec73")
+	)
+	(wire
+		(pts
+			(xy 195.58 76.2) (xy 195.58 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fc2a8d9c-b79a-4486-a103-2909f61b9709")
+	)
+	(wire
+		(pts
+			(xy 195.58 50.8) (xy 195.58 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fdd4800d-d23c-4032-ab78-e6e030d1ad3f")
+	)
 	(image
 		(at 435.61 44.45)
 		(uuid "2e204542-024a-4850-9db6-cc4db735b78c")
@@ -73609,8 +75300,560 @@
 			"QmCC"
 		)
 	)
+	(symbol
+		(lib_id "stepping-stone:SN74LVC08")
+		(at 210.82 129.54 0)
+		(unit 4)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "39bb07cf-c4d8-4a95-aef9-4062eb43df66")
+		(property "Reference" "U2"
+			(at 210.8117 120.65 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SN74HC132"
+			(at 210.8117 123.19 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
+			(at 210.82 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74lvc08a.pdf?HQS=dis-dk-null-digikeymode-dsf-pf-null-wwe&ts=1787430399388&ref_url=https%253A%252F%252Fwww.ti.com%252Fgeneral%252Fdocs%252Fsuppproductinfo.tsp%253FdistId%253D10%2526gotoUrl%253Dhttps%253A%252F%252Fwww.ti.com%252Flit%252Fgpn%252Fsn74lvc08a"
+			(at 210.82 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Quad NAND2 Schmitt"
+			(at 210.82 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "SN74HC132DR"
+			(at 210.82 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vendor URL" "https://www.digikey.com/en/products/detail/texas-instruments/SN74HC132DR/562900"
+			(at 210.82 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "5"
+			(uuid "abc3ff92-12a8-4aaa-9ee1-d38c3b44f10d")
+		)
+		(pin "3"
+			(uuid "e4851ec2-ba27-4242-8b61-3ef810aa9802")
+		)
+		(pin "1"
+			(uuid "4c6662ed-4a74-45af-8c7e-bafa3897fb74")
+		)
+		(pin "2"
+			(uuid "ac8026f4-d7f4-4d82-b3c7-2e36d10e2d90")
+		)
+		(pin "4"
+			(uuid "6107373d-c89e-44a6-ac8e-292bf9d2cc50")
+		)
+		(pin "10"
+			(uuid "e3d81cee-dfda-4de1-b2e8-a98b6d319ff6")
+		)
+		(pin "12"
+			(uuid "3fc985fd-144f-45df-b4b4-d524ac8c6bc4")
+		)
+		(pin "9"
+			(uuid "32fc76d0-64a8-4094-be85-e02fa23b911a")
+		)
+		(pin "13"
+			(uuid "b31ec0c0-1d90-41e1-9613-597f0815aa1d")
+		)
+		(pin "11"
+			(uuid "742ca293-4381-4f74-be69-4386b6b453ad")
+		)
+		(pin "14"
+			(uuid "145ac7c7-beb2-4bde-8e8d-a2fafbbb0a3e")
+		)
+		(pin "8"
+			(uuid "724aa7d3-c081-4605-804c-287385f07be8")
+		)
+		(pin "6"
+			(uuid "fe34ef1f-874f-4858-87c9-dc9392ffa630")
+		)
+		(pin "7"
+			(uuid "d09c185e-be85-47cc-90d4-9524c9150dd9")
+		)
+		(instances
+			(project "stepping-stone"
+				(path "/793a882e-3f7b-468b-a863-41a1f527e1bf"
+					(reference "U2")
+					(unit 4)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "stepping-stone:SN74LVC08")
+		(at 210.82 53.34 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "88069b2c-600d-4215-b373-3efc4cdb58d7")
+		(property "Reference" "U2"
+			(at 210.8117 44.45 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SN74HC132"
+			(at 210.8117 46.99 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
+			(at 210.82 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74lvc08a.pdf?HQS=dis-dk-null-digikeymode-dsf-pf-null-wwe&ts=1787430399388&ref_url=https%253A%252F%252Fwww.ti.com%252Fgeneral%252Fdocs%252Fsuppproductinfo.tsp%253FdistId%253D10%2526gotoUrl%253Dhttps%253A%252F%252Fwww.ti.com%252Flit%252Fgpn%252Fsn74lvc08a"
+			(at 210.82 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Quad NAND2 Schmitt"
+			(at 210.82 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "SN74HC132DR"
+			(at 210.82 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vendor URL" "https://www.digikey.com/en/products/detail/texas-instruments/SN74HC132DR/562900"
+			(at 210.82 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "5"
+			(uuid "abc3ff92-12a8-4aaa-9ee1-d38c3b44f10d")
+		)
+		(pin "3"
+			(uuid "e4851ec2-ba27-4242-8b61-3ef810aa9802")
+		)
+		(pin "1"
+			(uuid "4c6662ed-4a74-45af-8c7e-bafa3897fb74")
+		)
+		(pin "2"
+			(uuid "ac8026f4-d7f4-4d82-b3c7-2e36d10e2d90")
+		)
+		(pin "4"
+			(uuid "6107373d-c89e-44a6-ac8e-292bf9d2cc50")
+		)
+		(pin "10"
+			(uuid "e3d81cee-dfda-4de1-b2e8-a98b6d319ff6")
+		)
+		(pin "12"
+			(uuid "3fc985fd-144f-45df-b4b4-d524ac8c6bc4")
+		)
+		(pin "9"
+			(uuid "32fc76d0-64a8-4094-be85-e02fa23b911a")
+		)
+		(pin "13"
+			(uuid "b31ec0c0-1d90-41e1-9613-597f0815aa1d")
+		)
+		(pin "11"
+			(uuid "742ca293-4381-4f74-be69-4386b6b453ad")
+		)
+		(pin "14"
+			(uuid "145ac7c7-beb2-4bde-8e8d-a2fafbbb0a3e")
+		)
+		(pin "8"
+			(uuid "724aa7d3-c081-4605-804c-287385f07be8")
+		)
+		(pin "6"
+			(uuid "fe34ef1f-874f-4858-87c9-dc9392ffa630")
+		)
+		(pin "7"
+			(uuid "d09c185e-be85-47cc-90d4-9524c9150dd9")
+		)
+		(instances
+			(project "stepping-stone"
+				(path "/793a882e-3f7b-468b-a863-41a1f527e1bf"
+					(reference "U2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "stepping-stone:SN74LVC08")
+		(at 210.82 104.14 0)
+		(unit 3)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a58e583a-b528-4ee0-87ef-3a1abb027b0e")
+		(property "Reference" "U2"
+			(at 210.8117 95.25 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SN74HC132"
+			(at 210.8117 97.79 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
+			(at 210.82 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74lvc08a.pdf?HQS=dis-dk-null-digikeymode-dsf-pf-null-wwe&ts=1787430399388&ref_url=https%253A%252F%252Fwww.ti.com%252Fgeneral%252Fdocs%252Fsuppproductinfo.tsp%253FdistId%253D10%2526gotoUrl%253Dhttps%253A%252F%252Fwww.ti.com%252Flit%252Fgpn%252Fsn74lvc08a"
+			(at 210.82 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Quad NAND2 Schmitt"
+			(at 210.82 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "SN74HC132DR"
+			(at 210.82 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vendor URL" "https://www.digikey.com/en/products/detail/texas-instruments/SN74HC132DR/562900"
+			(at 210.82 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "5"
+			(uuid "abc3ff92-12a8-4aaa-9ee1-d38c3b44f10d")
+		)
+		(pin "3"
+			(uuid "e4851ec2-ba27-4242-8b61-3ef810aa9802")
+		)
+		(pin "1"
+			(uuid "4c6662ed-4a74-45af-8c7e-bafa3897fb74")
+		)
+		(pin "2"
+			(uuid "ac8026f4-d7f4-4d82-b3c7-2e36d10e2d90")
+		)
+		(pin "4"
+			(uuid "6107373d-c89e-44a6-ac8e-292bf9d2cc50")
+		)
+		(pin "10"
+			(uuid "e3d81cee-dfda-4de1-b2e8-a98b6d319ff6")
+		)
+		(pin "12"
+			(uuid "3fc985fd-144f-45df-b4b4-d524ac8c6bc4")
+		)
+		(pin "9"
+			(uuid "32fc76d0-64a8-4094-be85-e02fa23b911a")
+		)
+		(pin "13"
+			(uuid "b31ec0c0-1d90-41e1-9613-597f0815aa1d")
+		)
+		(pin "11"
+			(uuid "742ca293-4381-4f74-be69-4386b6b453ad")
+		)
+		(pin "14"
+			(uuid "145ac7c7-beb2-4bde-8e8d-a2fafbbb0a3e")
+		)
+		(pin "8"
+			(uuid "724aa7d3-c081-4605-804c-287385f07be8")
+		)
+		(pin "6"
+			(uuid "fe34ef1f-874f-4858-87c9-dc9392ffa630")
+		)
+		(pin "7"
+			(uuid "d09c185e-be85-47cc-90d4-9524c9150dd9")
+		)
+		(instances
+			(project "stepping-stone"
+				(path "/793a882e-3f7b-468b-a863-41a1f527e1bf"
+					(reference "U2")
+					(unit 3)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "stepping-stone:SN74LVC08")
+		(at 210.82 78.74 0)
+		(unit 2)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ec5ba3fa-45c7-46ac-b4ae-a476d8d06593")
+		(property "Reference" "U2"
+			(at 210.8117 69.85 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SN74HC132"
+			(at 210.8117 72.39 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
+			(at 210.82 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74lvc08a.pdf?HQS=dis-dk-null-digikeymode-dsf-pf-null-wwe&ts=1787430399388&ref_url=https%253A%252F%252Fwww.ti.com%252Fgeneral%252Fdocs%252Fsuppproductinfo.tsp%253FdistId%253D10%2526gotoUrl%253Dhttps%253A%252F%252Fwww.ti.com%252Flit%252Fgpn%252Fsn74lvc08a"
+			(at 210.82 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Quad NAND2 Schmitt"
+			(at 210.82 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "SN74HC132DR"
+			(at 210.82 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vendor URL" "https://www.digikey.com/en/products/detail/texas-instruments/SN74HC132DR/562900"
+			(at 210.82 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "5"
+			(uuid "abc3ff92-12a8-4aaa-9ee1-d38c3b44f10d")
+		)
+		(pin "3"
+			(uuid "e4851ec2-ba27-4242-8b61-3ef810aa9802")
+		)
+		(pin "1"
+			(uuid "4c6662ed-4a74-45af-8c7e-bafa3897fb74")
+		)
+		(pin "2"
+			(uuid "ac8026f4-d7f4-4d82-b3c7-2e36d10e2d90")
+		)
+		(pin "4"
+			(uuid "6107373d-c89e-44a6-ac8e-292bf9d2cc50")
+		)
+		(pin "10"
+			(uuid "e3d81cee-dfda-4de1-b2e8-a98b6d319ff6")
+		)
+		(pin "12"
+			(uuid "3fc985fd-144f-45df-b4b4-d524ac8c6bc4")
+		)
+		(pin "9"
+			(uuid "32fc76d0-64a8-4094-be85-e02fa23b911a")
+		)
+		(pin "13"
+			(uuid "b31ec0c0-1d90-41e1-9613-597f0815aa1d")
+		)
+		(pin "11"
+			(uuid "742ca293-4381-4f74-be69-4386b6b453ad")
+		)
+		(pin "14"
+			(uuid "145ac7c7-beb2-4bde-8e8d-a2fafbbb0a3e")
+		)
+		(pin "8"
+			(uuid "724aa7d3-c081-4605-804c-287385f07be8")
+		)
+		(pin "6"
+			(uuid "fe34ef1f-874f-4858-87c9-dc9392ffa630")
+		)
+		(pin "7"
+			(uuid "d09c185e-be85-47cc-90d4-9524c9150dd9")
+		)
+		(instances
+			(project "stepping-stone"
+				(path "/793a882e-3f7b-468b-a863-41a1f527e1bf"
+					(reference "U2")
+					(unit 2)
+				)
+			)
+		)
+	)
 	(sheet
-		(at 50.8 101.6)
+		(at 63.5 50.8)
 		(size 25.4 15.24)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -73625,7 +75868,7 @@
 		)
 		(uuid "19dbaeaf-d110-49c5-9d75-50e9003bebb2")
 		(property "Sheetname" "SD Card"
-			(at 50.8 100.33 0)
+			(at 63.5 49.53 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -73636,7 +75879,7 @@
 			)
 		)
 		(property "Sheetfile" "sd_card.kicad_sch"
-			(at 50.8 118.11 0)
+			(at 63.5 67.31 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -73644,6 +75887,56 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "CLK" input
+			(at 88.9 53.34 0)
+			(uuid "68eb5c31-914c-4711-a907-e5e9b08b920a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "CS" input
+			(at 88.9 60.96 0)
+			(uuid "b313cdd6-c036-419a-b7b8-5cafa27957bf")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "PICO" input
+			(at 88.9 55.88 0)
+			(uuid "807c8d97-1d14-470c-95a5-4ed0d7791880")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "POCI" input
+			(at 88.9 58.42 0)
+			(uuid "4eb1adf4-90e1-4510-bacf-091e65384b38")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "~{DET}" output
+			(at 88.9 63.5 0)
+			(uuid "e6201bd3-08b5-42b9-9860-93a32a7d6beb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances
@@ -73655,8 +75948,8 @@
 		)
 	)
 	(sheet
-		(at 228.6 127)
-		(size 25.4 15.24)
+		(at 228.6 101.6)
+		(size 25.4 20.32)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -73668,9 +75961,9 @@
 		(fill
 			(color 255 229 191 1)
 		)
-		(uuid "3a29de04-fdfa-4d5a-abb9-c9ee2c3b40e7")
-		(property "Sheetname" "Stepper Driver 3"
-			(at 254 126.365 0)
+		(uuid "509ab3d5-28d2-4708-8ccf-fdefd88fdf08")
+		(property "Sheetname" "Stepper Driver 2"
+			(at 254 100.965 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -73681,7 +75974,8 @@
 			)
 		)
 		(property "Sheetfile" "tmc2209_driver.kicad_sch"
-			(at 254 142.875 0)
+			(at 254 123.19 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -73691,16 +75985,76 @@
 				(justify right top)
 			)
 		)
+		(pin "DIAG" output
+			(at 228.6 119.38 180)
+			(uuid "7303d755-48cf-437b-8617-b573bc7530c5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DIR" input
+			(at 228.6 111.76 180)
+			(uuid "af3879b7-b2a7-4bd6-a9f3-96ea1c475b83")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "INDEX" output
+			(at 228.6 116.84 180)
+			(uuid "46708fc2-4e0a-404c-ba37-fedf3635da74")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "STEP" input
+			(at 228.6 109.22 180)
+			(uuid "bd0dba6b-b1dd-4ed5-98aa-d6facab39209")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "UART" bidirectional
+			(at 228.6 114.3 180)
+			(uuid "83e5a2d2-eb8a-400a-be84-97ede8a62658")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "~{EN}" input
+			(at 228.6 104.14 180)
+			(uuid "85b4aa7b-e108-4215-861e-196963a7f518")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(instances
 			(project "stepping-stone"
 				(path "/793a882e-3f7b-468b-a863-41a1f527e1bf"
-					(page "11")
+					(page "10")
 				)
 			)
 		)
 	)
 	(sheet
-		(at 50.8 50.8)
+		(at 63.5 25.4)
 		(size 25.4 15.24)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -73716,7 +76070,7 @@
 		)
 		(uuid "57b4c7a6-0892-4cab-a0ed-f935f784d7ce")
 		(property "Sheetname" "USB C"
-			(at 50.8 50.0122 0)
+			(at 63.5 24.6122 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -73727,7 +76081,7 @@
 			)
 		)
 		(property "Sheetfile" "usb.kicad_sch"
-			(at 50.8 66.7008 0)
+			(at 63.5 41.3008 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -73735,6 +76089,36 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "D+" bidirectional
+			(at 88.9 30.48 0)
+			(uuid "31aa68a6-414f-43a2-a221-329fc6ab9086")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "D-" bidirectional
+			(at 88.9 33.02 0)
+			(uuid "b54e6a2a-6429-4fbd-a8b7-95c18427724f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "USB_STATUS" input
+			(at 88.9 35.56 0)
+			(uuid "5b2e8818-bf16-4956-b701-255b7129eaad")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances
@@ -73746,7 +76130,7 @@
 		)
 	)
 	(sheet
-		(at 50.8 25.4)
+		(at 25.4 25.4)
 		(size 25.4 15.24)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -73762,7 +76146,7 @@
 		)
 		(uuid "73c4e66b-e11c-48b6-b2c8-fbbf612d64c5")
 		(property "Sheetname" "Power Input"
-			(at 50.8 24.6122 0)
+			(at 25.4 24.6122 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -73773,7 +76157,7 @@
 			)
 		)
 		(property "Sheetfile" "power-input.kicad_sch"
-			(at 50.8 41.3008 0)
+			(at 25.4 41.3008 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -73792,8 +76176,114 @@
 		)
 	)
 	(sheet
+		(at 228.6 76.2)
+		(size 25.4 20.32)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.3048)
+			(type solid)
+		)
+		(fill
+			(color 255 229 191 1)
+		)
+		(uuid "95124460-587b-413e-96f3-de4378f0b1ce")
+		(property "Sheetname" "Stepper Driver 1"
+			(at 254 75.565 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "Sheetfile" "tmc2209_driver.kicad_sch"
+			(at 254 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right top)
+			)
+		)
+		(pin "DIAG" output
+			(at 228.6 93.98 180)
+			(uuid "e5e7b68e-2b68-4d1a-887f-2264cc10d269")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DIR" input
+			(at 228.6 86.36 180)
+			(uuid "30ceb34a-6d85-4d5f-b95e-2c9352f11ee6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "INDEX" output
+			(at 228.6 91.44 180)
+			(uuid "a20a462c-9618-45c0-8389-c0a43c8cbd7d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "STEP" input
+			(at 228.6 83.82 180)
+			(uuid "d28cd7bf-71db-402f-93e8-52e6e8b9254c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "UART" bidirectional
+			(at 228.6 88.9 180)
+			(uuid "0be5b272-a328-46a2-bae5-cbfc341ac94d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "~{EN}" input
+			(at 228.6 78.74 180)
+			(uuid "21cfcfb8-d254-499d-a150-fa8178dc7300")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "stepping-stone"
+				(path "/793a882e-3f7b-468b-a863-41a1f527e1bf"
+					(page "9")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 228.6 50.8)
-		(size 25.4 15.24)
+		(size 25.4 20.32)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -73818,7 +76308,8 @@
 			)
 		)
 		(property "Sheetfile" "tmc2209_driver.kicad_sch"
-			(at 254 66.675 0)
+			(at 254 72.39 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -73826,6 +76317,66 @@
 					(size 1.27 1.27)
 				)
 				(justify right top)
+			)
+		)
+		(pin "DIAG" output
+			(at 228.6 68.58 180)
+			(uuid "17919c97-c90a-4757-8e6a-3b69badbe810")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DIR" input
+			(at 228.6 60.96 180)
+			(uuid "949d4ba0-2468-4c84-83bf-bd61bd5270f4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "INDEX" output
+			(at 228.6 66.04 180)
+			(uuid "f5bb3153-f830-4c25-a3e2-47c07bf9c30d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "STEP" input
+			(at 228.6 58.42 180)
+			(uuid "02ce469f-9aaa-4165-8587-c9d379e44768")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "UART" bidirectional
+			(at 228.6 63.5 180)
+			(uuid "624f306c-5e18-4ad9-a4ae-f61081e6a21b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "~{EN}" input
+			(at 228.6 53.34 180)
+			(uuid "5add9ef2-46a3-460b-b59c-a500080ab00c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances
@@ -73837,7 +76388,7 @@
 		)
 	)
 	(sheet
-		(at 190.5 25.4)
+		(at 177.8 25.4)
 		(size 25.4 15.24)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -73852,7 +76403,7 @@
 		)
 		(uuid "ca68e3e0-6620-4c6d-b672-8e352c5602f5")
 		(property "Sheetname" "ESTOP"
-			(at 215.9 24.765 0)
+			(at 203.2 24.765 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -73863,7 +76414,7 @@
 			)
 		)
 		(property "Sheetfile" "estop.kicad_sch"
-			(at 215.9 41.275 0)
+			(at 203.2 41.275 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -73871,6 +76422,36 @@
 					(size 1.27 1.27)
 				)
 				(justify right top)
+			)
+		)
+		(pin "WDI" input
+			(at 177.8 30.48 180)
+			(uuid "4def9253-8c53-42ee-8538-59bd04b881cf")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "~{ESTOP}" output
+			(at 195.58 40.64 270)
+			(uuid "715638b3-3be5-4ac2-8efb-09ab390b314e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "~{EXT_TRIG}" input
+			(at 177.8 35.56 180)
+			(uuid "e0004c37-d90c-4e49-85cf-b536e39c1c0e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances
@@ -73883,7 +76464,7 @@
 	)
 	(sheet
 		(at 114.3 25.4)
-		(size 43.18 137.16)
+		(size 38.1 127)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -73908,7 +76489,7 @@
 			)
 		)
 		(property "Sheetfile" "microcontroller.kicad_sch"
-			(at 114.3 163.2208 0)
+			(at 114.3 153.67 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -73916,6 +76497,346 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "DRV0_DIAG" input
+			(at 152.4 68.58 0)
+			(uuid "f884a0f6-ae62-47e0-912e-4e52a00329cc")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DRV0_DIR" output
+			(at 152.4 60.96 0)
+			(uuid "300ed9e9-e0ca-4eba-a854-a65da280ad82")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DRV0_INDEX" input
+			(at 152.4 66.04 0)
+			(uuid "66540f08-d654-46ac-b7b2-e9d0cf673624")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DRV0_STEP" output
+			(at 152.4 58.42 0)
+			(uuid "c5f1acf7-fb0b-417d-8a77-68589df71848")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DRV0_UART" bidirectional
+			(at 152.4 63.5 0)
+			(uuid "e603c572-954e-4832-ba64-1001f89e7520")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DRV0_EN" output
+			(at 152.4 55.88 0)
+			(uuid "1e1d0ea2-f275-410d-a3fa-7ec90fb83a3e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DRV1_DIAG" input
+			(at 152.4 93.98 0)
+			(uuid "c3a7ef6a-dbab-4b61-beff-529905509e15")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DRV1_DIR" output
+			(at 152.4 86.36 0)
+			(uuid "5c8270aa-05c5-4c67-a1d7-2ebfdf230019")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DRV1_EN" output
+			(at 152.4 81.28 0)
+			(uuid "186f4218-e237-4aec-aab7-b7a4b7a6dab6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DRV1_INDEX" input
+			(at 152.4 91.44 0)
+			(uuid "991fa234-38a8-496a-86d3-60d936ebeb6e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DRV1_STEP" output
+			(at 152.4 83.82 0)
+			(uuid "1ad7037b-3c6e-4299-a296-920bfe0bae99")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DRV1_UART" bidirectional
+			(at 152.4 88.9 0)
+			(uuid "d04206d9-1567-4717-ac8b-6e0edb5d94e9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DRV2_DIAG" input
+			(at 152.4 119.38 0)
+			(uuid "c8090f0c-9e9f-46b5-b821-ff1294dcc522")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DRV2_DIR" output
+			(at 152.4 111.76 0)
+			(uuid "b1a36a0f-8056-4c69-9e38-5441a8dbb42b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DRV2_EN" output
+			(at 152.4 106.68 0)
+			(uuid "63edb3e7-563a-44a9-ad99-0aaeb8045c3d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DRV2_INDEX" input
+			(at 152.4 116.84 0)
+			(uuid "34556c4f-8485-4a65-9ad6-afd016f09a0a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DRV2_STEP" output
+			(at 152.4 109.22 0)
+			(uuid "eb78dc33-1ad5-4f1d-b5be-a6c8dc34e664")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DRV2_UART" bidirectional
+			(at 152.4 114.3 0)
+			(uuid "5d1ed4fb-86fe-4279-8680-98e19529c143")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DRV3_DIAG" input
+			(at 152.4 144.78 0)
+			(uuid "5628c937-b3d0-4ca9-b55f-0fc329729861")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DRV3_DIR" output
+			(at 152.4 137.16 0)
+			(uuid "ae8e5bf8-90bf-4294-bb3c-7278dc2d83a2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DRV3_EN" output
+			(at 152.4 132.08 0)
+			(uuid "466b3d8c-e692-4bcf-a3be-bcd510584bd9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DRV3_INDEX" input
+			(at 152.4 142.24 0)
+			(uuid "0f91f397-271d-469e-a122-b4842b720920")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DRV3_STEP" output
+			(at 152.4 134.62 0)
+			(uuid "9c899e8d-bacf-48c3-9090-bc68acac62b7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DRV3_UART" bidirectional
+			(at 152.4 139.7 0)
+			(uuid "16c2f8f7-47c2-4ad1-b25c-26f9fca4eb2f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "HEARTBEAT" output
+			(at 152.4 30.48 0)
+			(uuid "5b29586e-7f6b-471e-8b39-18d7c092ca9c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "USB_DM" input
+			(at 114.3 33.02 180)
+			(uuid "3f65c49f-bbb7-4c76-ba4b-ebecf0d3fe88")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "USB_DP" input
+			(at 114.3 30.48 180)
+			(uuid "d27b76e2-bb18-454c-8975-5911470c9f8d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "USB_STATUS" output
+			(at 114.3 35.56 180)
+			(uuid "aa5019d7-6374-4011-ae3a-cb58635dd600")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "~{ESTOP_TRIG}" output
+			(at 152.4 35.56 0)
+			(uuid "ea248443-93d5-401f-9a85-576974d1c169")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SD_CLK" output
+			(at 114.3 53.34 180)
+			(uuid "a1e72dae-4e64-4eb9-8dcc-f12025d90d6d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SD_CS" output
+			(at 114.3 60.96 180)
+			(uuid "a75bddac-f11f-4cc6-bea5-189e274fe11f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SD_PICO" output
+			(at 114.3 55.88 180)
+			(uuid "553c0ebf-1a7e-462c-b294-c8d3881584f6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SD_POCI" input
+			(at 114.3 58.42 180)
+			(uuid "644bb305-d6e4-4c6a-9aa3-7cbfd4fd7710")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SD_~{DET}" input
+			(at 114.3 63.5 180)
+			(uuid "45781138-895e-4cff-8117-60d7db687949")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances
@@ -73927,97 +76848,7 @@
 		)
 	)
 	(sheet
-		(at 228.6 101.6)
-		(size 25.4 15.24)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(stroke
-			(width 0.3048)
-			(type solid)
-		)
-		(fill
-			(color 255 229 191 1)
-		)
-		(uuid "d8875dcc-880f-4ab2-99dc-5b365f2843f9")
-		(property "Sheetname" "Stepper Driver 2"
-			(at 254 100.965 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-			)
-		)
-		(property "Sheetfile" "tmc2209_driver.kicad_sch"
-			(at 254 117.475 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right top)
-			)
-		)
-		(instances
-			(project "stepping-stone"
-				(path "/793a882e-3f7b-468b-a863-41a1f527e1bf"
-					(page "10")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 228.6 76.2)
-		(size 25.4 15.24)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(stroke
-			(width 0.3048)
-			(type solid)
-		)
-		(fill
-			(color 255 229 191 1)
-		)
-		(uuid "e131c06c-af1f-40aa-aaad-aefd9f9dd628")
-		(property "Sheetname" "Stepper Driver 1"
-			(at 254 75.565 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-			)
-		)
-		(property "Sheetfile" "tmc2209_driver.kicad_sch"
-			(at 254 92.075 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right top)
-			)
-		)
-		(instances
-			(project "stepping-stone"
-				(path "/793a882e-3f7b-468b-a863-41a1f527e1bf"
-					(page "9")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 50.8 76.2)
+		(at 25.4 50.8)
 		(size 25.4 15.24)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -74033,7 +76864,7 @@
 		)
 		(uuid "f256c00d-2170-4eef-a13f-c3325a813e7e")
 		(property "Sheetname" "3.3V Buck Converter"
-			(at 50.8 75.4122 0)
+			(at 25.4 50.0122 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -74044,7 +76875,7 @@
 			)
 		)
 		(property "Sheetfile" "buck-converter.kicad_sch"
-			(at 50.8 92.1008 0)
+			(at 25.4 66.7008 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -74054,20 +76885,115 @@
 				(justify left top)
 			)
 		)
-		(pin "PG" output
-			(at 76.2 83.82 0)
-			(uuid "e1b54ce0-4c97-42e9-9f27-561c5b928733")
+		(instances
+			(project "stepping-stone"
+				(path "/793a882e-3f7b-468b-a863-41a1f527e1bf"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 228.6 127)
+		(size 25.4 20.32)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.3048)
+			(type solid)
+		)
+		(fill
+			(color 255 229 191 1)
+		)
+		(uuid "fbea56a2-7dcc-40ca-b4f2-72792730cd5f")
+		(property "Sheetname" "Stepper Driver 3"
+			(at 254 126.365 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify right bottom)
+			)
+		)
+		(property "Sheetfile" "tmc2209_driver.kicad_sch"
+			(at 254 148.59 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right top)
+			)
+		)
+		(pin "DIAG" output
+			(at 228.6 144.78 180)
+			(uuid "601cd7c0-de34-4570-95db-0fa2f88eef5e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DIR" input
+			(at 228.6 137.16 180)
+			(uuid "97ec2890-3d68-4db4-b1a3-763f18c7f412")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "INDEX" output
+			(at 228.6 142.24 180)
+			(uuid "2bfd16a9-440a-45dc-957f-df7c77110f1c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "STEP" input
+			(at 228.6 134.62 180)
+			(uuid "f7b20d00-80a0-49e4-b5c1-1a09144359bc")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "UART" bidirectional
+			(at 228.6 139.7 180)
+			(uuid "f5907a10-b3a7-4844-b92e-8d19c84f145f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "~{EN}" input
+			(at 228.6 129.54 180)
+			(uuid "025cbeaa-f11b-44f6-9046-5d2073f6315a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances
 			(project "stepping-stone"
 				(path "/793a882e-3f7b-468b-a863-41a1f527e1bf"
-					(page "4")
+					(page "11")
 				)
 			)
 		)

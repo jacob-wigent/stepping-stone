@@ -4562,7 +4562,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "SN74LVC08"
+		(property "Value" "SN74HC132"
 			(at 2.54 2.54 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4595,7 +4595,7 @@
 				)
 			)
 		)
-		(property "Description" "Quad And2"
+		(property "Description" "Quad NAND2 Schmitt"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4606,7 +4606,7 @@
 				)
 			)
 		)
-		(property "Part Number" "SN74LVC08ADR"
+		(property "Part Number" "SN74HC132DR"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4617,7 +4617,7 @@
 				)
 			)
 		)
-		(property "Vendor URL" "https://www.digikey.com/en/products/detail/texas-instruments/SN74LVC08ADR/377394"
+		(property "Vendor URL" "https://www.digikey.com/en/products/detail/texas-instruments/SN74HC132DR/562900"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4657,6 +4657,56 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "SN74LVC08_1_0"
+			(polyline
+				(pts
+					(xy -1.27 -1.27) (xy 0.635 -1.27) (xy 0.635 1.27) (xy 1.27 1.27)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.27 -1.27) (xy 0.635 -1.27) (xy 0.635 1.27) (xy 1.27 1.27)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -0.635 -1.27) (xy -0.635 1.27) (xy 0.635 1.27)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -0.635 -1.27) (xy -0.635 1.27) (xy 0.635 1.27)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
 				)
 			)
 		)
@@ -4721,7 +4771,7 @@
 					)
 				)
 			)
-			(pin output line
+			(pin output inverted
 				(at 7.62 0 180)
 				(length 3.81)
 				(name ""
@@ -4870,6 +4920,56 @@
 				)
 			)
 		)
+		(symbol "SN74LVC08_2_0"
+			(polyline
+				(pts
+					(xy -1.27 -1.27) (xy 0.635 -1.27) (xy 0.635 1.27) (xy 1.27 1.27)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.27 -1.27) (xy 0.635 -1.27) (xy 0.635 1.27) (xy 1.27 1.27)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -0.635 -1.27) (xy -0.635 1.27) (xy 0.635 1.27)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -0.635 -1.27) (xy -0.635 1.27) (xy 0.635 1.27)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
 		(symbol "SN74LVC08_2_1"
 			(arc
 				(start 0 3.81)
@@ -4931,7 +5031,7 @@
 					)
 				)
 			)
-			(pin output line
+			(pin output inverted
 				(at 7.62 0 180)
 				(length 3.81)
 				(name ""
@@ -5080,6 +5180,56 @@
 				)
 			)
 		)
+		(symbol "SN74LVC08_3_0"
+			(polyline
+				(pts
+					(xy -1.27 -1.27) (xy 0.635 -1.27) (xy 0.635 1.27) (xy 1.27 1.27)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.27 -1.27) (xy 0.635 -1.27) (xy 0.635 1.27) (xy 1.27 1.27)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -0.635 -1.27) (xy -0.635 1.27) (xy 0.635 1.27)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -0.635 -1.27) (xy -0.635 1.27) (xy 0.635 1.27)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
 		(symbol "SN74LVC08_3_1"
 			(arc
 				(start 0 3.81)
@@ -5105,7 +5255,7 @@
 					(type background)
 				)
 			)
-			(pin output line
+			(pin output inverted
 				(at 7.62 0 180)
 				(length 3.81)
 				(name ""
@@ -5290,6 +5440,56 @@
 				)
 			)
 		)
+		(symbol "SN74LVC08_4_0"
+			(polyline
+				(pts
+					(xy -1.27 -1.27) (xy 0.635 -1.27) (xy 0.635 1.27) (xy 1.27 1.27)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.27 -1.27) (xy 0.635 -1.27) (xy 0.635 1.27) (xy 1.27 1.27)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -0.635 -1.27) (xy -0.635 1.27) (xy 0.635 1.27)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -0.635 -1.27) (xy -0.635 1.27) (xy 0.635 1.27)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
 		(symbol "SN74LVC08_4_1"
 			(arc
 				(start 0 3.81)
@@ -5315,7 +5515,7 @@
 					(type background)
 				)
 			)
-			(pin output line
+			(pin output inverted
 				(at 7.62 0 180)
 				(length 3.81)
 				(name ""
@@ -5502,7 +5702,7 @@
 		)
 		(symbol "SN74LVC08_5_0"
 			(pin power_in line
-				(at 0 -10.16 90)
+				(at 0 -12.7 90)
 				(length 2.54)
 				(name "GND"
 					(effects
@@ -5541,7 +5741,7 @@
 		(symbol "SN74LVC08_5_1"
 			(rectangle
 				(start -1.905 5.08)
-				(end 1.905 -7.62)
+				(end 1.905 -10.16)
 				(stroke
 					(width 0.254)
 					(type default)

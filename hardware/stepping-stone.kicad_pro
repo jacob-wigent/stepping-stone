@@ -672,7 +672,7 @@
         "uuid": "793a882e-3f7b-468b-a863-41a1f527e1bf"
       }
     ],
-    "used_designators": "#PWR10-11,#PWR77-78,#PWR96-98,#PWR104,#PWR115-117,#PWR123,#PWR134-136,#PWR142-174",
+    "used_designators": "L1,D3-31,#PWR10-11,#PWR77-78,#PWR86-185,C3-44,FB1,J2-8,JP1-18,Q2-8,R2-70,SD1,SW1-3,TP1-9,U2-8",
     "variants": []
   },
   "sheets": [
@@ -709,15 +709,15 @@
       "Stepper Driver 0"
     ],
     [
-      "e131c06c-af1f-40aa-aaad-aefd9f9dd628",
+      "95124460-587b-413e-96f3-de4378f0b1ce",
       "Stepper Driver 1"
     ],
     [
-      "d8875dcc-880f-4ab2-99dc-5b365f2843f9",
+      "509ab3d5-28d2-4708-8ccf-fdefd88fdf08",
       "Stepper Driver 2"
     ],
     [
-      "3a29de04-fdfa-4d5a-abb9-c9ee2c3b40e7",
+      "fbea56a2-7dcc-40ca-b4f2-72792730cd5f",
       "Stepper Driver 3"
     ]
   ],

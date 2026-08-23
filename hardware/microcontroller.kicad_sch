@@ -4645,6 +4645,28 @@
 			(embedded_fonts no)
 		)
 	)
+	(rectangle
+		(start 218.44 88.9)
+		(end 252.73 165.1)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "e7a910c1-1408-4342-a13f-d36d3f899092")
+	)
+	(text "GPIO Parking Lot"
+		(exclude_from_sim no)
+		(at 226.06 87.63 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "3ab361cd-7eb3-460d-a5b7-76647e6b293c")
+	)
 	(text "Connector Search"
 		(exclude_from_sim no)
 		(at 308.61 19.05 0)
@@ -5076,7 +5098,117 @@
 		(uuid "fe9a2cb4-db91-4d10-997d-c96f7827260c")
 	)
 	(image
-		(at 251.46 6.35)
+		(at 284.48 83.82)
+		(uuid "0e11b42f-97dc-457a-9156-73e590f5cf47")
+		(data "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"
+			"gg=="
+		)
+	)
+	(image
+		(at 285.75 105.41)
+		(uuid "b41baa5a-d810-4e5b-8425-5765bf8bad9f")
+		(data "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"
+			"QmCC"
+		)
+	)
+	(image
+		(at 302.26 -6.35)
 		(uuid "df5350c8-4c9f-4819-819c-69fa556414f6")
 		(data "iVBORw0KGgoAAAANSUhEUgAAA3EAAAF7CAYAAAB8cAIDAAAABHNCSVQICAgIfAhkiAAAIABJREFU"
 			"eJzs3XmcnWV9///Xdd3L2ebMnNmX7AkQyAJhD4uCCggKooBacam1VVsrrdXW/n61aq3tV+vafmvV"
@@ -8757,6 +8889,105 @@
 		)
 		(uuid "fe4c6dd8-d3cc-43e3-8384-e9526ed22304")
 	)
+	(hierarchical_label "DRV3_DIAG"
+		(shape input)
+		(at 220.98 153.67 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "035e18ed-8e9b-450f-93f6-0fa24d651858")
+	)
+	(hierarchical_label "DRV0_EN"
+		(shape output)
+		(at 220.98 91.44 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0b74be2d-bde3-425b-b0c3-d16c38e9533f")
+	)
+	(hierarchical_label "DRV1_DIAG"
+		(shape input)
+		(at 220.98 120.65 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0c98c76c-011d-466f-818a-77bf1576dd2c")
+	)
+	(hierarchical_label "SD_~{DET}"
+		(shape input)
+		(at 237.49 110.49 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "10acbee3-18f7-4155-bd8f-5d5a0ca92ede")
+	)
+	(hierarchical_label "DRV0_UART"
+		(shape bidirectional)
+		(at 220.98 99.06 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "17a0f3b4-cef5-4b0b-b9e2-a01eb171b6b8")
+	)
+	(hierarchical_label "DRV2_DIR"
+		(shape output)
+		(at 220.98 129.54 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1893f68e-7ed7-4c2e-9229-7e001979f773")
+	)
+	(hierarchical_label "HEARTBEAT"
+		(shape output)
+		(at 237.49 91.44 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1a24fe50-fd2e-466e-8e1f-f93ca4fc6dde")
+	)
+	(hierarchical_label "DRV0_DIAG"
+		(shape input)
+		(at 220.98 104.14 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1d345131-0f11-4fe6-b825-1f874dfcd754")
+	)
+	(hierarchical_label "DRV0_DIR"
+		(shape output)
+		(at 220.98 96.52 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "2ed004ae-7f77-496e-8803-6e6a4456b4a6")
+	)
 	(hierarchical_label "USB_DP"
 		(shape input)
 		(at 129.54 58.42 0)
@@ -8767,6 +8998,72 @@
 			(justify left)
 		)
 		(uuid "380a3b98-6e25-4b82-bb80-4fb563a8c5e8")
+	)
+	(hierarchical_label "DRV2_EN"
+		(shape output)
+		(at 220.98 124.46 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "38f08a46-206a-4e86-9005-ec4633616f67")
+	)
+	(hierarchical_label "DRV1_STEP"
+		(shape output)
+		(at 220.98 110.49 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3a905e29-6ded-47ab-92c6-3d05bf2bcd1b")
+	)
+	(hierarchical_label "DRV3_UART"
+		(shape bidirectional)
+		(at 220.98 148.59 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3dd2bf47-6458-4f0c-afa0-861a62d0beca")
+	)
+	(hierarchical_label "SD_POCI"
+		(shape input)
+		(at 237.49 105.41 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4318f89d-90be-4ace-b128-bc96ec7f7013")
+	)
+	(hierarchical_label "DRV2_DIAG"
+		(shape input)
+		(at 220.98 137.16 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "47f99741-81cf-4f18-b353-a4f3be67baab")
+	)
+	(hierarchical_label "DRV3_STEP"
+		(shape output)
+		(at 220.98 143.51 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "51c42c9a-185a-4884-a47a-a1c26081a713")
 	)
 	(hierarchical_label "USB_DM"
 		(shape input)
@@ -8779,16 +9076,150 @@
 		)
 		(uuid "5508262b-733b-4bd0-a152-f3177879f3d1")
 	)
-	(hierarchical_label "NRST"
-		(shape input)
-		(at 38.1 60.96 180)
+	(hierarchical_label "DRV0_STEP"
+		(shape output)
+		(at 220.98 93.98 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
-		(uuid "5fc33581-82bd-4672-96bd-76e7eb08031f")
+		(uuid "5f107e4a-21df-434f-879d-6297f381b96b")
+	)
+	(hierarchical_label "DRV3_DIR"
+		(shape output)
+		(at 220.98 146.05 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "64ad6719-940b-45d0-9643-a0e3d43814c9")
+	)
+	(hierarchical_label "DRV3_INDEX"
+		(shape input)
+		(at 220.98 151.13 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "75b6a8c0-2710-4204-bc46-c040fd4b1f4b")
+	)
+	(hierarchical_label "DRV3_EN"
+		(shape output)
+		(at 220.98 140.97 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7bc2338e-b346-4dd0-8761-32b86b0e978e")
+	)
+	(hierarchical_label "SD_CLK"
+		(shape output)
+		(at 237.49 100.33 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7c914891-c932-448e-a8d9-d424ab73b596")
+	)
+	(hierarchical_label "~{ESTOP_TRIG}"
+		(shape output)
+		(at 237.49 93.98 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8891a942-294e-4f41-9113-bb0c285216a8")
+		(property "GPIO Type" "OPEN DRAIN"
+			(at 237.49 95.25 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+	)
+	(hierarchical_label "DRV0_INDEX"
+		(shape input)
+		(at 220.98 101.6 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8a756364-c8aa-4b79-82ec-79fb36c80716")
+	)
+	(hierarchical_label "DRV1_UART"
+		(shape bidirectional)
+		(at 220.98 115.57 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8b44e89c-4544-48a8-9c0f-00ff7eb14ede")
+	)
+	(hierarchical_label "DRV2_INDEX"
+		(shape input)
+		(at 220.98 134.62 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "99702798-8e74-4b78-b5a2-487e4b9f7320")
+	)
+	(hierarchical_label "DRV2_STEP"
+		(shape output)
+		(at 220.98 127 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a25c166c-b771-4ad2-9d90-b8fc7855a9bb")
+	)
+	(hierarchical_label "DRV1_DIR"
+		(shape output)
+		(at 220.98 113.03 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b0a0ffcd-b773-46c6-ad9a-ded7edb46ac2")
+	)
+	(hierarchical_label "SD_PICO"
+		(shape output)
+		(at 237.49 102.87 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b1f0a3f3-b85e-4b30-a38b-fd53175e1902")
 	)
 	(hierarchical_label "USB_STATUS"
 		(shape output)
@@ -8800,6 +9231,50 @@
 			(justify left)
 		)
 		(uuid "c14fb2ea-034a-4e16-99b0-8ac8b2404756")
+	)
+	(hierarchical_label "DRV2_UART"
+		(shape bidirectional)
+		(at 220.98 132.08 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c7254147-3424-4aad-811e-e6668f0955ec")
+	)
+	(hierarchical_label "SD_CS"
+		(shape output)
+		(at 237.49 107.95 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e4313f68-e310-4d71-ab28-5614f763a93f")
+	)
+	(hierarchical_label "DRV1_EN"
+		(shape output)
+		(at 220.98 107.95 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f36b87e7-26dc-4952-86a6-e1d056eae833")
+	)
+	(hierarchical_label "DRV1_INDEX"
+		(shape input)
+		(at 220.98 118.11 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f903a3fc-5300-408c-9714-c68d42d63e05")
 	)
 	(symbol
 		(lib_id "Device:C_Small")

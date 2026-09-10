@@ -10314,6 +10314,30 @@
 		)
 		(uuid "fe4c6dd8-d3cc-43e3-8384-e9526ed22304")
 	)
+	(hierarchical_label "FLASH_CLK"
+		(shape output)
+		(at 303.53 137.16 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "02c085b6-eeac-4036-8acd-26b00be3938b")
+		(property "GPIO Type" "QSPI"
+			(at 303.53 138.43 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+	)
 	(hierarchical_label "DRV3_DIAG"
 		(shape input)
 		(at 287.02 147.32 0)
@@ -10348,6 +10372,30 @@
 			(justify left)
 		)
 		(uuid "0b74be2d-bde3-425b-b0c3-d16c38e9533f")
+	)
+	(hierarchical_label "FLASH_IO2"
+		(shape bidirectional)
+		(at 303.53 144.78 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0c1334ea-3550-4424-a25d-c1d8354c5ee9")
+		(property "GPIO Type" "QSPI"
+			(at 303.53 146.05 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
 	)
 	(hierarchical_label "DRV1_DIAG"
 		(shape input)
@@ -10465,6 +10513,17 @@
 		)
 		(uuid "2ed004ae-7f77-496e-8803-6e6a4456b4a6")
 	)
+	(hierarchical_label "~{ESTOP_DET}"
+		(shape input)
+		(at 303.53 85.09 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "2eec2e62-d629-4249-b9a2-4106d8d944e3")
+	)
 	(hierarchical_label "USB_DP"
 		(shape input)
 		(at 109.22 58.42 0)
@@ -10486,6 +10545,30 @@
 			(justify left)
 		)
 		(uuid "38f08a46-206a-4e86-9005-ec4633616f67")
+	)
+	(hierarchical_label "FLASH_IO0"
+		(shape bidirectional)
+		(at 303.53 139.7 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3900581b-6db9-4145-a043-6c04ec00dbec")
+		(property "GPIO Type" "QSPI"
+			(at 303.53 140.97 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
 	)
 	(hierarchical_label "DRV1_STEP"
 		(shape output)
@@ -10631,6 +10714,30 @@
 		(uuid "5f107e4a-21df-434f-879d-6297f381b96b")
 		(property "GPIO Type" "TIM"
 			(at 287.02 82.55 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+	)
+	(hierarchical_label "FLASH_IO1"
+		(shape bidirectional)
+		(at 303.53 142.24 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "613f1faa-6209-4c12-998f-8fc7c086082a")
+		(property "GPIO Type" "QSPI"
+			(at 303.53 143.51 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10832,6 +10939,30 @@
 			)
 		)
 	)
+	(hierarchical_label "FLASH_IO3"
+		(shape bidirectional)
+		(at 303.53 147.32 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "abc11f9d-33d9-4715-be6f-40885582d989")
+		(property "GPIO Type" "QSPI"
+			(at 303.53 148.59 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+	)
 	(hierarchical_label "DRV1_DIR"
 		(shape output)
 		(at 287.02 101.6 0)
@@ -10902,6 +11033,17 @@
 			)
 		)
 	)
+	(hierarchical_label "~{FLASH_CS}"
+		(shape output)
+		(at 303.53 134.62 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c981316e-857e-4b69-90f3-703d7a095ca4")
+	)
 	(hierarchical_label "SD_CS"
 		(shape output)
 		(at 303.53 96.52 0)
@@ -10970,7 +11112,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "00e2868a-5e6a-42be-9f42-94223623a26f")
-		(property "Reference" "C?"
+		(property "Reference" "C4"
 			(at 170.18 125.7362 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11078,7 +11220,7 @@
 		(instances
 			(project "stepping-stone"
 				(path "/793a882e-3f7b-468b-a863-41a1f527e1bf/d2f9d032-a5e5-45d0-b37f-4be86e3babb1"
-					(reference "C?")
+					(reference "C4")
 					(unit 1)
 				)
 			)
@@ -11252,7 +11394,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1fa8b0be-cc0e-4518-bdf3-993b1e895061")
-		(property "Reference" "R?"
+		(property "Reference" "R5"
 			(at 224.79 116.8399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11360,7 +11502,7 @@
 		(instances
 			(project "stepping-stone"
 				(path "/793a882e-3f7b-468b-a863-41a1f527e1bf/d2f9d032-a5e5-45d0-b37f-4be86e3babb1"
-					(reference "R?")
+					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -11690,7 +11832,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4a13a6a9-012c-4fba-a75d-8eeebf79cdf8")
-		(property "Reference" "R?"
+		(property "Reference" "R4"
 			(at 179.07 115.5699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11776,7 +11918,7 @@
 		(instances
 			(project "stepping-stone"
 				(path "/793a882e-3f7b-468b-a863-41a1f527e1bf/d2f9d032-a5e5-45d0-b37f-4be86e3babb1"
-					(reference "R?")
+					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -11950,7 +12092,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5560495c-a7bd-44dc-af50-e18d68fba03a")
-		(property "Reference" "R?"
+		(property "Reference" "R6"
 			(at 254 116.8399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12058,7 +12200,7 @@
 		(instances
 			(project "stepping-stone"
 				(path "/793a882e-3f7b-468b-a863-41a1f527e1bf/d2f9d032-a5e5-45d0-b37f-4be86e3babb1"
-					(reference "R?")
+					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -12076,7 +12218,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5c0e6b10-f662-455b-b038-6905f2860ef3")
-		(property "Reference" "R?"
+		(property "Reference" "R7"
 			(at 179.07 125.7299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12162,7 +12304,7 @@
 		(instances
 			(project "stepping-stone"
 				(path "/793a882e-3f7b-468b-a863-41a1f527e1bf/d2f9d032-a5e5-45d0-b37f-4be86e3babb1"
-					(reference "R?")
+					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -12414,7 +12556,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7e3118c2-9900-44d3-89a9-a7567c01bb2f")
-		(property "Reference" "J?"
+		(property "Reference" "J2"
 			(at 247.65 44.4499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12558,7 +12700,7 @@
 		(instances
 			(project "stepping-stone"
 				(path "/793a882e-3f7b-468b-a863-41a1f527e1bf/d2f9d032-a5e5-45d0-b37f-4be86e3babb1"
-					(reference "J?")
+					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -12575,7 +12717,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "80ab2be1-7dd5-449d-8a7c-31fc53ec7011")
-		(property "Reference" "SW?"
+		(property "Reference" "SW6"
 			(at 255.27 157.48 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12683,7 +12825,7 @@
 		(instances
 			(project "stepping-stone"
 				(path "/793a882e-3f7b-468b-a863-41a1f527e1bf/d2f9d032-a5e5-45d0-b37f-4be86e3babb1"
-					(reference "SW?")
+					(reference "SW6")
 					(unit 1)
 				)
 			)
@@ -12700,7 +12842,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "80bd74ac-fa59-4e12-8023-4493391b8649")
-		(property "Reference" "SW?"
+		(property "Reference" "SW5"
 			(at 226.06 157.48 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12808,7 +12950,7 @@
 		(instances
 			(project "stepping-stone"
 				(path "/793a882e-3f7b-468b-a863-41a1f527e1bf/d2f9d032-a5e5-45d0-b37f-4be86e3babb1"
-					(reference "SW?")
+					(reference "SW5")
 					(unit 1)
 				)
 			)
@@ -12827,7 +12969,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "81bb4222-5e12-4443-a0d8-9d8a323e83b0")
-		(property "Reference" "D?"
+		(property "Reference" "D3"
 			(at 194.31 120.6499 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12917,7 +13059,7 @@
 		(instances
 			(project "stepping-stone"
 				(path "/793a882e-3f7b-468b-a863-41a1f527e1bf/d2f9d032-a5e5-45d0-b37f-4be86e3babb1"
-					(reference "D?")
+					(reference "D3")
 					(unit 1)
 				)
 			)
@@ -13673,7 +13815,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "85b14dfb-68d0-490d-a858-f7f5c3b9f7bc")
-		(property "Reference" "SW?"
+		(property "Reference" "SW3"
 			(at 226.06 127 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13781,7 +13923,7 @@
 		(instances
 			(project "stepping-stone"
 				(path "/793a882e-3f7b-468b-a863-41a1f527e1bf/d2f9d032-a5e5-45d0-b37f-4be86e3babb1"
-					(reference "SW?")
+					(reference "SW3")
 					(unit 1)
 				)
 			)
@@ -13799,7 +13941,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "85cb0705-2a9b-4504-85fe-7eeb956153de")
-		(property "Reference" "R?"
+		(property "Reference" "R2"
 			(at 254 74.9299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13907,7 +14049,7 @@
 		(instances
 			(project "stepping-stone"
 				(path "/793a882e-3f7b-468b-a863-41a1f527e1bf/d2f9d032-a5e5-45d0-b37f-4be86e3babb1"
-					(reference "R?")
+					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -14160,7 +14302,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9e7aef34-d7a2-41a4-a637-9d6da9ebd029")
-		(property "Reference" "SW?"
+		(property "Reference" "SW1"
 			(at 227.33 74.93 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14268,7 +14410,7 @@
 		(instances
 			(project "stepping-stone"
 				(path "/793a882e-3f7b-468b-a863-41a1f527e1bf/d2f9d032-a5e5-45d0-b37f-4be86e3babb1"
-					(reference "SW?")
+					(reference "SW1")
 					(unit 1)
 				)
 			)
@@ -14286,7 +14428,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a15864f1-a744-4804-8f64-7914167f4b66")
-		(property "Reference" "R?"
+		(property "Reference" "R8"
 			(at 224.79 147.3199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14394,7 +14536,7 @@
 		(instances
 			(project "stepping-stone"
 				(path "/793a882e-3f7b-468b-a863-41a1f527e1bf/d2f9d032-a5e5-45d0-b37f-4be86e3babb1"
-					(reference "R?")
+					(reference "R8")
 					(unit 1)
 				)
 			)
@@ -14411,7 +14553,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b25eaacd-52ae-4203-91d8-011858050d42")
-		(property "Reference" "SW?"
+		(property "Reference" "SW4"
 			(at 255.27 127 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14519,7 +14661,7 @@
 		(instances
 			(project "stepping-stone"
 				(path "/793a882e-3f7b-468b-a863-41a1f527e1bf/d2f9d032-a5e5-45d0-b37f-4be86e3babb1"
-					(reference "SW?")
+					(reference "SW4")
 					(unit 1)
 				)
 			)
@@ -14690,7 +14832,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "cab70f2a-ed34-45cc-9815-f609d29a4354")
-		(property "Reference" "SW?"
+		(property "Reference" "SW2"
 			(at 255.27 85.09 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14798,7 +14940,7 @@
 		(instances
 			(project "stepping-stone"
 				(path "/793a882e-3f7b-468b-a863-41a1f527e1bf/d2f9d032-a5e5-45d0-b37f-4be86e3babb1"
-					(reference "SW?")
+					(reference "SW2")
 					(unit 1)
 				)
 			)
@@ -14892,7 +15034,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e57d7e40-14e5-47a2-8782-d6b9c4096707")
-		(property "Reference" "C?"
+		(property "Reference" "C3"
 			(at 243.84 85.0962 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15000,7 +15142,7 @@
 		(instances
 			(project "stepping-stone"
 				(path "/793a882e-3f7b-468b-a863-41a1f527e1bf/d2f9d032-a5e5-45d0-b37f-4be86e3babb1"
-					(reference "C?")
+					(reference "C3")
 					(unit 1)
 				)
 			)
@@ -15097,7 +15239,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f06c9bff-dedd-4e74-a77c-7aa21544ba06")
-		(property "Reference" "R?"
+		(property "Reference" "R3"
 			(at 226.06 85.0899 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15205,7 +15347,7 @@
 		(instances
 			(project "stepping-stone"
 				(path "/793a882e-3f7b-468b-a863-41a1f527e1bf/d2f9d032-a5e5-45d0-b37f-4be86e3babb1"
-					(reference "R?")
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -15223,7 +15365,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fe52e3ec-988b-4fa4-8299-b0feb33962ea")
-		(property "Reference" "R?"
+		(property "Reference" "R9"
 			(at 254 147.3199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15331,7 +15473,7 @@
 		(instances
 			(project "stepping-stone"
 				(path "/793a882e-3f7b-468b-a863-41a1f527e1bf/d2f9d032-a5e5-45d0-b37f-4be86e3babb1"
-					(reference "R?")
+					(reference "R9")
 					(unit 1)
 				)
 			)

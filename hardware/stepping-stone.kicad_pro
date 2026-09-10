@@ -483,7 +483,7 @@
     "classes": [
       {
         "bus_width": 12,
-        "clearance": 0.2,
+        "clearance": 0.1,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
@@ -494,7 +494,7 @@
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 2147483647,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.2,
+        "track_width": 0.1,
         "tuning_profile": "",
         "via_diameter": 0.6,
         "via_drill": 0.3,
@@ -672,7 +672,7 @@
         "uuid": "793a882e-3f7b-468b-a863-41a1f527e1bf"
       }
     ],
-    "used_designators": "#PWR7-8,#PWR24,#PWR102,#PWR131,#PWR164,#PWR186-202",
+    "used_designators": "L1,D3-35,#PWR7-8,#PWR24,#PWR102-103,#PWR106,#PWR116,#PWR131-132,#PWR135,#PWR164-165,#PWR169,#PWR186-205,C3-45,FB1,J2-8,JP1-18,Q2-3,#FLG1,R2-72,SD1,SW1-8,TP1-9,U3-8",
     "variants": []
   },
   "sheets": [
@@ -719,6 +719,10 @@
     [
       "fbea56a2-7dcc-40ca-b4f2-72792730cd5f",
       "Stepper Driver 3"
+    ],
+    [
+      "70521cac-acb9-4bca-9294-3030f0a44335",
+      "QSPI Flash"
     ]
   ],
   "text_variables": {},

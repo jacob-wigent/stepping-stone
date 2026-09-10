@@ -322,6 +322,172 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:D_TVS"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "D_TVS"
+				(at 0 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Bidirectional transient-voltage-suppression diode"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "diode TVS thyrector"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "D_TVS_0_1"
+				(polyline
+					(pts
+						(xy -2.54 1.27) (xy -2.54 -1.27) (xy 2.54 1.27) (xy 2.54 -1.27) (xy -2.54 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.508 1.27) (xy 0 1.27) (xy 0 -1.27) (xy -0.508 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "D_TVS_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "A1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:LED"
 			(pin_numbers
 				(hide yes)
@@ -886,160 +1052,6 @@
 						)
 					)
 					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Diode:SMAJ28A"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "D"
-				(at 0 2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "SMAJ28A"
-				(at 0 -2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "Diode_SMD:D_SMA"
-				(at 0 -5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" "https://www.littelfuse.com/media?resourcetype=datasheets&itemid=75e32973-b177-4ee3-a0ff-cedaf1abdb93&filename=smaj-datasheet"
-				(at -1.27 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "400W unidirectional Transient Voltage Suppressor, 28.0Vr, SMA(DO-214AC)"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "unidirectional diode TVS voltage suppressor"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "D*SMA*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "SMAJ28A_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy -1.27 1.27) (xy -1.27 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "SMAJ28A_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "A1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "A2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5149,13 +5161,19 @@
 		(uuid "6648d2d2-7ee2-4890-b5b5-ce330268d073")
 	)
 	(junction
-		(at 129.54 121.92)
+		(at 148.59 114.3)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7c322d7d-b2a5-4672-9c02-a951db7b2b58")
+	)
+	(junction
+		(at 138.43 121.92)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a6b5c2ca-e708-4740-a2ca-7f7f46aa64c2")
 	)
 	(junction
-		(at 129.54 114.3)
+		(at 138.43 114.3)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b1554dc2-bd3a-4b7e-bd28-c832c9f7dcc2")
@@ -5165,12 +5183,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "be50129f-d5e9-424a-b5a2-eb53abd30e0f")
-	)
-	(junction
-		(at 148.59 114.3)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "fd85a75f-d610-4a21-b7cf-68964d1335d9")
 	)
 	(no_connect
 		(at 228.6 22.86)
@@ -5253,7 +5265,7 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 121.92) (xy 137.16 121.92)
+			(xy 138.43 121.92) (xy 130.81 121.92)
 		)
 		(stroke
 			(width 0)
@@ -5283,7 +5295,7 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 114.3) (xy 148.59 114.3)
+			(xy 138.43 114.3) (xy 148.59 114.3)
 		)
 		(stroke
 			(width 0)
@@ -5324,7 +5336,7 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 114.3) (xy 132.08 114.3)
+			(xy 138.43 114.3) (xy 135.89 114.3)
 		)
 		(stroke
 			(width 0)
@@ -5385,7 +5397,7 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 114.3) (xy 129.54 114.3)
+			(xy 118.11 114.3) (xy 125.73 114.3)
 		)
 		(stroke
 			(width 0)
@@ -6199,6 +6211,110 @@
 			(justify right bottom)
 		)
 		(uuid "cf7b8f6b-b076-45fc-9b45-0c4b0ba42fa5")
+	)
+	(symbol
+		(lib_id "Device:D_TVS")
+		(at 148.59 123.19 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "09ec56ac-20a2-4f2c-bebb-e828ec3cace7")
+		(property "Reference" "D?"
+			(at 151.13 121.9199 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "28.5V"
+			(at 151.13 124.4599 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SMB"
+			(at 148.59 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.littelfuse.com/assetdocs/tvs-diodes-1ksmb-datasheet?assetguid=c89cc12b-4543-4d72-aead-26a7a674ab87"
+			(at 148.59 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Bidirectional transient-voltage-suppression diode"
+			(at 148.59 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "1KSMB30CA"
+			(at 148.59 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vendor URL" "https://www.digikey.com/en/products/detail/littelfuse-inc/1KSMB30CA/2024004"
+			(at 148.59 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "5b3b1afa-1b73-490a-8669-67d8c1e0cfb8")
+		)
+		(pin "1"
+			(uuid "3ea51516-ea0b-457a-a771-c71124a2fd3f")
+		)
+		(instances
+			(project "stepping-stone"
+				(path "/793a882e-3f7b-468b-a863-41a1f527e1bf/73c4e66b-e11c-48b6-b2c8-fbbf612d64c5"
+					(reference "D?")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "stepping-stone:2-Pin Banana Plug")
@@ -7580,8 +7696,7 @@
 	)
 	(symbol
 		(lib_id "stepping-stone:DMP4010SK3Q-13")
-		(at 137.16 116.84 270)
-		(mirror x)
+		(at 130.81 116.84 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7592,7 +7707,7 @@
 		(fields_autoplaced yes)
 		(uuid "4d6e3dff-f9ab-4360-a918-6a817725e6e6")
 		(property "Reference" "Q1"
-			(at 137.16 107.95 90)
+			(at 130.81 107.95 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7602,7 +7717,7 @@
 			)
 		)
 		(property "Value" "DMP4010SK3Q"
-			(at 137.16 110.49 90)
+			(at 130.81 110.49 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7612,7 +7727,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:TO-252-2"
-			(at 139.7 111.76 0)
+			(at 128.27 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7623,7 +7738,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.diodes.com/datasheet/download/DMP4010SK3Q.pdf"
-			(at 146.304 116.586 0)
+			(at 121.666 116.586 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7634,7 +7749,7 @@
 			)
 		)
 		(property "Description" "P-Channel 40 V 15A (Ta), 50A (Tc) 1.7W (Ta) Surface Mount TO-252-3"
-			(at 146.304 116.586 0)
+			(at 121.666 116.586 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7645,7 +7760,7 @@
 			)
 		)
 		(property "Part Number" "DMP4010SK3Q-13"
-			(at 146.558 116.078 0)
+			(at 121.412 116.078 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7656,7 +7771,7 @@
 			)
 		)
 		(property "Vendor URL" "https://www.digikey.com/en/products/detail/diodes-incorporated/DMP4010SK3Q-13/6012762?_gl=1*1oi92cd*_up*MQ..*_gs*MQ..&gclid=CjwKCAjwu53SBhAhEiwAJzSLNg0bMLesOylLRDKmxR4kK9b9I1ZTscMeozZaiYvTz1NVhaLA4YW0dBoCxVkQAvD_BwE&gclsrc=aw.ds&gbraid=0AAAAADrbLlju7jX-G5NzCsgLi5ZPNvLAN"
-			(at 146.304 116.586 0)
+			(at 121.666 116.586 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8020,8 +8135,7 @@
 	)
 	(symbol
 		(lib_id "Diode:BZX84Cxx")
-		(at 129.54 118.11 90)
-		(mirror x)
+		(at 138.43 118.11 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8032,7 +8146,7 @@
 		(fields_autoplaced yes)
 		(uuid "723e89ea-41e1-4a57-9f44-782f210daa86")
 		(property "Reference" "D1"
-			(at 127 116.8399 90)
+			(at 140.97 116.8399 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8043,7 +8157,7 @@
 			)
 		)
 		(property "Value" "12V"
-			(at 127 119.3799 90)
+			(at 140.97 119.3799 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8054,7 +8168,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 129.54 118.11 0)
+			(at 138.43 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8065,7 +8179,7 @@
 			)
 		)
 		(property "Datasheet" "https://diotec.com/tl_files/diotec/files/pdf/datasheets/bzx84c2v4.pdf"
-			(at 129.54 118.11 0)
+			(at 138.43 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8076,7 +8190,7 @@
 			)
 		)
 		(property "Description" "300mW Zener Diode, SOT-23"
-			(at 129.54 118.11 0)
+			(at 138.43 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8087,7 +8201,7 @@
 			)
 		)
 		(property "Part Number" "BZX84C12LT1G"
-			(at 129.54 118.11 0)
+			(at 138.43 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8098,7 +8212,7 @@
 			)
 		)
 		(property "Vendor URL" "https://www.digikey.com/en/products/detail/onsemi/BZX84C12LT1G/918388"
-			(at 129.54 118.11 0)
+			(at 138.43 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8933,110 +9047,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Diode:SMAJ28A")
-		(at 148.59 123.19 90)
-		(mirror x)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "93b437cd-0c4e-44f7-82ed-44558e1fdda9")
-		(property "Reference" "D2"
-			(at 151.13 121.92 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "SMAJ28A"
-			(at 151.13 124.46 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SMA"
-			(at 153.67 123.19 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.littelfuse.com/media?resourcetype=datasheets&itemid=75e32973-b177-4ee3-a0ff-cedaf1abdb93&filename=smaj-datasheet"
-			(at 148.59 121.92 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "400W unidirectional Transient Voltage Suppressor, 28.0Vr, SMA(DO-214AC)"
-			(at 148.59 123.19 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Part Number" "SMAJ28A-13-F"
-			(at 148.59 123.19 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Vendor URL" "https://www.digikey.com/en/products/detail/diodes-incorporated/SMAJ28A-13-F/775749"
-			(at 148.59 123.19 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "4668be30-fab0-4f64-876b-6058615d7cc0")
-		)
-		(pin "2"
-			(uuid "59fc404b-13d4-4719-90ca-cd6c36497411")
-		)
-		(instances
-			(project "stepping-stone"
-				(path "/793a882e-3f7b-468b-a863-41a1f527e1bf/73c4e66b-e11c-48b6-b2c8-fbbf612d64c5"
-					(reference "D2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "stepping-stone:16AWG Stranded Black Wire")
 		(at 157.48 49.53 0)
 		(mirror x)
@@ -9135,8 +9145,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 129.54 129.54 0)
-		(mirror y)
+		(at 138.43 129.54 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9147,7 +9156,7 @@
 		(fields_autoplaced yes)
 		(uuid "a318bbac-4182-4801-a510-6ea0ef84407d")
 		(property "Reference" "#PWR04"
-			(at 129.54 135.89 0)
+			(at 138.43 135.89 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9158,7 +9167,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 129.54 134.62 0)
+			(at 138.43 134.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9169,7 +9178,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 129.54 129.54 0)
+			(at 138.43 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9180,7 +9189,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 129.54 129.54 0)
+			(at 138.43 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9191,7 +9200,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 129.54 129.54 0)
+			(at 138.43 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10074,8 +10083,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 129.54 125.73 0)
-		(mirror y)
+		(at 138.43 125.73 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10086,7 +10094,7 @@
 		(fields_autoplaced yes)
 		(uuid "f4001ba4-64df-4257-8d4d-31d31d18bcbf")
 		(property "Reference" "R1"
-			(at 127 124.4599 0)
+			(at 140.97 124.4599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10097,7 +10105,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 127 126.9999 0)
+			(at 140.97 126.9999 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10108,7 +10116,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 128.524 125.984 90)
+			(at 139.446 125.984 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10119,7 +10127,7 @@
 			)
 		)
 		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
-			(at 129.54 125.73 0)
+			(at 138.43 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10130,7 +10138,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 129.54 125.73 0)
+			(at 138.43 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10141,7 +10149,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 129.54 125.73 0)
+			(at 138.43 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10152,7 +10160,7 @@
 			)
 		)
 		(property "Sim.Pins" ""
-			(at 129.54 125.73 0)
+			(at 138.43 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10163,7 +10171,7 @@
 			)
 		)
 		(property "Part Number" "RC0603FR-0710KL"
-			(at 129.54 125.73 0)
+			(at 138.43 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10174,7 +10182,7 @@
 			)
 		)
 		(property "Vendor URL" "https://www.digikey.com/en/products/detail/yageo/RC0603FR-0710KL/726880"
-			(at 129.54 125.73 0)
+			(at 138.43 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

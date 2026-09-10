@@ -5041,6 +5041,17 @@
 		)
 		(uuid "03ba4f55-de77-42a9-8526-de99cc4a8080")
 	)
+	(text "Reduce to 18k and 2.2k to improve\nEMI resistance and adjust capacitor\nfor corner frequency accordingly"
+		(exclude_from_sim no)
+		(at 165.1 99.06 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 132 0 0 1)
+			)
+		)
+		(uuid "0c4efb6e-4abc-4e16-84cb-8afa9f043b26")
+	)
 	(text "VMOTOR Sense"
 		(exclude_from_sim no)
 		(at 146.05 105.41 0)

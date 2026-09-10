@@ -2900,6 +2900,17 @@
 		)
 		(uuid "945a7cac-a9f9-42f4-a529-ce8eec4a5da5")
 	)
+	(text "VREF = 1.65V\nSafe limit for\nstandalone mode"
+		(exclude_from_sim no)
+		(at 163.83 95.25 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "af9b5beb-67d9-428e-a8d3-e9909b3400a9")
+	)
 	(junction
 		(at 138.43 72.39)
 		(diameter 0)
@@ -2955,7 +2966,7 @@
 		(uuid "a6739a0a-0344-499f-a6c3-12113dcdd83f")
 	)
 	(junction
-		(at 218.44 104.14)
+		(at 223.52 104.14)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b0d921a6-9789-4709-b53d-6b9f43775913")
@@ -2974,7 +2985,7 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 106.68) (xy 193.04 107.95)
+			(xy 198.12 106.68) (xy 198.12 107.95)
 		)
 		(stroke
 			(width 0)
@@ -3054,7 +3065,7 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 100.33) (xy 193.04 100.33)
+			(xy 193.04 100.33) (xy 198.12 100.33)
 		)
 		(stroke
 			(width 0)
@@ -3134,7 +3145,7 @@
 	)
 	(wire
 		(pts
-			(xy 218.44 104.14) (xy 218.44 99.06)
+			(xy 223.52 104.14) (xy 223.52 99.06)
 		)
 		(stroke
 			(width 0)
@@ -3284,7 +3295,7 @@
 	)
 	(wire
 		(pts
-			(xy 218.44 123.19) (xy 218.44 124.46)
+			(xy 223.52 123.19) (xy 223.52 124.46)
 		)
 		(stroke
 			(width 0)
@@ -3314,7 +3325,7 @@
 	)
 	(wire
 		(pts
-			(xy 218.44 104.14) (xy 218.44 107.95)
+			(xy 223.52 104.14) (xy 223.52 107.95)
 		)
 		(stroke
 			(width 0)
@@ -3394,7 +3405,7 @@
 	)
 	(wire
 		(pts
-			(xy 184.15 106.68) (xy 193.04 106.68)
+			(xy 189.23 106.68) (xy 198.12 106.68)
 		)
 		(stroke
 			(width 0)
@@ -3484,7 +3495,7 @@
 	)
 	(wire
 		(pts
-			(xy 214.63 104.14) (xy 218.44 104.14)
+			(xy 219.71 104.14) (xy 223.52 104.14)
 		)
 		(stroke
 			(width 0)
@@ -3524,7 +3535,7 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 100.33) (xy 193.04 99.06)
+			(xy 198.12 100.33) (xy 198.12 99.06)
 		)
 		(stroke
 			(width 0)
@@ -3534,7 +3545,7 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 124.46) (xy 193.04 123.19)
+			(xy 198.12 124.46) (xy 198.12 123.19)
 		)
 		(stroke
 			(width 0)
@@ -25788,7 +25799,7 @@
 		)
 	)
 	(label "DIAG"
-		(at 184.15 106.68 0)
+		(at 189.23 106.68 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -25879,7 +25890,7 @@
 	)
 	(hierarchical_label "~{EN}"
 		(shape input)
-		(at 187.96 100.33 180)
+		(at 193.04 100.33 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -25923,7 +25934,7 @@
 	)
 	(hierarchical_label "DIR"
 		(shape input)
-		(at 214.63 104.14 180)
+		(at 219.71 104.14 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -26149,7 +26160,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 193.04 87.63 0)
+		(at 198.12 87.63 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -26160,7 +26171,7 @@
 		(fields_autoplaced yes)
 		(uuid "043ffc9e-8098-426d-a5bb-26970146dee3")
 		(property "Reference" "R34"
-			(at 195.58 86.3599 0)
+			(at 200.66 86.3599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -26171,7 +26182,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 195.58 88.8999 0)
+			(at 200.66 88.8999 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -26182,7 +26193,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 194.056 87.884 90)
+			(at 199.136 87.884 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26193,7 +26204,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 193.04 87.63 0)
+			(at 198.12 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26204,7 +26215,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 193.04 87.63 0)
+			(at 198.12 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26215,7 +26226,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 193.04 87.63 0)
+			(at 198.12 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26226,7 +26237,7 @@
 			)
 		)
 		(property "Sim.Pins" ""
-			(at 193.04 87.63 0)
+			(at 198.12 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26237,7 +26248,7 @@
 			)
 		)
 		(property "Part Number" "CRCW06031K00FKEA"
-			(at 193.04 87.63 0)
+			(at 198.12 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26248,7 +26259,7 @@
 			)
 		)
 		(property "Vendor URL" "https://www.digikey.com/en/products/detail/vishay-dale/CRCW06031K00FKEA/1174668"
-			(at 193.04 87.63 0)
+			(at 198.12 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26744,7 +26755,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 218.44 111.76 0)
+		(at 223.52 111.76 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -26755,7 +26766,7 @@
 		(fields_autoplaced yes)
 		(uuid "19635f03-47d0-4ba1-bc1f-47167be8cc48")
 		(property "Reference" "R40"
-			(at 220.98 110.4899 0)
+			(at 226.06 110.4899 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -26766,7 +26777,7 @@
 			)
 		)
 		(property "Value" "220"
-			(at 220.98 113.0299 0)
+			(at 226.06 113.0299 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -26777,7 +26788,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 219.456 112.014 90)
+			(at 224.536 112.014 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26788,7 +26799,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 218.44 111.76 0)
+			(at 223.52 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26799,7 +26810,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 218.44 111.76 0)
+			(at 223.52 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26810,7 +26821,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 218.44 111.76 0)
+			(at 223.52 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26821,7 +26832,7 @@
 			)
 		)
 		(property "Sim.Pins" ""
-			(at 218.44 111.76 0)
+			(at 223.52 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26832,7 +26843,7 @@
 			)
 		)
 		(property "Part Number" "RC0603FR-07220RL"
-			(at 218.44 111.76 0)
+			(at 223.52 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26843,7 +26854,7 @@
 			)
 		)
 		(property "Vendor URL" "https://www.digikey.com/en/products/detail/yageo/RC0603FR-07220RL/727061"
-			(at 218.44 111.76 0)
+			(at 223.52 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27293,7 +27304,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 218.44 119.38 270)
+		(at 223.52 119.38 270)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -27304,7 +27315,7 @@
 		(dnp no)
 		(uuid "30458a1f-a073-47df-950b-95504af1b286")
 		(property "Reference" "D20"
-			(at 214.63 119.6974 90)
+			(at 219.71 119.6974 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -27315,7 +27326,7 @@
 			)
 		)
 		(property "Value" "BLUE"
-			(at 214.63 122.2374 90)
+			(at 219.71 122.2374 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -27326,7 +27337,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_0805_2012Metric"
-			(at 218.44 119.38 0)
+			(at 223.52 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27337,7 +27348,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 218.44 119.38 0)
+			(at 223.52 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27348,7 +27359,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 218.44 119.38 0)
+			(at 223.52 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27359,7 +27370,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 218.44 119.38 0)
+			(at 223.52 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27370,7 +27381,7 @@
 			)
 		)
 		(property "Part Number" "LTST-C171TBKT"
-			(at 218.44 119.38 0)
+			(at 223.52 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27381,7 +27392,7 @@
 			)
 		)
 		(property "Vendor URL" "https://www.digikey.com/en/products/detail/liteon/LTST-C171TBKT/388528"
-			(at 218.44 119.38 0)
+			(at 223.52 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28154,7 +28165,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 218.44 124.46 0)
+		(at 223.52 124.46 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -28165,7 +28176,7 @@
 		(fields_autoplaced yes)
 		(uuid "6aefc1c8-5f53-488b-8668-70323ebf4515")
 		(property "Reference" "#PWR024"
-			(at 218.44 130.81 0)
+			(at 223.52 130.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28176,7 +28187,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 218.44 129.54 0)
+			(at 223.52 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28187,7 +28198,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 218.44 124.46 0)
+			(at 223.52 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28198,7 +28209,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 218.44 124.46 0)
+			(at 223.52 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28209,7 +28220,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 218.44 124.46 0)
+			(at 223.52 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29749,7 +29760,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 218.44 83.82 0)
+		(at 223.52 83.82 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -29759,7 +29770,7 @@
 		(dnp no)
 		(uuid "b3bb9ac8-c7c1-493d-8c43-56ada4e35bd6")
 		(property "Reference" "#PWR0188"
-			(at 218.44 87.63 0)
+			(at 223.52 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29770,7 +29781,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 213.36 82.55 0)
+			(at 218.44 82.55 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -29780,7 +29791,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 218.44 83.82 0)
+			(at 223.52 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29791,7 +29802,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 218.44 83.82 0)
+			(at 223.52 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29802,7 +29813,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 218.44 83.82 0)
+			(at 223.52 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29838,7 +29849,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 218.44 87.63 0)
+		(at 223.52 87.63 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -29849,7 +29860,7 @@
 		(fields_autoplaced yes)
 		(uuid "bb19d0f8-ce05-4f62-913d-78d4cf1495c9")
 		(property "Reference" "R35"
-			(at 220.98 86.3599 0)
+			(at 226.06 86.3599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -29860,7 +29871,7 @@
 			)
 		)
 		(property "Value" "220"
-			(at 220.98 88.8999 0)
+			(at 226.06 88.8999 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -29871,7 +29882,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 219.456 87.884 90)
+			(at 224.536 87.884 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29882,7 +29893,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 218.44 87.63 0)
+			(at 223.52 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29893,7 +29904,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 218.44 87.63 0)
+			(at 223.52 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29904,7 +29915,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 218.44 87.63 0)
+			(at 223.52 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29915,7 +29926,7 @@
 			)
 		)
 		(property "Sim.Pins" ""
-			(at 218.44 87.63 0)
+			(at 223.52 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29926,7 +29937,7 @@
 			)
 		)
 		(property "Part Number" "RC0603FR-07220RL"
-			(at 218.44 87.63 0)
+			(at 223.52 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29937,7 +29948,7 @@
 			)
 		)
 		(property "Vendor URL" "https://www.digikey.com/en/products/detail/yageo/RC0603FR-07220RL/727061"
-			(at 218.44 87.63 0)
+			(at 223.52 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30115,7 +30126,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 193.04 111.76 0)
+		(at 198.12 111.76 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -30126,7 +30137,7 @@
 		(dnp no)
 		(uuid "bcba704a-516e-4228-8beb-5ab716f42771")
 		(property "Reference" "R39"
-			(at 190.5 110.4899 0)
+			(at 195.58 110.4899 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -30137,7 +30148,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 190.5 113.0299 0)
+			(at 195.58 113.0299 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -30148,7 +30159,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 192.024 112.014 90)
+			(at 197.104 112.014 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30159,7 +30170,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 193.04 111.76 0)
+			(at 198.12 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30170,7 +30181,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 193.04 111.76 0)
+			(at 198.12 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30181,7 +30192,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 193.04 111.76 0)
+			(at 198.12 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30192,7 +30203,7 @@
 			)
 		)
 		(property "Sim.Pins" ""
-			(at 193.04 111.76 0)
+			(at 198.12 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30203,7 +30214,7 @@
 			)
 		)
 		(property "Part Number" "CRCW06031K00FKEA"
-			(at 193.04 111.76 0)
+			(at 198.12 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30214,7 +30225,7 @@
 			)
 		)
 		(property "Vendor URL" "https://www.digikey.com/en/products/detail/vishay-dale/CRCW06031K00FKEA/1174668"
-			(at 193.04 111.76 0)
+			(at 198.12 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30550,7 +30561,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 193.04 95.25 90)
+		(at 198.12 95.25 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -30561,7 +30572,7 @@
 		(fields_autoplaced yes)
 		(uuid "c9b01dbb-7b36-4339-941a-3469cd3917eb")
 		(property "Reference" "D17"
-			(at 196.85 95.5674 90)
+			(at 201.93 95.5674 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -30572,7 +30583,7 @@
 			)
 		)
 		(property "Value" "GREEN"
-			(at 196.85 98.1074 90)
+			(at 201.93 98.1074 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -30583,7 +30594,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_0805_2012Metric"
-			(at 193.04 95.25 0)
+			(at 198.12 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30594,7 +30605,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 193.04 95.25 0)
+			(at 198.12 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30605,7 +30616,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 193.04 95.25 0)
+			(at 198.12 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30616,7 +30627,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 193.04 95.25 0)
+			(at 198.12 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30627,7 +30638,7 @@
 			)
 		)
 		(property "Part Number" "LTST-C171KGKT"
-			(at 193.04 95.25 0)
+			(at 198.12 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30638,7 +30649,7 @@
 			)
 		)
 		(property "Vendor URL" "https://www.digikey.com/en/products/detail/liteon/LTST-C171KGKT/386799"
-			(at 193.04 95.25 0)
+			(at 198.12 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30815,7 +30826,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 218.44 95.25 270)
+		(at 223.52 95.25 270)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -30826,7 +30837,7 @@
 		(dnp no)
 		(uuid "d0de6e4c-0dd5-4c46-9bde-b544567e3685")
 		(property "Reference" "D18"
-			(at 214.63 95.5674 90)
+			(at 219.71 95.5674 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -30837,7 +30848,7 @@
 			)
 		)
 		(property "Value" "BLUE"
-			(at 214.63 97.79 90)
+			(at 219.71 97.79 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -30848,7 +30859,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_0805_2012Metric"
-			(at 218.44 95.25 0)
+			(at 223.52 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30859,7 +30870,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 218.44 95.25 0)
+			(at 223.52 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30870,7 +30881,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 218.44 95.25 0)
+			(at 223.52 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30881,7 +30892,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 218.44 95.25 0)
+			(at 223.52 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30892,7 +30903,7 @@
 			)
 		)
 		(property "Part Number" "LTST-C171TBKT"
-			(at 218.44 95.25 0)
+			(at 223.52 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30903,7 +30914,7 @@
 			)
 		)
 		(property "Vendor URL" "https://www.digikey.com/en/products/detail/liteon/LTST-C171TBKT/388528"
-			(at 218.44 95.25 0)
+			(at 223.52 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31122,7 +31133,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 193.04 83.82 0)
+		(at 198.12 83.82 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -31132,7 +31143,7 @@
 		(dnp no)
 		(uuid "dae28ffb-b864-4d53-b615-c829dc35d2fc")
 		(property "Reference" "#PWR061"
-			(at 193.04 87.63 0)
+			(at 198.12 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31143,7 +31154,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 187.96 82.55 0)
+			(at 193.04 82.55 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -31153,7 +31164,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 193.04 83.82 0)
+			(at 198.12 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31164,7 +31175,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 193.04 83.82 0)
+			(at 198.12 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31175,7 +31186,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 193.04 83.82 0)
+			(at 198.12 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31302,7 +31313,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 193.04 124.46 0)
+		(at 198.12 124.46 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -31313,7 +31324,7 @@
 		(fields_autoplaced yes)
 		(uuid "e1b5d0c2-c9fe-444f-98b9-d156c8978831")
 		(property "Reference" "#PWR0151"
-			(at 193.04 130.81 0)
+			(at 198.12 130.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31324,7 +31335,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 193.04 129.54 0)
+			(at 198.12 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31335,7 +31346,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 193.04 124.46 0)
+			(at 198.12 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31346,7 +31357,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 193.04 124.46 0)
+			(at 198.12 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31357,7 +31368,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 193.04 124.46 0)
+			(at 198.12 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31884,7 +31895,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 193.04 119.38 270)
+		(at 198.12 119.38 270)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -31896,7 +31907,7 @@
 		(fields_autoplaced yes)
 		(uuid "e9387ca4-749c-4ef6-bcd9-6dc4499641d1")
 		(property "Reference" "D19"
-			(at 189.23 119.6974 90)
+			(at 194.31 119.6974 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -31907,7 +31918,7 @@
 			)
 		)
 		(property "Value" "YELLOW"
-			(at 189.23 122.2374 90)
+			(at 194.31 122.2374 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -31918,7 +31929,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_0805_2012Metric"
-			(at 193.04 119.38 0)
+			(at 198.12 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31929,7 +31940,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 193.04 119.38 0)
+			(at 198.12 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31940,7 +31951,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 193.04 119.38 0)
+			(at 198.12 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31951,7 +31962,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 193.04 119.38 0)
+			(at 198.12 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31962,7 +31973,7 @@
 			)
 		)
 		(property "Part Number" "LTST-C170YKT"
-			(at 193.04 119.38 0)
+			(at 198.12 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31973,7 +31984,7 @@
 			)
 		)
 		(property "Vendor URL" "https://www.digikey.com/en/products/detail/liteon/LTST-C170YKT/269222"
-			(at 193.04 119.38 0)
+			(at 198.12 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

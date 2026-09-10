@@ -1473,6 +1473,16 @@
 	)
 	(wire
 		(pts
+			(xy 88.9 66.04) (xy 114.3 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7c78b69c-ac8f-4609-988c-82dbe06bb09b")
+	)
+	(wire
+		(pts
 			(xy 152.4 68.58) (xy 228.6 68.58)
 		)
 		(stroke
@@ -75854,7 +75864,7 @@
 	)
 	(sheet
 		(at 63.5 50.8)
-		(size 25.4 15.24)
+		(size 25.4 17.78)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -75879,7 +75889,7 @@
 			)
 		)
 		(property "Sheetfile" "sd_card.kicad_sch"
-			(at 63.5 67.31 0)
+			(at 63.5 69.85 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -75932,6 +75942,16 @@
 		(pin "~{DET}" output
 			(at 88.9 63.5 0)
 			(uuid "e6201bd3-08b5-42b9-9860-93a32a7d6beb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SD_STATUS" input
+			(at 88.9 66.04 0)
+			(uuid "b2abc776-42f0-455c-b061-8741efc9d07e")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -76832,6 +76852,16 @@
 		(pin "SD_~{DET}" input
 			(at 114.3 63.5 180)
 			(uuid "45781138-895e-4cff-8117-60d7db687949")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SD_STATUS" output
+			(at 114.3 66.04 180)
+			(uuid "055771db-4dbe-4b99-82fb-5ea2005cc380")
 			(effects
 				(font
 					(size 1.27 1.27)

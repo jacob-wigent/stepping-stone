@@ -2294,12 +2294,6 @@
 		(uuid "22d9138e-6a26-4a86-8279-d9badbe84cce")
 	)
 	(junction
-		(at 144.78 111.76)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3294fff8-b13a-4b31-963d-f086598a8c77")
-	)
-	(junction
 		(at 118.11 111.76)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2310,12 +2304,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "55fafe3c-9ef2-433e-8483-10292c26c3c7")
-	)
-	(junction
-		(at 144.78 116.84)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6c9710de-f5ff-4ddd-8979-1eb5bb381e2c")
 	)
 	(junction
 		(at 130.81 93.98)
@@ -2407,7 +2395,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 111.76) (xy 146.05 111.76)
+			(xy 118.11 111.76) (xy 146.05 111.76)
 		)
 		(stroke
 			(width 0)
@@ -2554,16 +2542,6 @@
 			(type default)
 		)
 		(uuid "7289e064-877e-42de-b3b3-edf205692a58")
-	)
-	(wire
-		(pts
-			(xy 118.11 111.76) (xy 144.78 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "72dd07ae-b356-450a-b1fc-de1eced6d480")
 	)
 	(wire
 		(pts
@@ -23757,131 +23735,6 @@
 		)
 		(pin "2"
 			(uuid "a7af3387-95a3-4cfb-9495-944fc7a01eb9")
-		)
-		(instances
-			(project "stepping-stone"
-				(path "/793a882e-3f7b-468b-a863-41a1f527e1bf/19dbaeaf-d110-49c5-9d75-50e9003bebb2"
-					(reference "C?")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 144.78 114.3 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "fc7b4f42-789d-4643-bd8d-daaa6d802a4b")
-		(property "Reference" "C?"
-			(at 142.24 113.03 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "0.1uF"
-			(at 142.24 115.57 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 144.78 114.3 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 144.78 114.3 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 144.78 114.3 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Part Number" "CC0603KRX7R9BB104"
-			(at 144.78 114.3 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Vendor URL" "https://www.digikey.com/en/products/detail/yageo/CC0603KRX7R9BB104/2103082"
-			(at 144.78 114.3 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 144.78 114.3 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 144.78 114.3 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "aeb590a8-6250-4f37-9964-9b22682ceb91")
-		)
-		(pin "2"
-			(uuid "27054c8a-1cc4-4105-83bf-ffe55c7454e5")
 		)
 		(instances
 			(project "stepping-stone"

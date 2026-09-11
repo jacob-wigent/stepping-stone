@@ -1484,6 +1484,16 @@
 	)
 	(wire
 		(pts
+			(xy 88.9 147.32) (xy 114.3 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3cc6ea1e-b20a-493e-8148-5bd97a81313d")
+	)
+	(wire
+		(pts
 			(xy 152.4 58.42) (xy 228.6 58.42)
 		)
 		(stroke
@@ -1531,6 +1541,16 @@
 			(type default)
 		)
 		(uuid "59ac69e7-e48c-4549-9a75-9bf15d802b7c")
+	)
+	(wire
+		(pts
+			(xy 88.9 134.62) (xy 114.3 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5fcd13a0-af52-4193-b3ba-f1e12c275b9e")
 	)
 	(wire
 		(pts
@@ -1704,6 +1724,16 @@
 	)
 	(wire
 		(pts
+			(xy 88.9 137.16) (xy 114.3 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cde8a940-4f9d-4636-891c-1567e54beee3")
+	)
+	(wire
+		(pts
 			(xy 152.4 109.22) (xy 228.6 109.22)
 		)
 		(stroke
@@ -1814,6 +1844,26 @@
 	)
 	(wire
 		(pts
+			(xy 88.9 144.78) (xy 114.3 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee47d9a3-47c5-4550-b6ff-a48a5b40614f")
+	)
+	(wire
+		(pts
+			(xy 88.9 139.7) (xy 114.3 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "effecc7e-caa1-4346-bdf7-6a57fddd7490")
+	)
+	(wire
+		(pts
 			(xy 152.4 132.08) (xy 203.2 132.08)
 		)
 		(stroke
@@ -1821,6 +1871,16 @@
 			(type default)
 		)
 		(uuid "f0194c76-e293-4e78-929d-af1e485d00ab")
+	)
+	(wire
+		(pts
+			(xy 88.9 142.24) (xy 114.3 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f1683d67-7ffc-464f-b4a0-44a1ce52b46b")
 	)
 	(wire
 		(pts
@@ -1841,6 +1901,26 @@
 			(type default)
 		)
 		(uuid "f2d69fd8-713f-48a0-8bdb-58fe24df1801")
+	)
+	(wire
+		(pts
+			(xy 88.9 132.08) (xy 114.3 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f8dd84d5-a737-475f-b9eb-c6303313a3c9")
+	)
+	(wire
+		(pts
+			(xy 88.9 129.54) (xy 114.3 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fab47e96-385a-49a7-b606-01a7cc868a54")
 	)
 	(wire
 		(pts
@@ -76129,6 +76209,52 @@
 		)
 	)
 	(sheet
+		(at 63.5 101.6)
+		(size 25.4 17.78)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.3048)
+			(type solid)
+		)
+		(fill
+			(color 255 229 191 1)
+		)
+		(uuid "4251703e-8697-4078-b9d0-81c0cbfbf2bf")
+		(property "Sheetname" "Auxiliary IO"
+			(at 63.5 100.8122 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "auxiliary_io.kicad_sch"
+			(at 63.5 120.0408 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "stepping-stone"
+				(path "/793a882e-3f7b-468b-a863-41a1f527e1bf"
+					(page "13")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 228.6 101.6)
 		(size 25.4 20.32)
 		(exclude_from_sim no)
@@ -76675,6 +76801,132 @@
 		)
 	)
 	(sheet
+		(at 63.5 127)
+		(size 25.4 22.86)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.3048)
+			(type solid)
+		)
+		(fill
+			(color 255 229 191 1)
+		)
+		(uuid "b4ec3a03-bd52-4576-ad32-180291688b9c")
+		(property "Sheetname" "Limit Switches"
+			(at 63.5 126.2122 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "limit_switches.kicad_sch"
+			(at 63.5 150.5208 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "LIM0" output
+			(at 88.9 129.54 0)
+			(uuid "69cc0666-573b-47c0-9582-8eccd943e962")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "LIM1" output
+			(at 88.9 132.08 0)
+			(uuid "51982704-640d-49e3-8f03-7c380177267e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "LIM2" output
+			(at 88.9 134.62 0)
+			(uuid "437bba77-d258-49fc-a1db-2bcba54111af")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "LIM3" output
+			(at 88.9 137.16 0)
+			(uuid "d923b3e1-d56e-47d6-a91a-ad1efa61012d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "LIM4" output
+			(at 88.9 139.7 0)
+			(uuid "e9019ff1-a49b-4174-a8aa-cca5e752f668")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "LIM5" output
+			(at 88.9 142.24 0)
+			(uuid "d77d0541-28c7-44d7-840f-fc55f628b57a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "LIM6" output
+			(at 88.9 144.78 0)
+			(uuid "63c2205b-9691-48d0-be1c-9394c83fb96e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "LIM7" output
+			(at 88.9 147.32 0)
+			(uuid "2669627e-97b0-4b9a-92c7-3af4007dff84")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "stepping-stone"
+				(path "/793a882e-3f7b-468b-a863-41a1f527e1bf"
+					(page "14")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 177.8 25.4)
 		(size 25.4 15.24)
 		(exclude_from_sim no)
@@ -76751,7 +77003,7 @@
 	)
 	(sheet
 		(at 114.3 25.4)
-		(size 38.1 127)
+		(size 38.1 165.1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -76776,7 +77028,7 @@
 			)
 		)
 		(property "Sheetfile" "microcontroller.kicad_sch"
-			(at 114.3 153.67 0)
+			(at 114.3 191.77 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -77204,6 +77456,86 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+		(pin "LIM0" input
+			(at 114.3 129.54 180)
+			(uuid "26a81e62-406d-4cab-8479-edc0d2cee4dd")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "LIM1" input
+			(at 114.3 132.08 180)
+			(uuid "6e5a8212-80c7-437e-8e8e-ac0397bda639")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "LIM2" input
+			(at 114.3 134.62 180)
+			(uuid "fc8583b4-fd29-444c-9ec1-3549cacb4b3b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "LIM3" input
+			(at 114.3 137.16 180)
+			(uuid "69521b91-a3a3-4d86-b50d-61d99619ca47")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "LIM4" input
+			(at 114.3 139.7 180)
+			(uuid "18f7a985-1f31-4792-8290-68e33c00809b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "LIM5" input
+			(at 114.3 142.24 180)
+			(uuid "a4f55333-2cbd-48d4-b755-c31e218b1540")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "LIM6" input
+			(at 114.3 144.78 180)
+			(uuid "f4fbe248-bce7-40fe-b4ae-054c5caa5c15")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "LIM7" input
+			(at 114.3 147.32 180)
+			(uuid "ac580741-1c8c-490f-99df-42f33b7fc3dc")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances

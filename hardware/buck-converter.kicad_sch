@@ -1635,6 +1635,16 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "1A MAX Output Current"
+		(exclude_from_sim no)
+		(at 191.77 97.79 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "2e9c3af9-1459-4248-b78c-b011fd69cb18")
+	)
 	(junction
 		(at 212.09 100.33)
 		(diameter 0)

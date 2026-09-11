@@ -4,7 +4,7 @@
 
 > 🚧 Under development
 
-Stepping Stone is a 4-axis stepper motor control platform designed for robotics and CNC development. Built around an STM32 MCU and TMC2209 drivers, it supports coordinated multi-axis motion, encoder feedback, stall-sense homing, and CAN/USB connectivity for flexible development and testing.
+Stepping Stone is a 4-axis stepper motor control platform designed for robotics and CNC development. Built around an STM32G4 MCU and TMC2209 drivers, it supports coordinated multi-axis motion, encoder feedback, stall-sense homing, and CAN/USB connectivity for flexible development and testing.
 
 Designed as a “stepping stone” in motion-control prototyping, it bridges the gap between simple stepper driver breakouts and full CNC or robotics systems, providing a reusable platform for early development.
 
@@ -26,15 +26,15 @@ Designed as a “stepping stone” in motion-control prototyping, it bridges the
 - **Motors**: 4 independent stepper motor channels.
 - **Encoders**: 4 quadrature encoder channels.
 - **Limits**: 8 limit switch channels and stall-detection support.
-- **Safety**: E-Stop support and motor-disable capability.
+- **Safety**: E-Stop system with hardware interlock for motor-enable.
 - **Connectivity**: USB 2.0, CAN, I2C, SPI, UART, and GPIO interfaces.
-- **Storage**: microSD support for G-code storage and system logging.
-- **User Interface**: Status LEDs, reset button, and user-programmable buttons.
+- **Storage**: microSD support and on-board 128MB flash for G-code storage and system logging.
+- **User Interface**: Status LEDs, system button, and user-programmable buttons.
 
 ## Roadmap
 
 - [x] System architecture defined
-- [ ] Component selection finalized
+- [x] Component selection finalized
 - [ ] Schematic capture
 - [ ] PCB layout
 - [ ] Firmware development
@@ -45,7 +45,7 @@ See the [open issues](https://github.com/jacob-wigent/stepping-stone/issues) for
 ## Tools
 - **Hardware Design:** KiCad 10.0 for schematic capture and PCB layout
 - **Firmware:** STM32CubeIDE or PlatformIO (planned)
-- **Software:** JavaFX for desktop control interface and [rerun](https://github.com/rerun-io/rerun) bridge for visualization (planned)
+- **Software:** [Tauri](https://v2.tauri.app/) user interface and [rerun](https://github.com/rerun-io/rerun) rust bridge for visualization (planned)
 
 ## License
 

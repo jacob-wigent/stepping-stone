@@ -672,7 +672,7 @@
         "uuid": "793a882e-3f7b-468b-a863-41a1f527e1bf"
       }
     ],
-    "used_designators": "#PWR208-247",
+    "used_designators": "C46,#PWR206,#PWR209-210,#PWR213-266,D2,D36-43,F8,R73-93,J9-18,Q4-11,U9-11",
     "variants": []
   },
   "sheets": [
@@ -731,6 +731,10 @@
     [
       "b4ec3a03-bd52-4576-ad32-180291688b9c",
       "Limit Switches"
+    ],
+    [
+      "573fb06e-2102-4cc0-99aa-3fc63995045d",
+      "CAN Bus"
     ]
   ],
   "text_variables": {},

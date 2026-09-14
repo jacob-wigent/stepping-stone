@@ -1236,6 +1236,19 @@
 		)
 		(uuid "052f00d5-c0a6-4536-b745-2d94f9d78d1a")
 	)
+	(text "POWER MOSFET/PWM (with flyback diodes)"
+		(exclude_from_sim no)
+		(at -35.56 101.6 0)
+		(effects
+			(font
+				(size 1.905 1.905)
+				(thickness 0.381)
+				(bold yes)
+				(color 132 0 0 1)
+			)
+		)
+		(uuid "0c21f3ae-20bd-42f7-bd06-bdc5faa69ce2")
+	)
 	(text "USER LEDS"
 		(exclude_from_sim no)
 		(at -35.56 86.36 0)
@@ -1274,6 +1287,19 @@
 			)
 		)
 		(uuid "5f81cccc-c8b1-4084-9b38-0d20ac69f389")
+	)
+	(text "Quadrature encoder inputs?"
+		(exclude_from_sim no)
+		(at -34.29 106.68 0)
+		(effects
+			(font
+				(size 1.905 1.905)
+				(thickness 0.381)
+				(bold yes)
+				(color 132 0 0 1)
+			)
+		)
+		(uuid "a0157f8d-84bc-49ab-bce5-e60b3c60585a")
 	)
 	(text "CAN BUS?"
 		(exclude_from_sim no)
@@ -1484,7 +1510,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 147.32) (xy 114.3 147.32)
+			(xy 88.9 121.92) (xy 114.3 121.92)
 		)
 		(stroke
 			(width 0)
@@ -1544,7 +1570,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 134.62) (xy 114.3 134.62)
+			(xy 88.9 109.22) (xy 114.3 109.22)
 		)
 		(stroke
 			(width 0)
@@ -1724,7 +1750,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 137.16) (xy 114.3 137.16)
+			(xy 88.9 111.76) (xy 114.3 111.76)
 		)
 		(stroke
 			(width 0)
@@ -1844,7 +1870,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 144.78) (xy 114.3 144.78)
+			(xy 88.9 119.38) (xy 114.3 119.38)
 		)
 		(stroke
 			(width 0)
@@ -1854,7 +1880,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 139.7) (xy 114.3 139.7)
+			(xy 88.9 114.3) (xy 114.3 114.3)
 		)
 		(stroke
 			(width 0)
@@ -1874,7 +1900,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 142.24) (xy 114.3 142.24)
+			(xy 88.9 116.84) (xy 114.3 116.84)
 		)
 		(stroke
 			(width 0)
@@ -1904,7 +1930,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 132.08) (xy 114.3 132.08)
+			(xy 88.9 106.68) (xy 114.3 106.68)
 		)
 		(stroke
 			(width 0)
@@ -1914,7 +1940,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 129.54) (xy 114.3 129.54)
+			(xy 88.9 104.14) (xy 114.3 104.14)
 		)
 		(stroke
 			(width 0)
@@ -76209,13 +76235,12 @@
 		)
 	)
 	(sheet
-		(at 63.5 101.6)
+		(at 63.5 152.4)
 		(size 25.4 17.78)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(stroke
 			(width 0.3048)
 			(type solid)
@@ -76225,7 +76250,7 @@
 		)
 		(uuid "4251703e-8697-4078-b9d0-81c0cbfbf2bf")
 		(property "Sheetname" "Auxiliary IO"
-			(at 63.5 100.8122 0)
+			(at 63.5 151.6122 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -76236,7 +76261,7 @@
 			)
 		)
 		(property "Sheetfile" "auxiliary_io.kicad_sch"
-			(at 63.5 120.0408 0)
+			(at 63.5 170.8408 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -76356,6 +76381,52 @@
 			(project "stepping-stone"
 				(path "/793a882e-3f7b-468b-a863-41a1f527e1bf"
 					(page "10")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 63.5 132.08)
+		(size 25.4 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.3048)
+			(type solid)
+		)
+		(fill
+			(color 255 229 191 1)
+		)
+		(uuid "573fb06e-2102-4cc0-99aa-3fc63995045d")
+		(property "Sheetname" "CAN Bus"
+			(at 63.5 131.2922 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "can_bus.kicad_sch"
+			(at 63.5 145.4408 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "stepping-stone"
+				(path "/793a882e-3f7b-468b-a863-41a1f527e1bf"
+					(page "15")
 				)
 			)
 		)
@@ -76801,7 +76872,7 @@
 		)
 	)
 	(sheet
-		(at 63.5 127)
+		(at 63.5 101.6)
 		(size 25.4 22.86)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -76817,7 +76888,7 @@
 		)
 		(uuid "b4ec3a03-bd52-4576-ad32-180291688b9c")
 		(property "Sheetname" "Limit Switches"
-			(at 63.5 126.2122 0)
+			(at 63.5 100.8122 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -76828,7 +76899,7 @@
 			)
 		)
 		(property "Sheetfile" "limit_switches.kicad_sch"
-			(at 63.5 150.5208 0)
+			(at 63.5 125.1208 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -76839,7 +76910,7 @@
 			)
 		)
 		(pin "LIM0" output
-			(at 88.9 129.54 0)
+			(at 88.9 104.14 0)
 			(uuid "69cc0666-573b-47c0-9582-8eccd943e962")
 			(effects
 				(font
@@ -76849,7 +76920,7 @@
 			)
 		)
 		(pin "LIM1" output
-			(at 88.9 132.08 0)
+			(at 88.9 106.68 0)
 			(uuid "51982704-640d-49e3-8f03-7c380177267e")
 			(effects
 				(font
@@ -76859,7 +76930,7 @@
 			)
 		)
 		(pin "LIM2" output
-			(at 88.9 134.62 0)
+			(at 88.9 109.22 0)
 			(uuid "437bba77-d258-49fc-a1db-2bcba54111af")
 			(effects
 				(font
@@ -76869,7 +76940,7 @@
 			)
 		)
 		(pin "LIM3" output
-			(at 88.9 137.16 0)
+			(at 88.9 111.76 0)
 			(uuid "d923b3e1-d56e-47d6-a91a-ad1efa61012d")
 			(effects
 				(font
@@ -76879,7 +76950,7 @@
 			)
 		)
 		(pin "LIM4" output
-			(at 88.9 139.7 0)
+			(at 88.9 114.3 0)
 			(uuid "e9019ff1-a49b-4174-a8aa-cca5e752f668")
 			(effects
 				(font
@@ -76889,7 +76960,7 @@
 			)
 		)
 		(pin "LIM5" output
-			(at 88.9 142.24 0)
+			(at 88.9 116.84 0)
 			(uuid "d77d0541-28c7-44d7-840f-fc55f628b57a")
 			(effects
 				(font
@@ -76899,7 +76970,7 @@
 			)
 		)
 		(pin "LIM6" output
-			(at 88.9 144.78 0)
+			(at 88.9 119.38 0)
 			(uuid "63c2205b-9691-48d0-be1c-9394c83fb96e")
 			(effects
 				(font
@@ -76909,7 +76980,7 @@
 			)
 		)
 		(pin "LIM7" output
-			(at 88.9 147.32 0)
+			(at 88.9 121.92 0)
 			(uuid "2669627e-97b0-4b9a-92c7-3af4007dff84")
 			(effects
 				(font
@@ -77459,7 +77530,7 @@
 			)
 		)
 		(pin "LIM0" input
-			(at 114.3 129.54 180)
+			(at 114.3 104.14 180)
 			(uuid "26a81e62-406d-4cab-8479-edc0d2cee4dd")
 			(effects
 				(font
@@ -77469,7 +77540,7 @@
 			)
 		)
 		(pin "LIM1" input
-			(at 114.3 132.08 180)
+			(at 114.3 106.68 180)
 			(uuid "6e5a8212-80c7-437e-8e8e-ac0397bda639")
 			(effects
 				(font
@@ -77479,7 +77550,7 @@
 			)
 		)
 		(pin "LIM2" input
-			(at 114.3 134.62 180)
+			(at 114.3 109.22 180)
 			(uuid "fc8583b4-fd29-444c-9ec1-3549cacb4b3b")
 			(effects
 				(font
@@ -77489,7 +77560,7 @@
 			)
 		)
 		(pin "LIM3" input
-			(at 114.3 137.16 180)
+			(at 114.3 111.76 180)
 			(uuid "69521b91-a3a3-4d86-b50d-61d99619ca47")
 			(effects
 				(font
@@ -77499,7 +77570,7 @@
 			)
 		)
 		(pin "LIM4" input
-			(at 114.3 139.7 180)
+			(at 114.3 114.3 180)
 			(uuid "18f7a985-1f31-4792-8290-68e33c00809b")
 			(effects
 				(font
@@ -77509,7 +77580,7 @@
 			)
 		)
 		(pin "LIM5" input
-			(at 114.3 142.24 180)
+			(at 114.3 116.84 180)
 			(uuid "a4f55333-2cbd-48d4-b755-c31e218b1540")
 			(effects
 				(font
@@ -77519,7 +77590,7 @@
 			)
 		)
 		(pin "LIM6" input
-			(at 114.3 144.78 180)
+			(at 114.3 119.38 180)
 			(uuid "f4fbe248-bce7-40fe-b4ae-054c5caa5c15")
 			(effects
 				(font
@@ -77529,7 +77600,7 @@
 			)
 		)
 		(pin "LIM7" input
-			(at 114.3 147.32 180)
+			(at 114.3 121.92 180)
 			(uuid "ac580741-1c8c-490f-99df-42f33b7fc3dc")
 			(effects
 				(font

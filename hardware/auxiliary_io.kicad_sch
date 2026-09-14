@@ -3,7 +3,12 @@
 	(generator "eeschema")
 	(generator_version "10.0")
 	(uuid "df253691-2e83-4632-b695-d8ad5a7a5f59")
-	(paper "A4")
+	(paper "A")
+	(title_block
+		(title "Auxiliary IO")
+		(rev "A")
+		(company "Jacob Wigent")
+	)
 	(lib_symbols
 		(symbol "Connector_Generic:Conn_01x03"
 			(pin_names
@@ -1049,13 +1054,23 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 31.75) (xy 69.85 31.75)
+			(xy 83.82 27.94) (xy 99.06 27.94)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "747a5846-69bb-4ed3-b6a1-01e9c41db4a3")
+		(uuid "692cea5a-c609-44ea-bb52-65d08a3e0b86")
+	)
+	(wire
+		(pts
+			(xy 64.77 25.4) (xy 64.77 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "73ee62f0-06a2-47b6-b76e-b755f8111034")
 	)
 	(wire
 		(pts
@@ -1079,16 +1094,6 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 29.21) (xy 63.5 31.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a9f6a8ee-9066-490e-8709-d3fc676876ab")
-	)
-	(wire
-		(pts
 			(xy 114.3 68.58) (xy 109.22 68.58)
 		)
 		(stroke
@@ -1099,6 +1104,16 @@
 	)
 	(wire
 		(pts
+			(xy 64.77 27.94) (xy 76.2 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c86cb181-c207-4319-a7fb-b8b5f50d1c39")
+	)
+	(wire
+		(pts
 			(xy 104.14 71.12) (xy 114.3 71.12)
 		)
 		(stroke
@@ -1106,16 +1121,6 @@
 			(type default)
 		)
 		(uuid "d49ceba6-97fd-4093-8b74-9c6d5ab1e59c")
-	)
-	(wire
-		(pts
-			(xy 77.47 31.75) (xy 90.17 31.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e361d305-ab61-4b1c-9c8d-fa2bbe22c159")
 	)
 	(wire
 		(pts
@@ -4568,15 +4573,15 @@
 			"wICBvzD8X28tInjKIDljAAAAAElFTkSuQmCC"
 		)
 	)
-	(label "3V3_PROT"
-		(at 90.17 31.75 180)
+	(label "3V3_AUX"
+		(at 99.06 27.94 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
 		)
-		(uuid "2e0756d7-5aff-47c4-9740-b2a584180e4b")
+		(uuid "3dc2e79a-4e2d-4619-b9b5-91b283b63ac3")
 	)
 	(hierarchical_label "SDA"
 		(shape bidirectional)
@@ -4599,87 +4604,6 @@
 			(justify right)
 		)
 		(uuid "a3597377-e449-42e3-ac86-2c63f883dbe0")
-	)
-	(symbol
-		(lib_id "Device:Polyfuse")
-		(at 73.66 31.75 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0854757d-c8ba-498d-aee2-ff29ab3c95cc")
-		(property "Reference" "F?"
-			(at 73.66 25.4 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "500mA"
-			(at 73.66 27.94 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 68.58 33.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Datasheet" ""
-			(at 73.66 31.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resettable fuse, polymeric positive temperature coefficient"
-			(at 73.66 31.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "d0420c29-9b73-496b-a61c-d472879722bb")
-		)
-		(pin "1"
-			(uuid "0a3abf69-5953-4f7d-8ed7-2d8c312a2883")
-		)
-		(instances
-			(project "stepping-stone"
-				(path "/793a882e-3f7b-468b-a863-41a1f527e1bf/4251703e-8697-4078-b9d0-81c0cbfbf2bf"
-					(reference "F?")
-					(unit 1)
-				)
-			)
-		)
 	)
 	(symbol
 		(lib_id "Device:R_US")
@@ -5051,84 +4975,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3.3V")
-		(at 63.5 29.21 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8a54c026-8067-4952-89a9-b4297e2e0d1b")
-		(property "Reference" "#PWR0206"
-			(at 63.5 33.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 63.5 24.13 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 63.5 29.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 63.5 29.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 63.5 29.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "11b09abb-6659-4247-a4d6-63ee02c1744a")
-		)
-		(instances
-			(project "stepping-stone"
-				(path "/793a882e-3f7b-468b-a863-41a1f527e1bf/4251703e-8697-4078-b9d0-81c0cbfbf2bf"
-					(reference "#PWR0206")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_US")
 		(at 100.33 71.12 90)
 		(mirror x)
@@ -5225,6 +5071,84 @@
 			(project "stepping-stone"
 				(path "/793a882e-3f7b-468b-a863-41a1f527e1bf/4251703e-8697-4078-b9d0-81c0cbfbf2bf"
 					(reference "R?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 64.77 25.4 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b3dd4dab-8929-41fe-9e5c-7abeb57304f0")
+		(property "Reference" "#PWR0206"
+			(at 64.77 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 64.77 20.32 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 64.77 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 64.77 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 64.77 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "de1ed7d8-460b-41b0-b4d0-3148fdcbab79")
+		)
+		(instances
+			(project "stepping-stone"
+				(path "/793a882e-3f7b-468b-a863-41a1f527e1bf/4251703e-8697-4078-b9d0-81c0cbfbf2bf"
+					(reference "#PWR0206")
 					(unit 1)
 				)
 			)
@@ -5411,6 +5335,109 @@
 			(project "stepping-stone"
 				(path "/793a882e-3f7b-468b-a863-41a1f527e1bf/4251703e-8697-4078-b9d0-81c0cbfbf2bf"
 					(reference "J?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Polyfuse")
+		(at 80.01 27.94 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dd70c727-8101-43c2-8bce-9af1fa717008")
+		(property "Reference" "F?"
+			(at 80.01 21.59 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "500mA, 1A, 150ms"
+			(at 80.01 24.13 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Fuse:Fuse_1812_4532Metric"
+			(at 74.93 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "https://www.belfuse.com/media/datasheets/products/circuit-protection/ds-cp-0zcm-series.pdf"
+			(at 80.01 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resettable fuse, polymeric positive temperature coefficient"
+			(at 80.01 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "0ZCG0050AF2C"
+			(at 80.01 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vendor URL" "https://www.digikey.com/en/products/detail/bel-fuse-inc/0ZCG0050AF2C/4156100"
+			(at 80.01 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "5ad38679-ee4f-41e0-b623-889fe919c7b6")
+		)
+		(pin "1"
+			(uuid "97e2e3d2-fb8b-4a59-b9fa-ebd61d962e92")
+		)
+		(instances
+			(project "stepping-stone"
+				(path "/793a882e-3f7b-468b-a863-41a1f527e1bf/4251703e-8697-4078-b9d0-81c0cbfbf2bf"
+					(reference "F?")
 					(unit 1)
 				)
 			)

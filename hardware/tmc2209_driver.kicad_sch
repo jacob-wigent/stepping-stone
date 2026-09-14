@@ -3,7 +3,7 @@
 	(generator "eeschema")
 	(generator_version "10.0")
 	(uuid "a0503d5c-c49f-4051-a954-892d0c1abd85")
-	(paper "A4")
+	(paper "A")
 	(title_block
 		(title "Stepper Motor Driver")
 		(date "2026-08-22")

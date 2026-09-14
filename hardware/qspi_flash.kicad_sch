@@ -3,7 +3,12 @@
 	(generator "eeschema")
 	(generator_version "10.0")
 	(uuid "e0c2c99c-eaf0-4335-93a3-bd79f86f8625")
-	(paper "A4")
+	(paper "A")
+	(title_block
+		(title "QSPI Flash")
+		(rev "A")
+		(company "Jacob Wigent")
+	)
 	(lib_symbols
 		(symbol "Device:C_Small"
 			(pin_numbers
@@ -356,27 +361,29 @@
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "U"
-				(at -6.35 11.43 0)
+			(property "Reference" "U?"
+				(at 11.43 1.2701 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
 			(property "Value" "W25Q128JVS"
-				(at 7.62 11.43 0)
+				(at 11.43 -1.2699 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
-			(property "Footprint" "Package_SO:SOIC-8_5.3x5.3mm_P1.27mm"
+			(property "Footprint" "Package_SON:WSON-8-1EP_6x5mm_P1.27mm_EP3.4x4.3mm"
 				(at 0 22.86 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -400,6 +407,28 @@
 			)
 			(property "Description" "128Mbit / 16MiB Serial Flash Memory, Standard/Dual/Quad SPI, 2.7-3.6V, SOIC-8"
 				(at 0 27.94 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Part Number" "W25Q128JVSIM TR"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Vendor URL" "https://www.digikey.com/en/products/detail/winbond-electronics/W25Q128JVSIM-TR/6819722"
+				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -445,6 +474,16 @@
 				)
 			)
 			(symbol "W25Q128JVS_1_1"
+				(text "16MB"
+					(at 5.08 2.54 0)
+					(effects
+						(font
+							(size 1.905 1.905)
+							(thickness 0.254)
+							(bold yes)
+						)
+					)
+				)
 				(pin input line
 					(at -10.16 7.62 0)
 					(length 2.54)
@@ -848,20 +887,20 @@
 		)
 	)
 	(junction
-		(at 139.7 93.98)
+		(at 120.65 93.98)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "09884aa1-c320-452f-bf8b-f20075ad9aa8")
 	)
 	(junction
-		(at 152.4 85.09)
+		(at 133.35 85.09)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "15f7eda4-dae9-4baa-a2a4-1f73c8dedda7")
 	)
 	(wire
 		(pts
-			(xy 137.16 104.14) (xy 142.24 104.14)
+			(xy 118.11 104.14) (xy 123.19 104.14)
 		)
 		(stroke
 			(width 0)
@@ -871,7 +910,7 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 85.09) (xy 152.4 85.09)
+			(xy 147.32 85.09) (xy 133.35 85.09)
 		)
 		(stroke
 			(width 0)
@@ -881,7 +920,7 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 86.36) (xy 166.37 85.09)
+			(xy 147.32 86.36) (xy 147.32 85.09)
 		)
 		(stroke
 			(width 0)
@@ -891,7 +930,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 96.52) (xy 142.24 96.52)
+			(xy 118.11 96.52) (xy 123.19 96.52)
 		)
 		(stroke
 			(width 0)
@@ -901,7 +940,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 93.98) (xy 142.24 93.98)
+			(xy 120.65 93.98) (xy 123.19 93.98)
 		)
 		(stroke
 			(width 0)
@@ -911,7 +950,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 106.68) (xy 142.24 106.68)
+			(xy 118.11 106.68) (xy 123.19 106.68)
 		)
 		(stroke
 			(width 0)
@@ -921,7 +960,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 93.98) (xy 139.7 93.98)
+			(xy 118.11 93.98) (xy 120.65 93.98)
 		)
 		(stroke
 			(width 0)
@@ -931,7 +970,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 99.06) (xy 142.24 99.06)
+			(xy 118.11 99.06) (xy 123.19 99.06)
 		)
 		(stroke
 			(width 0)
@@ -941,7 +980,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 101.6) (xy 142.24 101.6)
+			(xy 118.11 101.6) (xy 123.19 101.6)
 		)
 		(stroke
 			(width 0)
@@ -951,7 +990,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 83.82) (xy 152.4 85.09)
+			(xy 133.35 83.82) (xy 133.35 85.09)
 		)
 		(stroke
 			(width 0)
@@ -961,7 +1000,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 91.44) (xy 139.7 93.98)
+			(xy 120.65 91.44) (xy 120.65 93.98)
 		)
 		(stroke
 			(width 0)
@@ -971,7 +1010,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 85.09) (xy 152.4 88.9)
+			(xy 133.35 85.09) (xy 133.35 88.9)
 		)
 		(stroke
 			(width 0)
@@ -981,7 +1020,7 @@
 	)
 	(hierarchical_label "CLK"
 		(shape input)
-		(at 137.16 96.52 180)
+		(at 118.11 96.52 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -992,7 +1031,7 @@
 	)
 	(hierarchical_label "IO3"
 		(shape bidirectional)
-		(at 137.16 106.68 180)
+		(at 118.11 106.68 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1003,7 +1042,7 @@
 	)
 	(hierarchical_label "IO2"
 		(shape bidirectional)
-		(at 137.16 104.14 180)
+		(at 118.11 104.14 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1014,7 +1053,7 @@
 	)
 	(hierarchical_label "IO0"
 		(shape bidirectional)
-		(at 137.16 99.06 180)
+		(at 118.11 99.06 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1025,7 +1064,7 @@
 	)
 	(hierarchical_label "IO1"
 		(shape bidirectional)
-		(at 137.16 101.6 180)
+		(at 118.11 101.6 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1036,7 +1075,7 @@
 	)
 	(hierarchical_label "~{CS}"
 		(shape input)
-		(at 137.16 93.98 180)
+		(at 118.11 93.98 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1047,7 +1086,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 139.7 87.63 0)
+		(at 120.65 87.63 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -1058,7 +1097,7 @@
 		(dnp no)
 		(uuid "4e069852-c335-4af1-9918-12ae1ccf436e")
 		(property "Reference" "R?"
-			(at 137.16 86.3599 0)
+			(at 118.11 86.3599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1069,7 +1108,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 137.16 88.8999 0)
+			(at 118.11 88.8999 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1080,7 +1119,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 138.684 87.884 90)
+			(at 119.634 87.884 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1091,7 +1130,7 @@
 			)
 		)
 		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
-			(at 139.7 87.63 0)
+			(at 120.65 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1102,7 +1141,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 139.7 87.63 0)
+			(at 120.65 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1113,7 +1152,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 139.7 87.63 0)
+			(at 120.65 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1124,7 +1163,7 @@
 			)
 		)
 		(property "Sim.Pins" ""
-			(at 139.7 87.63 0)
+			(at 120.65 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1135,7 +1174,7 @@
 			)
 		)
 		(property "Part Number" "RC0603FR-0710KL"
-			(at 139.7 87.63 0)
+			(at 120.65 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1146,7 +1185,7 @@
 			)
 		)
 		(property "Vendor URL" "https://www.digikey.com/en/products/detail/yageo/RC0603FR-0710KL/726880"
-			(at 139.7 87.63 0)
+			(at 120.65 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1173,7 +1212,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 152.4 114.3 0)
+		(at 133.35 114.3 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1184,7 +1223,7 @@
 		(fields_autoplaced yes)
 		(uuid "70e363ab-ff12-4031-b122-0ba93ca0486f")
 		(property "Reference" "#PWR0204"
-			(at 152.4 120.65 0)
+			(at 133.35 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1195,7 +1234,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 152.4 119.38 0)
+			(at 133.35 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1206,7 +1245,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 152.4 114.3 0)
+			(at 133.35 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1217,7 +1256,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 152.4 114.3 0)
+			(at 133.35 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1228,7 +1267,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 152.4 114.3 0)
+			(at 133.35 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1252,7 +1291,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 139.7 83.82 0)
+		(at 120.65 83.82 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1263,7 +1302,7 @@
 		(fields_autoplaced yes)
 		(uuid "8b2adb3b-29ed-4f3a-b58b-240ae97e4440")
 		(property "Reference" "#PWR0203"
-			(at 139.7 87.63 0)
+			(at 120.65 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1274,7 +1313,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 139.7 78.74 0)
+			(at 120.65 78.74 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1284,7 +1323,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 139.7 83.82 0)
+			(at 120.65 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1295,7 +1334,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 139.7 83.82 0)
+			(at 120.65 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1306,7 +1345,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 139.7 83.82 0)
+			(at 120.65 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1330,7 +1369,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 152.4 83.82 0)
+		(at 133.35 83.82 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1341,7 +1380,7 @@
 		(fields_autoplaced yes)
 		(uuid "a02d28ca-5fdc-4d6f-b083-cafc1ec76786")
 		(property "Reference" "#PWR0202"
-			(at 152.4 87.63 0)
+			(at 133.35 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1352,7 +1391,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 152.4 78.74 0)
+			(at 133.35 78.74 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1362,7 +1401,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 152.4 83.82 0)
+			(at 133.35 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1373,7 +1412,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 152.4 83.82 0)
+			(at 133.35 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1384,7 +1423,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 152.4 83.82 0)
+			(at 133.35 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1408,7 +1447,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 166.37 88.9 0)
+		(at 147.32 88.9 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -1419,7 +1458,7 @@
 		(dnp no)
 		(uuid "db493754-92ea-4820-818d-4cf38a66928e")
 		(property "Reference" "C?"
-			(at 168.91 87.6362 0)
+			(at 149.86 87.6362 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1430,7 +1469,7 @@
 			)
 		)
 		(property "Value" "0.1uF"
-			(at 168.91 90.1762 0)
+			(at 149.86 90.1762 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1441,7 +1480,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 166.37 88.9 0)
+			(at 147.32 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1452,7 +1491,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 166.37 88.9 0)
+			(at 147.32 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1463,7 +1502,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 166.37 88.9 0)
+			(at 147.32 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1474,7 +1513,7 @@
 			)
 		)
 		(property "Part Number" "CC0603KRX7R9BB104"
-			(at 166.37 88.9 0)
+			(at 147.32 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1485,7 +1524,7 @@
 			)
 		)
 		(property "Vendor URL" "https://www.digikey.com/en/products/detail/yageo/CC0603KRX7R9BB104/2103082"
-			(at 166.37 88.9 0)
+			(at 147.32 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1496,7 +1535,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 166.37 88.9 0)
+			(at 147.32 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1507,7 +1546,7 @@
 			)
 		)
 		(property "Sim.Pins" ""
-			(at 166.37 88.9 0)
+			(at 147.32 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1534,7 +1573,7 @@
 	)
 	(symbol
 		(lib_id "Memory_Flash:W25Q128JVS")
-		(at 152.4 101.6 0)
+		(at 133.35 101.6 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1545,7 +1584,7 @@
 		(fields_autoplaced yes)
 		(uuid "dfb13af8-5eba-4399-8d93-f56ce7b560e5")
 		(property "Reference" "U?"
-			(at 163.83 100.3299 0)
+			(at 144.78 100.3299 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1556,7 +1595,7 @@
 			)
 		)
 		(property "Value" "W25Q128JVS"
-			(at 163.83 102.8699 0)
+			(at 144.78 102.8699 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1567,7 +1606,7 @@
 			)
 		)
 		(property "Footprint" "Package_SON:WSON-8-1EP_6x5mm_P1.27mm_EP3.4x4.3mm"
-			(at 152.4 78.74 0)
+			(at 133.35 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1578,7 +1617,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.winbond.com/resource-files/w25q128jv_dtr%20revc%2003272018%20plus.pdf"
-			(at 152.4 76.2 0)
+			(at 133.35 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1589,7 +1628,7 @@
 			)
 		)
 		(property "Description" "128Mbit / 16MiB Serial Flash Memory, Standard/Dual/Quad SPI, 2.7-3.6V, SOIC-8"
-			(at 152.4 73.66 0)
+			(at 133.35 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1600,7 +1639,7 @@
 			)
 		)
 		(property "Part Number" "W25Q128JVSIM TR"
-			(at 152.4 101.6 0)
+			(at 133.35 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1611,7 +1650,7 @@
 			)
 		)
 		(property "Vendor URL" "https://www.digikey.com/en/products/detail/winbond-electronics/W25Q128JVSIM-TR/6819722"
-			(at 152.4 101.6 0)
+			(at 133.35 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1656,7 +1695,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 166.37 91.44 0)
+		(at 147.32 91.44 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1667,7 +1706,7 @@
 		(fields_autoplaced yes)
 		(uuid "f217b19b-7c52-4803-9f70-f162037aa392")
 		(property "Reference" "#PWR0205"
-			(at 166.37 97.79 0)
+			(at 147.32 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1678,7 +1717,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 166.37 96.52 0)
+			(at 147.32 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1689,7 +1728,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 166.37 91.44 0)
+			(at 147.32 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1700,7 +1739,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 166.37 91.44 0)
+			(at 147.32 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1711,7 +1750,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 166.37 91.44 0)
+			(at 147.32 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

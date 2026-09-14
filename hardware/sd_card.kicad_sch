@@ -3,7 +3,12 @@
 	(generator "eeschema")
 	(generator_version "10.0")
 	(uuid "c3e5d586-911d-4d5d-9578-c5b0adb31bd7")
-	(paper "A4")
+	(paper "A")
+	(title_block
+		(title "SD Card")
+		(rev "A")
+		(company "Jacob Wigent")
+	)
 	(lib_symbols
 		(symbol "Connector:Micro_SD_Card_Det_Hirose_DM3AT"
 			(exclude_from_sim no)

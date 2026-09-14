@@ -1635,15 +1635,15 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "1A MAX Output Current"
+	(text "LMR51610YFDBVR = 1A MAX\nLMR51625XDDCR = 2.5A MAX"
 		(exclude_from_sim no)
-		(at 191.77 97.79 0)
+		(at 193.04 96.52 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 		)
-		(uuid "2e9c3af9-1459-4248-b78c-b011fd69cb18")
+		(uuid "3fe74325-43ad-443a-8619-c7525a772a5a")
 	)
 	(junction
 		(at 212.09 100.33)
@@ -4432,7 +4432,7 @@
 				)
 			)
 		)
-		(property "Value" "LMR51610YFDBVR"
+		(property "Value" "LMR51625XDDCR"
 			(at 134.62 85.09 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4453,7 +4453,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/lmr51610.pdf?ts=1708678595808&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FLMR51610"
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/lmr51625.pdf?ts=1742888310253&ref_url=https%253A%252F%252Fwww.ti.com%252Fsitesearch%252Fen-us%252Fdocs%252Funiversalsearch.tsp%253FlangPref%253Den-US%2526nr%253D3%2526searchTerm%253DLMR51625XDDCR"
 			(at 134.62 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -4464,7 +4464,7 @@
 				)
 			)
 		)
-		(property "Description" "Buck Switching Regulator IC Positive Adjustable 0.8V 1 Output 0.6-1A SOT-23-6"
+		(property "Description" "Buck Switching Regulator IC Positive Adjustable 0.8V 1 Output 2.5A SOT-23-6 Thin, TSOT-23-6"
 			(at 134.62 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -4475,7 +4475,7 @@
 				)
 			)
 		)
-		(property "Part Number" "LMR51610YFDBVR"
+		(property "Part Number" "LMR51625XDDCR"
 			(at 134.62 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -4486,7 +4486,7 @@
 				)
 			)
 		)
-		(property "Vendor URL" "https://www.digikey.com/en/products/detail/texas-instruments/LMR51610YFDBVR/22286738"
+		(property "Vendor URL" "https://www.digikey.com/en/products/detail/texas-instruments/LMR51625XDDCR/25991371"
 			(at 134.62 100.33 0)
 			(hide yes)
 			(show_name no)

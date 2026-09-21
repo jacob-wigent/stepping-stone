@@ -29,8 +29,8 @@ Designed as a “stepping stone” in motion-control prototyping, it bridges the
 - **Limits**: 8 limit switch channels and stall-detection support.
 - **Safety**: E-Stop system with hardware interlock for motor-enable.
 - **Connectivity**: USB 2.0, CAN, I2C, SPI, UART, and GPIO interfaces.
-- **Storage**: microSD support and on-board 128MB flash for G-code storage and system logging.
-- **User Interface**: Status LEDs, system button, and user-programmable buttons.
+- **Storage**: microSD support and on-board 16MB flash for G-code storage and system logging.
+- **User Interface**: Status LEDs, boot/reset buttons, and user-programmable buttons.
 
 ## Roadmap
 
@@ -46,7 +46,7 @@ See the [open issues](https://github.com/jacob-wigent/stepping-stone/issues) for
 ## Tools
 - **Hardware Design:** KiCad 10.0 for schematic capture and PCB layout
 - **Firmware:** STM32CubeIDE or PlatformIO (planned)
-- **Software:** [Tauri](https://v2.tauri.app/) user interface and [rerun](https://github.com/rerun-io/rerun) rust bridge for visualization (planned)
+- **Software:** [Tauri](https://v2.tauri.app/) user interface/rust bridge for [rerun](https://github.com/rerun-io/rerun) visualization (planned)
 
 ## License
 

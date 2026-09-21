@@ -10,7 +10,8 @@ Designed as a “stepping stone” in motion-control prototyping, it bridges the
 
 ## Block Diagram
 
-![Block Diagram](./diagram.png)
+![Block Diagram](./diagram-dark.png#gh-dark-mode-only)
+![Block Diagram](./diagram-light.png#gh-light-mode-only)
 
 ### Navigate
 

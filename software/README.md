@@ -1,13 +1,13 @@
-# Software
+![Software](./assets/software-title-dark.png#gh-dark-mode-only)
+![Software](./assets/software-title-light.png#gh-light-mode-only)
+---
 
-Description
-
-> 🚧 Under development / coming soon
+> 🚧 Coming soon!
 
 ## Planned Features
 
-- Who knows...
+- 
 
 ## Notes
 
-Uhhhhh...
+- 

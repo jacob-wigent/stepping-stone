@@ -1,14 +1,9 @@
-# Firmware
+![Firmware](./assets/firmware-title-dark.png#gh-dark-mode-only)
+![Firmware](./assets/firmware-title-light.png#gh-light-mode-only)
+---
 
-Description
+> 🚧 Coming soon!
 
-> 🚧 Under development / coming soon
-
-Detailed description
-
-Core responsibilities include:
-
-- Calculating pi
 
 ## Planned Features
 
@@ -16,4 +11,4 @@ Core responsibilities include:
 
 ## Notes
 
-Uhh...
+- 

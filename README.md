@@ -1,10 +1,10 @@
-![Project-Name](./assets/title-logo-dark.png#gh-dark-mode-only)
-![Project-Name](./assets/title-logo-light.png#gh-light-mode-only)
+![Stepping Stone](./assets/title-logo-dark.png#gh-dark-mode-only)
+![Stepping Stone](./assets/title-logo-light.png#gh-light-mode-only)
 ---
 
 > 🚧 Under development
 
-Stepping Stone is a 4-axis stepper motor control platform designed for robotics and CNC development. Built around an STM32G4 MCU and TMC2209 drivers, it supports coordinated multi-axis motion, encoder feedback, stall-sense homing, and CAN/USB connectivity for flexible development and testing.
+Stepping Stone is a 4-axis stepper motor control platform designed for robotics and CNC development. With hardware built around an STM32G4 MCU and TMC2209 drivers, it supports coordinated multi-axis motion, encoder feedback, stall-sense homing, and CAN/USB connectivity for flexible development and testing. The desktop application connects to the hardware to provide detailed, real-time telemetry and visualization support.
 
 Designed as a “stepping stone” in motion-control prototyping, it bridges the gap between simple stepper driver breakouts and full CNC or robotics systems, providing a reusable platform for early development.
 
@@ -19,9 +19,9 @@ Designed as a “stepping stone” in motion-control prototyping, it bridges the
 |-----------|---------|---------|
 | **[Hardware](./hardware/README.md)** | Circuit design and PCB layout | KiCad design files, simulations |
 | **[Firmware](./firmware/README.md)** | Microcontroller implementation | STM32 code, CubeMX configuration |
-| **[Software](./software/README.md)** | Desktop control interface | JavaFX GUI application code |
+| **[Software](./software/README.md)** | Desktop telemetry bridge | GUI application code |
 
-## Target Capabilities
+## Planned Features
 
 - **Power Input**: 5-24V input from bench supply or dedicated PSU.
 - **Motors**: 4 independent stepper motor channels.
@@ -31,6 +31,7 @@ Designed as a “stepping stone” in motion-control prototyping, it bridges the
 - **Connectivity**: USB 2.0, CAN, I2C, SPI, UART, and GPIO interfaces.
 - **Storage**: microSD support and on-board 16MB flash for G-code storage and system logging.
 - **User Interface**: Status LEDs, boot/reset buttons, and user-programmable buttons.
+- **Telemetry**: Desktop application displaying customizable, real-time telemetry and 3D visualization.
 
 ## Roadmap
 

@@ -5041,17 +5041,6 @@
 		)
 		(uuid "03ba4f55-de77-42a9-8526-de99cc4a8080")
 	)
-	(text "Reduce to 18k and 2.2k to improve\nEMI resistance and adjust capacitor\nfor corner frequency accordingly"
-		(exclude_from_sim no)
-		(at 165.1 99.06 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(color 132 0 0 1)
-			)
-		)
-		(uuid "0c4efb6e-4abc-4e16-84cb-8afa9f043b26")
-	)
 	(text "VMOTOR Sense"
 		(exclude_from_sim no)
 		(at 146.05 105.41 0)
@@ -5087,7 +5076,7 @@
 		)
 		(uuid "75c9c576-94a8-4dac-aa69-1254af8ae975")
 	)
-	(text "Scales max 30.3V down to 3.3V VDDA, safely\ncovering the 29V TMC2209 limit.\nNode features a Thevenin equivalent resistance\n(Req) of 19.6kΩ [(180k × 22k) / (180k + 22k)].\nPaired with a 1nF capacitor to form an 8.1kHz\nlow-pass filter corner (Tau = 19.6µs, Settling = 98µs).\nThis blocks 20kHz+ TMC2209 chopper noise while \nreacting fast enough (<100µs) to capture emergency\nback-EMF spikes.\n\nRoute directly to an STM32G4 OPAMP configured as a \n Voltage Follower. Its high input impedance prevents\ndivider loading, and its near-zero output impedance\nguarantees fast, precise ADC sampling."
+	(text "Scales max 30.3V down to 3.3V VDDA, safely\ncovering the 29V TMC2209 limit.\nNode features a Thevenin equivalent resistance\n(Req) of 1.96kΩ [(18k × 2.2k) / (18k + 2.2k)].\nPaired with a 10nF capacitor to form an 8.1kHz\nlow-pass filter corner (Tau = 19.6µs, Settling = 98µs).\nThis blocks 20kHz+ TMC2209 chopper noise while \nreacting fast enough (<100µs) to capture emergency\nback-EMF spikes.\n\nRoute directly to an STM32G4 OPAMP configured as a \n Voltage Follower. Its high input impedance prevents\ndivider loading, and its near-zero output impedance\nguarantees fast, precise ADC sampling."
 		(exclude_from_sim no)
 		(at 201.93 153.67 0)
 		(effects
@@ -10231,6 +10220,18 @@
 			)
 		)
 	)
+	(hierarchical_label "EEPROM_SDA"
+		(shape bidirectional)
+		(at 327.66 132.08 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.1588)
+			)
+			(justify left)
+		)
+		(uuid "91a21ea1-79a5-4214-b593-143a39084761")
+	)
 	(hierarchical_label "DRV2_INDEX"
 		(shape input)
 		(at 287.02 125.73 0)
@@ -10349,6 +10350,18 @@
 			)
 		)
 	)
+	(hierarchical_label "EEPROM_~{WC}"
+		(shape output)
+		(at 327.66 137.16 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.1588)
+			)
+			(justify left)
+		)
+		(uuid "b69c4000-145e-4474-8b7a-cf7415de80df")
+	)
 	(hierarchical_label "LIM7"
 		(shape input)
 		(at 365.76 152.4 180)
@@ -10359,6 +10372,18 @@
 			(justify right)
 		)
 		(uuid "b755c1bf-fcd9-427e-bd60-ff42eddf786d")
+	)
+	(hierarchical_label "EEPROM_SCL"
+		(shape output)
+		(at 327.66 134.62 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.1588)
+			)
+			(justify left)
+		)
+		(uuid "b7c27787-0e63-4c31-92b8-2454f990c8d0")
 	)
 	(hierarchical_label "USB_STATUS"
 		(shape output)
@@ -10529,7 +10554,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1nF"
+		(property "Value" "10nF"
 			(at 170.18 128.2762 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10573,7 +10598,7 @@
 				)
 			)
 		)
-		(property "Part Number" "C0603C102K5RACTU"
+		(property "Part Number" "GCM155R71H103KA55D"
 			(at 172.72 127 0)
 			(hide yes)
 			(show_name no)
@@ -10584,7 +10609,7 @@
 				)
 			)
 		)
-		(property "Vendor URL" "https://www.digikey.com/en/products/detail/kemet/C0603C102K5RACTU/411081"
+		(property "Vendor URL" "https://www.digikey.com/en/products/detail/murata-electronics/GCM155R71H103KA55D/1641636"
 			(at 172.72 127 0)
 			(hide yes)
 			(show_name no)
@@ -11249,7 +11274,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "180k"
+		(property "Value" "18k"
 			(at 179.07 118.1099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11305,6 +11330,28 @@
 			)
 		)
 		(property "Sim.Pins" ""
+			(at 181.61 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "RC0603FR-0718KL"
+			(at 181.61 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vendor URL" "https://www.digikey.com/en/products/detail/yageo/RC0603FR-0718KL/726989"
 			(at 181.61 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -11635,7 +11682,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "22k"
+		(property "Value" "2.2k"
 			(at 179.07 128.2699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11691,6 +11738,28 @@
 			)
 		)
 		(property "Sim.Pins" ""
+			(at 181.61 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "RC0603FR-072K2L"
+			(at 181.61 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vendor URL" "https://www.digikey.com/en/products/detail/yageo/RC0603FR-072K2L/727016"
 			(at 181.61 127 0)
 			(hide yes)
 			(show_name no)

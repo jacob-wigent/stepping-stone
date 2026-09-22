@@ -672,7 +672,7 @@
         "uuid": "793a882e-3f7b-468b-a863-41a1f527e1bf"
       }
     ],
-    "used_designators": "C46,#PWR206,#PWR209-210,#PWR213-266,D2,D36-43,F8,R73-93,J9-18,Q4-11,U9-11",
+    "used_designators": "#PWR267-279",
     "variants": []
   },
   "sheets": [
@@ -722,7 +722,7 @@
     ],
     [
       "70521cac-acb9-4bca-9294-3030f0a44335",
-      "QSPI Flash"
+      "External Memory"
     ],
     [
       "4251703e-8697-4078-b9d0-81c0cbfbf2bf",

@@ -8,18 +8,18 @@ Stepping Stone is a 4-axis stepper motor control platform designed for robotics 
 
 Designed as a “stepping stone” in motion-control prototyping, it bridges the gap between simple stepper driver breakouts and full CNC or robotics systems, providing a reusable platform for early development.
 
-## Block Diagram
+### System Overview
 
-![Block Diagram](./diagram-dark.png#gh-dark-mode-only)
-![Block Diagram](./diagram-light.png#gh-light-mode-only)
+![System Diagram](./assets/system-diagram-dark.png#gh-dark-mode-only)
+![System Diagram](./assets/system-diagram-light.png#gh-light-mode-only)
 
 ### Navigate
 
 | |  |  |
 |-----------|---------|---------|
-| **[Hardware](./hardware/README.md)** | Circuit design and PCB layout | KiCad design files, simulations |
-| **[Firmware](./firmware/README.md)** | Microcontroller implementation | STM32 code, CubeMX configuration |
-| **[Software](./software/README.md)** | Desktop telemetry bridge | GUI application code |
+| **[Hardware](./hardware)** | Circuit design and PCB layout | KiCad design files, simulations |
+| **[Firmware](./firmware)** | Microcontroller implementation | STM32 code, CubeMX configuration |
+| **[Software](./software)** | Desktop telemetry bridge | GUI application code |
 
 ## Planned Features
 

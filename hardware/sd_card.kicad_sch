@@ -1154,544 +1154,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Power_Protection:D3V3XA4B10LP"
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "U?"
-				(at 10.16 -1.27 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "D3V3F4U10LP"
-				(at 10.16 -3.81 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "Package_DFN_QFN:Diodes_UDFN-10_1x2.5mm_P0.5mm"
-				(at -24.13 -10.16 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" "https://www.diodes.com/assets/Datasheets/D3V3F4U10LP.pdf"
-				(at 0 15.24 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "4-Channel Low Capacitance TVS Diode Array, DFN-10 / USON-10"
-				(at 0 15.24 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Part Number" "D3V3F4U10LP-7"
-				(at -5.08 13.97 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Vendor URL" "https://www.digikey.com/en/products/detail/diodes-incorporated/D3V3F4U10LP-7/7352854"
-				(at 0 15.24 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "ESD protection TVS"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "Diodes*UDFN*1x2.5mm*P0.5mm*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "D3V3XA4B10LP_0_1"
-				(polyline
-					(pts
-						(xy -0.635 -2.54) (xy -1.016 -2.794)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.635 -2.54) (xy -0.635 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.635 -2.54) (xy 1.016 -2.286)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.635 -3.81) (xy -0.635 -3.81) (xy 0 -2.54) (xy 0.635 -3.81)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.905 -2.54) (xy 1.524 -2.794)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 -3.81) (xy 2.54 -5.08)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.175 -2.54) (xy 1.905 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.175 -2.54) (xy 3.556 -2.286)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.175 -3.81) (xy 1.905 -3.81) (xy 2.54 -2.54) (xy 3.175 -3.81)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.81 -5.08) (xy 0 -5.08) (xy 0 -3.81)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.81 -5.08) (xy 5.08 -5.08) (xy 5.08 -3.81)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 4.445 -2.54) (xy 4.064 -2.794)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 -5.08) (xy 7.62 -5.08) (xy 7.62 -3.81)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.715 -2.54) (xy 4.445 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.715 -2.54) (xy 6.096 -2.286)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.715 -3.81) (xy 4.445 -3.81) (xy 5.08 -2.54) (xy 5.715 -3.81)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 6.985 -2.54) (xy 6.604 -2.794)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 8.255 -2.54) (xy 6.985 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 8.255 -2.54) (xy 8.636 -2.286)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 8.255 -3.81) (xy 6.985 -3.81) (xy 7.62 -2.54) (xy 8.255 -3.81)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "D3V3XA4B10LP_1_1"
-				(pin passive line
-					(at 0 0 270)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 0 270)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 2.54 -7.62 90)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 270)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 0 270)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin free line
-					(at 8.89 -6.35 270)
-					(length 5.08)
-					(hide yes)
-					(name "NC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin free line
-					(at 8.89 -6.35 270)
-					(length 5.08)
-					(hide yes)
-					(name "NC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 -7.62 90)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin free line
-					(at 8.89 -6.35 270)
-					(length 5.08)
-					(hide yes)
-					(name "NC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin free line
-					(at 8.89 -6.35 270)
-					(length 5.08)
-					(hide yes)
-					(name "NC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "power:+3.3V"
 			(power global)
 			(pin_numbers
@@ -2287,10 +1749,10 @@
 		)
 	)
 	(junction
-		(at 128.27 96.52)
+		(at 121.92 106.68)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "1d2aac98-2479-4f39-8180-fb5958d9a5c2")
+		(uuid "1123a062-f687-4c05-afe9-5725f85f970d")
 	)
 	(junction
 		(at 123.19 93.98)
@@ -2299,10 +1761,10 @@
 		(uuid "22d9138e-6a26-4a86-8279-d9badbe84cce")
 	)
 	(junction
-		(at 118.11 111.76)
+		(at 125.73 101.6)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "5016f2a2-1083-49e5-a539-613cdfc7c03b")
+		(uuid "31108bff-4103-412a-9501-4b269bace046")
 	)
 	(junction
 		(at 120.65 96.52)
@@ -2311,10 +1773,16 @@
 		(uuid "55fafe3c-9ef2-433e-8483-10292c26c3c7")
 	)
 	(junction
-		(at 130.81 93.98)
+		(at 129.54 96.52)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "8932f994-72ef-4693-acfe-d93b5c924a03")
+		(uuid "7a99db54-3b0c-47ca-bbc9-7da45c7d7d14")
+	)
+	(junction
+		(at 118.11 111.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8b8a4055-e866-4649-a3ea-ff06f6160a03")
 	)
 	(junction
 		(at 81.28 111.76)
@@ -2335,10 +1803,10 @@
 		(uuid "d418144d-1edc-4b1a-ba40-2e8f8ba723eb")
 	)
 	(junction
-		(at 123.19 106.68)
+		(at 133.35 93.98)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "d6f4a929-af7b-46d3-a08f-926ae0212af6")
+		(uuid "f388e167-4555-4504-9e64-a1b6a34df5a0")
 	)
 	(junction
 		(at 73.66 111.76)
@@ -2352,15 +1820,9 @@
 		(color 0 0 0 0)
 		(uuid "fbc7ed19-2ed4-4351-87e6-d7ab59e8c0f7")
 	)
-	(junction
-		(at 125.73 101.6)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "fe92de33-75f2-4dd6-b0db-199965ef41fc")
-	)
 	(wire
 		(pts
-			(xy 123.19 93.98) (xy 130.81 93.98)
+			(xy 123.19 93.98) (xy 133.35 93.98)
 		)
 		(stroke
 			(width 0)
@@ -2370,17 +1832,7 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 106.68) (xy 146.05 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1c41e1f2-8855-4845-b771-57cf9346f02a")
-	)
-	(wire
-		(pts
-			(xy 118.11 106.68) (xy 123.19 106.68)
+			(xy 118.11 106.68) (xy 121.92 106.68)
 		)
 		(stroke
 			(width 0)
@@ -2390,7 +1842,7 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 113.03) (xy 118.11 111.76)
+			(xy 118.11 119.38) (xy 118.11 111.76)
 		)
 		(stroke
 			(width 0)
@@ -2450,7 +1902,7 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 96.52) (xy 128.27 96.52)
+			(xy 120.65 96.52) (xy 129.54 96.52)
 		)
 		(stroke
 			(width 0)
@@ -2477,6 +1929,16 @@
 			(type default)
 		)
 		(uuid "4771cf64-448c-4dd8-835c-5be3b15805b4")
+	)
+	(wire
+		(pts
+			(xy 133.35 93.98) (xy 146.05 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4bbbfe67-f30d-4842-b305-e6945e219b74")
 	)
 	(wire
 		(pts
@@ -2590,26 +2052,6 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 93.98) (xy 146.05 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "873d791f-5366-4402-b4e2-95d5ee63f9ae")
-	)
-	(wire
-		(pts
-			(xy 128.27 96.52) (xy 146.05 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "88fed882-4764-4e0a-bb39-960c2d2b7977")
-	)
-	(wire
-		(pts
 			(xy 100.33 99.06) (xy 146.05 99.06)
 		)
 		(stroke
@@ -2670,7 +2112,17 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 113.03) (xy 128.27 96.52)
+			(xy 121.92 106.68) (xy 146.05 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c50ab784-63c4-4d00-93cf-855b3808f204")
+	)
+	(wire
+		(pts
+			(xy 129.54 119.38) (xy 129.54 96.52)
 		)
 		(stroke
 			(width 0)
@@ -2680,7 +2132,7 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 93.98) (xy 130.81 113.03)
+			(xy 133.35 93.98) (xy 133.35 119.38)
 		)
 		(stroke
 			(width 0)
@@ -2720,7 +2172,7 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 106.68) (xy 123.19 113.03)
+			(xy 121.92 106.68) (xy 121.92 119.38)
 		)
 		(stroke
 			(width 0)
@@ -2740,6 +2192,16 @@
 	)
 	(wire
 		(pts
+			(xy 129.54 96.52) (xy 146.05 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e4b6a253-2eb2-4364-b2cd-5275d0b03a31")
+	)
+	(wire
+		(pts
 			(xy 69.85 111.76) (xy 73.66 111.76)
 		)
 		(stroke
@@ -2750,7 +2212,7 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 101.6) (xy 125.73 113.03)
+			(xy 125.73 101.6) (xy 125.73 119.38)
 		)
 		(stroke
 			(width 0)
@@ -21341,6 +20803,111 @@
 		)
 	)
 	(symbol
+		(lib_id "Diode:SMAJ28A")
+		(at 121.92 123.19 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "1506b1b4-8bde-4257-90d3-034dec6f94a2")
+		(property "Reference" "D?"
+			(at 119.38 121.92 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "ESD9B3.3ST5G"
+			(at 119.38 124.46 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-923"
+			(at 116.84 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pdf/datasheet/esd9x3.3st5g-d.pdf"
+			(at 121.92 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "10.4V Clamp 9.8A (8/20µs) Ipp Tvs Diode Surface Mount SOD-923"
+			(at 121.92 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "ESD9B3.3ST5G"
+			(at 121.92 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vendor URL" "https://www.digikey.com/en/products/detail/onsemi/ESD9B3-3ST5G/1973669"
+			(at 121.92 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9dc584d1-dba0-4744-b3cc-d1244d1ba9b3")
+		)
+		(pin "2"
+			(uuid "3f7a27e9-3bc5-45d1-8368-706c5d074c75")
+		)
+		(instances
+			(project "stepping-stone"
+				(path "/793a882e-3f7b-468b-a863-41a1f527e1bf/19dbaeaf-d110-49c5-9d75-50e9003bebb2"
+					(reference "D?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3.3V")
 		(at 115.57 83.82 0)
 		(unit 1)
@@ -21575,6 +21142,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3.3V")
+		(at 137.16 119.38 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "25eddc9e-162d-4ea7-a342-0c7ea874a020")
+		(property "Reference" "#PWR0282"
+			(at 137.16 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 137.16 114.3 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 137.16 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 137.16 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 137.16 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f085b531-93ba-4cf9-9307-f13f3ef27a78")
+		)
+		(instances
+			(project "stepping-stone"
+				(path "/793a882e-3f7b-468b-a863-41a1f527e1bf/19dbaeaf-d110-49c5-9d75-50e9003bebb2"
+					(reference "#PWR0282")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_US")
 		(at 73.66 105.41 0)
 		(mirror y)
@@ -21702,7 +21347,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 118.11 120.65 0)
+		(at 118.11 127 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -21713,7 +21358,7 @@
 		(fields_autoplaced yes)
 		(uuid "2be80e90-de67-4d43-85ef-bb6f5d540c8c")
 		(property "Reference" "#PWR0185"
-			(at 118.11 127 0)
+			(at 118.11 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21724,7 +21369,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 118.11 125.73 0)
+			(at 118.11 132.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21735,7 +21380,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 118.11 120.65 0)
+			(at 118.11 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21746,7 +21391,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 118.11 120.65 0)
+			(at 118.11 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21757,7 +21402,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 118.11 120.65 0)
+			(at 118.11 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21981,6 +21626,111 @@
 			(project "stepping-stone"
 				(path "/793a882e-3f7b-468b-a863-41a1f527e1bf/19dbaeaf-d110-49c5-9d75-50e9003bebb2"
 					(reference "#PWR076")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:SMAJ28A")
+		(at 137.16 123.19 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "58032e3b-1d42-496d-a099-1b09ffcb722b")
+		(property "Reference" "D?"
+			(at 134.62 121.92 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "ESD9B3.3ST5G"
+			(at 134.62 124.46 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-923"
+			(at 132.08 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pdf/datasheet/esd9x3.3st5g-d.pdf"
+			(at 137.16 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "10.4V Clamp 9.8A (8/20µs) Ipp Tvs Diode Surface Mount SOD-923"
+			(at 137.16 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "ESD9B3.3ST5G"
+			(at 137.16 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vendor URL" "https://www.digikey.com/en/products/detail/onsemi/ESD9B3-3ST5G/1973669"
+			(at 137.16 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7977e14f-b416-46a8-9c2a-4baef0f54a8d")
+		)
+		(pin "2"
+			(uuid "06b3099f-f4b4-4d4e-aa59-a8a71bebe34e")
+		)
+		(instances
+			(project "stepping-stone"
+				(path "/793a882e-3f7b-468b-a863-41a1f527e1bf/19dbaeaf-d110-49c5-9d75-50e9003bebb2"
+					(reference "D?")
 					(unit 1)
 				)
 			)
@@ -22290,6 +22040,85 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 125.73 127 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "753eb573-70f9-455a-ba73-002dce1092d5")
+		(property "Reference" "#PWR0184"
+			(at 125.73 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 125.73 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 125.73 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 125.73 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 125.73 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "db8aeee9-6096-4b82-81ef-6fdf55844549")
+		)
+		(instances
+			(project "stepping-stone"
+				(path "/793a882e-3f7b-468b-a863-41a1f527e1bf/19dbaeaf-d110-49c5-9d75-50e9003bebb2"
+					(reference "#PWR0184")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_US")
 		(at 115.57 87.63 0)
 		(mirror y)
@@ -22496,6 +22325,85 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 121.92 127 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "81adf9e7-59fb-4cb4-839b-cc2ccff24229")
+		(property "Reference" "#PWR0183"
+			(at 121.92 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 121.92 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 121.92 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 121.92 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 121.92 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "85e3fd23-33b9-4ff1-bb9d-eba771354133")
+		)
+		(instances
+			(project "stepping-stone"
+				(path "/793a882e-3f7b-468b-a863-41a1f527e1bf/19dbaeaf-d110-49c5-9d75-50e9003bebb2"
+					(reference "#PWR0183")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 144.78 120.65 0)
 		(unit 1)
 		(body_style 1)
@@ -22574,8 +22482,113 @@
 		)
 	)
 	(symbol
+		(lib_id "Diode:SMAJ28A")
+		(at 133.35 123.19 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "a03fa6fd-cfe0-473c-84b4-85eeda5bfd89")
+		(property "Reference" "D?"
+			(at 130.81 121.92 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "ESD9B3.3ST5G"
+			(at 130.81 124.46 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-923"
+			(at 128.27 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pdf/datasheet/esd9x3.3st5g-d.pdf"
+			(at 133.35 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "10.4V Clamp 9.8A (8/20µs) Ipp Tvs Diode Surface Mount SOD-923"
+			(at 133.35 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "ESD9B3.3ST5G"
+			(at 133.35 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vendor URL" "https://www.digikey.com/en/products/detail/onsemi/ESD9B3-3ST5G/1973669"
+			(at 133.35 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "73202590-ba37-46da-8069-9f4718e1fd57")
+		)
+		(pin "2"
+			(uuid "c3faf500-2865-406c-a9ba-56c1d7c7124b")
+		)
+		(instances
+			(project "stepping-stone"
+				(path "/793a882e-3f7b-468b-a863-41a1f527e1bf/19dbaeaf-d110-49c5-9d75-50e9003bebb2"
+					(reference "D?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
-		(at 125.73 120.65 0)
+		(at 137.16 127 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -22584,9 +22597,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "94940518-3dbd-46cc-bbe4-a0f1ebbba43c")
-		(property "Reference" "#PWR0184"
-			(at 125.73 127 0)
+		(uuid "a5a27944-ac72-4d38-90bd-3ffdc0c8c7a2")
+		(property "Reference" "#PWR0281"
+			(at 137.16 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22597,7 +22610,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 125.73 125.73 0)
+			(at 137.16 132.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22608,7 +22621,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 125.73 120.65 0)
+			(at 137.16 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22619,7 +22632,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 125.73 120.65 0)
+			(at 137.16 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22630,7 +22643,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 125.73 120.65 0)
+			(at 137.16 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22641,137 +22654,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "544d0773-df2f-4295-aecb-bf8f102f205d")
+			(uuid "e1b346b3-7bf4-4733-8cf3-88cbd61e780a")
 		)
 		(instances
 			(project "stepping-stone"
 				(path "/793a882e-3f7b-468b-a863-41a1f527e1bf/19dbaeaf-d110-49c5-9d75-50e9003bebb2"
-					(reference "#PWR0184")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Power_Protection:D3V3XA4B10LP")
-		(at 123.19 113.03 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "a0ee1401-0dd9-43d1-93db-9a12d5dc0731")
-		(property "Reference" "D13"
-			(at 127 124.46 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "D3V3F4U10LP"
-			(at 127 127 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_DFN_QFN:Diodes_UDFN-10_1x2.5mm_P0.5mm"
-			(at 99.06 123.19 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/D3V3F4U10LP.pdf"
-			(at 123.19 97.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "4-Channel Low Capacitance TVS Diode Array, DFN-10 / USON-10"
-			(at 123.19 97.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Part Number" "D3V3F4U10LP-7"
-			(at 118.11 99.06 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Vendor URL" "https://www.digikey.com/en/products/detail/diodes-incorporated/D3V3F4U10LP-7/7352854"
-			(at 123.19 97.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "7"
-			(uuid "8c2431e2-12c1-4f0f-b343-c24b7f69a6cf")
-		)
-		(pin "4"
-			(uuid "80d1becb-8e81-4057-85f2-49f0bf123f84")
-		)
-		(pin "3"
-			(uuid "42419c35-38a4-49ba-9895-95d7f2c3e536")
-		)
-		(pin "5"
-			(uuid "508e8fb0-5941-4631-a47e-02b8df3242fa")
-		)
-		(pin "6"
-			(uuid "c1e88bfc-fd25-4c5b-a165-8b318622e6a2")
-		)
-		(pin "8"
-			(uuid "e4e6d197-c4a0-4f63-ad2a-13d6c99d8104")
-		)
-		(pin "1"
-			(uuid "bcbbb8f6-94a6-471c-9beb-5909a708c553")
-		)
-		(pin "2"
-			(uuid "9ecac5e0-e4bb-40d6-bab1-2fd91ed842d1")
-		)
-		(pin "9"
-			(uuid "f5482a16-de3d-4d77-aecd-3458a23a20d2")
-		)
-		(pin "10"
-			(uuid "9668f65e-7b6b-45bd-ba55-20907403d67e")
-		)
-		(instances
-			(project "stepping-stone"
-				(path "/793a882e-3f7b-468b-a863-41a1f527e1bf/19dbaeaf-d110-49c5-9d75-50e9003bebb2"
-					(reference "D13")
+					(reference "#PWR0281")
 					(unit 1)
 				)
 			)
@@ -22851,6 +22739,111 @@
 			(project "stepping-stone"
 				(path "/793a882e-3f7b-468b-a863-41a1f527e1bf/19dbaeaf-d110-49c5-9d75-50e9003bebb2"
 					(reference "#PWR08")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:SMAJ28A")
+		(at 125.73 123.19 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "b1199209-90fc-4455-99e7-80ef24f3f4ae")
+		(property "Reference" "D?"
+			(at 123.19 121.92 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "ESD9B3.3ST5G"
+			(at 123.19 124.46 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-923"
+			(at 120.65 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pdf/datasheet/esd9x3.3st5g-d.pdf"
+			(at 125.73 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "10.4V Clamp 9.8A (8/20µs) Ipp Tvs Diode Surface Mount SOD-923"
+			(at 125.73 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "ESD9B3.3ST5G"
+			(at 125.73 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vendor URL" "https://www.digikey.com/en/products/detail/onsemi/ESD9B3-3ST5G/1973669"
+			(at 125.73 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2181924a-f5ac-4d34-bc22-216ff8f0135c")
+		)
+		(pin "2"
+			(uuid "d68f3590-60f4-4dcf-9a34-fc9823fb391d")
+		)
+		(instances
+			(project "stepping-stone"
+				(path "/793a882e-3f7b-468b-a863-41a1f527e1bf/19dbaeaf-d110-49c5-9d75-50e9003bebb2"
+					(reference "D?")
 					(unit 1)
 				)
 			)
@@ -23193,87 +23186,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 128.27 120.65 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b9b0928d-8157-490b-8b05-e238f61c970d")
-		(property "Reference" "#PWR0183"
-			(at 128.27 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 128.27 125.73 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 128.27 120.65 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 128.27 120.65 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 128.27 120.65 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "91a4455e-80a4-4f9e-943f-77508a1b824e")
-		)
-		(instances
-			(project "stepping-stone"
-				(path "/793a882e-3f7b-468b-a863-41a1f527e1bf/19dbaeaf-d110-49c5-9d75-50e9003bebb2"
-					(reference "#PWR0183")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Diode:SMAJ28A")
-		(at 118.11 116.84 270)
+		(at 129.54 123.19 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -23281,9 +23195,10 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "c407f216-ae71-46cd-bdc6-c991cbae56a0")
-		(property "Reference" "D14"
-			(at 115.57 115.57 90)
+		(uuid "bf239465-185f-4e14-81b3-aadcd90dbf16")
+		(property "Reference" "D?"
+			(at 127 121.92 90)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -23293,8 +23208,9 @@
 				(justify right)
 			)
 		)
-		(property "Value" "ESD9X3.3ST5G"
-			(at 115.57 118.11 90)
+		(property "Value" "ESD9B3.3ST5G"
+			(at 127 124.46 90)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -23305,7 +23221,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-923"
-			(at 113.03 116.84 0)
+			(at 124.46 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23316,7 +23232,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.onsemi.com/pdf/datasheet/esd9x3.3st5g-d.pdf"
-			(at 118.11 115.57 0)
+			(at 129.54 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23327,7 +23243,7 @@
 			)
 		)
 		(property "Description" "10.4V Clamp 9.8A (8/20µs) Ipp Tvs Diode Surface Mount SOD-923"
-			(at 118.11 116.84 0)
+			(at 129.54 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23337,8 +23253,8 @@
 				)
 			)
 		)
-		(property "Part Number" "ESD9X3.3ST5G"
-			(at 118.11 116.84 0)
+		(property "Part Number" "ESD9B3.3ST5G"
+			(at 129.54 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23348,8 +23264,111 @@
 				)
 			)
 		)
-		(property "Vendor URL" "https://www.digikey.com/en/products/detail/onsemi/ESD9X3-3ST5G/1476615"
-			(at 118.11 116.84 0)
+		(property "Vendor URL" "https://www.digikey.com/en/products/detail/onsemi/ESD9B3-3ST5G/1973669"
+			(at 129.54 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7fe6e414-aebe-43d8-8508-b5323de7eee9")
+		)
+		(pin "2"
+			(uuid "5cd259d5-3dbb-4d09-8920-1a5b433e8a5f")
+		)
+		(instances
+			(project "stepping-stone"
+				(path "/793a882e-3f7b-468b-a863-41a1f527e1bf/19dbaeaf-d110-49c5-9d75-50e9003bebb2"
+					(reference "D?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:SMAJ28A")
+		(at 118.11 123.19 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "c407f216-ae71-46cd-bdc6-c991cbae56a0")
+		(property "Reference" "D14"
+			(at 115.57 121.92 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "ESD9B3.3ST5G"
+			(at 115.57 124.46 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-923"
+			(at 113.03 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pdf/datasheet/esd9x3.3st5g-d.pdf"
+			(at 118.11 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "10.4V Clamp 9.8A (8/20µs) Ipp Tvs Diode Surface Mount SOD-923"
+			(at 118.11 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "ESD9B3.3ST5G"
+			(at 118.11 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vendor URL" "https://www.digikey.com/en/products/detail/onsemi/ESD9B3-3ST5G/1973669"
+			(at 118.11 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23497,6 +23516,85 @@
 			(project "stepping-stone"
 				(path "/793a882e-3f7b-468b-a863-41a1f527e1bf/19dbaeaf-d110-49c5-9d75-50e9003bebb2"
 					(reference "R26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 129.54 127 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d785d2e5-e0d2-44b4-86b5-70a2027cc935")
+		(property "Reference" "#PWR0279"
+			(at 129.54 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 129.54 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 129.54 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 129.54 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 129.54 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "17c530ba-0a22-4f8e-a6c0-cac23ada488b")
+		)
+		(instances
+			(project "stepping-stone"
+				(path "/793a882e-3f7b-468b-a863-41a1f527e1bf/19dbaeaf-d110-49c5-9d75-50e9003bebb2"
+					(reference "#PWR0279")
 					(unit 1)
 				)
 			)
@@ -24106,6 +24204,85 @@
 			(project "stepping-stone"
 				(path "/793a882e-3f7b-468b-a863-41a1f527e1bf/19dbaeaf-d110-49c5-9d75-50e9003bebb2"
 					(reference "C17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 133.35 127 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f5a90846-1cf4-4b48-87ba-68eb6c8170be")
+		(property "Reference" "#PWR0280"
+			(at 133.35 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 133.35 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 133.35 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 133.35 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 133.35 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0f1e5744-23d2-41b9-86e6-c76504cab073")
+		)
+		(instances
+			(project "stepping-stone"
+				(path "/793a882e-3f7b-468b-a863-41a1f527e1bf/19dbaeaf-d110-49c5-9d75-50e9003bebb2"
+					(reference "#PWR0280")
 					(unit 1)
 				)
 			)

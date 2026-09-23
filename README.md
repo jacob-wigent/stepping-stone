@@ -8,11 +8,6 @@ Stepping Stone is a 4-axis stepper motor control platform designed for robotics 
 
 Designed as a “stepping stone” in motion-control prototyping, it bridges the gap between simple stepper driver breakouts and full CNC or robotics systems, providing a reusable platform for early development.
 
-### System Overview
-
-![System Diagram](./assets/system-diagram-dark.png#gh-dark-mode-only)
-![System Diagram](./assets/system-diagram-light.png#gh-light-mode-only)
-
 ### Navigate
 
 | |  |  |

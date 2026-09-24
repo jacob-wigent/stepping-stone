@@ -9680,6 +9680,17 @@
 		)
 		(uuid "07c95c01-757d-46dd-bf16-f115629e65fa")
 	)
+	(hierarchical_label "AUX_SDA"
+		(shape bidirectional)
+		(at 350.52 110.49 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0ac5db2b-2491-496d-a240-6c4bd73ab69b")
+	)
 	(hierarchical_label "DRV0_EN"
 		(shape output)
 		(at 287.02 78.74 0)
@@ -9773,6 +9784,17 @@
 				(justify left)
 			)
 		)
+	)
+	(hierarchical_label "AUX_SCL"
+		(shape bidirectional)
+		(at 350.52 113.03 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "17c579fb-17ea-471a-99c1-a3a28f2f70f6")
 	)
 	(hierarchical_label "DRV2_DIR"
 		(shape output)

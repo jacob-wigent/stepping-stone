@@ -5008,8 +5008,8 @@
 		(uuid "94fabcb5-5b38-4d54-97a6-7111c4f19dab")
 	)
 	(rectangle
-		(start 284.48 76.2)
-		(end 318.77 152.4)
+		(start 284.48 80.01)
+		(end 318.77 186.69)
 		(stroke
 			(width 0)
 			(type default)
@@ -5054,7 +5054,7 @@
 	)
 	(text "GPIO Parking Lot"
 		(exclude_from_sim no)
-		(at 292.1 74.93 0)
+		(at 292.1 78.74 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9430,7 +9430,7 @@
 		(uuid "51e89dcb-3160-4d37-ab35-c6a658d34741")
 	)
 	(label "USER3"
-		(at 303.53 125.73 0)
+		(at 303.53 129.54 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9440,7 +9440,7 @@
 		(uuid "553e8daa-709a-4030-9266-373b88f7a875")
 	)
 	(label "VMOTOR_SENSE"
-		(at 303.53 111.76 0)
+		(at 303.53 115.57 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9449,7 +9449,7 @@
 		)
 		(uuid "59056f74-7e86-4bb6-a56b-62bbb180b9ac")
 		(property "GPIO Type" "OP_AMP"
-			(at 303.53 113.03 0)
+			(at 303.53 116.84 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9492,7 +9492,8 @@
 		(uuid "7b93f7e9-0522-439b-bd3a-0504fb6a1086")
 	)
 	(label "VBUS_SENSE"
-		(at 303.53 130.81 0)
+		(at 303.53 133.35 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9500,6 +9501,18 @@
 			(justify left bottom)
 		)
 		(uuid "99b3ebd4-4324-4a4c-82ac-4290ad643885")
+		(property "GPIO Type" "OP_AMP"
+			(at 303.53 134.62 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
 	)
 	(label "SWCLK"
 		(at 215.9 38.1 0)
@@ -9542,7 +9555,7 @@
 		(uuid "c4677eef-30f9-4929-b026-dffdeb0559d4")
 	)
 	(label "USER1"
-		(at 303.53 120.65 0)
+		(at 303.53 124.46 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9552,7 +9565,7 @@
 		(uuid "c71ae4a0-113c-49f0-af48-e6f0e3139370")
 	)
 	(label "USER0"
-		(at 303.53 118.11 0)
+		(at 303.53 121.92 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9602,7 +9615,7 @@
 		(uuid "f70d4ff9-c64e-49c3-8cf8-7d4421a8fb62")
 	)
 	(label "USER2"
-		(at 303.53 123.19 0)
+		(at 303.53 127 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9623,7 +9636,7 @@
 	)
 	(hierarchical_label "FLASH_CLK"
 		(shape output)
-		(at 303.53 137.16 0)
+		(at 303.53 140.97 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9633,7 +9646,7 @@
 		)
 		(uuid "02c085b6-eeac-4036-8acd-26b00be3938b")
 		(property "GPIO Type" "QSPI"
-			(at 303.53 138.43 0)
+			(at 303.53 142.24 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9647,7 +9660,7 @@
 	)
 	(hierarchical_label "DRV3_DIAG"
 		(shape input)
-		(at 287.02 147.32 0)
+		(at 287.02 151.13 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9657,7 +9670,7 @@
 		)
 		(uuid "035e18ed-8e9b-450f-93f6-0fa24d651858")
 		(property "GPIO Type" "EXTI3"
-			(at 287.02 148.59 0)
+			(at 287.02 152.4 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9671,7 +9684,7 @@
 	)
 	(hierarchical_label "LIM6"
 		(shape input)
-		(at 353.06 152.4 180)
+		(at 293.37 181.61 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9680,20 +9693,9 @@
 		)
 		(uuid "07c95c01-757d-46dd-bf16-f115629e65fa")
 	)
-	(hierarchical_label "AUX_SDA"
-		(shape bidirectional)
-		(at 350.52 110.49 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "0ac5db2b-2491-496d-a240-6c4bd73ab69b")
-	)
 	(hierarchical_label "DRV0_EN"
 		(shape output)
-		(at 287.02 78.74 0)
+		(at 287.02 82.55 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9704,7 +9706,7 @@
 	)
 	(hierarchical_label "FLASH_IO2"
 		(shape bidirectional)
-		(at 303.53 144.78 0)
+		(at 303.53 148.59 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9714,7 +9716,7 @@
 		)
 		(uuid "0c1334ea-3550-4424-a25d-c1d8354c5ee9")
 		(property "GPIO Type" "QSPI"
-			(at 303.53 146.05 0)
+			(at 303.53 149.86 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9728,7 +9730,7 @@
 	)
 	(hierarchical_label "DRV1_DIAG"
 		(shape input)
-		(at 287.02 109.22 0)
+		(at 287.02 113.03 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9738,7 +9740,7 @@
 		)
 		(uuid "0c98c76c-011d-466f-818a-77bf1576dd2c")
 		(property "GPIO Type" "EXTI1"
-			(at 287.02 110.49 0)
+			(at 287.02 114.3 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9752,7 +9754,7 @@
 	)
 	(hierarchical_label "SD_~{DET}"
 		(shape input)
-		(at 303.53 99.06 0)
+		(at 303.53 102.87 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9763,7 +9765,7 @@
 	)
 	(hierarchical_label "DRV0_UART"
 		(shape bidirectional)
-		(at 287.02 86.36 0)
+		(at 287.02 90.17 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9773,7 +9775,7 @@
 		)
 		(uuid "17a0f3b4-cef5-4b0b-b9e2-a01eb171b6b8")
 		(property "GPIO Type" "UART"
-			(at 287.02 87.63 0)
+			(at 287.02 91.44 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9785,20 +9787,9 @@
 			)
 		)
 	)
-	(hierarchical_label "AUX_SCL"
-		(shape bidirectional)
-		(at 350.52 113.03 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "17c579fb-17ea-471a-99c1-a3a28f2f70f6")
-	)
 	(hierarchical_label "DRV2_DIR"
 		(shape output)
-		(at 287.02 120.65 0)
+		(at 287.02 124.46 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9809,7 +9800,7 @@
 	)
 	(hierarchical_label "HEARTBEAT"
 		(shape output)
-		(at 303.53 78.74 0)
+		(at 303.53 82.55 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9820,7 +9811,7 @@
 	)
 	(hierarchical_label "DRV0_DIAG"
 		(shape input)
-		(at 287.02 91.44 0)
+		(at 287.02 95.25 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9830,7 +9821,7 @@
 		)
 		(uuid "1d345131-0f11-4fe6-b825-1f874dfcd754")
 		(property "GPIO Type" "EXTI0"
-			(at 287.02 92.71 0)
+			(at 287.02 96.52 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9844,7 +9835,7 @@
 	)
 	(hierarchical_label "DRV0_DIR"
 		(shape output)
-		(at 287.02 83.82 0)
+		(at 287.02 87.63 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9855,7 +9846,7 @@
 	)
 	(hierarchical_label "~{ESTOP_DET}"
 		(shape input)
-		(at 303.53 85.09 0)
+		(at 303.53 88.9 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9877,7 +9868,7 @@
 	)
 	(hierarchical_label "DRV2_EN"
 		(shape output)
-		(at 287.02 115.57 0)
+		(at 287.02 119.38 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9888,7 +9879,7 @@
 	)
 	(hierarchical_label "FLASH_IO0"
 		(shape bidirectional)
-		(at 303.53 139.7 0)
+		(at 303.53 143.51 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9898,7 +9889,7 @@
 		)
 		(uuid "3900581b-6db9-4145-a043-6c04ec00dbec")
 		(property "GPIO Type" "QSPI"
-			(at 303.53 140.97 0)
+			(at 303.53 144.78 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9912,7 +9903,7 @@
 	)
 	(hierarchical_label "DRV1_STEP"
 		(shape output)
-		(at 287.02 99.06 0)
+		(at 287.02 102.87 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9922,7 +9913,7 @@
 		)
 		(uuid "3a905e29-6ded-47ab-92c6-3d05bf2bcd1b")
 		(property "GPIO Type" "TIM"
-			(at 287.02 100.33 0)
+			(at 287.02 104.14 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9936,7 +9927,7 @@
 	)
 	(hierarchical_label "DRV3_UART"
 		(shape bidirectional)
-		(at 287.02 142.24 0)
+		(at 287.02 146.05 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9946,7 +9937,7 @@
 		)
 		(uuid "3dd2bf47-6458-4f0c-afa0-861a62d0beca")
 		(property "GPIO Type" "UART"
-			(at 287.02 143.51 0)
+			(at 287.02 147.32 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9960,7 +9951,7 @@
 	)
 	(hierarchical_label "SD_POCI"
 		(shape input)
-		(at 303.53 93.98 0)
+		(at 303.53 97.79 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9970,7 +9961,7 @@
 		)
 		(uuid "4318f89d-90be-4ace-b128-bc96ec7f7013")
 		(property "GPIO Type" "SPI"
-			(at 303.53 95.25 0)
+			(at 303.53 99.06 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9984,7 +9975,7 @@
 	)
 	(hierarchical_label "LIM2"
 		(shape input)
-		(at 353.06 144.78 180)
+		(at 293.37 171.45 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9995,7 +9986,7 @@
 	)
 	(hierarchical_label "DRV2_DIAG"
 		(shape input)
-		(at 287.02 128.27 0)
+		(at 287.02 132.08 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10005,7 +9996,7 @@
 		)
 		(uuid "47f99741-81cf-4f18-b353-a4f3be67baab")
 		(property "GPIO Type" "EXTI2"
-			(at 287.02 129.54 0)
+			(at 287.02 133.35 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10019,7 +10010,7 @@
 	)
 	(hierarchical_label "DRV3_STEP"
 		(shape output)
-		(at 287.02 137.16 0)
+		(at 287.02 140.97 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10029,7 +10020,7 @@
 		)
 		(uuid "51c42c9a-185a-4884-a47a-a1c26081a713")
 		(property "GPIO Type" "TIM"
-			(at 287.02 138.43 0)
+			(at 287.02 142.24 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10054,7 +10045,7 @@
 	)
 	(hierarchical_label "DRV0_STEP"
 		(shape output)
-		(at 287.02 81.28 0)
+		(at 287.02 85.09 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10064,7 +10055,7 @@
 		)
 		(uuid "5f107e4a-21df-434f-879d-6297f381b96b")
 		(property "GPIO Type" "TIM"
-			(at 287.02 82.55 0)
+			(at 287.02 86.36 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10078,7 +10069,7 @@
 	)
 	(hierarchical_label "FLASH_IO1"
 		(shape bidirectional)
-		(at 303.53 142.24 0)
+		(at 303.53 146.05 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10088,7 +10079,7 @@
 		)
 		(uuid "613f1faa-6209-4c12-998f-8fc7c086082a")
 		(property "GPIO Type" "QSPI"
-			(at 303.53 143.51 0)
+			(at 303.53 147.32 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10102,7 +10093,7 @@
 	)
 	(hierarchical_label "DRV3_DIR"
 		(shape output)
-		(at 287.02 139.7 0)
+		(at 287.02 143.51 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10113,7 +10104,7 @@
 	)
 	(hierarchical_label "DRV3_INDEX"
 		(shape input)
-		(at 287.02 144.78 0)
+		(at 287.02 148.59 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10123,7 +10114,7 @@
 		)
 		(uuid "75b6a8c0-2710-4204-bc46-c040fd4b1f4b")
 		(property "GPIO Type" "TIM"
-			(at 287.02 146.05 0)
+			(at 287.02 149.86 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10137,7 +10128,7 @@
 	)
 	(hierarchical_label "DRV3_EN"
 		(shape output)
-		(at 287.02 134.62 0)
+		(at 287.02 138.43 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10148,7 +10139,7 @@
 	)
 	(hierarchical_label "SD_CLK"
 		(shape output)
-		(at 303.53 88.9 0)
+		(at 303.53 92.71 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10158,7 +10149,7 @@
 		)
 		(uuid "7c914891-c932-448e-a8d9-d424ab73b596")
 		(property "GPIO Type" "SPI"
-			(at 303.53 90.17 0)
+			(at 303.53 93.98 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10172,7 +10163,7 @@
 	)
 	(hierarchical_label "~{ESTOP_TRIG}"
 		(shape output)
-		(at 303.53 81.28 0)
+		(at 303.53 85.09 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10182,7 +10173,7 @@
 		)
 		(uuid "8891a942-294e-4f41-9113-bb0c285216a8")
 		(property "GPIO Type" "OPEN DRAIN"
-			(at 303.53 82.55 0)
+			(at 303.53 86.36 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10196,7 +10187,7 @@
 	)
 	(hierarchical_label "DRV0_INDEX"
 		(shape input)
-		(at 287.02 88.9 0)
+		(at 287.02 92.71 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10206,7 +10197,7 @@
 		)
 		(uuid "8a756364-c8aa-4b79-82ec-79fb36c80716")
 		(property "GPIO Type" "TIM"
-			(at 287.02 90.17 0)
+			(at 287.02 93.98 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10220,7 +10211,7 @@
 	)
 	(hierarchical_label "DRV1_UART"
 		(shape bidirectional)
-		(at 287.02 104.14 0)
+		(at 287.02 107.95 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10230,7 +10221,7 @@
 		)
 		(uuid "8b44e89c-4544-48a8-9c0f-00ff7eb14ede")
 		(property "GPIO Type" "UART"
-			(at 287.02 105.41 0)
+			(at 287.02 109.22 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10244,7 +10235,8 @@
 	)
 	(hierarchical_label "EEPROM_SDA"
 		(shape bidirectional)
-		(at 327.66 132.08 0)
+		(at 287.02 157.48 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10253,10 +10245,22 @@
 			(justify left)
 		)
 		(uuid "91a21ea1-79a5-4214-b593-143a39084761")
+		(property "GPIO Type" "I2C"
+			(at 287.02 158.75 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
 	)
 	(hierarchical_label "DRV2_INDEX"
 		(shape input)
-		(at 287.02 125.73 0)
+		(at 287.02 129.54 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10266,7 +10270,7 @@
 		)
 		(uuid "99702798-8e74-4b78-b5a2-487e4b9f7320")
 		(property "GPIO Type" "TIM"
-			(at 287.02 127 0)
+			(at 287.02 130.81 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10280,7 +10284,7 @@
 	)
 	(hierarchical_label "DRV2_STEP"
 		(shape output)
-		(at 287.02 118.11 0)
+		(at 287.02 121.92 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10290,7 +10294,7 @@
 		)
 		(uuid "a25c166c-b771-4ad2-9d90-b8fc7855a9bb")
 		(property "GPIO Type" "TIM"
-			(at 287.02 119.38 0)
+			(at 287.02 123.19 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10304,7 +10308,7 @@
 	)
 	(hierarchical_label "LIM5"
 		(shape input)
-		(at 340.36 152.4 180)
+		(at 293.37 179.07 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10315,7 +10319,7 @@
 	)
 	(hierarchical_label "FLASH_IO3"
 		(shape bidirectional)
-		(at 303.53 147.32 0)
+		(at 303.53 151.13 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10325,7 +10329,7 @@
 		)
 		(uuid "abc11f9d-33d9-4715-be6f-40885582d989")
 		(property "GPIO Type" "QSPI"
-			(at 303.53 148.59 0)
+			(at 303.53 152.4 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10339,7 +10343,7 @@
 	)
 	(hierarchical_label "DRV1_DIR"
 		(shape output)
-		(at 287.02 101.6 0)
+		(at 287.02 105.41 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10350,7 +10354,7 @@
 	)
 	(hierarchical_label "SD_PICO"
 		(shape output)
-		(at 303.53 91.44 0)
+		(at 303.53 95.25 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10360,7 +10364,7 @@
 		)
 		(uuid "b1f0a3f3-b85e-4b30-a38b-fd53175e1902")
 		(property "GPIO Type" "SPI"
-			(at 303.53 92.71 0)
+			(at 303.53 96.52 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10374,7 +10378,7 @@
 	)
 	(hierarchical_label "EEPROM_~{WC}"
 		(shape output)
-		(at 327.66 137.16 0)
+		(at 287.02 162.56 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10386,7 +10390,7 @@
 	)
 	(hierarchical_label "LIM7"
 		(shape input)
-		(at 365.76 152.4 180)
+		(at 293.37 184.15 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10397,7 +10401,8 @@
 	)
 	(hierarchical_label "EEPROM_SCL"
 		(shape output)
-		(at 327.66 134.62 0)
+		(at 287.02 160.02 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10406,10 +10411,22 @@
 			(justify left)
 		)
 		(uuid "b7c27787-0e63-4c31-92b8-2454f990c8d0")
+		(property "GPIO Type" "I2C"
+			(at 287.02 161.29 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
 	)
 	(hierarchical_label "USB_STATUS"
 		(shape output)
-		(at 303.53 106.68 0)
+		(at 303.53 110.49 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10420,7 +10437,7 @@
 	)
 	(hierarchical_label "DRV2_UART"
 		(shape bidirectional)
-		(at 287.02 123.19 0)
+		(at 287.02 127 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10430,7 +10447,7 @@
 		)
 		(uuid "c7254147-3424-4aad-811e-e6668f0955ec")
 		(property "GPIO Type" "UART"
-			(at 287.02 124.46 0)
+			(at 287.02 128.27 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10444,7 +10461,7 @@
 	)
 	(hierarchical_label "~{FLASH_CS}"
 		(shape output)
-		(at 303.53 134.62 0)
+		(at 303.53 138.43 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10455,7 +10472,7 @@
 	)
 	(hierarchical_label "LIM4"
 		(shape input)
-		(at 327.66 152.4 180)
+		(at 293.37 176.53 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10466,7 +10483,7 @@
 	)
 	(hierarchical_label "LIM0"
 		(shape input)
-		(at 327.66 144.78 180)
+		(at 293.37 166.37 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10477,7 +10494,7 @@
 	)
 	(hierarchical_label "LIM1"
 		(shape input)
-		(at 340.36 144.78 180)
+		(at 293.37 168.91 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10488,7 +10505,7 @@
 	)
 	(hierarchical_label "SD_CS"
 		(shape output)
-		(at 303.53 96.52 0)
+		(at 303.53 100.33 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10499,7 +10516,7 @@
 	)
 	(hierarchical_label "DRV1_EN"
 		(shape output)
-		(at 287.02 96.52 0)
+		(at 287.02 100.33 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10510,7 +10527,7 @@
 	)
 	(hierarchical_label "SD_STATUS"
 		(shape output)
-		(at 303.53 101.6 0)
+		(at 303.53 105.41 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10521,7 +10538,7 @@
 	)
 	(hierarchical_label "DRV1_INDEX"
 		(shape input)
-		(at 287.02 106.68 0)
+		(at 287.02 110.49 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10531,7 +10548,7 @@
 		)
 		(uuid "f903a3fc-5300-408c-9714-c68d42d63e05")
 		(property "GPIO Type" "TIM"
-			(at 287.02 107.95 0)
+			(at 287.02 111.76 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10545,7 +10562,7 @@
 	)
 	(hierarchical_label "LIM3"
 		(shape input)
-		(at 365.76 144.78 180)
+		(at 293.37 173.99 180)
 		(effects
 			(font
 				(size 1.27 1.27)

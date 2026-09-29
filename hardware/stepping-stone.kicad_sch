@@ -1288,6 +1288,19 @@
 		)
 		(uuid "5f81cccc-c8b1-4084-9b38-0d20ac69f389")
 	)
+	(text "ESD Protection on buttons"
+		(exclude_from_sim no)
+		(at -34.29 111.76 0)
+		(effects
+			(font
+				(size 1.905 1.905)
+				(thickness 0.381)
+				(bold yes)
+				(color 132 0 0 1)
+			)
+		)
+		(uuid "80c35fe4-b914-4dbf-ad67-df9c9b49fefd")
+	)
 	(text "Quadrature encoder inputs?"
 		(exclude_from_sim no)
 		(at -34.29 106.68 0)

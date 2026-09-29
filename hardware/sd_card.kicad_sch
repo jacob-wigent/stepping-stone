@@ -23312,7 +23312,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "ESD9B3.3ST5G"
+		(property "Value" "ESD9B3"
 			(at 115.57 124.46 90)
 			(show_name no)
 			(do_not_autoplace no)

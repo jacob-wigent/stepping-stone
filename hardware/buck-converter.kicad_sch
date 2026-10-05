@@ -4422,7 +4422,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5735d751-1c0d-497f-8072-252361b8b6b7")
-		(property "Reference" "Q2"
+		(property "Reference" "U?"
 			(at 134.62 82.55 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4518,7 +4518,7 @@
 		(instances
 			(project "stepping-stone"
 				(path "/793a882e-3f7b-468b-a863-41a1f527e1bf/f256c00d-2170-4eef-a13f-c3325a813e7e"
-					(reference "Q2")
+					(reference "U?")
 					(unit 1)
 				)
 			)

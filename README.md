@@ -32,7 +32,7 @@ Designed as a “stepping stone” in motion-control prototyping, it bridges the
 
 - [x] System architecture defined
 - [x] Component selection finalized
-- [ ] Schematic capture
+- [x] Schematic capture
 - [ ] PCB layout
 - [ ] Firmware development
 - [ ] Software development

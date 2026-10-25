@@ -6672,6 +6672,30 @@
 			)
 		)
 	)
+	(hierarchical_label "CANL"
+		(shape bidirectional)
+		(at 303.53 196.85 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "400f4d43-cdc0-4ae8-a38c-441e56b60c91")
+		(property "GPIO Type" "CAN"
+			(at 303.53 198.12 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+	)
 	(hierarchical_label "SD_POCI"
 		(shape input)
 		(at 303.53 97.79 0)
@@ -6756,6 +6780,30 @@
 		(uuid "51c42c9a-185a-4884-a47a-a1c26081a713")
 		(property "GPIO Type" "TIM"
 			(at 287.02 142.24 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+	)
+	(hierarchical_label "CANH"
+		(shape bidirectional)
+		(at 303.53 194.31 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "51cae26b-bbd6-4e07-adfa-b960070666fe")
+		(property "GPIO Type" "CAN"
+			(at 303.53 195.58 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects

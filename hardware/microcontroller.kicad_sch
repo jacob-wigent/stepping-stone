@@ -7591,7 +7591,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "05195ef2-e357-4b31-909c-b46845ed025e")
-		(property "Reference" "R?"
+		(property "Reference" "R73"
 			(at 184.15 116.84 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7697,7 +7697,7 @@
 		(instances
 			(project "stepping-stone"
 				(path "/793a882e-3f7b-468b-a863-41a1f527e1bf/d2f9d032-a5e5-45d0-b37f-4be86e3babb1"
-					(reference "R?")
+					(reference "R73")
 					(unit 1)
 				)
 			)
@@ -8331,7 +8331,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 195.834 47.244 90)
 			(hide yes)
 			(show_name no)
@@ -8435,7 +8435,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4cbf26b2-ff5c-48a5-a38c-26140427278b")
-		(property "Reference" "D?"
+		(property "Reference" "D13"
 			(at 191.77 127 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8530,7 +8530,7 @@
 		(instances
 			(project "stepping-stone"
 				(path "/793a882e-3f7b-468b-a863-41a1f527e1bf/d2f9d032-a5e5-45d0-b37f-4be86e3babb1"
-					(reference "D?")
+					(reference "D13")
 					(unit 1)
 				)
 			)
@@ -8548,7 +8548,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4eb669b8-b801-41ef-b4af-6faadbb7c1fa")
-		(property "Reference" "R?"
+		(property "Reference" "R74"
 			(at 184.15 127 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8654,7 +8654,7 @@
 		(instances
 			(project "stepping-stone"
 				(path "/793a882e-3f7b-468b-a863-41a1f527e1bf/d2f9d032-a5e5-45d0-b37f-4be86e3babb1"
-					(reference "R?")
+					(reference "R74")
 					(unit 1)
 				)
 			)
@@ -8976,7 +8976,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 195.834 57.404 90)
 			(hide yes)
 			(show_name no)
@@ -9157,7 +9157,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6ea20f80-c34f-4086-bb1b-0a04ebdc0c9d")
-		(property "Reference" "D?"
+		(property "Reference" "D36"
 			(at 191.77 137.16 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9252,7 +9252,7 @@
 		(instances
 			(project "stepping-stone"
 				(path "/793a882e-3f7b-468b-a863-41a1f527e1bf/d2f9d032-a5e5-45d0-b37f-4be86e3babb1"
-					(reference "D?")
+					(reference "D36")
 					(unit 1)
 				)
 			)
@@ -11172,7 +11172,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "983ce483-5a79-48c7-9504-98c4a7f44fe1")
-		(property "Reference" "R?"
+		(property "Reference" "R76"
 			(at 184.15 147.32 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11278,7 +11278,7 @@
 		(instances
 			(project "stepping-stone"
 				(path "/793a882e-3f7b-468b-a863-41a1f527e1bf/d2f9d032-a5e5-45d0-b37f-4be86e3babb1"
-					(reference "R?")
+					(reference "R76")
 					(unit 1)
 				)
 			)
@@ -11909,7 +11909,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b3e800c5-9733-45dd-9dde-07bf5850e29e")
-		(property "Reference" "D?"
+		(property "Reference" "D37"
 			(at 191.77 147.32 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12004,7 +12004,7 @@
 		(instances
 			(project "stepping-stone"
 				(path "/793a882e-3f7b-468b-a863-41a1f527e1bf/d2f9d032-a5e5-45d0-b37f-4be86e3babb1"
-					(reference "D?")
+					(reference "D37")
 					(unit 1)
 				)
 			)
@@ -12175,7 +12175,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c846154e-f5d7-4f0b-b683-502e6fd8be24")
-		(property "Reference" "R?"
+		(property "Reference" "R75"
 			(at 184.15 137.16 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12281,7 +12281,7 @@
 		(instances
 			(project "stepping-stone"
 				(path "/793a882e-3f7b-468b-a863-41a1f527e1bf/d2f9d032-a5e5-45d0-b37f-4be86e3babb1"
-					(reference "R?")
+					(reference "R75")
 					(unit 1)
 				)
 			)
@@ -12910,7 +12910,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "fb8168f9-ffe5-4842-8e9a-9e7623e35709")
-		(property "Reference" "D?"
+		(property "Reference" "D2"
 			(at 191.77 116.84 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13005,7 +13005,7 @@
 		(instances
 			(project "stepping-stone"
 				(path "/793a882e-3f7b-468b-a863-41a1f527e1bf/d2f9d032-a5e5-45d0-b37f-4be86e3babb1"
-					(reference "D?")
+					(reference "D2")
 					(unit 1)
 				)
 			)

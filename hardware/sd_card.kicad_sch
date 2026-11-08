@@ -20813,7 +20813,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1506b1b4-8bde-4257-90d3-034dec6f94a2")
-		(property "Reference" "D?"
+		(property "Reference" "D39"
 			(at 119.38 121.92 90)
 			(hide yes)
 			(show_name no)
@@ -20901,7 +20901,7 @@
 		(instances
 			(project "stepping-stone"
 				(path "/793a882e-3f7b-468b-a863-41a1f527e1bf/19dbaeaf-d110-49c5-9d75-50e9003bebb2"
-					(reference "D?")
+					(reference "D39")
 					(unit 1)
 				)
 			)
@@ -21642,7 +21642,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "58032e3b-1d42-496d-a099-1b09ffcb722b")
-		(property "Reference" "D?"
+		(property "Reference" "D43"
 			(at 134.62 121.92 90)
 			(hide yes)
 			(show_name no)
@@ -21730,7 +21730,7 @@
 		(instances
 			(project "stepping-stone"
 				(path "/793a882e-3f7b-468b-a863-41a1f527e1bf/19dbaeaf-d110-49c5-9d75-50e9003bebb2"
-					(reference "D?")
+					(reference "D43")
 					(unit 1)
 				)
 			)
@@ -22492,7 +22492,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a03fa6fd-cfe0-473c-84b4-85eeda5bfd89")
-		(property "Reference" "D?"
+		(property "Reference" "D42"
 			(at 130.81 121.92 90)
 			(hide yes)
 			(show_name no)
@@ -22580,7 +22580,7 @@
 		(instances
 			(project "stepping-stone"
 				(path "/793a882e-3f7b-468b-a863-41a1f527e1bf/19dbaeaf-d110-49c5-9d75-50e9003bebb2"
-					(reference "D?")
+					(reference "D42")
 					(unit 1)
 				)
 			)
@@ -22755,7 +22755,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b1199209-90fc-4455-99e7-80ef24f3f4ae")
-		(property "Reference" "D?"
+		(property "Reference" "D40"
 			(at 123.19 121.92 90)
 			(hide yes)
 			(show_name no)
@@ -22843,7 +22843,7 @@
 		(instances
 			(project "stepping-stone"
 				(path "/793a882e-3f7b-468b-a863-41a1f527e1bf/19dbaeaf-d110-49c5-9d75-50e9003bebb2"
-					(reference "D?")
+					(reference "D40")
 					(unit 1)
 				)
 			)
@@ -23196,7 +23196,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "bf239465-185f-4e14-81b3-aadcd90dbf16")
-		(property "Reference" "D?"
+		(property "Reference" "D41"
 			(at 127 121.92 90)
 			(hide yes)
 			(show_name no)
@@ -23284,7 +23284,7 @@
 		(instances
 			(project "stepping-stone"
 				(path "/793a882e-3f7b-468b-a863-41a1f527e1bf/19dbaeaf-d110-49c5-9d75-50e9003bebb2"
-					(reference "D?")
+					(reference "D41")
 					(unit 1)
 				)
 			)

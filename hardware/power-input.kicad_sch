@@ -6224,7 +6224,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "09ec56ac-20a2-4f2c-bebb-e828ec3cace7")
-		(property "Reference" "D?"
+		(property "Reference" "D38"
 			(at 151.13 121.9199 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6310,7 +6310,7 @@
 		(instances
 			(project "stepping-stone"
 				(path "/793a882e-3f7b-468b-a863-41a1f527e1bf/73c4e66b-e11c-48b6-b2c8-fbbf612d64c5"
-					(reference "D?")
+					(reference "D38")
 					(unit 1)
 				)
 			)

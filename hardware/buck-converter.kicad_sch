@@ -1508,43 +1508,21 @@
 					)
 				)
 			)
-			(symbol "LMR516xx_0_0"
-				(pin passive line
-					(at 10.16 10.16 180)
-					(length 2.54)
-					(name "CB"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
+			(symbol "LMR516xx_0_1"
+				(rectangle
+					(start -7.62 12.7)
+					(end 7.62 -12.7)
+					(stroke
+						(width 0.254)
+						(type default)
 					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
+					(fill
+						(type color)
+						(color 255 255 194 1)
 					)
 				)
-				(pin power_in line
-					(at -10.16 -10.16 0)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
+			)
+			(symbol "LMR516xx_1_0"
 				(pin input line
 					(at 10.16 -10.16 180)
 					(length 2.54)
@@ -1555,7 +1533,7 @@
 							)
 						)
 					)
-					(number "3"
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1573,7 +1551,7 @@
 							)
 						)
 					)
-					(number "4"
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1591,7 +1569,25 @@
 							)
 						)
 					)
-					(number "5"
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -10.16 -10.16 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1609,7 +1605,7 @@
 							)
 						)
 					)
-					(number "6"
+					(number "5"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1617,18 +1613,22 @@
 						)
 					)
 				)
-			)
-			(symbol "LMR516xx_0_1"
-				(rectangle
-					(start -7.62 12.7)
-					(end 7.62 -12.7)
-					(stroke
-						(width 0.254)
-						(type default)
+				(pin passive line
+					(at 10.16 10.16 180)
+					(length 2.54)
+					(name "CB"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
 					)
-					(fill
-						(type color)
-						(color 255 255 194 1)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
 					)
 				)
 			)
@@ -4422,7 +4422,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5735d751-1c0d-497f-8072-252361b8b6b7")
-		(property "Reference" "U?"
+		(property "Reference" "U9"
 			(at 134.62 82.55 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4453,7 +4453,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/lmr51625.pdf?ts=1742888310253&ref_url=https%253A%252F%252Fwww.ti.com%252Fsitesearch%252Fen-us%252Fdocs%252Funiversalsearch.tsp%253FlangPref%253Den-US%2526nr%253D3%2526searchTerm%253DLMR51625XDDCR"
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/lmr51610.pdf?ts=1708678595808&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FLMR51610"
 			(at 134.62 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -4464,7 +4464,7 @@
 				)
 			)
 		)
-		(property "Description" "Buck Switching Regulator IC Positive Adjustable 0.8V 1 Output 2.5A SOT-23-6 Thin, TSOT-23-6"
+		(property "Description" "Buck Switching Regulator IC Positive Adjustable 0.8V 1 Output 0.6-1A SOT-23-6"
 			(at 134.62 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -4518,7 +4518,7 @@
 		(instances
 			(project "stepping-stone"
 				(path "/793a882e-3f7b-468b-a863-41a1f527e1bf/f256c00d-2170-4eef-a13f-c3325a813e7e"
-					(reference "U?")
+					(reference "U9")
 					(unit 1)
 				)
 			)

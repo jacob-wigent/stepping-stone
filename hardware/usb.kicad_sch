@@ -3,7 +3,7 @@
 	(generator "eeschema")
 	(generator_version "10.0")
 	(uuid "4248dc97-5b50-4fcb-96d0-db48eb685185")
-	(paper "A")
+	(paper "B")
 	(title_block
 		(title "USB C")
 		(date "2026-07-24")

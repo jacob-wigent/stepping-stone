@@ -1375,6 +1375,265 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Switch:SW_DPDT_x2"
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "SW"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SW_DPDT_x2"
+				(at 0 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Switch, dual pole double throw, separate symbols"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "switch dual-pole double-throw DPDT spdt ON-ON"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "SW*DPDT*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "SW_DPDT_x2_0_0"
+				(circle
+					(center -2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 -2.54)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SW_DPDT_x2_0_1"
+				(rectangle
+					(start -3.175 3.81)
+					(end 3.175 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 0.254) (xy 1.5748 2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 2.54)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SW_DPDT_x2_1_1"
+				(pin passive line
+					(at 5.08 2.54 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -2.54 180)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "SW_DPDT_x2_2_1"
+				(pin passive line
+					(at 5.08 2.54 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -2.54 180)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:+3.3V"
 			(power global)
 			(pin_numbers
@@ -1640,16 +1899,6 @@
 		)
 		(uuid "041338d7-5602-4cef-b95b-9a3bf493e504")
 	)
-	(text "ADD SWITCH\nJS202011CQN"
-		(exclude_from_sim no)
-		(at 195.58 121.92 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "a07798af-4e30-4b4d-b142-3b3f3660552c")
-	)
 	(text "https://www.adafruit.com/product/5708?gad_source=1&gad_campaignid=23986111167&gbraid=0AAAAADx9JvSjmDWcq5lCgbkTKP8v6-9ry&gclid=Cj0KCQjwk5nVBhDiARIsAHNGqacTryasMAtOKz6vbhxvKZ0DLUguBxR0CLIdrVNBweQPDVIsE-Om9XQaAnvnEALw_wcB"
 		(exclude_from_sim no)
 		(at -64.77 -7.62 0)
@@ -1667,16 +1916,16 @@
 		(uuid "2f8a4409-79ec-4ed5-adbd-d00813a32e8a")
 	)
 	(junction
+		(at 210.82 128.27)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3e00b7ef-f19c-48ef-8201-082a2b729f97")
+	)
+	(junction
 		(at 166.37 125.73)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "3c140577-c375-409d-932d-009b640d94ce")
-	)
-	(junction
-		(at 168.91 130.81)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4a4d56bb-f74e-4b8c-adc5-ed3790813342")
+		(uuid "4c61f5b9-f254-46c5-9c60-ba3b6246f454")
 	)
 	(junction
 		(at 97.79 96.52)
@@ -1685,22 +1934,22 @@
 		(uuid "55669868-7c90-4348-8e03-69f652be548c")
 	)
 	(junction
+		(at 168.91 130.81)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "603081a6-76c0-4773-99a0-5cd4d6d7c04f")
+	)
+	(junction
 		(at 139.7 110.49)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "60ca7085-9c88-4418-97a5-7be8082044ca")
 	)
 	(junction
-		(at 184.15 128.27)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "97e24fc6-f2e0-419d-a733-0154a42eb4a8")
-	)
-	(junction
 		(at 163.83 128.27)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "b7a0de87-9409-4cdc-9932-df62475f7e56")
+		(uuid "d02b90e8-0ab2-4ba9-877a-ef5949857527")
 	)
 	(junction
 		(at 63.5 96.52)
@@ -1713,6 +1962,44 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fbddd032-4619-45a2-8c09-d1d62ae24af4")
+	)
+	(no_connect
+		(at 190.5 125.73)
+		(uuid "6c1fefc4-8a24-4d13-ae60-b483ad70bc9a")
+	)
+	(no_connect
+		(at 190.5 130.81)
+		(uuid "74447933-d48b-465f-bc43-de5b95723e27")
+	)
+	(wire
+		(pts
+			(xy 190.5 135.89) (xy 194.31 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "089909bd-810b-4e28-8975-ffcfb6ee9108")
+	)
+	(wire
+		(pts
+			(xy 163.83 128.27) (xy 163.83 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "11c9ed7d-1991-4ff2-8b61-8b5264efea13")
+	)
+	(wire
+		(pts
+			(xy 194.31 135.89) (xy 194.31 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "19c641b8-8a87-42f2-ab99-c04115f57302")
 	)
 	(wire
 		(pts
@@ -1756,7 +2043,7 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 125.73) (xy 184.15 125.73)
+			(xy 205.74 124.46) (xy 210.82 124.46)
 		)
 		(stroke
 			(width 0)
@@ -1776,7 +2063,7 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 128.27) (xy 163.83 123.19)
+			(xy 163.83 123.19) (xy 163.83 128.27)
 		)
 		(stroke
 			(width 0)
@@ -1806,13 +2093,43 @@
 	)
 	(wire
 		(pts
-			(xy 184.15 125.73) (xy 184.15 128.27)
+			(xy 175.26 125.73) (xy 175.26 123.19)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4ba468ce-d144-49b1-92d6-7acb9b51b513")
+		(uuid "40e0eb94-53e8-45c4-b5ef-457b53e34f68")
+	)
+	(wire
+		(pts
+			(xy 190.5 120.65) (xy 194.31 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "47a15a08-7196-4100-acec-29ab69ced4ce")
+	)
+	(wire
+		(pts
+			(xy 180.34 133.35) (xy 175.26 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f4ca87e-d419-4680-8d18-0e40bf21a24f")
+	)
+	(wire
+		(pts
+			(xy 175.26 123.19) (xy 180.34 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5059ffde-2edb-4c62-8655-01d89627ab1c")
 	)
 	(wire
 		(pts
@@ -1846,13 +2163,43 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 128.27) (xy 163.83 138.43)
+			(xy 166.37 125.73) (xy 175.26 125.73)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "6ff8ea25-b792-4165-b953-ddbd4f19a16b")
+		(uuid "5e76ba20-eda8-48e9-bbcc-ac1de6187532")
+	)
+	(wire
+		(pts
+			(xy 194.31 124.46) (xy 198.12 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6081af7b-8b8c-43bc-be16-ef5568c4311c")
+	)
+	(wire
+		(pts
+			(xy 194.31 132.08) (xy 198.12 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "64d30a1f-893e-4c88-84a4-8c21d7579257")
+	)
+	(wire
+		(pts
+			(xy 168.91 123.19) (xy 168.91 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "66927950-6955-4c9d-92ee-d964af4c6fe9")
 	)
 	(wire
 		(pts
@@ -1896,7 +2243,7 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 128.27) (xy 184.15 128.27)
+			(xy 209.55 128.27) (xy 210.82 128.27)
 		)
 		(stroke
 			(width 0)
@@ -1926,7 +2273,7 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 128.27) (xy 177.8 128.27)
+			(xy 163.83 128.27) (xy 204.47 128.27)
 		)
 		(stroke
 			(width 0)
@@ -1956,23 +2303,23 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 123.19) (xy 168.91 130.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "acb34663-5255-4c71-8ee3-e65eecdedeab")
-	)
-	(wire
-		(pts
-			(xy 184.15 128.27) (xy 184.15 130.81)
+			(xy 210.82 124.46) (xy 210.82 128.27)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "b3082b6a-fa64-447b-a6b2-8f417a3f5f46")
+	)
+	(wire
+		(pts
+			(xy 210.82 128.27) (xy 210.82 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b8987584-be3d-45dc-acd9-26b734a9504c")
 	)
 	(wire
 		(pts
@@ -1986,17 +2333,37 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 125.73) (xy 171.45 125.73)
+			(xy 175.26 133.35) (xy 175.26 130.81)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c7ad6e76-1487-44f4-9c4a-1b226d4cc1de")
+		(uuid "c417412d-bd16-48b7-8cde-f7c7d10901a7")
 	)
 	(wire
 		(pts
-			(xy 179.07 130.81) (xy 184.15 130.81)
+			(xy 175.26 130.81) (xy 168.91 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c62bf698-99b7-47cb-b4ba-8d5466a88107")
+	)
+	(wire
+		(pts
+			(xy 194.31 120.65) (xy 194.31 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ca58efa7-6ad1-4b47-8270-1e2b369b0ae4")
+	)
+	(wire
+		(pts
+			(xy 205.74 132.08) (xy 210.82 132.08)
 		)
 		(stroke
 			(width 0)
@@ -2033,16 +2400,6 @@
 			(type default)
 		)
 		(uuid "fc724014-d2a3-42c3-b635-5575aba9dd4f")
-	)
-	(wire
-		(pts
-			(xy 168.91 130.81) (xy 171.45 130.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ff40d86b-55b8-4183-99df-28a0048b9def")
 	)
 	(image
 		(at 218.44 -26.67)
@@ -28211,6 +28568,120 @@
 		)
 	)
 	(symbol
+		(lib_id "Switch:SW_DPDT_x2")
+		(at 185.42 123.19 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5f26307f-1074-4edb-822f-ab3b6c275eca")
+		(property "Reference" "SW2"
+			(at 185.42 114.3 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_DPDT_x2"
+			(at 185.42 116.84 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_THT:SW_CK_JS202011CQN_DPDT_Straight"
+			(at 185.42 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 185.42 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Switch, dual pole double throw, separate symbols"
+			(at 185.42 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "JS202011CQN"
+			(at 185.42 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vendor URL" "https://www.digikey.com/en/products/detail/littelfuse-c-k/JS202011CQN/1640097?s=N4IgTCBcDaIFIGUwAYUEY0GECKA5EAugL5A"
+			(at 185.42 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "f9554142-2c5f-4bd1-89b1-97d6b8439ad3")
+		)
+		(pin "6"
+			(uuid "efedb4c5-8346-45f4-b1de-672656afe1b0")
+		)
+		(pin "2"
+			(uuid "f661c406-9f0b-431e-9875-a38249b96f31")
+		)
+		(pin "1"
+			(uuid "340f7843-cc65-4da6-8aaa-ace3ec95eb40")
+		)
+		(pin "4"
+			(uuid "dc804e53-7c02-4558-a148-bb004a0e3945")
+		)
+		(pin "5"
+			(uuid "24c203ab-4d4a-4977-896a-5aaf83c24c2b")
+		)
+		(instances
+			(project "stepping-stone"
+				(path "/793a882e-3f7b-468b-a863-41a1f527e1bf/573fb06e-2102-4cc0-99aa-3fc63995045d"
+					(reference "SW2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_name "AP3602_1")
 		(lib_id "stepping-stone:AP3602")
 		(at 83.82 104.14 0)
@@ -28327,7 +28798,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 175.26 125.73 90)
+		(at 201.93 124.46 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -28338,7 +28809,7 @@
 		(fields_autoplaced yes)
 		(uuid "8133e67c-d09b-4aa3-94b6-7250aff2e239")
 		(property "Reference" "R?"
-			(at 175.26 119.38 90)
+			(at 201.93 118.11 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -28348,7 +28819,7 @@
 			)
 		)
 		(property "Value" "62R"
-			(at 175.26 121.92 90)
+			(at 201.93 120.65 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -28358,7 +28829,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 175.514 124.714 90)
+			(at 202.184 123.444 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28369,7 +28840,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 175.26 125.73 0)
+			(at 201.93 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28380,7 +28851,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 175.26 125.73 0)
+			(at 201.93 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28391,7 +28862,7 @@
 			)
 		)
 		(property "Part Number" "RC0603JR-0762RL"
-			(at 175.26 125.73 0)
+			(at 201.93 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28402,7 +28873,7 @@
 			)
 		)
 		(property "Vendor URL" "https://www.digikey.com/en/products/detail/yageo/RC0603JR-0762RL/726817"
-			(at 175.26 125.73 0)
+			(at 201.93 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28793,7 +29264,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 180.34 128.27 90)
+		(at 207.01 128.27 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -28803,7 +29274,7 @@
 		(dnp no)
 		(uuid "bb751a13-e75f-455c-bd4a-f7f7fbbab705")
 		(property "Reference" "C?"
-			(at 185.42 127 90)
+			(at 212.09 127 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -28814,7 +29285,7 @@
 			)
 		)
 		(property "Value" "4.7nF"
-			(at 185.42 129.54 90)
+			(at 212.09 129.54 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -28825,7 +29296,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 180.34 128.27 0)
+			(at 207.01 128.27 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28836,7 +29307,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 180.34 128.27 0)
+			(at 207.01 128.27 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28847,7 +29318,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 180.34 128.27 0)
+			(at 207.01 128.27 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28858,7 +29329,7 @@
 			)
 		)
 		(property "Part Number" "C0603C472K5RACTU"
-			(at 180.34 128.27 0)
+			(at 207.01 128.27 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28869,7 +29340,7 @@
 			)
 		)
 		(property "Vendor URL" "https://www.digikey.com/en/products/detail/kemet/C0603C472K5RACTU/411086"
-			(at 180.34 128.27 0)
+			(at 207.01 128.27 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29280,6 +29751,120 @@
 		)
 	)
 	(symbol
+		(lib_id "Switch:SW_DPDT_x2")
+		(at 185.42 133.35 0)
+		(mirror x)
+		(unit 2)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "e2e41c87-63c0-4332-a592-f9ee4106a13d")
+		(property "Reference" "SW2"
+			(at 185.42 139.7 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_DPDT_x2"
+			(at 185.42 142.24 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_THT:SW_CK_JS202011CQN_DPDT_Straight"
+			(at 185.42 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 185.42 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Switch, dual pole double throw, separate symbols"
+			(at 185.42 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "JS202011CQN"
+			(at 185.42 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vendor URL" "https://www.digikey.com/en/products/detail/littelfuse-c-k/JS202011CQN/1640097?s=N4IgTCBcDaIFIGUwAYUEY0GECKA5EAugL5A"
+			(at 185.42 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "f9554142-2c5f-4bd1-89b1-97d6b8439ad3")
+		)
+		(pin "6"
+			(uuid "efedb4c5-8346-45f4-b1de-672656afe1b0")
+		)
+		(pin "2"
+			(uuid "f661c406-9f0b-431e-9875-a38249b96f31")
+		)
+		(pin "1"
+			(uuid "340f7843-cc65-4da6-8aaa-ace3ec95eb40")
+		)
+		(pin "4"
+			(uuid "dc804e53-7c02-4558-a148-bb004a0e3945")
+		)
+		(pin "5"
+			(uuid "24c203ab-4d4a-4977-896a-5aaf83c24c2b")
+		)
+		(instances
+			(project "stepping-stone"
+				(path "/793a882e-3f7b-468b-a863-41a1f527e1bf/573fb06e-2102-4cc0-99aa-3fc63995045d"
+					(reference "SW2")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 135.89 113.03 0)
 		(unit 1)
@@ -29406,7 +29991,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 175.26 130.81 90)
+		(at 201.93 132.08 90)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -29417,7 +30002,7 @@
 		(dnp no)
 		(uuid "e4cd7b14-9da5-4175-9fb2-a93c96fd9ae1")
 		(property "Reference" "R?"
-			(at 175.26 137.16 90)
+			(at 201.93 138.43 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -29427,7 +30012,7 @@
 			)
 		)
 		(property "Value" "62R"
-			(at 175.26 134.62 90)
+			(at 201.93 135.89 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -29437,7 +30022,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 175.514 131.826 90)
+			(at 202.184 133.096 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29448,7 +30033,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 175.26 130.81 0)
+			(at 201.93 132.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29459,7 +30044,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 175.26 130.81 0)
+			(at 201.93 132.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29470,7 +30055,7 @@
 			)
 		)
 		(property "Part Number" "RC0603JR-0762RL"
-			(at 175.26 130.81 0)
+			(at 201.93 132.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29481,7 +30066,7 @@
 			)
 		)
 		(property "Vendor URL" "https://www.digikey.com/en/products/detail/yageo/RC0603JR-0762RL/726817"
-			(at 175.26 130.81 0)
+			(at 201.93 132.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

@@ -76631,7 +76631,7 @@
 	)
 	(sheet
 		(at 63.5 139.7)
-		(size 25.4 12.7)
+		(size 25.4 10.16)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -76657,7 +76657,7 @@
 			)
 		)
 		(property "Sheetfile" "can_bus.kicad_sch"
-			(at 63.5 153.0608 0)
+			(at 63.5 150.5208 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -77633,26 +77633,6 @@
 				(justify right)
 			)
 		)
-		(pin "USB_DM" input
-			(at 114.3 33.02 180)
-			(uuid "3f65c49f-bbb7-4c76-ba4b-ebecf0d3fe88")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "USB_DP" input
-			(at 114.3 30.48 180)
-			(uuid "d27b76e2-bb18-454c-8975-5911470c9f8d")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 		(pin "USB_STATUS" output
 			(at 114.3 35.56 180)
 			(uuid "aa5019d7-6374-4011-ae3a-cb58635dd600")
@@ -78026,6 +78006,56 @@
 		(pin "AUX_TX" output
 			(at 114.3 193.04 180)
 			(uuid "84d9e830-e5d4-4a1e-9f8a-b10666c3304c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "CAN_RXD" input
+			(at 114.3 144.78 180)
+			(uuid "bfff44b8-fec2-4ec2-be0a-d8f5f04cc844")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "CAN_S" output
+			(at 114.3 147.32 180)
+			(uuid "1358cd64-8fa8-4772-90db-2b0085e4c10b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "CAN_TXD" output
+			(at 114.3 142.24 180)
+			(uuid "9f69ae07-5bc1-40d1-a237-09457fe035b2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "USB_D+" input
+			(at 114.3 30.48 180)
+			(uuid "a2283376-9e3b-4c63-9d1d-b6bef05d73d7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "USB_D-" input
+			(at 114.3 33.02 180)
+			(uuid "102cbe0a-bfff-408f-8370-01465536fce6")
 			(effects
 				(font
 					(size 1.27 1.27)

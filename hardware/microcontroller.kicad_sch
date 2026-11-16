@@ -6674,7 +6674,7 @@
 	)
 	(hierarchical_label "CANL"
 		(shape bidirectional)
-		(at 303.53 196.85 0)
+		(at 328.93 204.47 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6684,7 +6684,7 @@
 		)
 		(uuid "400f4d43-cdc0-4ae8-a38c-441e56b60c91")
 		(property "GPIO Type" "CAN"
-			(at 303.53 198.12 0)
+			(at 328.93 205.74 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6793,7 +6793,7 @@
 	)
 	(hierarchical_label "CANH"
 		(shape bidirectional)
-		(at 303.53 194.31 0)
+		(at 328.93 201.93 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6803,7 +6803,7 @@
 		)
 		(uuid "51cae26b-bbd6-4e07-adfa-b960070666fe")
 		(property "GPIO Type" "CAN"
-			(at 303.53 195.58 0)
+			(at 328.93 203.2 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7026,6 +7026,17 @@
 				(justify left)
 			)
 		)
+	)
+	(hierarchical_label "CAN_RXD"
+		(shape output)
+		(at 330.2 194.31 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8ef5ec9b-994d-498e-9590-af9d599fcb46")
 	)
 	(hierarchical_label "EEPROM_SDA"
 		(shape bidirectional)
@@ -7342,6 +7353,17 @@
 		)
 		(uuid "ca3488fd-45bd-49d6-aa2e-f1faae66d39c")
 	)
+	(hierarchical_label "S"
+		(shape input)
+		(at 330.2 196.85 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "cdc90755-8f08-4b94-b7ef-37d8739fa66b")
+	)
 	(hierarchical_label "LIM0"
 		(shape input)
 		(at 293.37 166.37 180)
@@ -7374,6 +7396,17 @@
 			(justify left)
 		)
 		(uuid "d7703fd7-ca00-4199-99ac-295ea52a358a")
+	)
+	(hierarchical_label "CAN_TXD"
+		(shape input)
+		(at 330.2 191.77 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e10f1281-9429-4d05-9122-ac3b0e70c531")
 	)
 	(hierarchical_label "LIM1"
 		(shape input)

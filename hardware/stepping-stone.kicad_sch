@@ -1225,7 +1225,7 @@
 	)
 	(text "TEST POINTS"
 		(exclude_from_sim no)
-		(at -35.56 91.44 0)
+		(at -35.56 96.52 0)
 		(effects
 			(font
 				(size 1.905 1.905)
@@ -1277,7 +1277,7 @@
 	)
 	(text "CAN BUS?"
 		(exclude_from_sim no)
-		(at -35.56 81.28 0)
+		(at -35.56 91.44 0)
 		(effects
 			(font
 				(size 1.905 1.905)
